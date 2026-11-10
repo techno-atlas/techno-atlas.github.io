@@ -28,7 +28,33 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Techno"
    ],
    "confiance": "haute",
-   "notes": "Autobahn : seule l'année (1974) est donnée par Wikipédia EN. Le lien avec l'émission de Mojo vient du seul article Wikipédia FR « Musique techno » ; non recoupé ailleurs."
+   "notes": "Autobahn : seule l'année (1974) est donnée par Wikipédia EN. Le lien avec l'émission de Mojo vient du seul article Wikipédia FR « Musique techno » ; non recoupé ailleurs.",
+   "personnes_liens": [
+    {
+     "nom": "Ralf Hütter",
+     "id": null
+    },
+    {
+     "nom": "Florian Schneider",
+     "id": null
+    },
+    {
+     "nom": "Charles « The Electrifying Mojo » Johnson",
+     "id": null
+    },
+    {
+     "nom": "Juan Atkins",
+     "id": "juan-atkins"
+    },
+    {
+     "nom": "Derrick May",
+     "id": "derrick-may"
+    },
+    {
+     "nom": "Kevin Saunderson",
+     "id": "kevin-saunderson"
+    }
+   ]
   },
   {
    "id": "chicago-warehouse-naissance-house",
@@ -54,7 +80,29 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Chicago_house"
    ],
    "confiance": "moyenne",
-   "notes": "L'origine du mot « house » est présentée comme discutée (Wikipédia : Chicago house). Date de fermeture du Warehouse non donnée (la catégorie « 1977 disestablishments » de la page contredit l'ouverture en 1977). Wikipédia ne dit pas explicitement que Williams est le fondateur."
+   "notes": "L'origine du mot « house » est présentée comme discutée (Wikipédia : Chicago house). Date de fermeture du Warehouse non donnée (la catégorie « 1977 disestablishments » de la page contredit l'ouverture en 1977). Wikipédia ne dit pas explicitement que Williams est le fondateur.",
+   "personnes_liens": [
+    {
+     "nom": "Frankie Knuckles",
+     "id": "frankie-knuckles"
+    },
+    {
+     "nom": "Robert « Robbie » Williams",
+     "id": null
+    },
+    {
+     "nom": "Ron Hardy",
+     "id": null
+    },
+    {
+     "nom": "Jesse Saunders",
+     "id": null
+    },
+    {
+     "nom": "Jamie Principle",
+     "id": null
+    }
+   ]
   },
   {
    "id": "i-feel-love-1977",
@@ -80,7 +128,21 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Hi-NRG"
    ],
    "confiance": "haute",
-   "notes": "« Premier titre à... » est une affirmation de l'article Wikipédia, pas un fait indiscutable. L'article Hi-NRG la cite aussi comme première chanson hi-NRG. Lieu d'enregistrement non vérifié."
+   "notes": "« Premier titre à... » est une affirmation de l'article Wikipédia, pas un fait indiscutable. L'article Hi-NRG la cite aussi comme première chanson hi-NRG. Lieu d'enregistrement non vérifié.",
+   "personnes_liens": [
+    {
+     "nom": "Donna Summer",
+     "id": null
+    },
+    {
+     "nom": "Giorgio Moroder",
+     "id": "giorgio-moroder"
+    },
+    {
+     "nom": "Pete Bellotte",
+     "id": null
+    }
+   ]
   },
   {
    "id": "cybotron-model-500-metroplex",
@@ -105,7 +167,17 @@ window.ATLAS = {
     "https://fr.wikipedia.org/wiki/Musique_techno"
    ],
    "confiance": "haute",
-   "notes": "Les dates des singles viennent de Wikipédia EN (Cybotron) ; l'article Detroit techno ne date pas « Clear ». « Première production techno » = formule « généralement considérée » de Wikipédia EN ; Wikipédia FR parle d'une naissance « symbolique » en 1985 avec Metroplex."
+   "notes": "Les dates des singles viennent de Wikipédia EN (Cybotron) ; l'article Detroit techno ne date pas « Clear ». « Première production techno » = formule « généralement considérée » de Wikipédia EN ; Wikipédia FR parle d'une naissance « symbolique » en 1985 avec Metroplex.",
+   "personnes_liens": [
+    {
+     "nom": "Juan Atkins",
+     "id": "juan-atkins"
+    },
+    {
+     "nom": "Richard « 3070 » Davis",
+     "id": null
+    }
+   ]
   },
   {
    "id": "ebm-korpermusik-front-242-1981-1984",
@@ -130,7 +202,21 @@ window.ATLAS = {
     "https://fr.wikipedia.org/wiki/Electronic_body_music"
    ],
    "confiance": "moyenne",
-   "notes": "Sources : seulement les pages Wikipédia EN et FR. Wikipédia EN : le genre naît « au début des années 1980 en Allemagne et en Belgique » ; Wikipédia FR date l'usage du terme de 1978 (Hütter), 1980 (DAF) puis 1984 (Front 242), ce qui diffère de 1981 pour DAF dans la page EN. Les années de sortie de disques précis (DAF, Liaisons Dangereuses, Front 242) ne sont pas données par la page EN et ne sont donc pas reprises. Aucune source primaire ouverte."
+   "notes": "Sources : seulement les pages Wikipédia EN et FR. Wikipédia EN : le genre naît « au début des années 1980 en Allemagne et en Belgique » ; Wikipédia FR date l'usage du terme de 1978 (Hütter), 1980 (DAF) puis 1984 (Front 242), ce qui diffère de 1981 pour DAF dans la page EN. Les années de sortie de disques précis (DAF, Liaisons Dangereuses, Front 242) ne sont pas données par la page EN et ne sont donc pas reprises. Aucune source primaire ouverte.",
+   "personnes_liens": [
+    {
+     "nom": "Ralf Hütter",
+     "id": null
+    },
+    {
+     "nom": "DAF",
+     "id": null
+    },
+    {
+     "nom": "Front 242",
+     "id": null
+    }
+   ]
   },
   {
    "id": "roland-tb303-tr909-1981-1984",
@@ -154,7 +240,13 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Roland_TR-909"
    ],
    "confiance": "moyenne",
-   "notes": "Sources : les deux pages Wikipédia EN consultées. Pour la TR-909, l'infobox indique 1983-1985 alors que le texte dit que Roland a cessé la production « après un an » (non tranché, non repris). « Acid Tracks » est présenté par la page TB-303 comme « souvent crédité comme premier titre acid house » (voir litiges_resolus.json). Aucune source constructeur (Roland) ouverte."
+   "notes": "Sources : les deux pages Wikipédia EN consultées. Pour la TR-909, l'infobox indique 1983-1985 alors que le texte dit que Roland a cessé la production « après un an » (non tranché, non repris). « Acid Tracks » est présenté par la page TB-303 comme « souvent crédité comme premier titre acid house » (voir litiges_resolus.json). Aucune source constructeur (Roland) ouverte.",
+   "personnes_liens": [
+    {
+     "nom": "Phuture",
+     "id": "phuture"
+    }
+   ]
   },
   {
    "id": "planet-rock-1982",
@@ -175,7 +267,13 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Kraftwerk"
    ],
    "confiance": "haute",
-   "notes": "Crédits de production (par exemple Arthur Baker) non vérifiés dans les pages consultées."
+   "notes": "Crédits de production (par exemple Arthur Baker) non vérifiés dans les pages consultées.",
+   "personnes_liens": [
+    {
+     "nom": "Afrika Bambaataa",
+     "id": null
+    }
+   ]
   },
   {
    "id": "transmat-strings-of-life-1987",
@@ -198,7 +296,17 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Techno"
    ],
    "confiance": "haute",
-   "notes": "Mois de création de Transmat (mai 1986) donné par la seule page Wikipédia FR."
+   "notes": "Mois de création de Transmat (mai 1986) donné par la seule page Wikipédia FR.",
+   "personnes_liens": [
+    {
+     "nom": "Derrick May",
+     "id": "derrick-may"
+    },
+    {
+     "nom": "Kevin Saunderson",
+     "id": "kevin-saunderson"
+    }
+   ]
   },
   {
    "id": "acid-house-royaume-uni-1987-1989",
@@ -222,7 +330,21 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Second_Summer_of_Love"
    ],
    "confiance": "haute",
-   "notes": "Dates des clubs (Spectrum, Future) non données précisément par Wikipédia EN ; seul Trip est daté (juin 1988)."
+   "notes": "Dates des clubs (Spectrum, Future) non données précisément par Wikipédia EN ; seul Trip est daté (juin 1988).",
+   "personnes_liens": [
+    {
+     "nom": "Danny Rampling",
+     "id": null
+    },
+    {
+     "nom": "Paul Oakenfold",
+     "id": null
+    },
+    {
+     "nom": "Nicky Holloway",
+     "id": null
+    }
+   ]
   },
   {
    "id": "new-beat-belgique-1987-1989",
@@ -248,7 +370,25 @@ window.ATLAS = {
     "https://fr.wikipedia.org/wiki/New_beat"
    ],
    "confiance": "moyenne",
-   "notes": "Dates : 1987 (EN) ou 1987-1988 (FR). Qui a ralenti « Flesh » : le DJ Dikke Ronny selon EN, Marc Grouls et d'autres DJ selon FR ; aucune date précise dans les deux pages. Les dates d'ouverture du Boccaccio et des labels ne sont pas données. Roland Beelen et Maurice Engelen sont cités par EN comme fondateurs des labels Antler et Subway. « Flesh » n'a pas été vérifié sur Discogs (page inaccessible)."
+   "notes": "Dates : 1987 (EN) ou 1987-1988 (FR). Qui a ralenti « Flesh » : le DJ Dikke Ronny selon EN, Marc Grouls et d'autres DJ selon FR ; aucune date précise dans les deux pages. Les dates d'ouverture du Boccaccio et des labels ne sont pas données. Roland Beelen et Maurice Engelen sont cités par EN comme fondateurs des labels Antler et Subway. « Flesh » n'a pas été vérifié sur Discogs (page inaccessible).",
+   "personnes_liens": [
+    {
+     "nom": "Dikke Ronny",
+     "id": null
+    },
+    {
+     "nom": "Marc Grouls",
+     "id": null
+    },
+    {
+     "nom": "Roland Beelen",
+     "id": null
+    },
+    {
+     "nom": "Maurice Engelen",
+     "id": null
+    }
+   ]
   },
   {
    "id": "phuture-acid-tracks-1987",
@@ -274,7 +414,29 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Chicago_house"
    ],
    "confiance": "moyenne",
-   "notes": "Résolu dans litiges_resolus.json : Sleezy D est généralement cité comme premier acid pressé (« I've Lost Control », 1986), Phuture comme le titre qui a défini le genre (1987, composé dès 1985) ; les sources ne disent pas lequel a été créé en premier."
+   "notes": "Résolu dans litiges_resolus.json : Sleezy D est généralement cité comme premier acid pressé (« I've Lost Control », 1986), Phuture comme le titre qui a défini le genre (1987, composé dès 1985) ; les sources ne disent pas lequel a été créé en premier.",
+   "personnes_liens": [
+    {
+     "nom": "DJ Pierre",
+     "id": null
+    },
+    {
+     "nom": "Spanky",
+     "id": null
+    },
+    {
+     "nom": "Herb J",
+     "id": null
+    },
+    {
+     "nom": "Ron Hardy",
+     "id": null
+    },
+    {
+     "nom": "Larry Sherman",
+     "id": null
+    }
+   ]
   },
   {
    "id": "omen-francfort-1988",
@@ -296,7 +458,21 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Sven_V%C3%A4th"
    ],
    "confiance": "a_verifier",
-   "notes": "Une seule source (page Wikipédia de Sven Väth) ; la date de fermeture complète repose sur le titre d'une référence. La page Omen (Wikipédia EN) est introuvable."
+   "notes": "Une seule source (page Wikipédia de Sven Väth) ; la date de fermeture complète repose sur le titre d'une référence. La page Omen (Wikipédia EN) est introuvable.",
+   "personnes_liens": [
+    {
+     "nom": "Sven Väth",
+     "id": "sven-vath"
+    },
+    {
+     "nom": "Michael Münzing",
+     "id": null
+    },
+    {
+     "nom": "Mattias Martinsohn",
+     "id": null
+    }
+   ]
   },
   {
    "id": "techno-new-dance-sound-of-detroit-1988",
@@ -322,7 +498,25 @@ window.ATLAS = {
     "https://fr.wikipedia.org/wiki/Musique_techno"
    ],
    "confiance": "haute",
-   "notes": "Le disque s'est vendu en dessous des attentes ; c'est « Big Fun » d'Inner City (automne 1988) qui attire l'industrie. Attribution du mot techno disputée : Wikipédia EN cite Talla 2XLC, qui emploie le mot à Francfort dès 1982 pour classer Depeche Mode ou Kraftwerk (Wikipédia FR présente cela comme une attribution possible). Atkins emploie aussi le mot dès Cybotron (1984)."
+   "notes": "Le disque s'est vendu en dessous des attentes ; c'est « Big Fun » d'Inner City (automne 1988) qui attire l'industrie. Attribution du mot techno disputée : Wikipédia EN cite Talla 2XLC, qui emploie le mot à Francfort dès 1982 pour classer Depeche Mode ou Kraftwerk (Wikipédia FR présente cela comme une attribution possible). Atkins emploie aussi le mot dès Cybotron (1984).",
+   "personnes_liens": [
+    {
+     "nom": "Neil Rushton",
+     "id": null
+    },
+    {
+     "nom": "Derrick May",
+     "id": "derrick-may"
+    },
+    {
+     "nom": "Juan Atkins",
+     "id": "juan-atkins"
+    },
+    {
+     "nom": "Kevin Saunderson",
+     "id": "kevin-saunderson"
+    }
+   ]
   },
   {
    "id": "chute-du-mur-1989",
@@ -342,7 +536,8 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Tresor_(club)"
    ],
    "confiance": "moyenne",
-   "notes": "Date du 9 novembre 1989 solide ; le récit « fêtes illégales puis capitale de la techno » vient d'un seul article de synthèse (Wikipédia EN, German electronic music)."
+   "notes": "Date du 9 novembre 1989 solide ; le récit « fêtes illégales puis capitale de la techno » vient d'un seul article de synthèse (Wikipédia EN, German electronic music).",
+   "personnes_liens": []
   },
   {
    "id": "love-parade-1989-2010",
@@ -365,7 +560,21 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/German_electronic_music"
    ],
    "confiance": "moyenne",
-   "notes": "Résolu dans litiges_resolus.json : 150 personnes ; fondateurs Dr. Motte et Danielle de Picciotto (WestBam cité comme cocréateur par Wikipédia FR seulement). Blessés : au moins 500 ou plus de 600 selon les passages."
+   "notes": "Résolu dans litiges_resolus.json : 150 personnes ; fondateurs Dr. Motte et Danielle de Picciotto (WestBam cité comme cocréateur par Wikipédia FR seulement). Blessés : au moins 500 ou plus de 600 selon les passages.",
+   "personnes_liens": [
+    {
+     "nom": "Dr. Motte (Matthias Roeingh)",
+     "id": null
+    },
+    {
+     "nom": "Danielle de Picciotto",
+     "id": null
+    },
+    {
+     "nom": "Rainer Schaller",
+     "id": null
+    }
+   ]
   },
   {
    "id": "paris-rex-la-defense-1989-1995",
@@ -389,7 +598,17 @@ window.ATLAS = {
     "https://fr.wikipedia.org/wiki/Laurent_Garnier"
    ],
    "confiance": "moyenne",
-   "notes": "Wikipédia FR « Rex Club » indique à la fois une fondation en 1932 (sous le nom Rêve) et une inauguration en 1973, sans préciser davantage. Wake Up : confirmé par Wikipédia EN (Laurent Garnier) ; années 1992-1994 à vérifier (la page EN dit « about three years »). Programmation électronique « depuis le début des années 1990 » sans année précise pour la première soirée."
+   "notes": "Wikipédia FR « Rex Club » indique à la fois une fondation en 1932 (sous le nom Rêve) et une inauguration en 1973, sans préciser davantage. Wake Up : confirmé par Wikipédia EN (Laurent Garnier) ; années 1992-1994 à vérifier (la page EN dit « about three years »). Programmation électronique « depuis le début des années 1990 » sans année précise pour la première soirée.",
+   "personnes_liens": [
+    {
+     "nom": "Laurent Garnier",
+     "id": "laurent-garnier"
+    },
+    {
+     "nom": "Éric Morand",
+     "id": null
+    }
+   ]
   },
   {
    "id": "underground-resistance-1989",
@@ -414,7 +633,21 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Techno"
    ],
    "confiance": "moyenne",
-   "notes": "Banks et Mills sont nommés par la plupart des sources ; Robert Hood est cité comme cofondateur par certaines (Mixmag, Wikipédia FR, introduction de la page EN Mills). Départ de Mills : 1992 (page UR, Mixmag, Wikipédia FR) ou 1991 (page Mills) : non tranché (litiges_resolus.json)."
+   "notes": "Banks et Mills sont nommés par la plupart des sources ; Robert Hood est cité comme cofondateur par certaines (Mixmag, Wikipédia FR, introduction de la page EN Mills). Départ de Mills : 1992 (page UR, Mixmag, Wikipédia FR) ou 1991 (page Mills) : non tranché (litiges_resolus.json).",
+   "personnes_liens": [
+    {
+     "nom": "Mike Banks",
+     "id": null
+    },
+    {
+     "nom": "Jeff Mills",
+     "id": "jeff-mills"
+    },
+    {
+     "nom": "Robert Hood",
+     "id": "robert-hood"
+    }
+   ]
   },
   {
    "id": "hardcore-gabber-1990-1993",
@@ -442,7 +675,25 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Thunderdome_(music_festival)"
    ],
    "confiance": "moyenne",
-   "notes": "Résolu dans litiges_resolus.json : une seule personne (Marc Trauner = Marc Acardipane) ; écrit en 1990, paru en 1990 chez Planet Core Productions, licence Industrial Strength en 1991 (Arts & Culture). Wikipédia EN « Gabber » cite plutôt « Anasthasia » (T99, 1991) pour un élément caractéristique. Thunderdome : jusqu'à 40 000 personnes (Wikipédia Gabber) / plus de 30 000 pour la première édition (Arts & Culture). BPM : 140-190 (Gabber) contre 160-200 et plus (Hardcore) : non arbitré. Arts & Culture parle du « premier style de musique électronique vraiment néerlandais » (rouvert le 10/11/2026)."
+   "notes": "Résolu dans litiges_resolus.json : une seule personne (Marc Trauner = Marc Acardipane) ; écrit en 1990, paru en 1990 chez Planet Core Productions, licence Industrial Strength en 1991 (Arts & Culture). Wikipédia EN « Gabber » cite plutôt « Anasthasia » (T99, 1991) pour un élément caractéristique. Thunderdome : jusqu'à 40 000 personnes (Wikipédia Gabber) / plus de 30 000 pour la première édition (Arts & Culture). BPM : 140-190 (Gabber) contre 160-200 et plus (Hardcore) : non arbitré. Arts & Culture parle du « premier style de musique électronique vraiment néerlandais » (rouvert le 10/11/2026).",
+   "personnes_liens": [
+    {
+     "nom": "Marc Acardipane",
+     "id": "marc-acardipane"
+    },
+    {
+     "nom": "Lenny Dee",
+     "id": null
+    },
+    {
+     "nom": "Paul Elstak",
+     "id": "paul-elstak"
+    },
+    {
+     "nom": "DJ Rob",
+     "id": null
+    }
+   ]
   },
   {
    "id": "spiral-tribe-pepperbox-hill-1990",
@@ -467,7 +718,21 @@ window.ATLAS = {
     "https://fr.wikipedia.org/wiki/Free_party"
    ],
    "confiance": "moyenne",
-   "notes": "Désaccord : Wikipédia FR « Free party » place les premières free parties en 1987 (entrepôts abandonnés au Royaume-Uni) ; Wikipédia EN attribue le terme et le modèle à Pepperbox Hill (1990). Le terme « free party » apparaît dans la vidéo de Spiral Tribe « Forward the Revolution » (1992)."
+   "notes": "Désaccord : Wikipédia FR « Free party » place les premières free parties en 1987 (entrepôts abandonnés au Royaume-Uni) ; Wikipédia EN attribue le terme et le modèle à Pepperbox Hill (1990). Le terme « free party » apparaît dans la vidéo de Spiral Tribe « Forward the Revolution » (1992).",
+   "personnes_liens": [
+    {
+     "nom": "Mark Harrison",
+     "id": null
+    },
+    {
+     "nom": "Debbie Griffith",
+     "id": null
+    },
+    {
+     "nom": "Simone Feeney",
+     "id": null
+    }
+   ]
   },
   {
    "id": "eye-q-harthouse-francfort-1991",
@@ -491,7 +756,21 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Trance_music"
    ],
    "confiance": "haute",
-   "notes": "Wikipédia EN place la naissance de la trance « à Francfort fin des années 1980-début 1990 » ; la page Hard trance parle d'une origine Belgique/Allemagne/Pays-Bas (désaccord sur l'origine géographique)."
+   "notes": "Wikipédia EN place la naissance de la trance « à Francfort fin des années 1980-début 1990 » ; la page Hard trance parle d'une origine Belgique/Allemagne/Pays-Bas (désaccord sur l'origine géographique).",
+   "personnes_liens": [
+    {
+     "nom": "Sven Väth",
+     "id": "sven-vath"
+    },
+    {
+     "nom": "Heinz Roth",
+     "id": null
+    },
+    {
+     "nom": "Matthias Hoffmann",
+     "id": null
+    }
+   ]
   },
   {
    "id": "tresor-berlin-1991",
@@ -519,7 +798,33 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/German_electronic_music"
    ],
    "confiance": "haute",
-   "notes": "Wikipédia ne désigne pas Hegemann comme fondateur unique (il est lié au label Interfisch et à des investisseurs)."
+   "notes": "Wikipédia ne désigne pas Hegemann comme fondateur unique (il est lié au label Interfisch et à des investisseurs).",
+   "personnes_liens": [
+    {
+     "nom": "Dimitri Hegemann",
+     "id": null
+    },
+    {
+     "nom": "Jeff Mills",
+     "id": "jeff-mills"
+    },
+    {
+     "nom": "Juan Atkins",
+     "id": "juan-atkins"
+    },
+    {
+     "nom": "Robert Hood",
+     "id": "robert-hood"
+    },
+    {
+     "nom": "Blake Baxter",
+     "id": null
+    },
+    {
+     "nom": "Eddie Fowlkes",
+     "id": null
+    }
+   ]
   },
   {
    "id": "castlemorton-1992",
@@ -541,7 +846,13 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Criminal_Justice_and_Public_Order_Act_1994"
    ],
    "confiance": "haute",
-   "notes": "Les commentateurs divergent sur son importance : fin décisive de la scène non autorisée ou prétexte pour réprimer une culture alternative (Wikipédia EN, Castlemorton)."
+   "notes": "Les commentateurs divergent sur son importance : fin décisive de la scène non autorisée ou prétexte pour réprimer une culture alternative (Wikipédia EN, Castlemorton).",
+   "personnes_liens": [
+    {
+     "nom": "Spiral Tribe",
+     "id": "spiral-tribe"
+    }
+   ]
   },
   {
    "id": "jeff-mills-1992-1996",
@@ -563,7 +874,17 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Jeff_Mills"
    ],
    "confiance": "moyenne",
-   "notes": "Source unique (Wikipédia EN). L'article date l'enregistrement de 1995 et le disque de 1996."
+   "notes": "Source unique (Wikipédia EN). L'article date l'enregistrement de 1995 et le disque de 1996.",
+   "personnes_liens": [
+    {
+     "nom": "Jeff Mills",
+     "id": "jeff-mills"
+    },
+    {
+     "nom": "Robert Hood",
+     "id": "robert-hood"
+    }
+   ]
   },
   {
    "id": "warp-artificial-intelligence-1992",
@@ -589,7 +910,25 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Intelligent_dance_music"
    ],
    "confiance": "moyenne",
-   "notes": "Date du 6 juillet 1992 : page Wikipédia EN de la compilation ; une recherche web mentionne un miroir ancien qui donne le 9 juillet (non ouvert, non retenu). La page de la compilation n'emploie pas « intelligent techno » ; l'expression Usenet vient de la page IDM. Le label Warp : aucune source primaire ouverte."
+   "notes": "Date du 6 juillet 1992 : page Wikipédia EN de la compilation ; une recherche web mentionne un miroir ancien qui donne le 9 juillet (non ouvert, non retenu). La page de la compilation n'emploie pas « intelligent techno » ; l'expression Usenet vient de la page IDM. Le label Warp : aucune source primaire ouverte.",
+   "personnes_liens": [
+    {
+     "nom": "Aphex Twin",
+     "id": null
+    },
+    {
+     "nom": "Autechre",
+     "id": null
+    },
+    {
+     "nom": "Richie Hawtin",
+     "id": "richie-hawtin"
+    },
+    {
+     "nom": "Alex Paterson",
+     "id": null
+    }
+   ]
   },
   {
    "id": "basic-channel-1993",
@@ -614,7 +953,17 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Hard_Wax"
    ],
    "confiance": "haute",
-   "notes": "Le terme « dub techno » apparaît pour la première fois dans The Wire n°209 en 2001 (Wikipédia). Un disque Maurizio « Ploy » est daté de 1992 dans la discographie, avant la fondation officielle."
+   "notes": "Le terme « dub techno » apparaît pour la première fois dans The Wire n°209 en 2001 (Wikipédia). Un disque Maurizio « Ploy » est daté de 1992 dans la discographie, avant la fondation officielle.",
+   "personnes_liens": [
+    {
+     "nom": "Moritz von Oswald",
+     "id": null
+    },
+    {
+     "nom": "Mark Ernestus",
+     "id": null
+    }
+   ]
   },
   {
    "id": "ken-ishii-r-and-s-1993",
@@ -634,7 +983,13 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Ken_Ishii"
    ],
    "confiance": "moyenne",
-   "notes": "Source unique : la page Wikipédia EN, qui porte un bandeau « besoin de citations ». Elle ne dit pas explicitement qu'Ishii est un pionnier de la techno japonaise (c'est une formulation de ce résumé, tirée du classement dans la catégorie « Japanese techno musicians » et de la sortie sur R&S) ; à reformuler ou à recouper avant publication. « Extra » est daté de 1995 par la page (RS 95064). Le lien avec l'IDM vient du fait que la page IDM cite R&S Records parmi les labels du genre."
+   "notes": "Source unique : la page Wikipédia EN, qui porte un bandeau « besoin de citations ». Elle ne dit pas explicitement qu'Ishii est un pionnier de la techno japonaise (c'est une formulation de ce résumé, tirée du classement dans la catégorie « Japanese techno musicians » et de la sortie sur R&S) ; à reformuler ou à recouper avant publication. « Extra » est daté de 1995 par la page (RS 95064). Le lien avec l'IDM vient du fait que la page IDM cite R&S Records parmi les labels du genre.",
+   "personnes_liens": [
+    {
+     "nom": "Ken Ishii",
+     "id": null
+    }
+   ]
   },
   {
    "id": "plastikman-sheet-one-1993",
@@ -658,7 +1013,17 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Acid_techno"
    ],
    "confiance": "moyenne",
-   "notes": "Plus 8 : 1990 retenu (litiges_resolus.json) ; Windsor selon la page Plus 8 (la fiche RA affiche « Germany » sans explication, non utilisée)."
+   "notes": "Plus 8 : 1990 retenu (litiges_resolus.json) ; Windsor selon la page Plus 8 (la fiche RA affiche « Germany » sans explication, non utilisée).",
+   "personnes_liens": [
+    {
+     "nom": "Richie Hawtin",
+     "id": "richie-hawtin"
+    },
+    {
+     "nom": "John Acquaviva",
+     "id": null
+    }
+   ]
   },
   {
    "id": "premier-teknival-beauvais-1993",
@@ -678,7 +1043,8 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Free_party"
    ],
    "confiance": "moyenne",
-   "notes": "Désaccord entre sources : Wikipédia EN (Free party) dit que Spiral Tribe est partie en France après Castlemorton et y a organisé Frenchtek ; la page Spiral Tribe détaille plutôt des soirées aux Pays-Bas, en Allemagne et en Autriche. Pas de date précise du jour pour Beauvais."
+   "notes": "Désaccord entre sources : Wikipédia EN (Free party) dit que Spiral Tribe est partie en France après Castlemorton et y a organisé Frenchtek ; la page Spiral Tribe détaille plutôt des soirées aux Pays-Bas, en Allemagne et en Autriche. Pas de date précise du jour pour Beauvais.",
+   "personnes_liens": []
   },
   {
    "id": "criminal-justice-act-1994",
@@ -700,7 +1066,13 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Castlemorton_Common_Festival"
    ],
    "confiance": "haute",
-   "notes": "Seuil de personnes : Wikipédia EN (Free party) parle de 100 personnes ou plus en 1994 (ramené à plus de 20 par la loi de 2003) ; Wikipédia FR parle de plus de vingt personnes ; l'extrait de l'article de la loi indique 20. Non tranché : seuil non repris dans le résumé."
+   "notes": "Seuil de personnes : Wikipédia EN (Free party) parle de 100 personnes ou plus en 1994 (ramené à plus de 20 par la loi de 2003) ; Wikipédia FR parle de plus de vingt personnes ; l'extrait de l'article de la loi indique 20. Non tranché : seuil non repris dans le résumé.",
+   "personnes_liens": [
+    {
+     "nom": "Michael Howard",
+     "id": null
+    }
+   ]
   },
   {
    "id": "frenchcore-emergence-1994-2000",
@@ -726,7 +1098,21 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Freetekno"
    ],
    "confiance": "a_verifier",
-   "notes": "Dates qui divergent : fondation de Micropoint en 1992 par DJ Radium et Al Core (Wikipédia EN) contre Gangstar Toons Industry fondé en 1994 comme pionnier (Wikipédia FR) ; Psychik Genocide créé en 1996 comme sous-label d'Audiogenic (FR). Le tempo varie : 180-240 (FR), environ 200 ou 180-220 (EN)."
+   "notes": "Dates qui divergent : fondation de Micropoint en 1992 par DJ Radium et Al Core (Wikipédia EN) contre Gangstar Toons Industry fondé en 1994 comme pionnier (Wikipédia FR) ; Psychik Genocide créé en 1996 comme sous-label d'Audiogenic (FR). Le tempo varie : 180-240 (FR), environ 200 ou 180-220 (EN).",
+   "personnes_liens": [
+    {
+     "nom": "Radium",
+     "id": null
+    },
+    {
+     "nom": "Al Core",
+     "id": null
+    },
+    {
+     "nom": "Micropoint",
+     "id": null
+    }
+   ]
   },
   {
    "id": "sonar-barcelone-1994",
@@ -746,7 +1132,21 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Sónar"
    ],
    "confiance": "moyenne",
-   "notes": "Source unique : Wikipédia EN. L'orthographe du troisième fondateur varie dans la page (Sergi / Sergio Caballero). Le chiffre d'environ 6 000 participants est signalé « citation nécessaire » par la page. Le lien avec la techno n'est pas détaillé par la page (festival de musiques électroniques au sens large)."
+   "notes": "Source unique : Wikipédia EN. L'orthographe du troisième fondateur varie dans la page (Sergi / Sergio Caballero). Le chiffre d'environ 6 000 participants est signalé « citation nécessaire » par la page. Le lien avec la techno n'est pas détaillé par la page (festival de musiques électroniques au sens large).",
+   "personnes_liens": [
+    {
+     "nom": "Ricard Robles",
+     "id": null
+    },
+    {
+     "nom": "Enric Palau",
+     "id": null
+    },
+    {
+     "nom": "Sergio Caballero",
+     "id": null
+    }
+   ]
   },
   {
    "id": "france-repression-raves-1995-2002",
@@ -767,7 +1167,13 @@ window.ATLAS = {
     "https://fr.wikipedia.org/wiki/Musique_techno"
    ],
    "confiance": "moyenne",
-   "notes": "Désaccord : la circulaire est datée de janvier 1995 (Wikipédia FR « Musique techno ») ou de mai 1995 avec Charles Pasqua (Wikipédia FR « Free party ») ; non tranché. Jour de l'amendement Mariani non précisé. Le décret n° 2002-887 du 3 mai 2002 est publié au JO le 7 mai 2002 ; la page se contredit sur les dates d'abrogation (2011-1113 / 2013-1113)."
+   "notes": "Désaccord : la circulaire est datée de janvier 1995 (Wikipédia FR « Musique techno ») ou de mai 1995 avec Charles Pasqua (Wikipédia FR « Free party ») ; non tranché. Jour de l'amendement Mariani non précisé. Le décret n° 2002-887 du 3 mai 2002 est publié au JO le 7 mai 2002 ; la page se contredit sur les dates d'abrogation (2011-1113 / 2013-1113).",
+   "personnes_liens": [
+    {
+     "nom": "Charles Pasqua",
+     "id": null
+    }
+   ]
   },
   {
    "id": "awakenings-1997",
@@ -786,7 +1192,13 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Melodic_techno"
    ],
    "confiance": "moyenne",
-   "notes": "Résolu dans litiges_resolus.json : 1997 = première soirée (30 mars 1997) ; 2001 = année du festival en plein air selon un seul article (Gray Area), non recoupé ; Wikipédia EN ne date pas le premier festival en plein air. Fondateur : l'article Wikipédia nomme Monumental Productions BV et « Rocco Veenboer » impliqué."
+   "notes": "Résolu dans litiges_resolus.json : 1997 = première soirée (30 mars 1997) ; 2001 = année du festival en plein air selon un seul article (Gray Area), non recoupé ; Wikipédia EN ne date pas le premier festival en plein air. Fondateur : l'article Wikipédia nomme Monumental Productions BV et « Rocco Veenboer » impliqué.",
+   "personnes_liens": [
+    {
+     "nom": "Rocco Veenboer",
+     "id": null
+    }
+   ]
   },
   {
    "id": "techno-parade-paris-1998",
@@ -809,7 +1221,17 @@ window.ATLAS = {
     "https://fr.wikipedia.org/wiki/Techno_Parade"
    ],
    "confiance": "haute",
-   "notes": "Date (19 septembre 1998, un samedi vérifié au calendrier) et 200 000 participants : Euronews et Sortiraparis concordent, Wikipédia FR donne 200 000 mais pas le jour. Désaccord de datation sur la visite de Jack Lang à Berlin : Euronews la place deux mois avant la première parade (donc en 1998), Sortiraparis écrit « 1997 ». Wikipédia FR cite une « techno parade » précurseur en septembre 1997 (environ 400 personnes, quatre chars). Wikipédia FR : « circulaire de 1998 » ; la date exacte de cette circulaire n'est pas donnée par ces pages (le mémoire consulté la daterait du 29 décembre 1998 d'après une recherche web, non ouvert). Liens de la parade avec « detroit_techno » : lien générique de style, à ajuster."
+   "notes": "Date (19 septembre 1998, un samedi vérifié au calendrier) et 200 000 participants : Euronews et Sortiraparis concordent, Wikipédia FR donne 200 000 mais pas le jour. Désaccord de datation sur la visite de Jack Lang à Berlin : Euronews la place deux mois avant la première parade (donc en 1998), Sortiraparis écrit « 1997 ». Wikipédia FR cite une « techno parade » précurseur en septembre 1997 (environ 400 personnes, quatre chars). Wikipédia FR : « circulaire de 1998 » ; la date exacte de cette circulaire n'est pas donnée par ces pages (le mémoire consulté la daterait du 29 décembre 1998 d'après une recherche web, non ouvert). Liens de la parade avec « detroit_techno » : lien générique de style, à ajuster.",
+   "personnes_liens": [
+    {
+     "nom": "Jack Lang",
+     "id": null
+    },
+    {
+     "nom": "Henri Maurel",
+     "id": null
+    }
+   ]
   },
   {
    "id": "fabric-londres-1999-2017",
@@ -828,7 +1250,17 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Fabric_(nightclub)"
    ],
    "confiance": "moyenne",
-   "notes": "Source unique : Wikipédia EN. Le club programme de la drum and bass le vendredi, de la house, de la techno et du disco le samedi, de la house et de la techno underground le dimanche ; ce n'est donc pas un club uniquement techno. L'année de réouverture (2017) vient de l'infobox ; le texte ne donne que l'accord du 21 novembre 2016. Nombre exact de décès et dates précises de la fermeture non vérifiés hors Wikipédia."
+   "notes": "Source unique : Wikipédia EN. Le club programme de la drum and bass le vendredi, de la house, de la techno et du disco le samedi, de la house et de la techno underground le dimanche ; ce n'est donc pas un club uniquement techno. L'année de réouverture (2017) vient de l'infobox ; le texte ne donne que l'accord du 21 novembre 2016. Nombre exact de décès et dates précises de la fermeture non vérifiés hors Wikipédia.",
+   "personnes_liens": [
+    {
+     "nom": "Keith Reilly",
+     "id": null
+    },
+    {
+     "nom": "Cameron Leslie",
+     "id": null
+    }
+   ]
   },
   {
    "id": "detroit-electronic-music-festival-2000",
@@ -851,7 +1283,25 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Movement_Electronic_Music_Festival"
    ],
    "confiance": "moyenne",
-   "notes": "Source unique : Wikipédia EN. Le jour de la première édition n'est pas donné par la page. Le nombre de visiteurs de 2000 (« 1,1 à 1,5 million ») repose sur des estimations visuelles de la police et de la ville, jugées trop généreuses par la ville elle-même ; ne pas l'afficher sans réserve. Wikipédia indique qu'en 2001 Carl Craig, directeur artistique, a été renvoyé par Carol Marvin."
+   "notes": "Source unique : Wikipédia EN. Le jour de la première édition n'est pas donné par la page. Le nombre de visiteurs de 2000 (« 1,1 à 1,5 million ») repose sur des estimations visuelles de la police et de la ville, jugées trop généreuses par la ville elle-même ; ne pas l'afficher sans réserve. Wikipédia indique qu'en 2001 Carl Craig, directeur artistique, a été renvoyé par Carol Marvin.",
+   "personnes_liens": [
+    {
+     "nom": "Carol Marvin",
+     "id": null
+    },
+    {
+     "nom": "Carl Craig",
+     "id": null
+    },
+    {
+     "nom": "Derrick May",
+     "id": "derrick-may"
+    },
+    {
+     "nom": "Kevin Saunderson",
+     "id": "kevin-saunderson"
+    }
+   ]
   },
   {
    "id": "hardstyle-qlimax-defqon1-2000-2003",
@@ -874,7 +1324,13 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Q-dance"
    ],
    "confiance": "moyenne",
-   "notes": "Dates qui divergent entre pages Wikipédia : premier Qlimax en 2001 (Hardstyle) ou 2000 (Q-dance) ; première édition de Defqon.1 en 2003 (Defqon.1 et Hardstyle) ou 2004 (partie historique de la page Q-dance, qui se contredit elle-même). La page Q-dance porte un bandeau signalant que des parties peuvent être générées par IA ; son contenu (Wouter Tavecchio comme fondateur clé) est à recouper. La page Defqon.1 donne 2003 : 25 000 ; l'infobox 300 000 pour 2024 contredit le tableau (250 000). Le site officiel q-dance.com n'a pas pu être exploité."
+   "notes": "Dates qui divergent entre pages Wikipédia : premier Qlimax en 2001 (Hardstyle) ou 2000 (Q-dance) ; première édition de Defqon.1 en 2003 (Defqon.1 et Hardstyle) ou 2004 (partie historique de la page Q-dance, qui se contredit elle-même). La page Q-dance porte un bandeau signalant que des parties peuvent être générées par IA ; son contenu (Wouter Tavecchio comme fondateur clé) est à recouper. La page Defqon.1 donne 2003 : 25 000 ; l'infobox 300 000 pour 2024 contredit le tableau (250 000). Le site officiel q-dance.com n'a pas pu être exploité.",
+   "personnes_liens": [
+    {
+     "nom": "Wouter Tavecchio",
+     "id": null
+    }
+   ]
   },
   {
    "id": "ostgut-berghain-2003-2004",
@@ -896,7 +1352,21 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Berghain"
    ],
    "confiance": "haute",
-   "notes": "La page consultée ne mentionne aucune reconnaissance par l'UNESCO. Ostgut Ton a fermé en décembre 2021 d'après la même page."
+   "notes": "La page consultée ne mentionne aucune reconnaissance par l'UNESCO. Ostgut Ton a fermé en décembre 2021 d'après la même page.",
+   "personnes_liens": [
+    {
+     "nom": "Norbert Thormann",
+     "id": null
+    },
+    {
+     "nom": "Michael Teufele",
+     "id": null
+    },
+    {
+     "nom": "Nick Höppner",
+     "id": null
+    }
+   ]
   },
   {
    "id": "tomorrowland-2005",
@@ -916,7 +1386,17 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Melodic_techno"
    ],
    "confiance": "moyenne",
-   "notes": "Date résolue (14 août 2005, dimanche) dans litiges_resolus.json. Fréquentation : 8 000 (Pollstar) à environ 10 000 (Wikipédia EN, tableau) : ne pas arbitrer. Le festival n'est pas spécifiquement techno."
+   "notes": "Date résolue (14 août 2005, dimanche) dans litiges_resolus.json. Fréquentation : 8 000 (Pollstar) à environ 10 000 (Wikipédia EN, tableau) : ne pas arbitrer. Le festival n'est pas spécifiquement techno.",
+   "personnes_liens": [
+    {
+     "nom": "Manu Beers",
+     "id": null
+    },
+    {
+     "nom": "Michiel Beers",
+     "id": null
+    }
+   ]
   },
   {
    "id": "boiler-room-2010",
@@ -935,7 +1415,17 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Boiler_Room_(music_broadcaster)"
    ],
    "confiance": "haute",
-   "notes": "Détails du premier lieu (une pièce à Dalston, un appartement, Hackney) non concordants entre sources secondaires. Date exacte de l'arrivée à Berlin non donnée."
+   "notes": "Détails du premier lieu (une pièce à Dalston, un appartement, Hackney) non concordants entre sources secondaires. Date exacte de l'arrivée à Berlin non donnée.",
+   "personnes_liens": [
+    {
+     "nom": "Blaise Bellville",
+     "id": null
+    },
+    {
+     "nom": "Thristian Richards",
+     "id": null
+    }
+   ]
   },
   {
    "id": "concrete-paris-2011",
@@ -943,15 +1433,17 @@ window.ATLAS = {
    "annee_fin": null,
    "titre": "Concrete, péniche de la techno parisienne",
    "lieu": "Port de la Rapée, Paris (France)",
-   "resume": "Le club Concrete ouvre en octobre 2011 sur une péniche du Port de la Rapée à Paris, et devient le club phare de la house et de la techno de la ville. En mars 2017, il obtient une licence de 24 heures, permettant de rester ouvert tant que le public danse.",
+   "resume": "Le club Concrete ouvre en octobre 2011 sur une péniche du Port de la Rapée à Paris, et devient le club phare de la house et de la techno de la ville. En mars 2017, il obtient une licence de 24 heures, permettant de rester ouvert tant que le public danse. En 2019, Resident Advisor annonce la fermeture du club, avec une soirée de clôture du 19 au 20 juillet 2019.",
    "compte": "FACT (2017) présente Concrete comme « la destination techno numéro un de la ville » (« the city's number one techno destination »), avec des soirées très longues.",
    "personnes": [],
    "styles": [],
    "sources": [
-    "https://factmag.com/2017/03/08/concrete-paris-club-24-hour-license"
+    "https://factmag.com/2017/03/08/concrete-paris-club-24-hour-license",
+    "https://ra.co/news/44007"
    ],
    "confiance": "moyenne",
-   "notes": "Ouverture et licence de 24 h : article FACT du 8 mars 2017 (ouvert). Fermeture fin juillet 2019 (retirée du texte public faute de source ouverte), menace d'expulsion et durée de huit ans : résultats de recherche web renvoyant à DJ Mag et Time Out, non ouverts (DJ Mag : erreur 403)."
+   "notes": "Ouverture et licence de 24 h : article FACT du 8 mars 2017. Fermeture : annonce de Resident Advisor (ra.co/news/44007, ouverte le 10/11/2026), soirée de clôture du 19 au 20 juillet 2019 ; RA écrit « opened in 2012 » alors que le communiqué du club et FACT disent 2011 (2011 retenu).",
+   "personnes_liens": []
   },
   {
    "id": "cercle-2016",
@@ -972,7 +1464,25 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Cercle_(company)"
    ],
    "confiance": "haute",
-   "notes": "Dates fournies par l'article Wikipédia EN (Cercle) ; programmation pas toujours techno (Møme n'est pas un artiste techno)."
+   "notes": "Dates fournies par l'article Wikipédia EN (Cercle) ; programmation pas toujours techno (Møme n'est pas un artiste techno).",
+   "personnes_liens": [
+    {
+     "nom": "Derek Barbolla",
+     "id": null
+    },
+    {
+     "nom": "Philippe Tuchmann",
+     "id": null
+    },
+    {
+     "nom": "Nina Kraviz",
+     "id": "nina-kraviz"
+    },
+    {
+     "nom": "Sébastien Léger",
+     "id": null
+    }
+   ]
   },
   {
    "id": "hard-techno-vague-2019-2025",
@@ -999,7 +1509,25 @@ window.ATLAS = {
     "https://fr.wikipedia.org/wiki/Hardtechno"
    ],
    "confiance": "moyenne",
-   "notes": "Presse d'opinion et sources commerciales : tendance directionnelle, pas mesurée. Le terme « hard techno » a plusieurs sens (free party hardtek vs techno rapide de club)."
+   "notes": "Presse d'opinion et sources commerciales : tendance directionnelle, pas mesurée. Le terme « hard techno » a plusieurs sens (free party hardtek vs techno rapide de club).",
+   "personnes_liens": [
+    {
+     "nom": "Perc",
+     "id": "perc"
+    },
+    {
+     "nom": "VTSS",
+     "id": null
+    },
+    {
+     "nom": "Daria Kolosova",
+     "id": null
+    },
+    {
+     "nom": "Héctor Oaks",
+     "id": null
+    }
+   ]
   },
   {
    "id": "hor-berlin-2019",
@@ -1022,7 +1550,21 @@ window.ATLAS = {
     "https://mixmag.net/feature/has-dance-music-got-harder-faster-hor-berlin-hard-techno-rave-music-interview-investigation"
    ],
    "confiance": "haute",
-   "notes": "Les fondateurs disent vouloir une plateforme « pas seulement techno » (Electronic Beats, 2019)."
+   "notes": "Les fondateurs disent vouloir une plateforme « pas seulement techno » (Electronic Beats, 2019).",
+   "personnes_liens": [
+    {
+     "nom": "Ori",
+     "id": null
+    },
+    {
+     "nom": "Charly",
+     "id": null
+    },
+    {
+     "nom": "Daria Kolosova",
+     "id": null
+    }
+   ]
   },
   {
    "id": "united-we-stream-berlin-2020",
@@ -1041,7 +1583,8 @@ window.ATLAS = {
     "https://electronicgroove.com/unitedwestream-live-transmissions-to-save-berlins-nightlife/"
    ],
    "confiance": "haute",
-   "notes": "Début de la programmation le 18 mars 2020 à 19 h : article du 17 mars (909 Originals), confirmé par Electronic Groove (article daté du 18 mars). « Vendredi précédent » = 13 mars 2020 par calcul du calendrier ; le jour exact de la fermeture n'est pas écrit dans l'article. Montants collectés non repris : les chiffres cités dans les résultats de recherche (300 000 € à 1 million €) ne proviennent pas de pages ouvertes."
+   "notes": "Début de la programmation le 18 mars 2020 à 19 h : article du 17 mars (909 Originals), confirmé par Electronic Groove (article daté du 18 mars). « Vendredi précédent » = 13 mars 2020 par calcul du calendrier ; le jour exact de la fermeture n'est pas écrit dans l'article. Montants collectés non repris : les chiffres cités dans les résultats de recherche (300 000 € à 1 million €) ne proviennent pas de pages ouvertes.",
+   "personnes_liens": []
   },
   {
    "id": "rave-the-planet-berlin-2022",
@@ -1062,7 +1605,13 @@ window.ATLAS = {
     "https://de.ra.co/news/77530"
    ],
    "confiance": "haute",
-   "notes": "Date : 9 juillet 2022 (un samedi vérifié au calendrier), confirmé par le bilan officiel de Rave the Planet et par Resident Advisor. Fréquentation non tranchée : 200 000 (police, selon RA) contre 300 000 (organisateurs). Resident Advisor rappelle que Dr. Motte a été critiqué pour avoir montré le symbole du mouvement Querdenken. La route varie : Porte de Brandebourg - Colonne de la Victoire (bilan officiel) ou Kurfürstendamm - Grosser Stern, environ 7 km (RA). Voir aussi l'inscription de 2024 au patrimoine immatériel national (événement berlin-techno-patrimoine-immateriel-2024 de timeline.json)."
+   "notes": "Date : 9 juillet 2022 (un samedi vérifié au calendrier), confirmé par le bilan officiel de Rave the Planet et par Resident Advisor. Fréquentation non tranchée : 200 000 (police, selon RA) contre 300 000 (organisateurs). Resident Advisor rappelle que Dr. Motte a été critiqué pour avoir montré le symbole du mouvement Querdenken. La route varie : Porte de Brandebourg - Colonne de la Victoire (bilan officiel) ou Kurfürstendamm - Grosser Stern, environ 7 km (RA). Voir aussi l'inscription de 2024 au patrimoine immatériel national (événement berlin-techno-patrimoine-immateriel-2024 de timeline.json).",
+   "personnes_liens": [
+    {
+     "nom": "Dr. Motte",
+     "id": null
+    }
+   ]
   },
   {
    "id": "berlin-techno-patrimoine-immateriel-2024",
@@ -1083,7 +1632,13 @@ window.ATLAS = {
     "https://mixmag.net/read/techno-berlin-officially-added-unesco-cultural-heritage-list-rave-the-planet-news"
    ],
    "confiance": "haute",
-   "notes": "Vérifié : inscription au registre national (communiqué de la KMK du 13 mars 2024 ; Mixmag cite le même registre), PAS à la liste internationale de l'UNESCO. La page unesco.de consultée ne traite pas cette entrée. Un article de tip Berlin (trouvé via recherche) évoque une décision au 13 février ; Wikipédia et les médias disent mars ; le calendrier de la candidature (depuis 2011 ou 2021) diffère selon les sources."
+   "notes": "Vérifié : inscription au registre national (communiqué de la KMK du 13 mars 2024 ; Mixmag cite le même registre), PAS à la liste internationale de l'UNESCO. La page unesco.de consultée ne traite pas cette entrée. Un article de tip Berlin (trouvé via recherche) évoque une décision au 13 février ; Wikipédia et les médias disent mars ; le calendrier de la candidature (depuis 2011 ou 2021) diffère selon les sources.",
+   "personnes_liens": [
+    {
+     "nom": "Dr. Motte",
+     "id": null
+    }
+   ]
   }
  ],
  "styles": [
@@ -1119,7 +1674,19 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/I_Feel_Love",
     "https://en.wikipedia.org/wiki/Chicago_house"
    ],
-   "confiance": "haute"
+   "confiance": "haute",
+   "tempos": [
+    {
+     "min": 120,
+     "max": null,
+     "source": "Wikipédia FR : Disco",
+     "url": "https://fr.wikipedia.org/wiki/Disco",
+     "passage": "tempo assez rapide (autour de 120 battements par minute)",
+     "note": "ou environ ; valeur unique, pas une fourchette"
+    }
+   ],
+   "tempo_commentaire": "Une seule valeur approximative trouvée (Wikipédia FR) ; la page Wikipédia EN Disco ne cite aucun tempo.",
+   "tempo_confiance": "moyenne"
   },
   {
    "id": "electro",
@@ -1157,7 +1724,27 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Kraftwerk",
     "https://en.wikipedia.org/wiki/Cybotron_(American_band)"
    ],
-   "confiance": "haute"
+   "confiance": "haute",
+   "tempos": [
+    {
+     "min": 120,
+     "max": 140,
+     "source": "Wikipédia FR : Électro",
+     "url": "https://fr.wikipedia.org/wiki/Électro",
+     "passage": "tempo moyen varie entre 120 et 140 BPM",
+     "note": ""
+    },
+    {
+     "min": 120,
+     "max": 155,
+     "source": "Dekmantel : Need for speed (Oli Warwick, 30/03/2020)",
+     "url": "https://dekmantel.com/editorial/need-for-speed",
+     "passage": "electro, qui court de 120 BPM à 155 plus",
+     "note": "155 et plus : borne haute ouverte ; propos d'un artiste cité (Aquarian) sur l'electro actuel, pas une définition"
+    }
+   ],
+   "tempo_commentaire": "Le mot « electro » recouvre l'electro des années 1980 et l'electro contemporain (Wikipédia EN : deux genres différents), et les deux sources ne sont pas explicitement sur le même périmètre.",
+   "tempo_confiance": "moyenne"
   },
   {
    "id": "chicago_house",
@@ -1200,7 +1787,35 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Warehouse_(nightclub)",
     "https://en.wikipedia.org/wiki/Disco"
    ],
-   "confiance": "haute"
+   "confiance": "haute",
+   "tempos": [
+    {
+     "min": 115,
+     "max": 130,
+     "source": "Wikipédia EN : House music",
+     "url": "https://en.wikipedia.org/wiki/House_music",
+     "passage": "typical tempo of 115–130 beats per minute",
+     "note": "house en général ; la page Chicago house ne cite aucun tempo ; section : introduction"
+    },
+    {
+     "min": 120,
+     "max": 130,
+     "source": "Wikipédia EN : House music",
+     "url": "https://en.wikipedia.org/wiki/House_music",
+     "passage": "at a tempo of between 120 and 130 beats per minute",
+     "note": "house en général ; section : Characteristics"
+    },
+    {
+     "min": 115,
+     "max": 130,
+     "source": "Ableton Learning Music : Tempo and genre",
+     "url": "https://learningmusic.ableton.com/make-beats/tempo-and-genre.html",
+     "passage": "House: 115-130 bpm",
+     "note": "house en général"
+    }
+   ],
+   "tempo_commentaire": "Périmètre : house en général, pas le Chicago house. Aucun tempo spécifique au Chicago house dans les pages ouvertes ; les chiffres ci-dessus sont ceux de la house en général, et la page Chicago house parle seulement d'une deep house « plus lente ».",
+   "tempo_confiance": "a_verifier"
   },
   {
    "id": "acid_house",
@@ -1239,7 +1854,19 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Acid_house",
     "https://en.wikipedia.org/wiki/Chicago_house"
    ],
-   "confiance": "haute"
+   "confiance": "haute",
+   "tempos": [
+    {
+     "min": 118,
+     "max": 135,
+     "source": "Wikipédia DE : Acid House",
+     "url": "https://de.wikipedia.org/wiki/Acid_House",
+     "passage": "four-to-the-floor à une vitesse de 118–135 BPM",
+     "note": "section Merkmale"
+    }
+   ],
+   "tempo_commentaire": "Une seule source ouverte donne un chiffre (Wikipédia DE) ; les pages Wikipédia EN et FR Acid house n'indiquent aucun tempo.",
+   "tempo_confiance": "a_verifier"
   },
   {
    "id": "detroit_techno",
@@ -1288,7 +1915,27 @@ window.ATLAS = {
     "https://fr.wikipedia.org/wiki/Musique_techno",
     "https://en.wikipedia.org/wiki/Cybotron_(American_band)"
    ],
-   "confiance": "haute"
+   "confiance": "haute",
+   "tempos": [
+    {
+     "min": 120,
+     "max": 150,
+     "source": "Wikipédia EN : Techno",
+     "url": "https://en.wikipedia.org/wiki/Techno",
+     "passage": "range from 120 to 150 beats per minute",
+     "note": "tempo de la techno en général ; la page de ce style ne donne aucun tempo ; section : introduction"
+    },
+    {
+     "min": 125,
+     "max": 140,
+     "source": "Native Instruments : How to make techno",
+     "url": "https://www.native-instruments.com/blogs/blog/how-to-make-techno",
+     "passage": "Techno music typically has tempos ranging from 125 to 140 bpm",
+     "note": "tempo de la techno en général ; la page de ce style ne donne aucun tempo"
+    }
+   ],
+   "tempo_commentaire": "Périmètre : techno en général, pas la techno de Detroit. Aucune page ouverte ne donne un tempo propre à la techno de Detroit ; seuls figurent des tempos de la techno en général. Le « 138 BPM » d'une page Attack Magazine est la fiche d'un beat reconstruit dans un tutoriel inspiré d'un morceau d'Underground Resistance, pas le tempo du morceau original : il n'est pas retenu.",
+   "tempo_confiance": "a_verifier"
   },
   {
    "id": "berlin_techno",
@@ -1326,7 +1973,27 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Berghain",
     "https://en.wikipedia.org/wiki/Techno"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 120,
+     "max": 150,
+     "source": "Wikipédia EN : Techno",
+     "url": "https://en.wikipedia.org/wiki/Techno",
+     "passage": "range from 120 to 150 beats per minute",
+     "note": "tempo de la techno en général ; la page de ce style ne donne aucun tempo ; section : introduction"
+    },
+    {
+     "min": 130,
+     "max": null,
+     "source": "Red Bull Music Academy Daily : Tear Down This Wall (J. Laarmann, 05/09/2018)",
+     "url": "https://daily.redbullmusicacademy.com/2018/09/techno-and-the-fall-of-the-wall/",
+     "passage": "At 130 BPM, in the thick fog of dry ice",
+     "note": "valeur ponctuelle citée pour l'ambiance d'une soirée du Tresor en 1991, pas une fourchette de genre ni de scène"
+    }
+   ],
+   "tempo_commentaire": "Périmètre : techno en général (120-150) et ambiance d'une soirée du Tresor en 1991 (130), pas une fourchette de la scène berlinoise. D'après les notes du projet, « Techno de Berlin » est surtout une scène (Tresor, labels) plutôt qu'une famille sonore homogène, et aucune page ouverte n'y associe une fourchette de tempo.",
+   "tempo_confiance": "a_verifier"
   },
   {
    "id": "minimal_techno",
@@ -1366,7 +2033,51 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Richie_Hawtin",
     "https://en.wikipedia.org/wiki/Basic_Channel"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 125,
+     "max": 130,
+     "source": "Wikipédia EN : Minimal techno",
+     "url": "https://en.wikipedia.org/wiki/Minimal_techno",
+     "passage": "average tempo ... between 125 and 130 beats per minute",
+     "note": "tempo moyen ; section Style"
+    },
+    {
+     "min": 128,
+     "max": null,
+     "source": "Wikipédia EN : Minimal techno",
+     "url": "https://en.wikipedia.org/wiki/Minimal_techno",
+     "passage": "Richie Hawtin suggests 128 bpm as the perfect tempo",
+     "note": "avis de Richie Hawtin ; la phrase est signalée « source à fournir » (citation needed) sur Wikipédia EN"
+    },
+    {
+     "min": 125,
+     "max": 130,
+     "source": "Wikipédia FR : Techno minimale",
+     "url": "https://fr.wikipedia.org/wiki/Techno_minimale",
+     "passage": "tempo moyen ... entre 125 et 130 BPM",
+     "note": ""
+    },
+    {
+     "min": 120,
+     "max": 125,
+     "source": "Wikipédia DE : Minimal Techno",
+     "url": "https://de.wikipedia.org/wiki/Minimal_Techno",
+     "passage": "Minimal House traditionnellement 120 – 125 BPM",
+     "note": "concerne le minimal house, jugé un peu plus lent, pas la techno minimale"
+    },
+    {
+     "min": 128,
+     "max": 130,
+     "source": "Wikipédia DE : Minimal Techno",
+     "url": "https://de.wikipedia.org/wiki/Minimal_Techno",
+     "passage": "4/4 avec environ 128 – 130 beats per minute",
+     "note": "usage critiqué du mot « minimal » pour tout morceau à ce tempo"
+    }
+   ],
+   "tempo_commentaire": "Les pages EN et FR donnent 125-130 en moyenne ; la page DE parle d'un minimal house plus lent (120-125) et critique l'usage du mot « minimal » pour tout morceau vers 128-130. La phrase attribuant à Richie Hawtin le tempo « parfait » de 128 est signalée « source à fournir » sur Wikipédia EN.",
+   "tempo_confiance": "moyenne"
   },
   {
    "id": "dub_techno",
@@ -1405,7 +2116,27 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Basic_Channel",
     "https://en.wikipedia.org/wiki/Hard_Wax"
    ],
-   "confiance": "haute"
+   "confiance": "haute",
+   "tempos": [
+    {
+     "min": 110,
+     "max": 125,
+     "source": "Wikipédia EN : Dub techno",
+     "url": "https://en.wikipedia.org/wiki/Dub_techno",
+     "passage": "typically ranging between 110 and 125 BPM",
+     "note": "section Musical characteristics"
+    },
+    {
+     "min": 110,
+     "max": 125,
+     "source": "Wikipédia DE : Dub-Techno",
+     "url": "https://de.wikipedia.org/wiki/Dub-Techno",
+     "passage": "4/4-Takt dans la zone d'environ 110 à 125 BPM",
+     "note": "section Merkmale ; ou environ"
+    }
+   ],
+   "tempo_commentaire": "Deux sources concordent ; la page EN précise que le dub techno est généralement plus lent que la techno conventionnelle.",
+   "tempo_confiance": "haute"
   },
   {
    "id": "trance",
@@ -1446,7 +2177,67 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Sven_V%C3%A4th",
     "https://en.wikipedia.org/wiki/German_electronic_music"
    ],
-   "confiance": "haute"
+   "confiance": "haute",
+   "tempos": [
+    {
+     "min": 120,
+     "max": 150,
+     "source": "Wikipédia EN : Trance music",
+     "url": "https://en.wikipedia.org/wiki/Trance_music",
+     "passage": "typically characterized by a tempo between 120 and 150 BPM",
+     "note": "introduction"
+    },
+    {
+     "min": 125,
+     "max": 150,
+     "source": "Wikipédia EN : Trance music",
+     "url": "https://en.wikipedia.org/wiki/Trance_music",
+     "passage": "generally using a tempo of 125 to 150 BPM",
+     "note": "section Production ; la page précise que la musique peut avoir n'importe quel tempo"
+    },
+    {
+     "min": 120,
+     "max": 135,
+     "source": "Wikipédia EN : Trance music",
+     "url": "https://en.wikipedia.org/wiki/Trance_music",
+     "passage": "more recent styles ... 120 to 135 beats per minute",
+     "note": "styles plus récents, section Production"
+    },
+    {
+     "min": 125,
+     "max": 160,
+     "source": "Wikipédia FR : Trance",
+     "url": "https://fr.wikipedia.org/wiki/Trance",
+     "passage": "tempo oscillant entre 125 et 160 BPM",
+     "note": "introduction"
+    },
+    {
+     "min": 125,
+     "max": 150,
+     "source": "Wikipédia FR : Trance",
+     "url": "https://fr.wikipedia.org/wiki/Trance",
+     "passage": "tempo de la trance en général entre 125 et 150 bpm",
+     "note": "section Caractéristiques"
+    },
+    {
+     "min": 125,
+     "max": 140,
+     "source": "Pioneer DJ Blog : mixing techniques behind every major genre (R. Keeling)",
+     "url": "https://blog.pioneerdj.com/?p=6295",
+     "passage": "125 to 140 BPM is the usual tempo range",
+     "note": ""
+    },
+    {
+     "min": 120,
+     "max": 140,
+     "source": "Ableton Learning Music : Tempo and genre",
+     "url": "https://learningmusic.ableton.com/make-beats/tempo-and-genre.html",
+     "passage": "Techno/trance: 120-140 bpm",
+     "note": "regroupe techno et trance"
+    }
+   ],
+   "tempo_commentaire": "Les sources divergent sur la borne haute (140, 150 ou 160) et sur les styles récents, plus lents (120-135, EN), car « trance » regroupe des sous-genres de tempos différents.",
+   "tempo_confiance": "haute"
   },
   {
    "id": "goa_trance",
@@ -1479,7 +2270,27 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Goa_trance",
     "https://en.wikipedia.org/wiki/Trance_music"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 130,
+     "max": 150,
+     "source": "Wikipédia EN : Goa trance",
+     "url": "https://en.wikipedia.org/wiki/Goa_trance",
+     "passage": "tempo typically lies in the 130–150 BPM range",
+     "note": "extrêmes cités par la page : 110 et 160 BPM ; section Sound"
+    },
+    {
+     "min": 130,
+     "max": 150,
+     "source": "Wikipédia FR : Trance Goa",
+     "url": "https://fr.wikipedia.org/wiki/Trance_Goa",
+     "passage": "BPM se situe généralement dans la gamme des 130 à 150",
+     "note": "extrêmes cités par la page : 110 et 170 BPM"
+    }
+   ],
+   "tempo_commentaire": "Les deux sources donnent 130-150 mais divergent sur l'extrême haut des morceaux atypiques (160 EN, 170 FR).",
+   "tempo_confiance": "haute"
   },
   {
    "id": "hard_trance",
@@ -1516,7 +2327,27 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Trance_music",
     "https://en.wikipedia.org/wiki/Hardstyle"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 140,
+     "max": 180,
+     "source": "Wikipédia EN : Hard trance",
+     "url": "https://en.wikipedia.org/wiki/Hard_trance",
+     "passage": "Melodies vary from 140 to 180 BPM",
+     "note": "formulation de la page peu claire (« melodies »)"
+    },
+    {
+     "min": 130,
+     "max": 150,
+     "source": "Wikipédia FR : Hard trance",
+     "url": "https://fr.wikipedia.org/wiki/Hard_trance",
+     "passage": "La mélodie oscille en 130 et 150 BPM",
+     "note": "même formulation floue (« mélodie »)"
+    }
+   ],
+   "tempo_commentaire": "Les deux pages parlent de « melodies » (mélodies) et non du tempo du morceau, et leurs fourchettes (140-180 vs 130-150) ne se recouvrent que partiellement : formulation de la page peu claire, ces valeurs sont à prendre avec réserve.",
+   "tempo_confiance": "a_verifier"
   },
   {
    "id": "gabber",
@@ -1558,7 +2389,27 @@ window.ATLAS = {
     "https://artsandculture.google.com/story/a-brief-history-of-gabber-the-netherlands-institute-for-sound-and-vision/ugXxcmEzFVvjKQ?hl=en",
     "https://en.wikipedia.org/wiki/Thunderdome_(music_festival)"
    ],
-   "confiance": "haute"
+   "confiance": "haute",
+   "tempos": [
+    {
+     "min": 140,
+     "max": 190,
+     "source": "Wikipédia EN : Gabber",
+     "url": "https://en.wikipedia.org/wiki/Gabber",
+     "passage": "generally between 140 and 190 beats per minute",
+     "note": "section Origins"
+    },
+    {
+     "min": 160,
+     "max": 210,
+     "source": "Wikipédia FR : Techno hardcore",
+     "url": "https://fr.wikipedia.org/wiki/Techno_hardcore",
+     "passage": "Gabber ... oscillant entre 160 et 210 BPM",
+     "note": "section Genres et sous-genres"
+    }
+   ],
+   "tempo_commentaire": "Les fourchettes divergent fortement (140-190 EN, 160-210 FR). La page DE associe à la graphie « gabba » (Berlin / Allemagne de l'Est) une variante bien plus rapide, environ 190 à 270 BPM : ce n'est pas le gabber néerlandais, et cette valeur n'est pas retenue dans la fourchette.",
+   "tempo_confiance": "moyenne"
   },
   {
    "id": "industrial_techno",
@@ -1594,7 +2445,19 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Industrial_techno",
     "https://en.wikipedia.org/wiki/Jeff_Mills"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 126,
+     "max": 130,
+     "source": "Attack Magazine : Industrial Techno (beat dissected)",
+     "url": "https://www.attackmagazine.com/technique/beat-dissected/industrial-techno/",
+     "passage": "Tempo : 126-130 bpm",
+     "note": "fiche technique d'un tutoriel de production, pas une définition de genre"
+    }
+   ],
+   "tempo_commentaire": "Seule valeur trouvée : la fiche d'un tutoriel de production ; les pages Wikipédia EN et FR ne donnent aucun tempo pour la techno industrielle.",
+   "tempo_confiance": "a_verifier"
   },
   {
    "id": "acid_techno",
@@ -1625,7 +2488,10 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Acid_house",
     "https://en.wikipedia.org/wiki/Richie_Hawtin"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [],
+   "tempo_commentaire": "Aucune page ouverte (Wikipédia EN, FR et DE Acid techno) ne donne de tempo ; le genre est à situer entre acid house et techno sans chiffre sourcé.",
+   "tempo_confiance": "a_verifier"
   },
   {
    "id": "hard_techno",
@@ -1636,7 +2502,7 @@ window.ATLAS = {
    "def": "Terme à plusieurs sens. En français (Wikipédia), la « hardtechno » est née au début des années 1990 entre techno, new beat et techno hardcore, très jouée en free party. Dans la presse des années 2020, il désigne une techno de club nettement plus rapide, à la montée spectaculaire depuis 2019, avec une diffusion forte par HÖR, TikTok et Instagram selon Mixmag.",
    "bpm": null,
    "carac": [
-    "tempos élevés (140 et plus pour la techno de club récente)",
+    "tempos élevés (150 et plus pour la hard techno de club récente, selon la presse)",
     "kick très présent"
    ],
    "influences": [
@@ -1659,7 +2525,43 @@ window.ATLAS = {
     "https://mixmag.net/feature/has-dance-music-got-harder-faster-hor-berlin-hard-techno-rave-music-interview-investigation",
     "https://www.beatportal.com/articles/381960-why-techno-is-harder-faster-and-angrier-than-ever"
    ],
-   "confiance": "a_verifier"
+   "confiance": "a_verifier",
+   "tempos": [
+    {
+     "min": 160,
+     "max": 220,
+     "source": "Wikipédia FR : Hardtechno",
+     "url": "https://fr.wikipedia.org/wiki/Hardtechno",
+     "passage": "tempo rapide, généralement compris entre 160 et 220 BPM",
+     "note": "la page situe le genre entre tribe et techno hardcore ; « Hard techno » (FR) redirige vers cette page ; périmètre : sens free party / hardcore des années 1990-2000"
+    },
+    {
+     "min": 160,
+     "max": 200,
+     "source": "Wikipédia EN : Hardcore (EN « Hard techno » redirige ici)",
+     "url": "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)",
+     "passage": "faster tempos (160 to 200 BPM or more)",
+     "note": "200 ou plus ; la page EN « Hard techno » n'est qu'une redirection vers Hardcore"
+    },
+    {
+     "min": 150,
+     "max": null,
+     "source": "Beatportal : Why Techno Is Harder, Faster and Angrier Than Ever (A. Ross, 04/12/2019)",
+     "url": "https://www.beatportal.com/articles/381960-why-techno-is-harder-faster-and-angrier-than-ever",
+     "passage": "When parties kick off at 150-plus BPM",
+     "note": "150 et plus ; propos sur la hard techno de club actuelle"
+    },
+    {
+     "min": 140,
+     "max": 145,
+     "source": "Mixmag : Has dance music got harder and faster? (I. Muk, 02/03/2023)",
+     "url": "https://mixmag.net/feature/has-dance-music-got-harder-faster-hor-berlin-hard-techno-rave-music-interview-investigation",
+     "passage": "140-145 BPM max ; certains jouaient jusqu'à 160",
+     "note": "témoignage d'un DJ : « 140-145 BPM max », certains jouaient jusqu'à 160 ; pas une définition"
+    }
+   ],
+   "tempo_commentaire": "« Hard techno » désigne selon les sources la techno dure de club actuelle (autour de 150) ou le courant des années 1990-2000 proche du hardcore (160 et plus), et Wikipédia EN la fusionne avec Hardcore. Les plages 160-220 et 160-200 relèvent du second sens, pas de la techno de club récente.",
+   "tempo_confiance": "a_verifier"
   },
   {
    "id": "schranz",
@@ -1683,7 +2585,27 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/German_electronic_music",
     "https://fr.wikipedia.org/wiki/Hardtechno"
    ],
-   "confiance": "a_verifier"
+   "confiance": "a_verifier",
+   "tempos": [
+    {
+     "min": 140,
+     "max": 160,
+     "source": "Wikipédia FR : Schranz",
+     "url": "https://fr.wikipedia.org/wiki/Schranz",
+     "passage": "tempo oscillant généralement entre 140 et 160 BPM",
+     "note": ""
+    },
+    {
+     "min": 140,
+     "max": 160,
+     "source": "Wikipédia DE : Schranz",
+     "url": "https://de.wikipedia.org/wiki/Schranz",
+     "passage": "plus rapide (meist zwischen 140 und 160 BPM)",
+     "note": "introduction"
+    }
+   ],
+   "tempo_commentaire": "Les deux sources concordent ; la page Wikipédia EN Schranz est trop courte pour donner un tempo.",
+   "tempo_confiance": "haute"
   },
   {
    "id": "melodic_techno",
@@ -1720,7 +2642,27 @@ window.ATLAS = {
    "sources": [
     "https://en.wikipedia.org/wiki/Melodic_techno"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 120,
+     "max": 128,
+     "source": "Wikipédia EN : Melodic techno",
+     "url": "https://en.wikipedia.org/wiki/Melodic_techno",
+     "passage": "tempo ranging between 120 and 128 beats per minute",
+     "note": "section Characteristics"
+    },
+    {
+     "min": 120,
+     "max": 130,
+     "source": "Native Instruments : Melodic techno",
+     "url": "https://www.native-instruments.com/blogs/blog/melodic-techno",
+     "passage": "typically written with tempos of 120 – 130 BPM",
+     "note": "le tutoriel de la page utilise 122 BPM"
+    }
+   ],
+   "tempo_commentaire": "Les deux sources sont proches (borne haute 128 ou 130) ; le tutoriel de Native Instruments travaille à 122 BPM.",
+   "tempo_confiance": "haute"
   },
   {
    "id": "tech_house",
@@ -1755,7 +2697,35 @@ window.ATLAS = {
    "sources": [
     "https://en.wikipedia.org/wiki/Tech_house"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 124,
+     "max": 135,
+     "source": "Pioneer DJ Blog : mixing techniques behind every major genre (R. Keeling)",
+     "url": "https://blog.pioneerdj.com/?p=6295",
+     "passage": "mid-tempo (typically 124 – 135 BPM)",
+     "note": ""
+    },
+    {
+     "min": 120,
+     "max": 130,
+     "source": "Wikipédia EN : Styles of house music",
+     "url": "https://en.wikipedia.org/wiki/Styles_of_house_music",
+     "passage": "Often made with tempo ranging from 120 to 130 bpm",
+     "note": "entrée « Tech house »"
+    },
+    {
+     "min": 123,
+     "max": 128,
+     "source": "Wikipédia DE : Tech House",
+     "url": "https://de.wikipedia.org/wiki/Tech_House",
+     "passage": "meist 123 bis 128 bpm",
+     "note": "section Merkmale ; un peu plus rapide que la house traditionnelle selon la page"
+    }
+   ],
+   "tempo_commentaire": "Les trois sources se recouvrent entre 124 et 128 mais leurs bornes basse (120 à 124) et haute (128 à 135) diffèrent ; la page Wikipédia EN Tech house ne cite aucun tempo.",
+   "tempo_confiance": "moyenne"
   },
   {
    "id": "free_tekno",
@@ -1788,7 +2758,43 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Freetekno",
     "https://en.wikipedia.org/wiki/Spiral_Tribe"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 150,
+     "max": 185,
+     "source": "Wikipédia EN : Free tekno",
+     "url": "https://en.wikipedia.org/wiki/Free_tekno",
+     "passage": "can vary between 150 and 185 bpm",
+     "note": "introduction"
+    },
+    {
+     "min": 150,
+     "max": 185,
+     "source": "Wikipédia FR : Tekno (« Free tekno » y redirige)",
+     "url": "https://fr.wikipedia.org/wiki/Tekno",
+     "passage": "tempo élevé (entre 150 et 185 BPM)",
+     "note": "la page FR cite aussi la hardtek à 150-200 BPM ; page « Tekno » (« Free tekno » y redirige)"
+    },
+    {
+     "min": 150,
+     "max": 180,
+     "source": "Wikipédia FR : Tribe (musique)",
+     "url": "https://fr.wikipedia.org/wiki/Tribe_(musique)",
+     "passage": "souvent compris entre 150 et 180 battements par minute",
+     "note": "la page parle du tribe, style voisin de la free tekno, pas de la free tekno elle-même ; la page précise qu'il n'y a pas de règle"
+    },
+    {
+     "min": 150,
+     "max": 190,
+     "source": "Wikipédia DE : Freetekno",
+     "url": "https://de.wikipedia.org/wiki/Freetekno",
+     "passage": "dans la plupart des cas entre 150 et 190 bpm",
+     "note": "section Musikstile im Freetekno"
+    }
+   ],
+   "tempo_commentaire": "Toutes les sources partent de 150 ; la borne haute va de 180 à 190 selon la page, et la page FR Tekno donne 150-200 pour la hardtek.",
+   "tempo_confiance": "moyenne"
   },
   {
    "id": "frenchcore",
@@ -1826,7 +2832,43 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Frenchcore",
     "https://en.wikipedia.org/wiki/Gabber"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 160,
+     "max": null,
+     "source": "Wikipédia EN : Frenchcore",
+     "url": "https://en.wikipedia.org/wiki/Frenchcore",
+     "passage": "faster tempo, usually above 160–185 BPM",
+     "note": "la phrase EN est ambiguë (« usually above 160–185 BPM » : au-dessus de, pas entre) ; le corps de la page dit environ 200"
+    },
+    {
+     "min": 180,
+     "max": 220,
+     "source": "Wikipédia EN : Frenchcore",
+     "url": "https://en.wikipedia.org/wiki/Frenchcore",
+     "passage": "around 200 ; sets from 180 BPM to 220 or more",
+     "note": "section Style and performance ; « autour de 200 » en moyenne, 220 ou plus possible"
+    },
+    {
+     "min": 180,
+     "max": 240,
+     "source": "Wikipédia FR : Frenchcore",
+     "url": "https://fr.wikipedia.org/wiki/Frenchcore",
+     "passage": "oscillant habituellement entre 180 et 240 battements par minute",
+     "note": "section Caractéristiques"
+    },
+    {
+     "min": 180,
+     "max": 240,
+     "source": "Wikipédia DE : Frenchcore",
+     "url": "https://de.wikipedia.org/wiki/Frenchcore",
+     "passage": "tempo accru, d'habitude entre 180 et 240 BPM",
+     "note": "section Charakteristik"
+    }
+   ],
+   "tempo_commentaire": "Les fourchettes divergent (160-185 dans l'introduction EN, 180-220+ dans le corps de la page EN, 180-240 en FR et DE).",
+   "tempo_confiance": "moyenne"
   },
   {
    "id": "hardstyle",
@@ -1835,7 +2877,7 @@ window.ATLAS = {
    "annee": 1990,
    "lieu": "Pays-Bas, Belgique, Italie",
    "def": "Musique de danse à kick distordu et basse « inversée » placée entre les kicks, issue en grande partie de la hard trance selon Wikipédia EN, qui précise toutefois que l'origine du hardstyle « ne peut pas être définie précisément ». Le rawstyle est sa version plus sombre, apparue vers 2010, avec moins de mélodie et beaucoup de sons criards.",
-   "bpm": "135-160",
+   "bpm": "140 au début, environ 150 aujourd'hui (Wikipédia EN)",
    "carac": [
     "basse inversée (reverse bass)",
     "kick distordu",
@@ -1863,7 +2905,59 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Hard_trance",
     "https://en.wikipedia.org/wiki/Hard_techno"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 140,
+     "max": 140,
+     "source": "Wikipédia EN : Hardstyle",
+     "url": "https://en.wikipedia.org/wiki/Hardstyle",
+     "passage": "Early hardstyle was typically written at 140 BPM",
+     "note": "hardstyle ancien ; valeur unique"
+    },
+    {
+     "min": 150,
+     "max": 150,
+     "source": "Wikipédia EN : Hardstyle",
+     "url": "https://en.wikipedia.org/wiki/Hardstyle",
+     "passage": "modern hardstyle is faster, produced around 150 BPM",
+     "note": "hardstyle moderne ; valeur unique"
+    },
+    {
+     "min": 150,
+     "max": 160,
+     "source": "Wikipédia EN : Hardstyle",
+     "url": "https://en.wikipedia.org/wiki/Hardstyle",
+     "passage": "BPM increased from 135-150 to a range of 150-160",
+     "note": "section Origins ; évolution dans le temps"
+    },
+    {
+     "min": 140,
+     "max": 165,
+     "source": "Wikipédia FR : Hardstyle",
+     "url": "https://fr.wikipedia.org/wiki/Hardstyle",
+     "passage": "tempo généralement situé entre 140 et 165 BPM",
+     "note": "introduction"
+    },
+    {
+     "min": 130,
+     "max": 160,
+     "source": "Wikipédia FR : Hardstyle",
+     "url": "https://fr.wikipedia.org/wiki/Hardstyle",
+     "passage": "tempo oscillant entre 130 et 160 BPM",
+     "note": "section Caractéristiques"
+    },
+    {
+     "min": 150,
+     "max": 150,
+     "source": "Wikipédia DE : Hardstyle",
+     "url": "https://de.wikipedia.org/wiki/Hardstyle",
+     "passage": "Hardstyle liegt bei etwa 150 bpm",
+     "note": "section Merkmale ; valeur unique"
+    }
+   ],
+   "tempo_commentaire": "Le tempo a monté au fil du temps (140 au début, environ 150 aujourd'hui) et les pages FR donnent des fourchettes plus larges (130-160 ou 140-165).",
+   "tempo_confiance": "haute"
   },
   {
    "id": "hard_bounce",
@@ -1872,7 +2966,7 @@ window.ATLAS = {
    "annee": 2020,
    "lieu": null,
    "def": "Branche ludique de la musique « hard dance », plus lumineuse et plus rebondissante que la hard techno, avec des synthés de type « donk », des montées malicieuses et des drops chaotiques. Un blog commercial britannique (Feral, décembre 2025) dit qu'elle n'a pas remplacé la hard techno mais qu'elle a relancé la scène ; ce n'est pas une source de référence.",
-   "bpm": "160 et plus",
+   "bpm": null,
    "carac": [
     "synthés « donk »",
     "montées et drops déjantés",
@@ -1890,7 +2984,10 @@ window.ATLAS = {
    "sources": [
     "https://www.feralclo.com/blogs/news/the-rise-of-hard-bounce-how-it-changed-europes-hard-techno-scene"
    ],
-   "confiance": "a_verifier"
+   "confiance": "a_verifier",
+   "tempos": [],
+   "tempo_commentaire": "Aucune plage affichée : les seules valeurs trouvées (150-160 et 150-175 BPM) concernent le hardbass (scène russe), pas le hard bounce techno actuel. Aucune page encyclopédique ouverte ne décrit le hard bounce techno ; Wikipédia n'emploie l'expression que pour les basslines du hardbass, et la valeur « 160+ » citée auparavant venait d'un blog commercial non retenu.",
+   "tempo_confiance": "a_verifier"
   },
   {
    "id": "ebm",
@@ -1934,7 +3031,10 @@ window.ATLAS = {
     "https://fr.wikipedia.org/wiki/Electronic_body_music",
     "https://en.wikipedia.org/wiki/Trance_music"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [],
+   "tempo_commentaire": "Tempo très variable : la seule page qui chiffre (Wikipédia DE) donne 100 à 250 BPM (exemple cité : Nitzer Ebb à environ 233 BPM), une fourchette trop large pour être informative ; les pages Wikipédia EN et FR EBM ne citent aucun tempo.",
+   "tempo_confiance": "a_verifier"
   },
   {
    "id": "new_beat",
@@ -1985,7 +3085,27 @@ window.ATLAS = {
     "https://fr.wikipedia.org/wiki/New_beat",
     "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 90,
+     "max": 115,
+     "source": "Wikipédia DE : Techno (section New Beat)",
+     "url": "https://de.wikipedia.org/wiki/Techno",
+     "passage": "vitesses caractéristiques entre 90 et 115 bpm",
+     "note": "section New Beat"
+    },
+    {
+     "min": 90,
+     "max": 115,
+     "source": "Wikipédia DE : Electronic Body Music (section New Beat)",
+     "url": "https://de.wikipedia.org/wiki/Electronic_Body_Music",
+     "passage": "vitesses entre 90 et 115 bpm",
+     "note": "même formulation, section New Beat"
+    }
+   ],
+   "tempo_commentaire": "Seule Wikipédia DE donne un chiffre (même formulation sur deux pages) ; la page EN parle seulement de variante « midtempo » de la techno et de l'acid house.",
+   "tempo_confiance": "a_verifier"
   },
   {
    "id": "house",
@@ -2028,7 +3148,51 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/House_music",
     "https://en.wikipedia.org/wiki/Chicago_house"
    ],
-   "confiance": "haute"
+   "confiance": "haute",
+   "tempos": [
+    {
+     "min": 115,
+     "max": 130,
+     "source": "Wikipédia EN : House music",
+     "url": "https://en.wikipedia.org/wiki/House_music",
+     "passage": "typical tempo of 115–130 beats per minute",
+     "note": "introduction"
+    },
+    {
+     "min": 120,
+     "max": 130,
+     "source": "Wikipédia EN : House music",
+     "url": "https://en.wikipedia.org/wiki/House_music",
+     "passage": "at a tempo of between 120 and 130 beats per minute",
+     "note": "section Characteristics"
+    },
+    {
+     "min": 115,
+     "max": 130,
+     "source": "Ableton Learning Music : Tempo and genre",
+     "url": "https://learningmusic.ableton.com/make-beats/tempo-and-genre.html",
+     "passage": "House: 115-130 bpm",
+     "note": ""
+    },
+    {
+     "min": 120,
+     "max": 130,
+     "source": "Wikipédia DE : Techno (section Abgrenzung von House)",
+     "url": "https://de.wikipedia.org/wiki/Techno",
+     "passage": "House ist oft langsamer (120 bis 130 BPM)",
+     "note": "comparaison avec la techno"
+    },
+    {
+     "min": 118,
+     "max": 135,
+     "source": "Wikipédia FR : House music",
+     "url": "https://fr.wikipedia.org/wiki/House_music",
+     "passage": "tempos standards de la dance moderne entre 118 et 135 BPM",
+     "note": "la page FR parle de la dance moderne en général ; la deep house y est donnée à 110-125 BPM"
+    }
+   ],
+   "tempo_commentaire": "Les bornes varient légèrement (115-130 pour EN et Ableton, 118-135 pour la page FR qui vise la dance en général).",
+   "tempo_confiance": "haute"
   },
   {
    "id": "hardcore",
@@ -2074,7 +3238,51 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/New_beat",
     "https://artsandculture.google.com/story/a-brief-history-of-gabber-the-netherlands-institute-for-sound-and-vision/ugXxcmEzFVvjKQ?hl=en"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 160,
+     "max": 200,
+     "source": "Wikipédia EN : Hardcore (electronic dance music genre)",
+     "url": "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)",
+     "passage": "faster tempos (160 to 200 BPM or more)",
+     "note": "200 ou plus ; introduction"
+    },
+    {
+     "min": 160,
+     "max": 180,
+     "source": "Wikipédia EN : Hardcore (electronic dance music genre)",
+     "url": "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)",
+     "passage": "older range of 160–180 beats per minute to 200+",
+     "note": "section 2010s : le marché passe de 160-180 à 200 et plus"
+    },
+    {
+     "min": 160,
+     "max": 200,
+     "source": "Wikipédia FR : Techno hardcore",
+     "url": "https://fr.wikipedia.org/wiki/Techno_hardcore",
+     "passage": "plus grande rapidité (160 à 200 BPM ou plus)",
+     "note": "introduction"
+    },
+    {
+     "min": 140,
+     "max": 220,
+     "source": "Wikipédia FR : Techno hardcore",
+     "url": "https://fr.wikipedia.org/wiki/Techno_hardcore",
+     "passage": "généralement compris entre 140 et 220 battements par minute",
+     "note": "section Production ; la page ajoute qu'il n'y a pas de véritable règle"
+    },
+    {
+     "min": 160,
+     "max": null,
+     "source": "Wikipédia DE : Hardcore Techno",
+     "url": "https://de.wikipedia.org/wiki/Hardcore_Techno",
+     "passage": "tempo à partir d'environ 160 BPM",
+     "note": "introduction ; 170 et plus entre 1995 et 1997"
+    }
+   ],
+   "tempo_commentaire": "Le tempo du hardcore a nettement évolué (160-180 dans les années 1990, 200 et plus après 2015) et les pages donnent des fourchettes de 140 à plus de 200.",
+   "tempo_confiance": "haute"
   },
   {
    "id": "happy_hardcore",
@@ -2114,7 +3322,35 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Happy_hardcore",
     "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 160,
+     "max": 180,
+     "source": "Wikipédia FR : Happy hardcore",
+     "url": "https://fr.wikipedia.org/wiki/Happy_hardcore",
+     "passage": "tempo effréné oscillant généralement entre 160 et 180 BPM",
+     "note": "section Caractéristiques"
+    },
+    {
+     "min": 160,
+     "max": 180,
+     "source": "Wikipédia DE : Happy Hardcore",
+     "url": "https://de.wikipedia.org/wiki/Happy_Hardcore",
+     "passage": "vitesse élevée (i. d. R. 160 bis 180 BPM)",
+     "note": "introduction"
+    },
+    {
+     "min": 170,
+     "max": 170,
+     "source": "Wikipédia EN : Happy hardcore",
+     "url": "https://en.wikipedia.org/wiki/Happy_hardcore",
+     "passage": "at 170 b.p.m., slightly slower than happy gabba",
+     "note": "citation de Simon Reynolds dans une note de la page ; le corps de la page ne donne pas de tempo"
+    }
+   ],
+   "tempo_commentaire": "Deux pages concordent (160-180) ; la page EN n'offre qu'une valeur citée en note (170), et le genre est défini par rapport au gabber « happy » légèrement plus rapide.",
+   "tempo_confiance": "haute"
   },
   {
    "id": "uptempo_hardcore",
@@ -2140,7 +3376,35 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)",
     "https://en.wikipedia.org/wiki/Frenchcore"
    ],
-   "confiance": "a_verifier"
+   "confiance": "a_verifier",
+   "tempos": [
+    {
+     "min": 185,
+     "max": 220,
+     "source": "Wikipédia FR : Uptempo (genre musical)",
+     "url": "https://fr.wikipedia.org/wiki/Uptempo_(genre_musical)",
+     "passage": "vitesse fluctue généralement entre 185 et 220 BPM",
+     "note": "la page FR traite « uptempo » et « uptempo hardcore » ensemble"
+    },
+    {
+     "min": 200,
+     "max": 200,
+     "source": "Wikipédia DE : Hardcore Techno (liste des sous-genres)",
+     "url": "https://de.wikipedia.org/wiki/Hardcore_Techno",
+     "passage": "Uptempo (200 Bpm)",
+     "note": "valeur unique dans la liste des sous-genres"
+    },
+    {
+     "min": 200,
+     "max": null,
+     "source": "Wikipédia EN : Hardcore (electronic dance music genre)",
+     "url": "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)",
+     "passage": "shift from 160–180 beats per minute to 200+",
+     "note": "200 et plus ; concerne les styles rapides cités (frenchcore, uptempo, terrorcore), non l'uptempo seul"
+    }
+   ],
+   "tempo_commentaire": "Les sources vont de 185 à plus de 200, et la page EN n'a pas d'article dédié (le chiffre 200+ y concerne plusieurs styles rapides).",
+   "tempo_confiance": "moyenne"
   },
   {
    "id": "psytrance",
@@ -2176,7 +3440,35 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Goa_trance",
     "https://fr.wikipedia.org/wiki/New_beat"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [
+    {
+     "min": 125,
+     "max": 150,
+     "source": "Wikipédia EN : Psychedelic trance",
+     "url": "https://en.wikipedia.org/wiki/Psychedelic_trance",
+     "passage": "tempos generally ranging from 125 to 150 BPM",
+     "note": "section Characteristics ; le full-on est donné à 140-148 BPM, le dark psytrance à partir de 150"
+    },
+    {
+     "min": 140,
+     "max": 160,
+     "source": "Wikipédia FR : Trance psychédélique",
+     "url": "https://fr.wikipedia.org/wiki/Trance_psychédélique",
+     "passage": "généralement entre 140 et 160 battements par minute",
+     "note": "section Caractéristiques"
+    },
+    {
+     "min": 130,
+     "max": 150,
+     "source": "Wikipédia DE : Psytrance",
+     "url": "https://de.wikipedia.org/wiki/Psytrance",
+     "passage": "ursprünglich zwischen 130 und 150 bpm",
+     "note": "section Musikalische Eigenschaften ; la page ajoute : aujourd'hui jusqu'à 180 bpm et plus"
+    }
+   ],
+   "tempo_commentaire": "Les fourchettes divergent (125-150 EN, 140-160 FR, 130-150 DE) et varient fortement selon le sous-genre (full-on, dark psytrance, psycore).",
+   "tempo_confiance": "moyenne"
   },
   {
    "id": "ambient_house",
@@ -2213,7 +3505,10 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/House_music",
     "https://en.wikipedia.org/wiki/Intelligent_dance_music"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [],
+   "tempo_commentaire": "Les pages ouvertes décrivent l'ambient house comme « downtempo » ou « midtempo » sans fournir de chiffre.",
+   "tempo_confiance": "a_verifier"
   },
   {
    "id": "idm",
@@ -2261,7 +3556,10 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Artificial_Intelligence_(compilation_album)",
     "https://en.wikipedia.org/wiki/Ambient_house"
    ],
-   "confiance": "moyenne"
+   "confiance": "moyenne",
+   "tempos": [],
+   "tempo_commentaire": "Aucune page ouverte (Wikipédia EN, FR et DE) ne donne de tempo pour l'IDM.",
+   "tempo_confiance": "a_verifier"
   }
  ],
  "sets": [
@@ -2307,7 +3605,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Jeff Mills",
+     "id": "jeff-mills"
+    }
+   ]
   },
   {
    "id": "richie-hawtin-ra100-2008",
@@ -2350,7 +3654,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Richie Hawtin",
+     "id": "richie-hawtin"
+    }
+   ]
   },
   {
    "id": "ben-klock-boiler-room-berlin-2013",
@@ -2394,7 +3704,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Ben Klock",
+     "id": "ben-klock"
+    }
+   ]
   },
   {
    "id": "marcel-dettmann-boiler-room-berlin-2013",
@@ -2438,7 +3754,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Marcel Dettmann",
+     "id": "marcel-dettmann"
+    }
+   ]
   },
   {
    "id": "sven-vath-boiler-room-berlin-2012",
@@ -2482,7 +3804,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Sven Väth",
+     "id": "sven-vath"
+    }
+   ]
   },
   {
    "id": "juan-atkins-boiler-room-detroit-2014",
@@ -2527,7 +3855,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Juan Atkins",
+     "id": "juan-atkins"
+    }
+   ]
   },
   {
    "id": "underground-resistance-timeline-boiler-room-2015",
@@ -2572,7 +3906,17 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Underground Resistance",
+     "id": "underground-resistance"
+    },
+    {
+     "nom": "Timeline",
+     "id": "underground-resistance"
+    }
+   ]
   },
   {
    "id": "floorplan-robert-hood-dekmantel-2015",
@@ -2618,7 +3962,17 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Floorplan",
+     "id": "robert-hood"
+    },
+    {
+     "nom": "Robert Hood",
+     "id": "robert-hood"
+    }
+   ]
   },
   {
    "id": "kevin-saunderson-nuits-sonores-2025",
@@ -2661,7 +4015,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Kevin Saunderson",
+     "id": "kevin-saunderson"
+    }
+   ]
   },
   {
    "id": "nina-kraviz-cercle-tour-eiffel-2018",
@@ -2705,7 +4065,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Nina Kraviz",
+     "id": "nina-kraviz"
+    }
+   ]
   },
   {
    "id": "amelie-lens-cercle-atomium-2019",
@@ -2749,7 +4115,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Amelie Lens",
+     "id": "amelie-lens"
+    }
+   ]
   },
   {
    "id": "carl-cox-cercle-chambord-2018",
@@ -2794,7 +4166,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Carl Cox",
+     "id": "carl-cox"
+    }
+   ]
   },
   {
    "id": "adam-beyer-cercle-lugdunum-2019",
@@ -2838,7 +4216,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Adam Beyer",
+     "id": "adam-beyer"
+    }
+   ]
   },
   {
    "id": "charlotte-de-witte-awakenings-2025",
@@ -2884,7 +4268,13 @@ window.ATLAS = {
     "canon",
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Charlotte de Witte",
+     "id": "charlotte-de-witte"
+    }
+   ]
   },
   {
    "id": "enrico-sangiuliano-awakenings-2019",
@@ -2928,7 +4318,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Enrico Sangiuliano",
+     "id": "enrico-sangiuliano"
+    }
+   ]
   },
   {
    "id": "reinier-zonneveld-cercle-kyiv-2019",
@@ -2972,7 +4368,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Reinier Zonneveld",
+     "id": "reinier-zonneveld"
+    }
+   ]
   },
   {
    "id": "hardfloor-neopop-2019",
@@ -3017,7 +4419,13 @@ window.ATLAS = {
     "canon",
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Hardfloor",
+     "id": "hardfloor"
+    }
+   ]
   },
   {
    "id": "laurent-garnier-boiler-room-lyon-2015",
@@ -3061,7 +4469,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Laurent Garnier",
+     "id": "laurent-garnier"
+    }
+   ]
   },
   {
    "id": "neophyte-thunderdome-2023",
@@ -3106,7 +4520,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Neophyte",
+     "id": "neophyte"
+    }
+   ]
   },
   {
    "id": "paul-elstak-defqon1-2025",
@@ -3151,7 +4571,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Paul Elstak",
+     "id": "paul-elstak"
+    }
+   ]
   },
   {
    "id": "sefa-defqon1-2024-spotlight",
@@ -3195,7 +4621,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Sefa",
+     "id": "sefa"
+    }
+   ]
   },
   {
    "id": "wildstylez-noisecontrollers-qlimax-2024",
@@ -3239,7 +4671,17 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Wildstylez",
+     "id": "wildstylez"
+    },
+    {
+     "nom": "Noisecontrollers",
+     "id": "noisecontrollers"
+    }
+   ]
   },
   {
    "id": "rebelion-defqon1-2025",
@@ -3282,7 +4724,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Rebelion",
+     "id": null
+    }
+   ]
   },
   {
    "id": "d-fence-defqon1-2025",
@@ -3326,7 +4774,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "D-Fence",
+     "id": null
+    }
+   ]
   },
   {
    "id": "anime-thunderdome-2024",
@@ -3369,7 +4823,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "AniMe",
+     "id": null
+    }
+   ]
   },
   {
    "id": "dr-peacock-sefa-dominator-2025",
@@ -3413,7 +4873,17 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Dr. Peacock",
+     "id": "dr-peacock"
+    },
+    {
+     "nom": "Sefa",
+     "id": "sefa"
+    }
+   ]
   },
   {
    "id": "sara-landry-boiler-room-teletech-2023",
@@ -3455,7 +4925,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Sara Landry",
+     "id": "sara-landry"
+    }
+   ]
   },
   {
    "id": "i-hate-models-boiler-room-teletech-2024",
@@ -3498,7 +4974,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "I Hate Models",
+     "id": "i-hate-models"
+    }
+   ]
   },
   {
    "id": "999999999-awakenings-2024",
@@ -3542,7 +5024,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "999999999",
+     "id": null
+    }
+   ]
   },
   {
    "id": "regal-boiler-room-tbilisi-khidi",
@@ -3586,7 +5074,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Regal",
+     "id": null
+    }
+   ]
   },
   {
    "id": "kiki-5hrs-of-acid-intercell-2023",
@@ -3630,7 +5124,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "KI/KI",
+     "id": null
+    }
+   ]
   },
   {
    "id": "two-girls-one-mom-studio-weissensee-2025",
@@ -3676,7 +5176,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "two girls one mom",
+     "id": null
+    }
+   ]
   },
   {
    "id": "frankie-knuckles-boiler-room-nyc-2013",
@@ -3716,12 +5222,18 @@ window.ATLAS = {
     "https://ra.co/podcast/169"
    ],
    "confiance": "haute",
-   "notes": "Année = année de mise en ligne YouTube (2013-05-12) : la date du tournage n'est pas donnée dans la description. La formule « the late, great » figure dans la description YouTube telle que lue le 2026-11-10. Durée = lengthSeconds de la page YouTube (3981 s) arrondie à la minute. Aucune tracklist dans la description. Qualification « porte d'entrée » : avis éditorial.",
+   "notes": "Année = année de mise en ligne YouTube (2013-05-12) : la date du tournage n'est pas donnée dans la description. La formule « the late, great » figure dans la description YouTube telle que lue le 2026-11-10. Durée = lengthSeconds de la page YouTube (3981 s) arrondie à la minute. Aucune tracklist dans la description. Qualification « porte d'entrée » : choix de la rédaction.",
    "branche": "canon",
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Frankie Knuckles",
+     "id": "frankie-knuckles"
+    }
+   ]
   },
   {
    "id": "stephan-bodzin-cercle-piz-gloria-2018",
@@ -3761,12 +5273,18 @@ window.ATLAS = {
     "https://ra.co/podcast/43"
    ],
    "confiance": "moyenne",
-   "notes": "Année = année de mise en ligne YouTube (2018-07-26) ; date du tournage non donnée. Durée = lengthSeconds de la page YouTube (6213 s) arrondie à la minute. La tracklist chronométrée est dans la description YouTube (ex. 00:00 Rodriguez Jr. – Mistral (Stephan Bodzin Remix), 08:55 Stephan Bodzin – Catamaran ; plusieurs « ID »), non recopiée. Nombre de vues lu sur la page le 2026-11-10 (donnée mouvante). Qualification « techno mélodique » : avis éditorial (Wikipédia parle de techno et de trance).",
+   "notes": "Année = année de mise en ligne YouTube (2018-07-26) ; date du tournage non donnée. Durée = lengthSeconds de la page YouTube (6213 s) arrondie à la minute. La tracklist chronométrée est dans la description YouTube (ex. 00:00 Rodriguez Jr. – Mistral (Stephan Bodzin Remix), 08:55 Stephan Bodzin – Catamaran ; plusieurs « ID »), non recopiée. Nombre de vues lu sur la page le 2026-11-10 (donnée mouvante). Qualification « techno mélodique » : choix de la rédaction (Wikipédia parle de techno et de trance).",
    "branche": "canon",
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Stephan Bodzin",
+     "id": "stephan-bodzin"
+    }
+   ]
   },
   {
    "id": "tale-of-us-cercle-cdg-2018",
@@ -3809,7 +5327,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Tale Of Us",
+     "id": "tale-of-us"
+    }
+   ]
   },
   {
    "id": "troy-pierce-ra001-2006",
@@ -3848,12 +5372,18 @@ window.ATLAS = {
     "https://www.mixcloud.com/residentadvisor/ra001/"
    ],
    "confiance": "moyenne",
-   "notes": "Vérifié par oEmbed Mixcloud (titre « Ra.001 Troy Pierce », auteur « Resident Advisor ») et API Mixcloud (nom « RA.001 Troy Pierce », tags Techno/House/Tech house/Minimal ; créé sur Mixcloud en 2015). Date 2006-03-06 = datePublished de ra.co/podcast/1. Durée 01:27:59 selon ra.co (l'API Mixcloud donne 5285 s, soit 01:28:05). Style « minimal_techno » : classement éditorial appuyé sur le tag Mixcloud « Minimal » et la description ra.co (M-nus). Aucune tracklist consultée. Niveau « avancé » : avis éditorial.",
+   "notes": "Vérifié par oEmbed Mixcloud (titre « Ra.001 Troy Pierce », auteur « Resident Advisor ») et API Mixcloud (nom « RA.001 Troy Pierce », tags Techno/House/Tech house/Minimal ; créé sur Mixcloud en 2015). Date 2006-03-06 = datePublished de ra.co/podcast/1. Durée 01:27:59 selon ra.co (l'API Mixcloud donne 5285 s, soit 01:28:05). Style « minimal_techno » : classement éditorial appuyé sur le tag Mixcloud « Minimal » et la description ra.co (M-nus). Aucune tracklist consultée. Niveau « avancé » : choix de la rédaction.",
    "branche": "canon",
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Troy Pierce",
+     "id": null
+    }
+   ]
   },
   {
    "id": "brendon-moeller-ra079-2007",
@@ -3892,12 +5422,18 @@ window.ATLAS = {
     "https://www.mixcloud.com/residentadvisor/ra079/"
    ],
    "confiance": "moyenne",
-   "notes": "Vérifié par oEmbed Mixcloud. Date 2007-11-19 = datePublished de ra.co/podcast/79 ; durée 00:55:13 selon ra.co. Le mix n'est pas un « pur » set de dub techno : RA dit qu'il va « du dub à la rave » ; le classement dub techno est éditorial. Ce n'est pas une œuvre de Basic Channel / Chain Reaction (lacune toujours ouverte). Niveau « avancé » : avis éditorial. Aucune tracklist consultée.",
+   "notes": "Vérifié par oEmbed Mixcloud. Date 2007-11-19 = datePublished de ra.co/podcast/79 ; durée 00:55:13 selon ra.co. Le mix n'est pas un « pur » set de dub techno : RA dit qu'il va « du dub à la rave » ; le classement dub techno est éditorial. Ce n'est pas une œuvre de Basic Channel / Chain Reaction (lacune toujours ouverte). Niveau « avancé » : choix de la rédaction. Aucune tracklist consultée.",
    "branche": "canon",
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Brendon Moeller",
+     "id": null
+    }
+   ]
   },
   {
    "id": "deepchord-ra390-2013",
@@ -3938,12 +5474,18 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Deepchord"
    ],
    "confiance": "moyenne",
-   "notes": "Vérifié par oEmbed Mixcloud et API Mixcloud (tags Ambient / Experimental, non « dub techno »). Date 2013-11-18 = datePublished de ra.co/podcast/390 ; durée 01:30:35 selon ra.co (arrondie à 91). Ce n'est PAS un set de dub techno représentatif : à garder comme repère « Deepchord » ou à remplacer si un set officiel plus typique (Echospace en live, Basic Channel) est trouvé ; seuls ont été trouvés des uploads de tiers pour ceux-là. Niveau « avancé » : avis éditorial.",
+   "notes": "Vérifié par oEmbed Mixcloud et API Mixcloud (tags Ambient / Experimental, non « dub techno »). Date 2013-11-18 = datePublished de ra.co/podcast/390 ; durée 01:30:35 selon ra.co (arrondie à 91). Ce n'est PAS un set de dub techno représentatif : à garder comme repère « Deepchord » ou à remplacer si un set officiel plus typique (Echospace en live, Basic Channel) est trouvé ; seuls ont été trouvés des uploads de tiers pour ceux-là. Niveau « avancé » : choix de la rédaction.",
    "branche": "canon",
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Deepchord (Rod Modell)",
+     "id": "deepchord"
+    }
+   ]
   },
   {
    "id": "sasha-boiler-room-t2-berlin-90s-2017",
@@ -3986,7 +5528,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Sasha",
+     "id": "sasha"
+    }
+   ]
   },
   {
    "id": "juno-reactor-retro-set-dmt-fm-2020",
@@ -4030,7 +5578,13 @@ window.ATLAS = {
    "branches": [
     "canon"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Juno Reactor",
+     "id": "juno-reactor"
+    }
+   ]
   },
   {
    "id": "heretik-system-we-had-a-dream",
@@ -4074,7 +5628,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "documentaire"
+   "type": "documentaire",
+   "artistes_liens": [
+    {
+     "nom": "Heretik System",
+     "id": null
+    }
+   ]
   },
   {
    "id": "arte-tracks-free-party-teuf-finie-2026",
@@ -4118,7 +5678,13 @@ window.ATLAS = {
    "branches": [
     "hard"
    ],
-   "type": "documentaire"
+   "type": "documentaire",
+   "artistes_liens": [
+    {
+     "nom": "Tracks (ARTE)",
+     "id": null
+    }
+   ]
   },
   {
    "id": "perc-boiler-room-london-2014",
@@ -4157,12 +5723,18 @@ window.ATLAS = {
     "https://www.theskinny.co.uk/clubs/interviews/beneath-the-label-10-years-of-perc-trax"
    ],
    "confiance": "moyenne",
-   "notes": "Année = année de mise en ligne YouTube (2014-12-23) ; date de la soirée non donnée. Durée = lengthSeconds de la page YouTube (3552 s) arrondie à la minute. Étiquettes « industrial_techno » / « hard_techno » : classement éditorial (la description YouTube ne cite aucun genre ; RA et The Skinny parlent d'influences industrielles). Fondation de Perc Trax en 2004 : source The Skinny (article du 7 novembre 2014). Niveau « avancé » : avis éditorial.",
+   "notes": "Année = année de mise en ligne YouTube (2014-12-23) ; date de la soirée non donnée. Durée = lengthSeconds de la page YouTube (3552 s) arrondie à la minute. Étiquettes « industrial_techno » / « hard_techno » : classement éditorial (la description YouTube ne cite aucun genre ; RA et The Skinny parlent d'influences industrielles). Fondation de Perc Trax en 2004 : source The Skinny (article du 7 novembre 2014). Niveau « avancé » : choix de la rédaction.",
    "branche": "hard",
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Perc",
+     "id": "perc"
+    }
+   ]
   },
   {
    "id": "kobosil-boiler-room-berlin-2013",
@@ -4200,12 +5772,18 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Kobosil"
    ],
    "confiance": "moyenne",
-   "notes": "Année = année de mise en ligne YouTube (2013-12-10) ; date du tournage non donnée. Durée = lengthSeconds de la page YouTube (3576 s) arrondie à la minute. Aucun genre cité dans la description : étiquettes « berlin_techno » / « hard_techno » éditoriales. Niveau « intermédiaire » : avis éditorial.",
+   "notes": "Année = année de mise en ligne YouTube (2013-12-10) ; date du tournage non donnée. Durée = lengthSeconds de la page YouTube (3576 s) arrondie à la minute. Aucun genre cité dans la description : étiquettes « berlin_techno » / « hard_techno » éditoriales. Niveau « intermédiaire » : choix de la rédaction.",
    "branche": "hard",
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Kobosil",
+     "id": "kobosil"
+    }
+   ]
   },
   {
    "id": "mish-defqon1-2025",
@@ -4225,13 +5803,13 @@ window.ATLAS = {
     "hardstyle"
    ],
    "niveau": "intermediaire",
-   "pourquoi": "Q-dance présente ce set comme une « fierce RAW domination » : le set complet de Mish du samedi sur la scène BLUE de Defqon.1 2025, où le descriptif met en avant le style « RAW » (variante dure du hardstyle). La tracklist de la description montre surtout des titres de Mish seule ou avec Sickmode et Krowdexx, ce qui en fait un set pour approfondir le hardstyle actuel. Defqon.1 est, selon Wikipédia, le plus grand festival de hard dance au monde.",
+   "pourquoi": "Q-dance présente ce set comme une « fierce RAW domination » (une domination RAW féroce) : le set complet de Mish du samedi sur la scène BLUE de Defqon.1 2025, où le descriptif met en avant le style « RAW » (variante dure du hardstyle). Dans la partie lue de la description (jusqu'à 27:37), on trouve surtout des titres de Mish seule ou avec Sickmode et Krowdexx, ce qui en fait un set pour approfondir le hardstyle actuel. Defqon.1 est, selon Wikipédia, le plus grand festival de hard dance au monde.",
    "ecouter": [
     "le style « RAW » du hardstyle, mis en avant par Q-dance",
     "des collaborations (Sickmode, Krowdexx) listées minute par minute dans la description",
     "l'ambiance d'une grande scène de festival de hard dance"
    ],
-   "contexte": "Set complet publié par Q-dance (« her full Saturday set » selon le descriptif). Les titres joués, avec leurs minutes, sont dans la description YouTube (ex. 01:33 Sickmode, Mish & Bloodlust – Yeahboiii ; 13:48 Mish & Krowdexx – Eternal Pulse, présenté comme l'hymne officiel Shutdown 2025).",
+   "contexte": "Set complet publié par Q-dance (« her full Saturday set », son set complet du samedi, selon le descriptif). Les titres joués, avec leurs minutes, sont dans la description YouTube (ex. 01:33 Sickmode, Mish & Bloodlust – Yeahboiii ; 13:48 Mish & Krowdexx – Eternal Pulse, présenté comme l'hymne officiel Shutdown 2025).",
    "verifie": true,
    "verif": {
     "titre": "Mish | Defqon.1 2025",
@@ -4243,12 +5821,18 @@ window.ATLAS = {
     "https://en.wikipedia.org/wiki/Defqon.1"
    ],
    "confiance": "moyenne",
-   "notes": "Re-vérifié le 2026-11-10 : le titre YouTube est « Mish | Defqon.1 2025 » (pas « D1 2025 » comme annoncé par la version précédente). Date exacte du set non fournie (le descriptif indique « Saturday »). Durée = lengthSeconds de la page YouTube (2711 s) arrondie à la minute. Mise en ligne YouTube : 2025-09-15. « Rawstyle » = vocabulaire du descriptif (« RAW ») ; étiquette « hardstyle » = genres.json (pas d'id « rawstyle »). Qualification « porte d'entrée » : avis éditorial. Les titres de la tracklist n'ont été lus que jusqu'à 27:37 dans l'extrait consulté.",
+   "notes": "Re-vérifié le 2026-11-10 : le titre YouTube est « Mish | Defqon.1 2025 » (pas « D1 2025 » comme annoncé par la version précédente). Date exacte du set non fournie (le descriptif indique « Saturday »). Durée = lengthSeconds de la page YouTube (2711 s) arrondie à la minute. Mise en ligne YouTube : 2025-09-15. « Rawstyle » = vocabulaire du descriptif (« RAW ») ; étiquette « hardstyle » = genres.json (pas d'id « rawstyle »). Qualification « porte d'entrée » : choix de la rédaction. Les titres de la tracklist n'ont été lus que jusqu'à 27:37 dans l'extrait consulté.",
    "branche": "hard",
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Mish",
+     "id": null
+    }
+   ]
   },
   {
    "id": "d-sturb-defqon1-2026",
@@ -4268,13 +5852,13 @@ window.ATLAS = {
     "hardstyle"
    ],
    "niveau": "entree",
-   "pourquoi": "Q-dance décrit ce set comme « The Gathering » de Defqon.1 2026, avec D-Sturb qui « donne le ton dès le premier drop » ; la vidéo invite à « revivre le début » du festival. Le DJ y joue surtout ses propres titres (dont l'hymne officiel Defqon.1 2026, « Sacred Oath », avec E-Life) et des morceaux d'autres figures du genre comme Headhunterz ou Frontliner. C'est une vitrine du hardstyle actuel sur une des grandes scènes du festival. Defqon.1 est, selon Wikipédia, le plus grand festival de hard dance au monde.",
+   "pourquoi": "Q-dance décrit ce set comme « The Gathering » de Defqon.1 2026, avec D-Sturb qui « donne le ton dès le premier drop » ; la vidéo invite à « revivre le début » du festival. D'après la description chronométrée de Q-dance, le set mêle des titres de D-Sturb (dont l'hymne officiel Defqon.1 2026, « Sacred Oath », avec E-Life) et des morceaux d'autres artistes comme Headhunterz ou Frontliner. C'est une vitrine du hardstyle actuel, jouée lors de la soirée d'ouverture du festival. Defqon.1 est, selon Wikipédia, le plus grand festival de hard dance au monde.",
    "ecouter": [
     "l'hymne de l'édition 2026, « Sacred Oath », joué à 05:15",
     "des collaborations et remixes (Radical Redemption, Act of Rage, Luvvstruck...) chronométrés dans la description",
-    "un mélange de titres du DJ et de classiques du genre, tous chronométrés dans la description"
+    "des morceaux d'autres artistes, tous chronométrés dans la description"
    ],
-   "contexte": "Set d'environ 59 minutes publié par Q-dance ; la description chronométrée liste une vingtaine de titres (à 14:48 : Luvvstruck – What's A Girl To Do, remix D-Sturb).",
+   "contexte": "Set d'environ 59 minutes publié par Q-dance ; la description chronométrée liste une vingtaine de titres (à 14:48 : Luvvstruck – What's A Girl To Do, remix D-Sturb). Contexte : « The Gathering » est la soirée d'ouverture de Defqon.1 ; le set a donc été joué avant l'annulation, puis le reste de l'édition 2026 a été annulé dans la nuit du 25 au 26 juin à cause d'une alerte canicule (NL Times, article du 1er juillet 2026).",
    "verifie": true,
    "verif": {
     "titre": "D-Sturb | Defqon.1 2026",
@@ -4283,15 +5867,978 @@ window.ATLAS = {
    },
    "sources": [
     "https://www.youtube.com/watch?v=XgGU48woa8I",
-    "https://en.wikipedia.org/wiki/Defqon.1"
+    "https://en.wikipedia.org/wiki/Defqon.1",
+    "https://nltimes.nl/2026/07/01/defqon1-visitors-offered-refunds-guaranteed-2027-tickets-code-red-cancellation"
    ],
    "confiance": "moyenne",
-   "notes": "Re-vérifié le 2026-11-10 : le titre YouTube est « D-Sturb | Defqon.1 2026 » ; « The Gathering » apparaît dans la description (« This is The Gathering at Defqon.1 2026 »), pas dans le titre. Le lien avec ?t=1007 (16:47) tombe au milieu du titre « Luvvstruck – What's A Girl To Do (D-Sturb remix) » (14:48 à 17:14 d'après les minutes de la description) et non au début d'un segment : URL conservée sans paramètre de temps. Date exacte non fournie. Durée = lengthSeconds de la page YouTube (3534 s) arrondie à la minute. Mise en ligne YouTube : 2026-07-11. Étiquette « hardstyle » = genres.json ; le style précis du set (euphoric / raw) n'est pas indiqué par Q-dance. Qualification « vitrine du hardstyle actuel » : avis éditorial.",
+   "notes": "Re-vérifié le 2026-11-10 : le titre YouTube est « D-Sturb | Defqon.1 2026 » ; « The Gathering » apparaît dans la description (« This is The Gathering at Defqon.1 2026 »), pas dans le titre. Le lien avec ?t=1007 (16:47) tombe au milieu du titre « Luvvstruck – What's A Girl To Do (D-Sturb remix) » (14:48 à 17:14 d'après les minutes de la description) et non au début d'un segment : URL conservée sans paramètre de temps. Date exacte non fournie. Durée = lengthSeconds de la page YouTube (3534 s) arrondie à la minute. Mise en ligne YouTube : 2026-07-11. Étiquette « hardstyle » = genres.json ; le style précis du set (euphoric / raw) n'est pas indiqué par Q-dance. Qualification « vitrine du hardstyle actuel » : choix de la rédaction.",
    "branche": "hard",
    "branches": [
     "hard"
    ],
-   "type": "set"
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "D-Sturb",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "indira-paganotto-cercle-festival-2024",
+   "artistes": [
+    "Indira Paganotto"
+   ],
+   "titre": "Indira Paganotto at Cercle Festival 2024 (A380 Stage)",
+   "annee": 2024,
+   "date": null,
+   "evenement": "Cercle Festival 2024 (scène A380)",
+   "lieu": null,
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=dTkS-zWOQVU",
+   "uploader": "Cercle",
+   "duree_min": 123,
+   "styles": [
+    "psytrance"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Wikipédia EN présente Indira Paganotto comme une DJ espagnole de techno, avec des traces de psytrance. D'après Cercle, ce set est son « signature psytrance set » (son set signature de psytrance) sur la scène A380 du Cercle Festival 2024, et la vidéo dépasse 1,8 million de vues sur YouTube au 10/11/2026. Un exemple de psytrance filmé par Cercle, de plus de deux heures (niveau « intermédiaire » : avis de la rédaction).",
+   "ecouter": [
+    "un set de 2 h 03 publié par Cercle, que sa description qualifie de « signature psytrance set » (set signature de psytrance)",
+    "de la psytrance, d'après Cercle, jouée par une DJ que Wikipédia classe en techno",
+    "un format filmé et très regardé (plus de 1,8 million de vues au 10/11/2026)"
+   ],
+   "contexte": "Set filmé par Cercle sur la scène A380 du Cercle Festival 2024. La description YouTube (en anglais) précise « An artistic performance supported by W Hotels » (une performance artistique soutenue par W Hotels). Le lieu exact n'est pas donné dans la description.",
+   "verifie": true,
+   "verif": {
+    "titre": "Indira Paganotto at Cercle Festival 2024 (A380 Stage)",
+    "auteur": "Cercle",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=dTkS-zWOQVU",
+    "https://en.wikipedia.org/wiki/Indira_Paganotto"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds de la page YouTube (7381 s) arrondie à la minute. Mise en ligne YouTube : 2024-06-06 (annee = année de l'événement d'après le titre). Style « psytrance » = mot de la description Cercle ; Wikipédia classe l'artiste en techno. Nombre de vues lu dans la liste de résultats YouTube le 2026-11-10. Aucune tracklist. Niveau « intermédiaire » : choix de la rédaction (2 h 03 de psytrance), aligné sur les autres sets de trance de la bibliothèque.",
+   "branche": "canon",
+   "branches": [
+    "canon"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Indira Paganotto",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "dave-the-drummer-hor-2024",
+   "artistes": [
+    "D.A.V.E. The Drummer"
+   ],
+   "titre": "D.A.V.E. The Drummer | HÖR - March 29 / 2024",
+   "annee": 2024,
+   "date": "2024-03-29",
+   "evenement": "HÖR Berlin",
+   "lieu": "Studio de HÖR, Berlin (Allemagne)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=KDefWQutA9w",
+   "uploader": "HÖR BERLIN",
+   "duree_min": 56,
+   "styles": [
+    "acid_techno"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "La description de HÖR indique un set joué « live from our studio in Berlin » (en direct de notre studio à Berlin). D'après son site officiel, D.A.V.E. The Drummer est un DJ et producteur britannique, lié au label Hydraulix Records (en activité depuis 1998), et ses soirées annoncent hard techno et acid. Informations non recoupées au-delà de ce site : seule la description de la plateforme est certaine. Le classement en acid techno est un choix de la rédaction.",
+   "ecouter": [
+    "un set d'environ 56 minutes enregistré dans le studio de HÖR à Berlin",
+    "un DJ britannique d'après son site officiel, dont les soirées annoncent hard techno et acid",
+    "une comparaison avec le set d'A*S*Y*S (acid techno), lui aussi filmé par HÖR Berlin"
+   ],
+   "contexte": "Podcast / diffusion vidéo de la radio HÖR Berlin ; la date du titre (29 mars 2024) est celle de la diffusion annoncée par HÖR.",
+   "verifie": true,
+   "verif": {
+    "titre": "D.A.V.E. The Drummer | HÖR - March 29 / 2024",
+    "auteur": "HÖR BERLIN",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=KDefWQutA9w",
+    "https://davethedrummer.co.uk/"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (3345 s) arrondie. Date = date présente dans le titre HÖR ; mise en ligne YouTube : 2024-03-29. La biographie (Britannique, Hydraulix Records depuis 1998, soirées hard techno et acid) vient du site officiel de l'artiste, lu le 2026-11-10 ; ce site ne donne ni année de début d'activité ni mention de fondateur. La page Resident Advisor a renvoyé une erreur 403 : elle n'est pas citée. Style « acid_techno » = classement de la rédaction d'après le site. Aucune tracklist.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "D.A.V.E. The Drummer",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "asys-hor-2026",
+   "artistes": [
+    "A*S*Y*S"
+   ],
+   "titre": "A*S*Y*S | HÖR - February 19 / 2026",
+   "annee": 2026,
+   "date": "2026-02-19",
+   "evenement": "HÖR Berlin",
+   "lieu": "Berlin (Allemagne)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=P0p7aeHqNuQ",
+   "uploader": "HÖR BERLIN",
+   "duree_min": 54,
+   "styles": [
+    "acid_techno"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "La description de HÖR dit « A*S*Y*S live from Berlin » (en direct de Berlin). D'après Techno Airlines, A*S*Y*S est un DJ et producteur basé à Francfort, pour qui l'acid est « l'âme » de sa musique. Informations non recoupées au-delà de cette page : seule la description de la plateforme est certaine.",
+   "ecouter": [
+    "un set d'environ 54 minutes diffusé depuis Berlin par HÖR",
+    "un DJ basé à Francfort pour qui l'acid est « l'âme » de sa musique, d'après Techno Airlines",
+    "un set assez court (54 minutes)"
+   ],
+   "contexte": "Diffusion de la radio vidéo HÖR Berlin ; la date du titre est celle annoncée par HÖR. Une chaîne nommée « A*S*Y*S official » propose d'autres sets, par exemple Saar Polygon 2022 (statut officiel non vérifié).",
+   "verifie": true,
+   "verif": {
+    "titre": "A*S*Y*S | HÖR - February 19 / 2026",
+    "auteur": "HÖR BERLIN",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=P0p7aeHqNuQ",
+    "https://www.technoairlines.com/blog/techno-mix-of-the-week-asys"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (3253 s) arrondie. Date = titre HÖR ; mise en ligne YouTube : 2026-02-19. Page Techno Airlines lue le 2026-11-10 : « Frankfurt-based A*S*Y*S, aka Frank Ellrich » ; elle ne donne ni nationalité ni explication du sigle. Risque d'homonymie : une fiche d'encyclopédie en ligne décrit un artiste brésilien de trance de même nom ; elle n'est pas retenue. Style acid_techno = classement de la rédaction (l'étiquette hard_techno, non étayée, est retirée). Aucune tracklist.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "A*S*Y*S",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "flkn-aeroscopia-toulouse-2026",
+   "artistes": [
+    "FLKN"
+   ],
+   "titre": "FLKN | Live Set @ Aeroscopia Museum (Toulouse)",
+   "annee": 2026,
+   "date": null,
+   "evenement": "Soirée Plein Phare, musée Aeroscopia",
+   "lieu": "Musée Aeroscopia, Toulouse (France)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=Z7dc5wcovHs",
+   "uploader": "FLKN ",
+   "duree_min": 61,
+   "styles": [
+    "hard_techno"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Set de hard techno filmé dans un musée de l'aéronautique à Toulouse, lors d'une soirée Plein Phare. Aucune source tierce n'a été trouvée sur l'artiste ; la fiche s'appuie sur la description de la vidéo, qui annonce « DJ Set @ Aerscopia / Toulouse, event by Plein Phare » (sic), une production vidéo de BassLens et les hashtags #Techno #HardTechno (choix de la rédaction).",
+   "ecouter": [
+    "un set d'un peu plus d'une heure (61 minutes) publié sur une chaîne au nom de l'artiste",
+    "un DJ filmé lors d'une soirée à Toulouse, dans un musée de l'aéronautique",
+    "les hashtags de la description (#Techno #HardTechno) comme repère de style"
+   ],
+   "contexte": "Soirée organisée par Plein Phare à Toulouse ; vidéo produite par BassLens d'après la description (qui écrit « Aerscopia » ; le musée s'appelle Aeroscopia). Aucune date de tournage donnée.",
+   "verifie": false,
+   "verif": null,
+   "sources": [
+    "https://www.youtube.com/watch?v=Z7dc5wcovHs"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (3633 s) arrondie. Mise en ligne YouTube : 2026-04-10. Le nom d'auteur oEmbed est « FLKN » avec une espace finale (recopié tel quel). Style = hashtags de la description. Aucune source tierce sur l'artiste. Aucune tracklist. Masqué de la bibliothèque le 10/11/2026 : la chaîne (handle @FLKNmusic, relevé par oEmbed) n'a pas pu être rattachée à l'artiste (page « À propos » non lisible, aucun lien depuis un compte officiel retrouvé) ; niveau aligné sur les autres sets de hard techno (intermédiaire).",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "FLKN",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "enfan-undercore-classe-de-neige-2023",
+   "artistes": [
+    "Enfan"
+   ],
+   "titre": "Undercore La Classe De Neige : Enfan - Set complet",
+   "annee": 2023,
+   "date": null,
+   "evenement": "Undercore : La Classe de Neige",
+   "lieu": null,
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=LDppc4r6-Io",
+   "uploader": "Undercore TV",
+   "duree_min": 54,
+   "styles": [],
+   "niveau": "avance",
+   "pourquoi": "Set publié sur la chaîne YouTube « Undercore TV » (handle @undercoreevent), qui porte le nom du collectif Undercore Event. D'après la fiche Shotgun de la soirée, La Classe de Neige s'est tenue le 14 janvier 2023 dans un lieu secret de Champigny-sur-Marne, avec Enfan à l'affiche, et la soirée était étiquetée Hardcore, Acid Techno, Acidcore et Techno. Le lien entre la vidéo et cette soirée repose sur la similitude des noms (non confirmé).",
+   "ecouter": [
+    "un set complet de 54 minutes publié sur une chaîne au nom du collectif Undercore (statut officiel non confirmé)",
+    "une soirée que Shotgun étiquette de techno à hardcore (tags de la soirée, pas du set)",
+    "un contexte de soirée secrète en banlieue parisienne"
+   ],
+   "contexte": "Vidéo mise en ligne le 23 janvier 2023, soit neuf jours après la soirée du 14 janvier 2023 annoncée par Shotgun. La description YouTube se limite à un remerciement à Mawifamily Prod pour les images.",
+   "verifie": false,
+   "verif": null,
+   "sources": [
+    "https://www.youtube.com/watch?v=LDppc4r6-Io",
+    "https://shotgun.live/en/events/undercore-la-classe-de-neige"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (3216 s) arrondie. Mise en ligne YouTube : 2023-01-23. Le caractère officiel de la chaîne repose sur le nom « Undercore » et le handle @undercoreevent (collectif Undercore Event d'après les résultats de recherche) ; non confirmé par la page « À propos », vide. Le lien entre la vidéo et la soirée du 14/01/2023 repose sur la similitude des noms (non confirmé par la vidéo). Aucun style rattaché (les tags de la fiche Shotgun sont ceux de la soirée, pas du set). Pas de date ni de lieu confirmés : null. Aucune tracklist. | Masqué de la bibliothèque le 10/11/2026 : le caractère officiel de la chaîne n'est pas confirmé.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Enfan",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "westfall-2much-trabendo-2026",
+   "artistes": [
+    "WESTFALL"
+   ],
+   "titre": "WESTFALL, Hard Trance & Bounce DJ Set, 2much, Le Trabendo, Paris FR",
+   "annee": 2026,
+   "date": null,
+   "evenement": "2much",
+   "lieu": "Le Trabendo, Paris (France)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=FjQQO7c0Gqk",
+   "uploader": "WESTFALL",
+   "duree_min": 56,
+   "styles": [
+    "hard_trance",
+    "hard_bounce"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Enregistrement publié sur une chaîne au nom de l'artiste : la description, rédigée à la première personne, dit « Full recording from my set for 2much at Le Trabendo in Paris, France » (enregistrement complet de mon set pour 2much au Trabendo, à Paris), filmé et monté par @Olwenspov, et le titre annonce « Hard Trance & Bounce ». Aucune source encyclopédique n'a été trouvée sur l'artiste : la fiche s'appuie sur le titre et la description (choix de la rédaction).",
+   "ecouter": [
+    "un set d'environ 56 minutes publié sur une chaîne au nom de l'artiste",
+    "un exemple de hard trance et de bounce, d'après le titre, dans une salle parisienne"
+   ],
+   "contexte": "Set pour la soirée 2much au Trabendo, à Paris ; vidéo filmée et montée par @Olwenspov d'après la description.",
+   "verifie": true,
+   "verif": {
+    "titre": "WESTFALL, Hard Trance & Bounce DJ Set, 2much, Le Trabendo, Paris FR",
+    "auteur": "WESTFALL",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=FjQQO7c0Gqk"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (3347 s) arrondie. Mise en ligne YouTube : 2026-05-19. Styles = termes du titre. Aucune source tierce sur l'artiste. Aucune tracklist. Niveau « intermédiaire » : choix de la rédaction, à aligner sur les autres sets de hard trance / hard bounce.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "WESTFALL",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "miza-warecave-extended-narbonne-2026",
+   "artistes": [
+    "MIZA"
+   ],
+   "titre": "MIZA | WARECAVE EXTENDED NARBONNE",
+   "annee": 2026,
+   "date": null,
+   "evenement": "WARECAVE EXTENDED",
+   "lieu": "Narbonne (France)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=dBUd31m3WKM",
+   "uploader": "WARE CAVE EVENT",
+   "duree_min": 65,
+   "styles": [
+    "hard_techno",
+    "acid_techno"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Set publié sur la chaîne « WARE CAVE EVENT », au nom de l'événement (statut officiel non confirmé). Sa description présente MIZA comme originaire de Rennes, avec « une techno à la fois dure et groovy » qui mêle acid, trance, tribal techno et hardgroove. Aucune source encyclopédique n'a été trouvée : la fiche s'appuie sur cette description (choix de la rédaction).",
+   "ecouter": [
+    "un set d'environ 65 minutes publié sur la chaîne de l'événement (statut officiel non confirmé)",
+    "une techno dure et groovy, d'après la description (acid, trance, tribal, hardgroove)",
+    "un exemple de techno française hors Paris, d'après la description (Rennes, Narbonne)"
+   ],
+   "contexte": "Soirée WARECAVE EXTENDED à Narbonne d'après le titre ; la description YouTube est une présentation en français de l'artiste. Un autre set de MIZA existe sur la chaîne de la salle Warehouse (Nantes), en b2b avec BETÏSES : non retenu ici.",
+   "verifie": true,
+   "verif": {
+    "titre": "MIZA | WARECAVE EXTENDED NARBONNE",
+    "auteur": "WARE CAVE EVENT",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=dBUd31m3WKM",
+    "https://www.youtube.com/watch?v=0p2IwkEgabU"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (3917 s) arrondie. Mise en ligne YouTube : 2026-09-02. Statut « officiel » : chaîne au nom de l'événement (WARE CAVE EVENT), non confirmé au-delà du nom et de la description. Styles = termes de la description. Le b2b de la salle Warehouse (Nantes) est cité comme alternative, non retenu. Aucune tracklist.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "MIZA",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "avenir-intake-paris-2024",
+   "artistes": [
+    "Avenir"
+   ],
+   "titre": "Avenir - Intake Paris - DJ Set",
+   "annee": 2024,
+   "date": null,
+   "evenement": "Intake Paris",
+   "lieu": null,
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=pexa-yHfFxo",
+   "uploader": "Intake Paris",
+   "duree_min": 55,
+   "styles": [
+    "hard_techno"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Set publié par la chaîne « Intake Paris », dont la description évoque des « hard kicks » (kicks durs) et de la « rave music » (musique de rave). L'artiste n'a pas pu être recoupée : aucune source encyclopédique ou tierce n'a été trouvée. Une autre diffusion existe chez Rinse France (Move Ur Gambettes, 27/04/2024).",
+   "ecouter": [
+    "un set d'environ 55 minutes publié par la chaîne Intake Paris",
+    "un exemple de rave et de techno à kicks durs d'après la description"
+   ],
+   "contexte": "Vidéo publiée par Intake Paris le 11 avril 2024. La description renvoie vers la page Instagram « avenir.wav ». Autres diffusions sur la chaîne Rinse France : « Move Ur Gambettes : Avenir (DJ set) » et « ACT RIGHT invite Avenir ».",
+   "verifie": false,
+   "verif": null,
+   "sources": [
+    "https://www.youtube.com/watch?v=pexa-yHfFxo",
+    "https://www.youtube.com/watch?v=HdH2tQDexs4"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (3305 s) arrondie. Mise en ligne YouTube : 2024-04-11. L'identité de l'artiste « Avenir » est celle du nom affiché ; aucune source tierce n'a permis de la recouper (recherche web sans résultat). Style = termes de la description (hard kicks, rave). Aucune tracklist. | Masqué de la bibliothèque le 10/11/2026 : le caractère officiel de la chaîne n'est pas confirmé.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Avenir",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "karish-blueprint-domusdela-2026",
+   "artistes": [
+    "KARISH"
+   ],
+   "titre": "KARISH @ BLUEPRINT | Domusdela 2026",
+   "annee": 2026,
+   "date": null,
+   "evenement": "BLUEPRINT | Domusdela 2026",
+   "lieu": null,
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=eOKLleCLC3Q",
+   "uploader": "BLUEPRINT SHOWS",
+   "duree_min": 58,
+   "styles": [
+    "trance",
+    "hard_bounce"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Set publié sur la chaîne BLUEPRINT SHOWS, au nom de l'événement (statut officiel non confirmé). Sa description dit que KARISH a transformé l'église « in a cathedral of rhythm » (en cathédrale de rythme), avec des rythmes « bouncy » (rebondissants), une trance « euphoric » (euphorique) et des éléments mélodiques. Aucune source encyclopédique n'a été trouvée : la fiche s'appuie sur cette description (choix de la rédaction).",
+   "ecouter": [
+    "un set d'environ 58 minutes publié sur la chaîne de l'événement (statut officiel non confirmé)",
+    "des rythmes rebondissants (« bouncy ») et une trance euphorique (« euphoric »), d'après la description",
+    "un décor d'église, noté dans la description"
+   ],
+   "contexte": "Événement BLUEPRINT à Domusdela 2026 d'après le titre. Le lieu de Domusdela n'est pas précisé dans les métadonnées.",
+   "verifie": true,
+   "verif": {
+    "titre": "KARISH @ BLUEPRINT | Domusdela 2026",
+    "auteur": "BLUEPRINT SHOWS",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=eOKLleCLC3Q"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (3498 s) arrondie. Mise en ligne YouTube : 2026-05-13. Styles = termes de la description. Aucune source tierce sur l'artiste. Aucune tracklist. Niveau « intermédiaire » : choix de la rédaction, aligné sur WESTFALL (hard trance / bounce).",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "KARISH",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "vitalic-cercle-rotonde-stalingrad-2017",
+   "artistes": [
+    "Vitalic"
+   ],
+   "titre": "Vitalic live @ Rotonde Stalingrad in Paris, France for Cercle",
+   "annee": 2017,
+   "date": null,
+   "evenement": "Cercle",
+   "lieu": "Rotonde Stalingrad, Paris (France)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=IGUAChyue2I",
+   "uploader": "Cercle",
+   "duree_min": 83,
+   "styles": [],
+   "niveau": "entree",
+   "pourquoi": "Wikipédia FR présente Vitalic (Pascal Arbez-Nicolas, né en 1976 à Dijon) comme un artiste producteur français de musique électronique ; l'infobox de Wikipédia EN cite l'electro house, l'electroclash et la techno. Cercle le décrit comme « French producer Vitalic live at Rotonde Stalingrad in Paris » (le producteur français Vitalic en live à la Rotonde Stalingrad, à Paris), et la vidéo dépasse 2,4 millions de vues au 10/11/2026. Le niveau « entrée » est un avis de la rédaction.",
+   "ecouter": [
+    "un set présenté par Cercle comme un live, d'environ 1 h 23",
+    "les genres cités par l'infobox de Wikipédia EN : electro house, electroclash et techno",
+    "un film Cercle tourné à Paris, ville du lieu et de l'artiste"
+   ],
+   "contexte": "Live filmé par Cercle à la Rotonde Stalingrad (Paris), publié le 24 novembre 2017. La description crédite Derek Barbolla (fondateur et directeur artistique de Cercle) à la réalisation.",
+   "verifie": true,
+   "verif": {
+    "titre": "Vitalic live @ Rotonde Stalingrad in Paris, France for Cercle",
+    "auteur": "Cercle",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=IGUAChyue2I",
+    "https://fr.wikipedia.org/wiki/Vitalic",
+    "https://en.wikipedia.org/wiki/Vitalic"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (4961 s) arrondie. Mise en ligne YouTube : 2017-11-24 (annee = année de mise en ligne, date du tournage non donnée). Aucun style du site rattaché : l'infobox cite electro house / electroclash / techno, et l'« electro » du site désigne celui de Detroit (TR-808), qui n'est pas celui-là. Vues lues dans la liste de résultats YouTube le 2026-11-10. Aucune tracklist.",
+   "branche": "canon",
+   "branches": [
+    "canon"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Vitalic",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "francois-x-concrete-live-2013",
+   "artistes": [
+    "François X"
+   ],
+   "titre": "Concrete Live  : Francois X @ Concrete, Paris, 7th july 2013",
+   "annee": 2013,
+   "date": "2013-07-07",
+   "evenement": "Concrete Live (Concrete Paris)",
+   "lieu": "Concrete, Paris (France)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=c9vsCsANQJs",
+   "uploader": "Concrete Live",
+   "duree_min": 46,
+   "styles": [],
+   "niveau": "intermediaire",
+   "pourquoi": "Wikipédia FR présente François X (né à Paris en 1982) comme un DJ, compositeur et producteur de musique électronique et techno français, qui a commencé sa carrière de DJ au Djoon et au Rex Club en 2008. Le set est daté du 7 juillet 2013 par son titre et filmé au Concrete, club parisien ouvert en octobre 2011 (FACT) ; Resident Advisor annonçait une soirée de clôture les 19 et 20 juillet 2019. C'est un témoignage d'une salle de la techno parisienne (choix de la rédaction).",
+   "ecouter": [
+    "un set de 46 minutes enregistré au Concrete, club parisien dont Resident Advisor annonçait la clôture en juillet 2019",
+    "un DJ français dont l'infobox Wikipédia cite techno, expérimental, ambient, house et IDM",
+    "un document d'époque (2013) de la série vidéo « Concrete Live »"
+   ],
+   "contexte": "Concrete était installé sur une péniche à Paris (12e) ; Resident Advisor annonçait la clôture du club pour les 19 et 20 juillet 2019. La vidéo est publiée par la chaîne « Concrete Live », dont la description renvoie vers le site du club (concreteparis.fr).",
+   "verifie": false,
+   "verif": null,
+   "sources": [
+    "https://www.youtube.com/watch?v=c9vsCsANQJs",
+    "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_X",
+    "https://ra.co/news/44007"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (2779 s) arrondie. Date 2013-07-07 = date écrite dans le titre ; mise en ligne YouTube : 2013-07-19. Point à confirmer : le caractère officiel de la chaîne « Concrete Live » (handle @concretelive2230, page « À propos » vide) repose uniquement sur sa description qui renvoie vers concreteparis.fr et sur son nom ; à retirer si doute. Aucun style rattaché (l'infobox Wikipédia FR décrit les genres de l'artiste, pas du set). Aucune tracklist. | Masqué de la bibliothèque le 10/11/2026 : le caractère officiel de la chaîne n'est pas confirmé.",
+   "branche": "canon",
+   "branches": [
+    "canon"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "François X",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "surgeon-boiler-room-dekmantel-2014",
+   "artistes": [
+    "Surgeon"
+   ],
+   "titre": "Surgeon Boiler Room x Dekmantel Festival Live Set",
+   "annee": 2014,
+   "date": null,
+   "evenement": "Boiler Room x Dekmantel Festival",
+   "lieu": null,
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=Ww9VtKqprUY",
+   "uploader": "Boiler Room",
+   "duree_min": 55,
+   "styles": [
+    "industrial_techno"
+   ],
+   "niveau": "avance",
+   "pourquoi": "Wikipédia EN présente Anthony Child, dit Surgeon, comme un musicien et DJ électronique anglais, publié par Tresor, Soma et Harthouse, reconnu comme faisant partie de la première vague de DJ à utiliser Ableton Live et Final Scratch (phrase sans source citée sur la page) ; l'infobox cite la techno et l'industrial techno. La description de Boiler Room parle d'« 1hr of head-wreck techno » (une heure de techno qui retourne la tête) derrière « a tangle of wires and heavy-duty hardware » (un enchevêtrement de câbles et de matériel robuste) et d'un « Essential BR watching » (à voir absolument sur Boiler Room). Un set exigeant : niveau « avancé », avis de la rédaction.",
+   "ecouter": [
+    "un set d'environ 55 minutes avec du matériel visible, présenté comme live par Boiler Room (« tangle of wires », un enchevêtrement de câbles)",
+    "un exemple de techno industrielle, d'après Wikipédia EN",
+    "une comparaison avec le set de Perc, producteur du label londonien Perc Trax"
+   ],
+   "contexte": "Boiler Room x Dekmantel Festival, publié le 14 août 2014. Le lieu et la date du tournage ne sont pas donnés dans la description.",
+   "verifie": true,
+   "verif": {
+    "titre": "Surgeon Boiler Room x Dekmantel Festival Live Set",
+    "auteur": "Boiler Room",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=Ww9VtKqprUY",
+    "https://en.wikipedia.org/wiki/Surgeon_(musician)",
+    "https://en.wikipedia.org/wiki/Boiler_Room_(music_broadcaster)"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (3297 s) arrondie. Mise en ligne YouTube : 2014-08-14 (annee = année de mise en ligne). Citations anglaises recopiées de la description YouTube lue le 2026-11-10. Niveau « avancé » : choix de la rédaction. Aucune tracklist.",
+   "branche": "canon",
+   "branches": [
+    "canon"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Surgeon",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "ken-ishii-boiler-room-hakuba-2025",
+   "artistes": [
+    "Ken Ishii"
+   ],
+   "titre": "Ken Ishii | Boiler Room x Snow Machine: Hakuba",
+   "annee": 2025,
+   "date": null,
+   "evenement": "Boiler Room x Snow Machine",
+   "lieu": "Hakuba (Japon)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=6b0aha2t_K0",
+   "uploader": "Boiler Room",
+   "duree_min": 59,
+   "styles": [],
+   "niveau": "entree",
+   "pourquoi": "Wikipédia EN présente Ken Ishii comme un DJ et producteur japonais de Sapporo, dont la première sortie est parue sur le label belge R&S, qui a composé la musique des cérémonies d'ouverture des Jeux olympiques d'hiver de 1998 à Nagano et dont le clip « Extra » a reçu un prix MTV Europe en 1997. Boiler Room le décrit comme « Japanese techno artist » (artiste japonais de techno) pour une session « on the slopes » (sur les pistes) avec Snow Machine. Le niveau « entrée » est un avis de la rédaction.",
+   "ecouter": [
+    "un set d'environ 59 minutes tourné sur les pistes de Hakuba, au Japon",
+    "un DJ et producteur japonais dont la première sortie est parue sur le label belge R&S et qui a composé la musique des cérémonies d'ouverture des Jeux de Nagano 1998 (Wikipédia EN)",
+    "un décor inhabituel (les pistes de Hakuba) ; l'accessibilité du set est un avis de la rédaction"
+   ],
+   "contexte": "Première collaboration de Boiler Room avec Snow Machine d'après la description. Le même artiste a aussi un Boiler Room Berlin, non retenu ici.",
+   "verifie": true,
+   "verif": {
+    "titre": "Ken Ishii | Boiler Room x Snow Machine: Hakuba",
+    "auteur": "Boiler Room",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=6b0aha2t_K0",
+    "https://en.wikipedia.org/wiki/Ken_Ishii",
+    "https://en.wikipedia.org/wiki/Boiler_Room_(music_broadcaster)"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (3545 s) arrondie. Mise en ligne YouTube : 2025-04-10. Lieu : Hakuba (titre) ; le Japon est déduit de la description (« Japanese techno artist », Snow Machine). Aucun style du site rattaché : Wikipédia classe l'artiste en « techno » sans préciser. Aucune tracklist. Niveau « entrée » (59 minutes) : choix de la rédaction ; la durée entre dans ce choix, Speedy J (1 h 49) étant classé « intermédiaire ».",
+   "branche": "canon",
+   "branches": [
+    "canon"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Ken Ishii",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "violent-magic-orchestra-boiler-room-osaka-2025",
+   "artistes": [
+    "Violent Magic Orchestra"
+   ],
+   "titre": "Violent Magic Orchestra | Boiler Room: Osaka",
+   "annee": 2025,
+   "date": null,
+   "evenement": "Boiler Room Osaka",
+   "lieu": "Osaka (Japon)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=Fc2_G75VRZk",
+   "uploader": "Boiler Room",
+   "duree_min": 35,
+   "styles": [
+    "industrial_techno",
+    "gabber"
+   ],
+   "niveau": "avance",
+   "pourquoi": "La description de Boiler Room parle d'un retour à Osaka après deux ans et des hashtags #Techno #BlackMetal #Rave. Dazed décrit un groupe d'Osaka, formé en 2015, qui fusionne black metal, techno et art visuel, avec un bruit de type gabber. Set court et très intense, réservé à une écoute avancée (avis de la rédaction).",
+   "ecouter": [
+    "un set court (35 minutes) tourné à Osaka pour Boiler Room",
+    "un mélange annoncé de techno et de black metal (hashtags de la description)",
+    "un contraste avec le set de Ken Ishii, également tourné au Japon"
+   ],
+   "contexte": "Boiler Room Osaka publié le 3 décembre 2025. Aucun lieu précis ni date de tournage dans la description.",
+   "verifie": true,
+   "verif": {
+    "titre": "Violent Magic Orchestra | Boiler Room: Osaka",
+    "auteur": "Boiler Room",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=Fc2_G75VRZk",
+    "https://www.dazeddigital.com/music/article/62170/1/violent-magic-orchestra-extreme-black-metal-gabber-group-osaka"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (2104 s) arrondie. Mise en ligne YouTube : 2025-12-03. Pas de page Wikipédia trouvée ; l'article de Dazed a été lu le 2026-11-10 : groupe d'Osaka formé en 2015, fusion de black metal, techno et art visuel, bruit de type gabber. Styles = hashtags de la description et article Dazed (classement de la rédaction) ; un set dur : niveau « avancé ». Aucune tracklist.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Violent Magic Orchestra",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "detroit-techno-militia-boiler-room-chicago-2015",
+   "artistes": [
+    "Detroit Techno Militia"
+   ],
+   "titre": "Detroit Techno Militia (313 The Hard Way) Boiler Room Chicago DJ Set",
+   "annee": 2015,
+   "date": null,
+   "evenement": "Boiler Room Chicago",
+   "lieu": "Chicago (États-Unis)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=IibHmLuzEI0",
+   "uploader": "Boiler Room",
+   "duree_min": 58,
+   "styles": [
+    "detroit_techno"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Wikipédia EN décrit Detroit Techno Militia comme un collectif de DJ et producteurs de Detroit qui veut promouvoir la techno de Detroit dans le monde ; il a lancé son label en 2007 et a formé en 2007 le « DTM 5x5 », présenté comme le premier groupe de techno à réunir cinq DJ sur cinq platines. Boiler Room dit qu'ils sont « surely the first act to rock a Speak & Spell » (sans doute le premier groupe à jouer avec un Speak & Spell) et que leur set de Chicago était « totally unique » (totalement unique). C'est une relève collective de Detroit, d'une autre génération que Juan Atkins ou Underground Resistance : lecture de la rédaction, d'après les dates de Wikipédia.",
+   "ecouter": [
+    "un collectif de Detroit plutôt qu'un DJ seul, filmé à Chicago",
+    "un set d'environ 58 minutes présenté par Boiler Room comme « totally unique » (totalement unique)",
+    "une comparaison avec les sets historiques de Detroit du site (Juan Atkins, Underground Resistance)"
+   ],
+   "contexte": "Boiler Room Chicago publié le 3 décembre 2015. La description renvoie vers une page dédiée et cite l'usage d'un Speak & Spell. La date de tournage n'est pas donnée.",
+   "verifie": true,
+   "verif": {
+    "titre": "Detroit Techno Militia (313 The Hard Way) Boiler Room Chicago DJ Set",
+    "auteur": "Boiler Room",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=IibHmLuzEI0",
+    "https://en.wikipedia.org/wiki/Detroit_Techno_Militia"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (3496 s) arrondie. Mise en ligne YouTube : 2015-12-03. L'âge relatif (« autre génération ») est une lecture éditoriale appuyée sur les dates de Wikipédia (label lancé en 2007). Aucune tracklist.",
+   "branche": "canon",
+   "branches": [
+    "canon"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Detroit Techno Militia",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "dj-rush-boiler-room-rotterdam-2018",
+   "artistes": [
+    "DJ Rush"
+   ],
+   "titre": "DJ Rush | Boiler Room Rotterdam",
+   "annee": 2018,
+   "date": null,
+   "evenement": "Boiler Room Rotterdam",
+   "lieu": "Rotterdam (Pays-Bas)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=sJl2LyNEz0s",
+   "uploader": "Boiler Room",
+   "duree_min": 90,
+   "styles": [
+    "hard_techno"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Wikipédia EN présente DJ Rush (Isaiah Major, né en 1970) comme un musicien, DJ et producteur américain actif dans la première période de la scène techno de Chicago ; son infobox cite la techno, la hard techno, la house et le disco. Boiler Room parle du « hard techno hero » (héros de la hard techno) qui a « smashed » (écrasé) son show de Rotterdam. C'est un lien entre la scène de Chicago et la hard techno européenne (choix de la rédaction).",
+   "ecouter": [
+    "un set d'environ 1 h 30 tourné à Rotterdam par Boiler Room",
+    "un DJ de Chicago actif dans la première période de la scène techno, d'après Wikipédia",
+    "un lien entre la techno de Chicago et la hard techno actuelle"
+   ],
+   "contexte": "Boiler Room Rotterdam, publié le 28 juillet 2018. D'autres sets officiels existent chez Awakenings (Easter 2022).",
+   "verifie": true,
+   "verif": {
+    "titre": "DJ Rush | Boiler Room Rotterdam",
+    "auteur": "Boiler Room",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=sJl2LyNEz0s",
+    "https://en.wikipedia.org/wiki/DJ_Rush",
+    "https://en.wikipedia.org/wiki/Boiler_Room_(music_broadcaster)"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (5392 s) arrondie. Mise en ligne YouTube : 2018-07-28 (annee = année de mise en ligne). Citation anglaise recopiée de la description. Aucune tracklist.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "DJ Rush",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "speedy-j-awakenings-easter-2022",
+   "artistes": [
+    "Speedy J"
+   ],
+   "titre": "Speedy J | Awakenings Easter Festival 2022",
+   "annee": 2022,
+   "date": null,
+   "evenement": "Awakenings Easter Festival 2022",
+   "lieu": "Parc de Spaarnwoude (Pays-Bas)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=WyHTclGsCUQ",
+   "uploader": "Awakenings",
+   "duree_min": 109,
+   "styles": [
+    "minimal_techno"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Wikipédia EN présente Speedy J (Jochem Paap) comme un producteur néerlandais installé à Rotterdam, dont la percée date de 1992 avec « Pullover » et dont le premier album, Ginger (1993), est sorti sur Plus 8 au Canada et publié au Royaume-Uni dans la série Artificial Intelligence de Warp Records. Awakenings décrit ce set comme un « Full set » (set complet) donné au parc de Spaarnwoude pendant l'édition de Pâques 2022. Niveau « intermédiaire » : choix de la rédaction, en partie lié à la durée (1 h 49).",
+   "ecouter": [
+    "un set de 1 h 49 d'un producteur néerlandais installé à Rotterdam, dont la percée date de 1992 (« Pullover »)",
+    "un artiste dont Wikipédia EN cite la série Artificial Intelligence du label Warp (au Royaume-Uni)",
+    "un format festival filmé par l'organisateur Awakenings"
+   ],
+   "contexte": "Set de l'Awakenings Easter Festival 2022, publié sur la chaîne officielle Awakenings le 11 mai 2023. Awakenings a publié d'autres sets du même artiste (Nouvel An 2025, 2020).",
+   "verifie": true,
+   "verif": {
+    "titre": "Speedy J | Awakenings Easter Festival 2022",
+    "auteur": "Awakenings",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=WyHTclGsCUQ",
+    "https://en.wikipedia.org/wiki/Speedy_J"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (6554 s) arrondie. annee = 2022 (titre) ; mise en ligne YouTube : 2023-05-11. Le pays (Pays-Bas) de Spaarnwoude n'est pas écrit dans la description : déduit du contexte Awakenings, à revérifier si besoin. Style « minimal_techno » conservé comme étiquette d'après l'infobox de l'artiste (techno, tech house, minimal techno) ; l'étiquette tech_house, qui décrit l'artiste et non le set, est retirée. Aucune tracklist.",
+   "branche": "canon",
+   "branches": [
+    "canon"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Speedy J",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "joseph-capriati-boiler-room-napoli-2016",
+   "artistes": [
+    "Joseph Capriati"
+   ],
+   "titre": "Joseph Capriati Boiler Room Napoli DJ Set",
+   "annee": 2016,
+   "date": null,
+   "evenement": "Boiler Room Napoli",
+   "lieu": "Naples (Italie)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=zstGpA-UMFY",
+   "uploader": "Boiler Room",
+   "duree_min": 139,
+   "styles": [],
+   "niveau": "intermediaire",
+   "pourquoi": "Wikipédia EN présente Joseph Capriati comme un DJ et producteur italien ; son infobox cite la techno et la house. Boiler Room dit qu'il « leads the charge in Naples » (mène la charge à Naples). C'est un long format de plus de deux heures (choix de la rédaction pour le niveau « intermédiaire »).",
+   "ecouter": [
+    "un set de 2 h 19 tourné à Naples par Boiler Room",
+    "un DJ italien dont les genres cités par Wikipédia sont la techno et la house",
+    "un long format à comparer avec les sets plus durs du site"
+   ],
+   "contexte": "Boiler Room Napoli, publié le 9 février 2016. La date de tournage n'est pas donnée dans la description.",
+   "verifie": true,
+   "verif": {
+    "titre": "Joseph Capriati Boiler Room Napoli DJ Set",
+    "auteur": "Boiler Room",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=zstGpA-UMFY",
+    "https://en.wikipedia.org/wiki/Joseph_Capriati"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (8368 s) arrondie. Mise en ligne YouTube : 2016-02-09 (annee = année de mise en ligne). Aucun style du site rattaché : les genres de l'infobox (techno, house) sont ceux de l'artiste, pas du set. Aucune tracklist.",
+   "branche": "canon",
+   "branches": [
+    "canon"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Joseph Capriati",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "oscar-mulero-boiler-room-berlin-2015",
+   "artistes": [
+    "Oscar Mulero"
+   ],
+   "titre": "Oscar Mulero | Boiler Room Berlin DJ Set",
+   "annee": 2015,
+   "date": null,
+   "evenement": "Boiler Room Berlin",
+   "lieu": "Berlin (Allemagne)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=mzwAC_Am0bI",
+   "uploader": "Boiler Room",
+   "duree_min": 91,
+   "styles": [],
+   "niveau": "avance",
+   "pourquoi": "Wikipédia EN présente Oscar Mulero comme un producteur et DJ de techno de Madrid, propriétaire des labels Warm Up Recordings et PoleGroup Recordings, fondateur du club The Omen à Madrid en 1994 (à ne pas confondre avec l'Omen de Francfort) et qui a fortement marqué la scène électronique espagnole depuis les années 1990. Boiler Room le décrit comme « one of Spain's biggest contributors to electronic music » (l'un des plus grands contributeurs espagnols à la musique électronique). Niveau « avancé » : avis de la rédaction.",
+   "ecouter": [
+    "un set de 1 h 30 tourné à Berlin par Boiler Room",
+    "un DJ madrilène fondateur du club The Omen (à Madrid), d'après Wikipédia EN",
+    "un DJ espagnol, à comparer avec les sets allemands et néerlandais du site"
+   ],
+   "contexte": "Boiler Room Berlin publié le 3 juin 2015. Autre set officiel du même DJ : Stone Techno 2024 (ARTE Concert, 3 h 01).",
+   "verifie": true,
+   "verif": {
+    "titre": "Oscar Mulero | Boiler Room Berlin DJ Set",
+    "auteur": "Boiler Room",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=mzwAC_Am0bI",
+    "https://en.wikipedia.org/wiki/Oscar_Mulero"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (5430 s) = 90,5 min, arrondie à 91. Mise en ligne YouTube : 2015-06-03 (annee = année de mise en ligne). Aucun style du site rattaché : Wikipédia cite seulement techno et ambient, et le classement « industriel » reposait sur des résumés non relus. Niveau « avancé » : choix de la rédaction. Aucune tracklist.",
+   "branche": "canon",
+   "branches": [
+    "canon"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Oscar Mulero",
+     "id": null
+    }
+   ]
+  },
+  {
+   "id": "jon-hopkins-boiler-room-london-2013",
+   "artistes": [
+    "Jon Hopkins"
+   ],
+   "titre": "Jon Hopkins Boiler Room London Live Set",
+   "annee": 2013,
+   "date": null,
+   "evenement": "Boiler Room London",
+   "lieu": "Londres (Royaume-Uni)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=1t3fk4QPlD4",
+   "uploader": "Boiler Room",
+   "duree_min": 47,
+   "styles": [
+    "idm"
+   ],
+   "niveau": "entree",
+   "pourquoi": "Wikipédia EN présente Jon Hopkins comme un musicien et producteur électronique anglais qui a produit pour Brian Eno, Coldplay et David Holmes, et dont l'infobox cite l'électronique, l'IDM, l'ambient, la musique classique contemporaine et la tech house. Boiler Room parle de « 3 Kaoss pads being used to their full potential » (trois Kaoss pads utilisés à leur plein potentiel). Le niveau « entrée » est un avis de la rédaction.",
+   "ecouter": [
+    "un live de 47 minutes présenté par Boiler Room comme joué sur trois Kaoss pads",
+    "un artiste dont Wikipédia cite l'IDM et l'ambient parmi ses genres",
+    "un set classé « entrée » par la rédaction, à comparer avec les sets de club du site"
+   ],
+   "contexte": "Boiler Room London, publié le 13 juin 2013. La date de tournage n'est pas donnée.",
+   "verifie": true,
+   "verif": {
+    "titre": "Jon Hopkins Boiler Room London Live Set",
+    "auteur": "Boiler Room",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=1t3fk4QPlD4",
+    "https://en.wikipedia.org/wiki/Jon_Hopkins"
+   ],
+   "confiance": "moyenne",
+   "notes": "Durée = lengthSeconds (2811 s) arrondie. Mise en ligne YouTube : 2013-06-13 (annee = année de mise en ligne). Style « idm » = genre cité dans l'infobox de l'artiste ; l'ambient n'est pas encodé car l'id « ambient_house » désigne un genre précis. Aucune tracklist. Niveau « entrée » : choix de la rédaction.",
+   "branche": "canon",
+   "branches": [
+    "canon"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Jon Hopkins",
+     "id": null
+    }
+   ]
   }
  ],
  "litiges": [
@@ -4490,7 +7037,7 @@ window.ATLAS = {
     {
      "type": "set",
      "ref": "kevin-saunderson-nuits-sonores-2025",
-     "texte": "Premier set : un des trois pionniers de Detroit, filmé en 2025. Plus mélodique que les premiers disques, il sert de porte d'entrée vers l'univers de Detroit."
+     "texte": "Premier set : un des trois pionniers de Detroit, filmé en 2025. Connu aussi pour des titres chantés comme « Big Fun » : un univers plus mélodique, selon la fiche (avis de la rédaction). Il sert de porte d'entrée vers l'univers de Detroit."
     },
     {
      "type": "event",
@@ -4512,18 +7059,18 @@ window.ATLAS = {
   {
    "id": "techno-de-club",
    "titre": "La techno de club aujourd'hui",
-   "pour_qui": "Pour qui veut écouter ce qui se joue dans les grands festivals et les clubs actuels, sans prérequis.",
+   "pour_qui": "Pour qui veut écouter ce qui se joue dans les grands festivals et clubs depuis 2018, sans prérequis.",
    "intro": "Sept sets pour entrer dans la techno de club actuelle : six sont classés « entrée », un « intermédiaire ». Cinq viennent de Cercle, deux d'Awakenings. Note chacun sur les trois axes du journal (plaisir musical, potentiel soirée / danse, immersion / transe) pour voir ce qui t'attire. Le classement de certains sets en « techno mélodique » est un choix éditorial.",
    "etapes": [
     {
      "type": "event",
      "ref": "boiler-room-2010",
-     "texte": "Deux plateformes ont popularisé les sets filmés : Boiler Room, puis Cercle. Voici la première ; les sets de ce parcours viennent surtout de la seconde."
+     "texte": "Deux plateformes ont diffusé ces sets filmés : Boiler Room, puis Cercle. Voici la première ; les sets de ce parcours viennent surtout de la seconde."
     },
     {
      "type": "set",
      "ref": "carl-cox-cercle-chambord-2018",
-     "texte": "Un set long (plus de deux heures), plus house que techno dure : pour entrer dans le sujet sans se presser."
+     "texte": "Un set long (plus de deux heures) que Gray Area décrit comme plutôt house : pour entrer dans le sujet sans se presser."
     },
     {
      "type": "set",
@@ -4581,7 +7128,7 @@ window.ATLAS = {
     {
      "type": "set",
      "ref": "reinier-zonneveld-cercle-kyiv-2019",
-     "texte": "Un live (machines jouées en direct) : un bon premier contact avec l'acid en scène."
+     "texte": "Un live sur machines (niveau intermédiaire) : une façon de découvrir l'acid en scène."
     },
     {
      "type": "set",
@@ -4714,13 +7261,13 @@ window.ATLAS = {
   {
    "id": "minimal-dub-hypnose",
    "titre": "Minimal, dub et techno hypnotique",
-   "pour_qui": "Pour qui est curieux de la techno lente et répétitive, aux antipodes de la puissance. Niveau avancé : les sets sont des podcasts audio.",
+   "pour_qui": "Pour qui est curieux de la techno dépouillée, répétitive, aux très lentes variations, aux antipodes de la puissance. Niveau avancé : les sets sont des podcasts audio.",
    "intro": "Ici, la tension vient de la répétition et de très lentes variations. Les quatre sets de ce parcours sont des podcasts de Resident Advisor, pas des vidéos de club : c'est un autre mode d'écoute, à essayer au casque. Ils sont classés « avancé » : ne te décourage pas si le premier te laisse de marbre.",
    "etapes": [
     {
      "type": "event",
      "ref": "basic-channel-1993",
-     "texte": "La naissance de la dub techno."
+     "texte": "Un des points de départ de la dub techno (selon Wikipédia)."
     },
     {
      "type": "event",
@@ -4735,7 +7282,7 @@ window.ATLAS = {
     {
      "type": "set",
      "ref": "richie-hawtin-ra100-2008",
-     "texte": "Un podcast de studio de référence pour la techno minimale (avis éditorial)."
+     "texte": "Un podcast de studio de référence pour la techno minimale (avis de la rédaction)."
     },
     {
      "type": "set",
@@ -4763,7 +7310,7 @@ window.ATLAS = {
    "id": "free-party-tekno",
    "titre": "Free party et tekno : une autre histoire",
    "pour_qui": "Pour qui veut comprendre la culture des fêtes libres, très présente en France, avant d'écouter des sets de hardtek ou de frenchcore.",
-   "intro": "Ce parcours est plus historique que musical : il n'y a pas de set filmé officiel de free party, seulement deux documents audiovisuels. Il aide à comprendre d'où viennent certains styles durs et pourquoi la scène a souvent été en tension avec les autorités.",
+   "intro": "Ce parcours est plus historique que musical : le site n'a retenu aucun set filmé officiel de free party, seulement deux documents audiovisuels. Il aide à comprendre d'où viennent certains styles durs et pourquoi la scène a souvent été en tension avec les autorités.",
    "etapes": [
     {
      "type": "event",
@@ -4803,14 +7350,14 @@ window.ATLAS = {
     {
      "type": "set",
      "ref": "heretik-system-we-had-a-dream",
-     "texte": "Un film du collectif Heretik System, que nous n'avons pas encore visionné : à regarder avec recul."
+     "texte": "Un film du collectif Heretik System, que le site n'a pas encore visionné : à regarder avec recul."
     }
    ]
   },
   {
    "id": "house-trance-racines",
    "titre": "Autour de la techno : house, trance, goa",
-   "pour_qui": "Pour qui veut voir ce qui entoure la techno : la house de Chicago, qui la précède, et la trance, qui naît à Francfort de la scène techno et EBM au tournant des années 1990.",
+   "pour_qui": "Pour qui veut voir ce qui entoure la techno : la house de Chicago, qui la précède, et la trance, qui naît à Francfort de la scène techno et EBM au tournant des années 1990 selon Wikipédia EN (l'origine est discutée).",
    "intro": "Trois familles voisines de la techno. Les sets de trance du parcours ont été joués ou publiés bien après les années 1990 : ce sont des relectures, pas des enregistrements d'époque.",
    "etapes": [
     {
@@ -4841,7 +7388,7 @@ window.ATLAS = {
     {
      "type": "set",
      "ref": "sasha-boiler-room-t2-berlin-90s-2017",
-     "texte": "Un set « années 90 » publié en 2017 : une relecture de l'époque, pas un enregistrement d'époque."
+     "texte": "Un set annoncé « années 90 » par Boiler Room et publié en 2017 : une relecture, pas un enregistrement d'époque."
     },
     {
      "type": "style",
@@ -4854,6 +7401,2357 @@ window.ATLAS = {
      "texte": "Un set « rétro » de 2020, sur la chaîne de l'artiste."
     }
    ]
+  }
+ ],
+ "quiz": {
+  "titre": "Trouve ton point de départ",
+  "intro": "Quatre questions simples sur ce que tu aimes entendre. Le résultat est une suggestion de départ, pas un verdict : les correspondances ci-dessous sont des choix éditoriaux du site, pas des mesures audio. Le quiz ne couvre pas tous les styles du site : la page Styles les présente tous.",
+  "questions": [
+   {
+    "id": "q1",
+    "texte": "Qu'est-ce qui te plaît le plus dans un morceau ?",
+    "reponses": [
+     {
+      "id": "melodie",
+      "texte": "Une mélodie qui reste en tête",
+      "poids": {
+       "melodic_techno": 2,
+       "hard_trance": 2,
+       "trance": 2,
+       "hardstyle": 1
+      }
+     },
+     {
+      "id": "groove",
+      "texte": "Un rythme qui donne envie de bouger",
+      "poids": {
+       "chicago_house": 2,
+       "tech_house": 2,
+       "detroit_techno": 1,
+       "hard_bounce": 1,
+       "berlin_techno": 1
+      }
+     },
+     {
+      "id": "ambiance",
+      "texte": "Une ambiance qui m'absorbe",
+      "poids": {
+       "dub_techno": 2,
+       "minimal_techno": 2,
+       "goa_trance": 1,
+       "psytrance": 1,
+       "ambient_house": 1
+      }
+     },
+     {
+      "id": "puissance",
+      "texte": "De la puissance brute",
+      "poids": {
+       "industrial_techno": 2,
+       "hard_techno": 2,
+       "gabber": 1,
+       "hardcore": 1,
+       "schranz": 1
+      }
+     }
+    ]
+   },
+   {
+    "id": "q2",
+    "texte": "Quelle vitesse te convient ? (un ressenti, sans chiffre)",
+    "reponses": [
+     {
+      "id": "calme",
+      "texte": "Plutôt tranquille, qui laisse respirer",
+      "poids": {
+       "dub_techno": 1,
+       "ambient_house": 1
+      }
+     },
+     {
+      "id": "soutenue",
+      "texte": "Soutenue, mais pas essoufflante",
+      "poids": {
+       "detroit_techno": 1,
+       "berlin_techno": 1,
+       "melodic_techno": 1,
+       "minimal_techno": 1,
+       "tech_house": 1,
+       "chicago_house": 1
+      }
+     },
+     {
+      "id": "rapide",
+      "texte": "Rapide",
+      "poids": {
+       "hard_techno": 1,
+       "hard_trance": 1,
+       "acid_techno": 1,
+       "trance": 1,
+       "hardstyle": 1
+      }
+     },
+     {
+      "id": "tres_rapide",
+      "texte": "Très rapide, voire extrême",
+      "poids": {
+       "gabber": 1,
+       "hardcore": 1,
+       "frenchcore": 1,
+       "uptempo_hardcore": 1
+      }
+     }
+    ]
+   },
+   {
+    "id": "q3",
+    "texte": "Quels sons t'attirent ?",
+    "reponses": [
+     {
+      "id": "chaud",
+      "texte": "Des sons chauds, plutôt disco ou house",
+      "poids": {
+       "chicago_house": 2,
+       "disco": 1,
+       "tech_house": 1,
+       "house": 1
+      }
+     },
+     {
+      "id": "futuriste",
+      "texte": "Des sons futuristes de machines",
+      "poids": {
+       "detroit_techno": 2,
+       "electro": 1,
+       "idm": 1,
+       "melodic_techno": 1
+      }
+     },
+     {
+      "id": "acid",
+      "texte": "Des sons de synthé qui « couinent » (le son acid)",
+      "poids": {
+       "acid_techno": 2,
+       "acid_house": 2
+      }
+     },
+     {
+      "id": "industriel",
+      "texte": "Des sons métalliques et bruités, comme dans une usine",
+      "poids": {
+       "industrial_techno": 2,
+       "ebm": 1,
+       "hard_techno": 1
+      }
+     },
+     {
+      "id": "sature",
+      "texte": "Des coups de grosse caisse très durs et déformés (kicks saturés)",
+      "poids": {
+       "hardstyle": 1,
+       "gabber": 1,
+       "hardcore": 1,
+       "frenchcore": 1,
+       "hard_techno": 1
+      }
+     }
+    ]
+   },
+   {
+    "id": "q4",
+    "texte": "Où t'imagines-tu l'écouter ?",
+    "reponses": [
+     {
+      "id": "festival",
+      "texte": "Sur la grande scène d'un festival",
+      "poids": {
+       "hardstyle": 1,
+       "melodic_techno": 1,
+       "hard_trance": 1,
+       "trance": 1,
+       "hard_techno": 1
+      }
+     },
+     {
+      "id": "club",
+      "texte": "Dans un club sombre",
+      "poids": {
+       "berlin_techno": 2,
+       "industrial_techno": 1,
+       "minimal_techno": 1
+      }
+     },
+     {
+      "id": "rave",
+      "texte": "Dans une rave ou une fête libre",
+      "poids": {
+       "free_tekno": 2,
+       "hardcore": 1,
+       "gabber": 1,
+       "hard_techno": 1
+      }
+     },
+     {
+      "id": "casque",
+      "texte": "Chez moi, au casque",
+      "poids": {
+       "dub_techno": 2,
+       "ambient_house": 1,
+       "idm": 1,
+       "minimal_techno": 1
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "guides": [
+  {
+   "id": "ecouter-un-set",
+   "titre": "Comment écouter un set quand on débute",
+   "intro": "Un set dure souvent plus d'une heure : difficile de savoir par où le prendre. Quelques repères pour l'aborder sans se décourager.",
+   "sections": [
+    {
+     "titre": "Donne-lui un quart d'heure, pas une minute",
+     "texte": "Un set est construit pour monter et redescendre. Les premières minutes servent souvent à installer une ambiance. Écoute au moins un quart d'heure avant de te faire un avis, et reviens plus tard si tu as du mal."
+    },
+    {
+     "titre": "Écoute par morceaux de temps",
+     "texte": "Rien n'oblige à tout écouter d'une traite. Écoute vingt minutes au début, puis un passage au milieu, puis la fin : tu verras comment le set évolue. Quand tu aimes un moment, note-le : il te servira de repère pour savoir ce que tu cherches."
+    },
+    {
+     "titre": "Un casque, un volume correct, le même volume",
+     "texte": "Les kicks et les basses se jugent mieux au casque ou sur de bons haut-parleurs. Garde le même volume d'un set à l'autre, surtout avant de départager deux sets avec un duel : un son plus fort paraît souvent meilleur. Commence avec un volume bas et monte doucement : les kicks saturés fatiguent vite l'oreille. Fais une pause de temps en temps, et arrête si tu entends un sifflement ou si tu as mal aux oreilles."
+    },
+    {
+     "titre": "Note trois choses différentes",
+     "texte": "Dans ton journal, le plaisir (j'aime), le potentiel soirée (ça donne envie de danser) et l'immersion (je me laisse emporter) sont trois notes distinctes. Un set peut être excellent pour s'immerger et peu adapté à la danse, et inversement.",
+     "liens": [
+      {
+       "type": "page",
+       "ref": "mes-gouts",
+       "texte": "Ouvrir mon journal"
+      }
+     ]
+    },
+    {
+     "titre": "Ne cherche pas à « avoir le bon goût »",
+     "texte": "Un set classé « pour aller plus loin » n'est pas meilleur qu'un set « porte d'entrée » : il demande simplement plus d'habitude. Si un set ne te plaît pas, c'est une information utile, pas un échec."
+    }
+   ]
+  },
+  {
+   "id": "quel-style-quelle-occasion",
+   "titre": "Quel style pour quelle occasion ?",
+   "intro": "Des idées de départ selon ce que tu veux en faire. Ce sont des suggestions éditoriales, pas des règles : un même style peut servir à plusieurs usages.",
+   "sections": [
+    {
+     "titre": "Pour danser en soirée",
+     "texte": "Les styles de club et de festival, au rythme régulier et soutenu, sont les plus directs.",
+     "liens": [
+      {
+       "type": "style",
+       "ref": "melodic_techno"
+      },
+      {
+       "type": "style",
+       "ref": "hard_techno"
+      },
+      {
+       "type": "style",
+       "ref": "tech_house"
+      },
+      {
+       "type": "parcours",
+       "ref": "techno-de-club"
+      }
+     ]
+    },
+    {
+     "titre": "Pour se concentrer, lire ou se poser",
+     "texte": "Des styles dépouillés ou répétitifs, qui s'installent sans surprendre. Attention : ces sets, longs et répétitifs, se laissent écouter en décrochant. Au volant, ne regarde ni ne lance aucune vidéo (les fiches du site sont des vidéos), garde un volume qui te laisse entendre ce qui se passe autour de toi, et choisis plutôt un contenu qui ne te fait pas décrocher ; évite-les si tu sens de la fatigue. Il existe aussi un parcours de niveau avancé sur le minimal et la dub techno (page Parcours) : à tenter quand tu es à l'aise avec la techno.",
+     "liens": [
+      {
+       "type": "style",
+       "ref": "dub_techno"
+      },
+      {
+       "type": "style",
+       "ref": "minimal_techno"
+      },
+      {
+       "type": "style",
+       "ref": "ambient_house"
+      }
+     ]
+    },
+    {
+     "titre": "Pour s'émouvoir ou se laisser porter par une mélodie",
+     "texte": "Des styles où la mélodie est au premier plan. Pour le frenchcore, c'est vrai de certains sets seulement (comme celui de Sefa).",
+     "liens": [
+      {
+       "type": "style",
+       "ref": "melodic_techno"
+      },
+      {
+       "type": "style",
+       "ref": "hard_trance"
+      },
+      {
+       "type": "style",
+       "ref": "trance"
+      },
+      {
+       "type": "style",
+       "ref": "frenchcore"
+      }
+     ]
+    },
+    {
+     "titre": "Pour se défouler",
+     "texte": "Des styles rapides et puissants, aux kicks marqués.",
+     "liens": [
+      {
+       "type": "style",
+       "ref": "hardstyle"
+      },
+      {
+       "type": "style",
+       "ref": "gabber"
+      },
+      {
+       "type": "style",
+       "ref": "hard_techno"
+      },
+      {
+       "type": "parcours",
+       "ref": "hardcore-hardstyle-frenchcore"
+      }
+     ]
+    },
+    {
+     "titre": "Pour comprendre d'où ça vient",
+     "texte": "Suis le fil de l'histoire avant de choisir un style.",
+     "liens": [
+      {
+       "type": "parcours",
+       "ref": "origines-detroit-berlin"
+      },
+      {
+       "type": "parcours",
+       "ref": "house-trance-racines"
+      },
+      {
+       "type": "page",
+       "ref": "histoire",
+       "texte": "La frise"
+      }
+     ]
+    },
+    {
+     "titre": "Pas d'idée ?",
+     "texte": "Quatre questions suffisent pour obtenir des pistes de départ.",
+     "liens": [
+      {
+       "type": "page",
+       "ref": "depart",
+       "texte": "Trouver mon point de départ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lire-une-fiche",
+   "titre": "Lire une fiche de set et ses pastilles",
+   "intro": "Chaque fiche porte des indications. Voici ce qu'elles veulent dire, et ce qu'elles ne disent pas.",
+   "sections": [
+    {
+     "titre": "Porte d'entrée, intermédiaire, pour aller plus loin",
+     "texte": "C'est un classement éditorial de la difficulté d'accès pour un novice. Il ne mesure pas la qualité du set."
+    },
+    {
+     "titre": "Lien contrôlé",
+     "texte": "Le titre et la chaîne du lien ont été relevés sur la plateforme à la date indiquée. Cela prouve que le lien existait et correspondait ; cela ne prouve pas que le set a été écouté en entier par l'auteur du site."
+    },
+    {
+     "titre": "Confiance haute, moyenne, à vérifier",
+     "texte": "Elle porte sur les faits annoncés dans la fiche (dates, lieux, contexte). « Moyenne » signale une source unique ou un choix de la rédaction ; « à vérifier » un point incertain.",
+     "liens": [
+      {
+       "type": "page",
+       "ref": "methode",
+       "texte": "Page Méthode"
+      }
+     ]
+    },
+    {
+     "titre": "L'année affichée",
+     "texte": "C'est une année de référence : elle peut correspondre à la mise en ligne de la vidéo plutôt qu'à l'enregistrement. La fiche précise quand la date exacte est connue."
+    },
+    {
+     "titre": "« Quoi écouter »",
+     "texte": "Ce sont des repères tirés des sources citées (descriptions de la vidéo, Wikipédia) et de la nature du style ; ils sont chronométrés seulement quand la description de la vidéo l'est. Le site n'invente jamais de tracklist."
+    }
+   ]
+  }
+ ],
+ "tempo_reperes": [
+  {
+   "texte": "Un BPM (battement par minute) est l'unité qui mesure la vitesse de la musique : le nombre de pulsations en une minute.",
+   "commentaire": "Les deux pages définissent le BPM comme unité de tempo ; la page EN précise que dans les musiques électroniques de danse le tempo s'indique simplement en bpm.",
+   "url": "https://fr.wikipedia.org/wiki/Battement_par_minute"
+  },
+  {
+   "texte": "La house tourne autour de 115 à 130 BPM.",
+   "commentaire": "Les deux sources donnent la même fourchette ; la page EN précise 120-130 dans sa section Characteristics.",
+   "url": "https://en.wikipedia.org/wiki/House_music"
+  },
+  {
+   "texte": "Wikipédia EN situe la techno entre 120 et 150 BPM ; les guides de production citent plutôt 125-140 ; Mixmag évoque 120-130 pour la techno de la dernière décennie.",
+   "commentaire": "Les bornes varient selon la source (120-130 à 120-150) et selon le sous-genre. Le cœur de 125-140 repose sur deux sources commerciales (Native Instruments, Ableton) ; ce sont des repères de production, pas une mesure de la scène.",
+   "url": "https://en.wikipedia.org/wiki/Techno"
+  },
+  {
+   "texte": "Le disco bat à environ 120 BPM.",
+   "commentaire": "Une seule source ouverte donne un chiffre ; la page EN Disco n'en cite pas.",
+   "url": "https://fr.wikipedia.org/wiki/Disco"
+  },
+  {
+   "texte": "La trance est plus rapide que la house : Wikipédia EN la situe entre 120 et 150 BPM, Pioneer DJ entre 125 et 140.",
+   "commentaire": "Les bornes divergent (120 à 125 en bas, 140 à 150 en haut) ; la page Wikipédia FR va jusqu'à 160.",
+   "url": "https://en.wikipedia.org/wiki/Trance_music"
+  },
+  {
+   "texte": "Le hardcore (techno hardcore) démarre vers 160 BPM et dépasse 200 BPM ; le frenchcore se joue autour de 200.",
+   "commentaire": "La page EN Hardcore note que le marché est passé de 160-180 à 200 et plus vers 2015 ; la page FR Frenchcore donne 180-240.",
+   "url": "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)"
+  },
+  {
+   "texte": "Un même morceau peut se ressentir au double ou à la moitié de son BPM : un dubstep à 140 BPM est souvent ressenti comme du 70 (Pioneer DJ).",
+   "commentaire": "Les deux sources décrivent le phénomène à partir de 140/70 ; aucune ne le généralise à d'autres genres.",
+   "url": "https://blog.pioneerdj.com/?p=6295"
+  },
+  {
+   "texte": "Le chiffre de 128 BPM est souvent cité comme tempo « magique » de la danse électronique.",
+   "commentaire": "Deux sources évoquent 128 comme tempo idéal, mais l'une est une formule d'usage et l'autre l'avis d'un seul artiste, que Wikipédia EN signale comme « source à fournir » (citation needed).",
+   "url": "https://daily.redbullmusicacademy.com/2019/06/djing-slow-fast"
+  }
+ ],
+ "artistes": [
+  {
+   "id": "jeff-mills",
+   "nom": "Jeff Mills",
+   "alias": [
+    "Jeff Mills"
+   ],
+   "pays": "États-Unis",
+   "ville": "Detroit",
+   "description_fr": "DJ et producteur américain né à Detroit le 18 juin 1963. Il est cofondateur d'Underground Resistance avec « Mad » Mike Banks, puis poursuit en solo : son album Waveform Transmission Vol. 1 sort en 1992 sur Tresor (Berlin) et il fonde Axis Records la même année avec Robert Hood. Wikipédia EN écrit que son mix Live at the Liquid Room, Tokyo (1996) est « souvent cité » comme l'un des mix les plus importants de l'histoire de la techno.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "compositeur",
+    "label"
+   ],
+   "annees_actives": "depuis 1980 (Wikipédia EN)",
+   "liens_styles": [
+    "detroit_techno",
+    "berlin_techno"
+   ],
+   "labels": [
+    "underground-resistance-label",
+    "tresor-records"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Jeff_Mills"
+   ],
+   "confiance": "haute",
+   "notes": "Ville = lieu de naissance. Départ d'UR : 1991 selon la page Mills, 1992 selon d'autres pages (voir litiges_resolus.json). Le mix de Tokyo est enregistré le 28/10/1995 (fiche du set) et publié en 1996 (page Mills)."
+  },
+  {
+   "id": "richie-hawtin",
+   "nom": "Richie Hawtin",
+   "alias": [
+    "Richie Hawtin",
+    "Plastikman (Richie Hawtin)",
+    "Plastikman",
+    "F.U.S.E."
+   ],
+   "pays": "Royaume-Uni / Canada",
+   "ville": "Berlin",
+   "description_fr": "DJ et producteur britannico-canadien, né à Banbury (Angleterre) le 4 juin 1970 ; la page le dit installé à Berlin. Il a cofondé le label Plus 8 avec John Acquaviva puis lancé M-nus en 1998. Il publie sous les noms Plastikman (Sheet One, 1993 ; Musik, 1994) et F.U.S.E. ; Wikipédia EN le décrit comme « un des pionniers » de la techno minimale.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "1987 à aujourd'hui (Wikipédia EN)",
+   "liens_styles": [
+    "minimal_techno",
+    "acid_techno",
+    "detroit_techno"
+   ],
+   "labels": [
+    "plus-8",
+    "m-nus"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Richie_Hawtin"
+   ],
+   "confiance": "haute",
+   "notes": "Ville = lieu de vie actuel selon la page. Plus 8 : 1989 (biographie) ou mai 1990 (introduction) sur la même page ; 1990 retenu dans labels.json (voir litiges_resolus.json)."
+  },
+  {
+   "id": "juan-atkins",
+   "nom": "Juan Atkins",
+   "alias": [
+    "Juan Atkins",
+    "Model 500",
+    "Cybotron"
+   ],
+   "pays": "États-Unis",
+   "ville": "Detroit",
+   "description_fr": "Producteur et DJ américain né à Detroit. Il a fondé le label Metroplex en 1985 et fait partie des « Belleville Three » avec Derrick May et Kevin Saunderson. Il a formé Cybotron en 1980 avec Richard Davis et enregistre aussi sous le nom Model 500 ; AllMusic (John Bush, cité par Wikipédia EN) l'a surnommé « godfather of techno ». Son décès a été annoncé le 1er novembre 2026.",
+   "roles": [
+    "producteur",
+    "DJ",
+    "label"
+   ],
+   "annees_actives": "depuis 1980 (Wikipédia EN)",
+   "liens_styles": [
+    "detroit_techno",
+    "electro"
+   ],
+   "labels": [
+    "metroplex"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Juan_Atkins",
+    "https://ra.co/news/86327"
+   ],
+   "confiance": "haute",
+   "notes": "Décès : formulation volontairement limitée à l'annonce du 1er novembre 2026 (consigne du projet) ; ne rien ajouter sur la date ni les circonstances. Annonce relayée par Resident Advisor le 1er novembre 2026 (page ra.co/news/86327 rouverte le 10/11/2026 : annonce de l'agence Greensmith Artists). Ville = lieu de naissance."
+  },
+  {
+   "id": "derrick-may",
+   "nom": "Derrick May",
+   "alias": [
+    "Derrick May",
+    "Rhythim Is Rhythim",
+    "Mayday"
+   ],
+   "pays": "États-Unis",
+   "ville": null,
+   "description_fr": "Producteur et DJ américain né le 6 avril 1963, associé à Detroit et à Belleville (Michigan), membre des « Belleville Three ». Il dirige le label Transmat, créé en 1986. Son morceau « Strings of Life », sorti sous le nom Rhythim Is Rhythim, est daté de 1987 par la page ; American Songwriter (cité par Wikipédia EN) le range parmi les « wiz kids » les plus influents de Detroit.",
+   "roles": [
+    "producteur",
+    "DJ",
+    "label"
+   ],
+   "annees_actives": "depuis 1986 (Wikipédia EN)",
+   "liens_styles": [
+    "detroit_techno"
+   ],
+   "labels": [
+    "transmat"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Derrick_May_(musician)",
+    "https://en.wikipedia.org/wiki/Transmat"
+   ],
+   "confiance": "haute",
+   "notes": "« Strings of Life » : 1987 (infobox) mais 1988 dans le texte de la même page ; année non tranchée par cette seule source. Ville laissée vide : la page cite Detroit (jeunesse) et Belleville (introduction)."
+  },
+  {
+   "id": "kevin-saunderson",
+   "nom": "Kevin Saunderson",
+   "alias": [
+    "Kevin Saunderson"
+   ],
+   "pays": "États-Unis",
+   "ville": "Brooklyn (naissance)",
+   "description_fr": "DJ et producteur américain né à Brooklyn (New York) le 5 septembre 1964, membre des « Belleville Three » avec Juan Atkins et Derrick May. Il est connu pour Inner City (avec la chanteuse Paris Grey), E-Dancer, Reese et son label KMS. AllMusic (John Bush, cité par Wikipédia EN) le qualifie de « plus habile » des pionniers de la techno de Detroit.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "non indiqué par la source (première œuvre datée : 1987)",
+   "liens_styles": [
+    "detroit_techno"
+   ],
+   "labels": [
+    "metroplex"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kevin_Saunderson"
+   ],
+   "confiance": "haute",
+   "notes": "KMS : la page ne donne pas d'année de création, d'où l'absence de fiche label. Lien Metroplex : « Triangle of Love » (sous le nom Kreem), sans année donnée."
+  },
+  {
+   "id": "robert-hood",
+   "nom": "Robert Hood",
+   "alias": [
+    "Robert Hood",
+    "Floorplan"
+   ],
+   "pays": "États-Unis",
+   "ville": "Detroit",
+   "description_fr": "Musicien, DJ et producteur américain né en 1965, originaire de Detroit. Il est cofondateur d'Underground Resistance (« Minister of Information »), fonde le label minimal M-Plant en 1994 et enregistre sous plusieurs alias. Floorplan est son projet mené avec sa fille Lyric Hood, avec des morceaux d'inspiration gospel ; la page dit que son album Minimal Nation est « considéré comme l'inspiration » du genre techno minimale.",
+   "roles": [
+    "producteur",
+    "DJ",
+    "label"
+   ],
+   "annees_actives": "depuis 1990 (Wikipédia EN)",
+   "liens_styles": [
+    "detroit_techno",
+    "minimal_techno"
+   ],
+   "labels": [
+    "underground-resistance-label",
+    "metroplex"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Robert_Hood_(musician)"
+   ],
+   "confiance": "haute",
+   "notes": "Alias « Floorplan » rattaché ici car l'artiste du set 'Floorplan' est le projet de Robert Hood (page Wikipédia EN). Départ de Detroit et d'UR en 1992 avec Jeff Mills selon la page."
+  },
+  {
+   "id": "underground-resistance",
+   "nom": "Underground Resistance",
+   "alias": [
+    "Underground Resistance",
+    "Timeline"
+   ],
+   "pays": "États-Unis",
+   "ville": "Detroit",
+   "description_fr": "Collectif de Detroit fondé en 1989 par « Mad » Mike Banks et Jeff Mills (Robert Hood est cité comme membre fondateur par sa propre page). Il revendique le retour de la techno vers l'underground, refuse la commercialisation et le culte du « DJ superstar », et ses membres se produisent souvent masqués. Ses premiers disques, The Theory et Sonic EP, datent de 1990.",
+   "roles": [
+    "collectif",
+    "label"
+   ],
+   "annees_actives": "depuis 1989 (Wikipédia EN)",
+   "liens_styles": [
+    "detroit_techno",
+    "electro",
+    "acid_techno"
+   ],
+   "labels": [
+    "underground-resistance-label"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Underground_Resistance",
+    "https://en.wikipedia.org/wiki/Robert_Hood_(musician)"
+   ],
+   "confiance": "haute",
+   "notes": "Alias « Timeline » : le set 'underground-resistance-timeline-boiler-room-2015' cite « Timeline » comme second nom ; non vérifié ici que ce soit un projet d'UR. À contrôler avant rattachement automatique."
+  },
+  {
+   "id": "sven-vath",
+   "nom": "Sven Väth",
+   "alias": [
+    "Sven Väth",
+    "Sven Vath"
+   ],
+   "pays": "Allemagne",
+   "ville": "Obertshausen (naissance)",
+   "description_fr": "DJ et producteur allemand né le 26 octobre 1964 à Obertshausen, actif depuis 1982. Il a ouvert le club Omen à Francfort en 1988, cofondé Eye Q (1991) puis fondé Harthouse (1992) et lancé le label Cocoon Recordings. Wikipédia EN le dit reconnu pour son influence sur la scène électronique underground en Allemagne et à Ibiza.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label",
+    "patron de club"
+   ],
+   "annees_actives": "depuis 1982 (Wikipédia EN)",
+   "liens_styles": [
+    "trance",
+    "hard_trance"
+   ],
+   "labels": [
+    "harthouse",
+    "cocoon-recordings"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sven_V%C3%A4th",
+    "https://en.wikipedia.org/wiki/Cocoon_Recordings"
+   ],
+   "confiance": "haute",
+   "notes": "Eye Q et Harthouse ont déclaré faillite en 1998 selon la page Väth (la page Harthouse hésite entre 1997 et 1998). Le club Cocoon de Francfort a ouvert en 2004 et fermé en novembre 2012 (même page)."
+  },
+  {
+   "id": "laurent-garnier",
+   "nom": "Laurent Garnier",
+   "alias": [
+    "Laurent Garnier"
+   ],
+   "pays": "France",
+   "ville": "Boulogne-Billancourt (naissance)",
+   "description_fr": "DJ et producteur français né à Boulogne-Billancourt le 1er février 1966, actif depuis 1987. Il passe par la Haçienda de Manchester en 1987 et organise les soirées Wake Up au Rex Club de Paris ; il cofonde aussi le label F Communications avec Éric Morand. Wikipédia EN le décrit comme « un pionnier de la scène techno française ».",
+   "roles": [
+    "DJ",
+    "producteur",
+    "compositeur"
+   ],
+   "annees_actives": "depuis 1987 (Wikipédia EN)",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Laurent_Garnier",
+    "https://fr.wikipedia.org/wiki/Rex_Club"
+   ],
+   "confiance": "haute",
+   "notes": "F Communications : pas d'année de création donnée par la page (première sortie listée : 1994). Wake Up au Rex : 1992 à 1994 d'après la page FR du Rex Club."
+  },
+  {
+   "id": "carl-cox",
+   "nom": "Carl Cox",
+   "alias": [
+    "Carl Cox"
+   ],
+   "pays": "Royaume-Uni",
+   "ville": "Oldham (naissance)",
+   "description_fr": "DJ et producteur britannique né à Oldham le 29 juillet 1962, actif depuis 1977, titulaire de l'OBE. Il a fondé le label Intec (1998-1999) et tenu une résidence à Space (Ibiza) de 2001 à 2016. Wikipédia EN le dit numéro un du classement DJ Mag en 1997 (l'infobox de la page ajoute 1996) ; il est connu pour le mixage sur trois platines.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label",
+    "animateur radio"
+   ],
+   "annees_actives": "depuis 1977 (Wikipédia EN)",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Carl_Cox"
+   ],
+   "confiance": "moyenne",
+   "notes": "Intec : créé en 1998-1999 selon la page ; pas de fiche label dans labels.json. Classement DJ Mag : le texte de la page dit 1997 seulement, l'infobox dit 1996 et 1997 (page incohérente avec elle-même), d'où la confiance « moyenne »."
+  },
+  {
+   "id": "frankie-knuckles",
+   "nom": "Frankie Knuckles",
+   "alias": [
+    "Frankie Knuckles"
+   ],
+   "pays": "États-Unis",
+   "ville": "Chicago",
+   "description_fr": "DJ et producteur américain né dans le Bronx (New York) le 18 janvier 1955. Résident du club Warehouse à Chicago à partir de 1977 jusqu'en novembre 1982, puis propriétaire de son club, le Power Plant. Wikipédia EN précise qu'il est « souvent appelé le parrain de la house music » ; il est mort le 31 mars 2014 à Chicago, à 59 ans.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "remixeur"
+   ],
+   "annees_actives": "1975-2014 (Wikipédia EN)",
+   "liens_styles": [
+    "chicago_house",
+    "house"
+   ],
+   "labels": [
+    "trax-records"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Frankie_Knuckles",
+    "https://en.wikipedia.org/wiki/Warehouse_(nightclub)"
+   ],
+   "confiance": "haute",
+   "notes": "Ville = ville de son activité de DJ (Warehouse, Power Plant), pas de naissance. Lien Trax : « Your Love » avec Jamie Principle figure au catalogue Trax (1988 selon la page Trax)."
+  },
+  {
+   "id": "nina-kraviz",
+   "nom": "Nina Kraviz",
+   "alias": [
+    "Nina Kraviz"
+   ],
+   "pays": "Russie",
+   "ville": "Irkoutsk (naissance)",
+   "description_fr": "DJ et productrice russe née à Irkoutsk (Sibérie). Active depuis 2008, elle a fondé le label трип (trip) en 2014 ; son premier album paraît chez Rekids en 2012. Elle a signé la compilation DJ-Kicks n°48 (2015) et fabric 91 (2016).",
+   "roles": [
+    "DJ",
+    "productrice",
+    "chanteuse",
+    "label"
+   ],
+   "annees_actives": "2008 à aujourd'hui (Wikipédia EN)",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Nina_Kraviz",
+    "https://en.wikipedia.org/wiki/Cercle_(company)"
+   ],
+   "confiance": "haute",
+   "notes": "La page ne donne pas son lieu de vie actuel. Son set Cercle à la tour Eiffel date de 2018 (page Cercle)."
+  },
+  {
+   "id": "amelie-lens",
+   "nom": "Amelie Lens",
+   "alias": [
+    "Amelie Lens"
+   ],
+   "pays": "Belgique",
+   "ville": "Vilvoorde (naissance)",
+   "description_fr": "DJ et productrice belge née à Vilvoorde le 31 mai 1990, active depuis 2014. Elle a lancé le label Lenske en 2018 et publié « Exhale » en 2016. Wikipédia EN la place au Top 100 de DJ Mag chaque année de 2020 à 2025 (30e en 2023, 38e en 2025) et au Top 100 « alternatif » de 2018 à 2021.",
+   "roles": [
+    "DJ",
+    "productrice",
+    "label"
+   ],
+   "annees_actives": "2014 à aujourd'hui (Wikipédia EN)",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Amelie_Lens"
+   ],
+   "confiance": "haute",
+   "notes": "Informations privées de la page volontairement non reprises. Sets Cercle à l'Atomium (Bruxelles, 2019) : voir page Cercle."
+  },
+  {
+   "id": "adam-beyer",
+   "nom": "Adam Beyer",
+   "alias": [
+    "Adam Beyer"
+   ],
+   "pays": "Suède",
+   "ville": "Stockholm (naissance)",
+   "description_fr": "DJ et producteur suédois né à Stockholm le 15 mai 1976, actif depuis 1993. Il est propriétaire et manager du label Drumcode et dirige aussi Truesoul. Son émission hebdomadaire Drumcode Live revendique 11 millions d'auditeurs (chiffre donné par la page).",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "depuis 1993 (Wikipédia EN)",
+   "liens_styles": [],
+   "labels": [
+    "drumcode"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Adam_Beyer",
+    "https://en.wikipedia.org/wiki/Drumcode_Records"
+   ],
+   "confiance": "haute",
+   "notes": "La page Drumcode (1996) nomme Beyer manager/propriétaire sans dire « fondateur »."
+  },
+  {
+   "id": "charlotte-de-witte",
+   "nom": "Charlotte de Witte",
+   "alias": [
+    "Charlotte de Witte",
+    "Raving George"
+   ],
+   "pays": "Belgique",
+   "ville": "Gand (naissance)",
+   "description_fr": "DJ, productrice et patronne de label belge née à Gand le 21 juillet 1992. Elle débute en 2010 en jouant surtout de l'électro sous le nom Raving George, puis passe à la techno en 2015 ; elle fonde KNTXT en 2019 et Époque en janvier 2024. Première entrée au Top 100 de DJ Mag en 2019 (74e) ; 9e en 2025 selon le texte de Wikipédia EN (le tableau de la page indique 6e en 2026, non recoupé).",
+   "roles": [
+    "DJ",
+    "productrice",
+    "label"
+   ],
+   "annees_actives": "2010 à aujourd'hui (Wikipédia EN)",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Charlotte_de_Witte"
+   ],
+   "confiance": "haute",
+   "notes": "Informations de vie privée de la page non reprises."
+  },
+  {
+   "id": "hardfloor",
+   "nom": "Hardfloor",
+   "alias": [
+    "Hardfloor"
+   ],
+   "pays": "Allemagne",
+   "ville": "Cologne",
+   "description_fr": "Duo allemand de Cologne, formé en 1991 par Oliver Bondzio et Ramon Zenker. « Acperience », sorti en 1992 sur l'EP « Hardtrance Acperience », est leur titre le plus connu (Wikipédia EN) ; il est fondé sur le synthétiseur Roland TB-303. Ils ont sorti des disques sur Harthouse et Eye Q.",
+   "roles": [
+    "duo de producteurs",
+    "DJ"
+   ],
+   "annees_actives": "depuis 1991 (Wikipédia EN)",
+   "liens_styles": [
+    "acid_techno",
+    "hard_trance"
+   ],
+   "labels": [
+    "harthouse"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hardfloor"
+   ],
+   "confiance": "haute",
+   "notes": "La page ne détaille pas les rôles individuels de Bondzio et Zenker."
+  },
+  {
+   "id": "ben-klock",
+   "nom": "Ben Klock",
+   "alias": [
+    "Ben Klock"
+   ],
+   "pays": "Allemagne",
+   "ville": "Berlin (Schöneberg, naissance)",
+   "description_fr": "DJ et producteur allemand né en 1972 à Berlin-Ouest, actif depuis 1998 et résident du Berghain. Il a fondé le label Klockworks en 2006 et publié des disques sur Ostgut Ton. Il a aussi sorti l'album One (2009) et signé Scenario (2007) avec Marcel Dettmann.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "depuis 1998 (Wikipédia EN)",
+   "liens_styles": [
+    "berlin_techno"
+   ],
+   "labels": [
+    "ostgut-ton"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ben_Klock",
+    "https://en.wikipedia.org/wiki/Ostgut_Ton"
+   ],
+   "confiance": "haute",
+   "notes": "La page Ben Klock donne l'album One (2009) sans nommer le label : aucune attribution à Ostgut Ton n'est faite pour cet album."
+  },
+  {
+   "id": "marcel-dettmann",
+   "nom": "Marcel Dettmann",
+   "alias": [
+    "Marcel Dettmann"
+   ],
+   "pays": "Allemagne",
+   "ville": "Pößneck (naissance)",
+   "description_fr": "DJ et producteur allemand né le 26 octobre 1977 à Pößneck (Thuringe, Allemagne de l'Est), résident du Berghain. Il publie ses albums Dettmann (2010) et Dettmann II (2013) sur Ostgut Ton et a créé son label MDR (première référence en 2006).",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "depuis 1994 (Wikipédia EN)",
+   "liens_styles": [
+    "berlin_techno"
+   ],
+   "labels": [
+    "ostgut-ton"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marcel_Dettmann",
+    "https://en.wikipedia.org/wiki/Ostgut_Ton"
+   ],
+   "confiance": "haute",
+   "notes": "La section discographie de la page est signalée comme manquant de sources (octobre 2024)."
+  },
+  {
+   "id": "paul-elstak",
+   "nom": "Paul Elstak",
+   "alias": [
+    "Paul Elstak"
+   ],
+   "pays": "Pays-Bas",
+   "ville": "La Haye (naissance)",
+   "description_fr": "DJ et producteur néerlandais né à La Haye le 14 janvier 1966, actif depuis 1987. Il est cité dans les pages sur le gabber comme fondateur de Rotterdam Records (1992) ; « Rainbow in the Sky » date de 1995. Il a aussi fondé Offensive Records en 2001.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "rappeur",
+    "label"
+   ],
+   "annees_actives": "depuis 1987 (Wikipédia EN)",
+   "liens_styles": [
+    "gabber",
+    "happy_hardcore",
+    "hardcore"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Paul_Elstak",
+    "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)"
+   ],
+   "confiance": "haute",
+   "notes": "Année de Rotterdam Records (1992) issue de la page Hardcore ; sa page personnelle ne la donne pas. Il a utilisé « Paul Elstak » pour le happy hardcore et « DJ Paul » pour le gabber."
+  },
+  {
+   "id": "neophyte",
+   "nom": "Neophyte",
+   "alias": [
+    "Neophyte"
+   ],
+   "pays": "Pays-Bas",
+   "ville": "Rotterdam",
+   "description_fr": "Groupe néerlandais de hardcore techno / gabber formé en 1992 à Rotterdam. Ses membres actuels sont Jeroen Streunding (« DJ Neophyte »), Danny Greten et Jarno Butter. Ses disques sortent sur Rotterdam Records de 1993 à 1997, puis sur son propre label Neophyte Records à partir de 2000.",
+   "roles": [
+    "groupe",
+    "DJ",
+    "producteurs",
+    "label"
+   ],
+   "annees_actives": "depuis 1992 (Wikipédia EN)",
+   "liens_styles": [
+    "gabber",
+    "hardcore"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Neophyte_(band)",
+    "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)"
+   ],
+   "confiance": "haute",
+   "notes": "La fiche de set cite « Neophyte » sans préciser DJ ou groupe ; la page ouverte décrit le groupe."
+  },
+  {
+   "id": "enrico-sangiuliano",
+   "nom": "Enrico Sangiuliano",
+   "alias": [
+    "Enrico Sangiuliano"
+   ],
+   "pays": "Italie",
+   "ville": null,
+   "description_fr": "Producteur et DJ italien. Il sort un disque sur Truesoul en 2012 et sur Drumcode en 2016 ; son titre « X-Pollination » (2016) arrive n°1 sur Beatport. Selon Mixmag (article d'avril 2020), il était, fin 2018, le meilleur vendeur de techno de Beatport depuis trois ans.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": null,
+   "liens_styles": [
+    "melodic_techno",
+    "hard_techno"
+   ],
+   "labels": [
+    "drumcode"
+   ],
+   "sources": [
+    "https://mixmag.net/feature/enrico-sangiuliano-techno-dj-interview"
+   ],
+   "confiance": "moyenne",
+   "notes": "Pas de page Wikipédia EN (404) ; source unique = article Mixmag. Années d'activité non sourcées. Lieu de naissance non repris (village entre Parme et Reggio Emilia selon Mixmag)."
+  },
+  {
+   "id": "reinier-zonneveld",
+   "nom": "Reinier Zonneveld",
+   "alias": [
+    "Reinier Zonneveld"
+   ],
+   "pays": "Pays-Bas",
+   "ville": "Alphen aan den Rijn (naissance)",
+   "description_fr": "DJ et producteur néerlandais né à Alphen aan den Rijn le 30 janvier 1991, qui joue surtout de l'acid techno. Il a fondé le label Filth on Acid en 2017 et a fixé un record du plus long set live de musique électronique (11 h 11) le 5 août 2023 à son festival Karren Maar, à Arnhem. Il est entré au Top 100 de DJ Mag en 2025 (22e).",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "depuis 2011 (Wikipédia EN)",
+   "liens_styles": [
+    "acid_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Reinier_Zonneveld"
+   ],
+   "confiance": "haute",
+   "notes": ""
+  },
+  {
+   "id": "sefa",
+   "nom": "Sefa",
+   "alias": [
+    "Sefa"
+   ],
+   "pays": null,
+   "ville": null,
+   "description_fr": "Artiste de frenchcore, décrit comme le protégé de Dr. Peacock. Son premier album, Leven is Lijden, sort en 2018. En 2019 il signe le premier hymne frenchcore de Defqon.1 et joue le set de clôture du festival.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "depuis 2018 au moins (premier album)",
+   "liens_styles": [
+    "frenchcore",
+    "uptempo_hardcore",
+    "hardcore"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Frenchcore",
+    "https://en.wikipedia.org/wiki/Dr._Peacock"
+   ],
+   "confiance": "moyenne",
+   "notes": "Pas de page personnelle ; faits tirés de la page Frenchcore (qui signale s'appuyer sur des sources primaires). Nationalité, naissance et label non indiqués."
+  },
+  {
+   "id": "dr-peacock",
+   "nom": "Dr. Peacock",
+   "alias": [
+    "Dr. Peacock"
+   ],
+   "pays": "Pays-Bas",
+   "ville": "Limmen (enfance)",
+   "description_fr": "DJ et producteur néerlandais de frenchcore, actif depuis 2010 (Steve Dekker à l'état civil). Il a fondé Peacock Records en 2013 ; la page française le décrit comme le DJ qui a popularisé le frenchcore aux Pays-Bas, notamment par les soirées « Vive la Frenchcore ». Wikipédia EN écrit qu'il a assuré la clôture de Qlimax et qu'il est le premier artiste à y jouer un set de frenchcore (l'année varie selon les pages : 2018 ou 2019).",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "depuis 2010 (Wikipédia FR/EN)",
+   "liens_styles": [
+    "frenchcore",
+    "hardcore",
+    "uptempo_hardcore"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dr._Peacock",
+    "https://fr.wikipedia.org/wiki/Dr._Peacock",
+    "https://en.wikipedia.org/wiki/Frenchcore"
+   ],
+   "confiance": "haute",
+   "notes": "La page FR signale une anecdote non sourcée (acouphènes), non reprise. Année du set à Qlimax : la page Dr. Peacock (EN) écrit 2019 dans son texte mais cite une interview « Qlimax 2018 » ; la page Frenchcore (EN) ne donne pas d'année dans les extraits lus. Année volontairement non affichée."
+  },
+  {
+   "id": "wildstylez",
+   "nom": "Wildstylez",
+   "alias": [
+    "Wildstylez"
+   ],
+   "pays": "Pays-Bas",
+   "ville": "Veenendaal (naissance)",
+   "description_fr": "DJ et producteur de hardstyle néerlandais (Joram Metekohy), né à Veenendaal en 1983. Sa première sortie solo date de 2007 ; il forme Project One avec Headhunterz en 2008 et cofonde Digital:Age avec Noisecontrollers en 2010. Son titre « Year of Summer » (2012) est disque de platine aux Pays-Bas.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "depuis 2007 (Wikipédia EN)",
+   "liens_styles": [
+    "hardstyle"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Wildstylez"
+   ],
+   "confiance": "haute",
+   "notes": ""
+  },
+  {
+   "id": "noisecontrollers",
+   "nom": "Noisecontrollers",
+   "alias": [
+    "Noisecontrollers"
+   ],
+   "pays": "Pays-Bas",
+   "ville": "Veenendaal (naissance)",
+   "description_fr": "DJ et producteur de hardstyle néerlandais (Bas Oskam), né à Veenendaal en 1980, actif depuis 2005. Longtemps en duo avec Arjan Terpstra (jusqu'en 2013), il cofonde Digital:Age en 2010 avec Wildstylez. Wikipédia EN écrit qu'il est « considéré comme l'un des pionniers du hardstyle » et signe l'hymne de Qlimax 2014.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "depuis 2005 (Wikipédia EN)",
+   "liens_styles": [
+    "hardstyle"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Noisecontrollers"
+   ],
+   "confiance": "haute",
+   "notes": ""
+  },
+  {
+   "id": "perc",
+   "nom": "Perc",
+   "alias": [
+    "Perc"
+   ],
+   "pays": null,
+   "ville": null,
+   "description_fr": "Producteur et DJ, de son vrai nom Ali Wells, qui dirige le label londonien Perc Trax, créé en 2004. Le label a notamment publié Avus, Go Hiyama et Truss, ainsi que la compilation Slowly Exploding. L'album The Power and the Glory de Perc, évoqué par l'article, est daté de 2014.",
+   "roles": [
+    "producteur",
+    "DJ",
+    "label"
+   ],
+   "annees_actives": null,
+   "liens_styles": [
+    "industrial_techno",
+    "hard_techno"
+   ],
+   "labels": [
+    "perc-trax"
+   ],
+   "sources": [
+    "https://www.thewildcity.com/features/2560-a-brief-history-of-perc-trax"
+   ],
+   "confiance": "moyenne",
+   "notes": "Aucune page Wikipédia EN trouvée ; source unique = article The Wild City. Nationalité, naissance et années d'activité non sourcées. Pays non indiqué pour l'artiste (le label est londonien)."
+  },
+  {
+   "id": "sara-landry",
+   "nom": "Sara Landry",
+   "alias": [
+    "Sara Landry"
+   ],
+   "pays": "États-Unis",
+   "ville": "Amsterdam (installée depuis 2022)",
+   "description_fr": "DJ et productrice américaine de hard techno, née à Sausalito (Californie) en 1993 et installée à Amsterdam depuis 2022. Active depuis 2018, elle a fondé le label Hekate Records en 2021. Son premier set Boiler Room (2023) a dépassé 6 millions de vues selon la page.",
+   "roles": [
+    "DJ",
+    "productrice",
+    "label"
+   ],
+   "annees_actives": "depuis 2018 (Wikipédia EN)",
+   "liens_styles": [
+    "hard_techno",
+    "industrial_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sara_Landry"
+   ],
+   "confiance": "moyenne",
+   "notes": "La page porte un bandeau de notabilité et s'appuie beaucoup sur les canaux de l'artiste. Le surnom « High Priestess of Hard Techno » est cité par la page, sans source indépendante vérifiée ici."
+  },
+  {
+   "id": "i-hate-models",
+   "nom": "I Hate Models",
+   "alias": [
+    "I Hate Models"
+   ],
+   "pays": "France",
+   "ville": null,
+   "description_fr": "Producteur et DJ français de techno industrielle (Guillaume Labadie), né en 1995 et actif depuis 2015. Il joue masqué en public pour préserver son anonymat. Son premier album, L'Âge des métamorphoses, sort en 2019 sur Perc Trax ; il lance son propre label Disco Inferno en 2021.",
+   "roles": [
+    "producteur",
+    "DJ",
+    "label"
+   ],
+   "annees_actives": "depuis 2015 (Wikipédia EN)",
+   "liens_styles": [
+    "industrial_techno",
+    "hard_techno",
+    "ebm"
+   ],
+   "labels": [
+    "perc-trax"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/I_Hate_Models"
+   ],
+   "confiance": "haute",
+   "notes": ""
+  },
+  {
+   "id": "kobosil",
+   "nom": "Kobosil",
+   "alias": [
+    "Kobosil"
+   ],
+   "pays": "Allemagne",
+   "ville": "Berlin (Neukölln, naissance)",
+   "description_fr": "DJ et producteur allemand né à Berlin en 1991. Son remix de « Silo » de Barker & Baumecker sort en janvier 2013 sur Ostgut Ton, que la page présente comme sa percée. Il fonde son label RK en 2013, est résident du Berghain de décembre 2014 à 2019 et sort son premier album en 2016.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "depuis environ 2008 ; à plein temps depuis 2015 (Wikipédia EN)",
+   "liens_styles": [
+    "berlin_techno",
+    "industrial_techno",
+    "ebm"
+   ],
+   "labels": [
+    "ostgut-ton"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kobosil"
+   ],
+   "confiance": "haute",
+   "notes": ""
+  },
+  {
+   "id": "stephan-bodzin",
+   "nom": "Stephan Bodzin",
+   "alias": [
+    "Stephan Bodzin"
+   ],
+   "pays": "Allemagne",
+   "ville": "Brême (naissance)",
+   "description_fr": "Producteur, DJ et musicien allemand de formation classique, né à Brême en 1969. Il a créé le label Herzblut en 2006 et sorti son premier album, Liebe Ist, en 2007. Le DJ Hell a qualifié ses mélodies de « Bremen sound » (cité par la page).",
+   "roles": [
+    "producteur",
+    "DJ",
+    "live",
+    "label"
+   ],
+   "annees_actives": "début de carrière non indiqué (première sortie listée : novembre 2004)",
+   "liens_styles": [
+    "melodic_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Stephan_Bodzin"
+   ],
+   "confiance": "haute",
+   "notes": ""
+  },
+  {
+   "id": "tale-of-us",
+   "nom": "Tale Of Us",
+   "alias": [
+    "Tale Of Us",
+    "Tale of Us"
+   ],
+   "pays": "Italie",
+   "ville": "Milan",
+   "description_fr": "Duo italien formé à Milan en 2008 par Carmine Conte et Matteo Milleri, installé à Berlin dès 2009. Il lance en 2016 la série de soirées et le label Afterlife ; son premier album, Endless (2017), paraît chez Deutsche Grammophon. La page indique que le duo ne s'est plus produit ensemble depuis janvier 2025.",
+   "roles": [
+    "duo",
+    "DJ",
+    "producteurs",
+    "label"
+   ],
+   "annees_actives": "depuis 2008 (Wikipédia EN)",
+   "liens_styles": [
+    "melodic_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tale_of_Us"
+   ],
+   "confiance": "haute",
+   "notes": "Mixmag les a nommés DJs de l'année en décembre 2015 (page). Afterlife : pas de fiche label."
+  },
+  {
+   "id": "sasha",
+   "nom": "Sasha",
+   "alias": [
+    "Sasha"
+   ],
+   "pays": "Royaume-Uni",
+   "ville": "Bangor (naissance)",
+   "description_fr": "DJ et producteur gallois (Alexander Paul Coe), né à Bangor le 4 septembre 1969, actif depuis 1989. Avec John Digweed, il publie les mix Northern Exposure en 1996-1997 ; Wikipédia EN écrit que ce travail a aidé à « définir le son de la trance » de la fin des années 1990. Il a créé le label emFire en 2007.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "depuis 1989 (Wikipédia EN)",
+   "liens_styles": [
+    "trance"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sasha_(DJ)"
+   ],
+   "confiance": "haute",
+   "notes": "La page est longue : seules les 100 000 premiers caractères ont été lus."
+  },
+  {
+   "id": "juno-reactor",
+   "nom": "Juno Reactor",
+   "alias": [
+    "Juno Reactor"
+   ],
+   "pays": "Royaume-Uni",
+   "ville": "Londres (origine) / Brighton",
+   "description_fr": "Groupe anglais créé en 1990 comme projet artistique par Ben Watkins, à la frontière de la goa trance, de la psytrance et de la musique de film. Il sort notamment Bible of Dreams (1997) et Shango (2000), et compose pour les suites de Matrix (2003). La page le décrit comme connu pour sa fusion « cinématographique » d'électronique, de sons du monde et d'orchestre.",
+   "roles": [
+    "groupe",
+    "producteur"
+   ],
+   "annees_actives": "depuis 1990 (Wikipédia EN)",
+   "liens_styles": [
+    "goa_trance",
+    "psytrance",
+    "trance"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Juno_Reactor"
+   ],
+   "confiance": "haute",
+   "notes": ""
+  },
+  {
+   "id": "deepchord",
+   "nom": "Deepchord",
+   "alias": [
+    "Deepchord (Rod Modell)",
+    "Deepchord",
+    "Rod Modell"
+   ],
+   "pays": "États-Unis",
+   "ville": "Port Huron (Michigan)",
+   "description_fr": "Producteur et musicien américain (Rod Modell), né à Detroit en 1969 et rattaché par la page à Port Huron (Michigan). Actif depuis 2000, il sort sur Soma, Modern Love et Echospace. D'après Resident Advisor (cité par Wikipédia EN), son style rappelle à la fois le son minimal berlinois de Basic Channel et la tradition de Detroit.",
+   "roles": [
+    "producteur",
+    "DJ",
+    "musicien"
+   ],
+   "annees_actives": "depuis 2000 (Wikipédia EN)",
+   "liens_styles": [
+    "dub_techno",
+    "minimal_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Deepchord"
+   ],
+   "confiance": "haute",
+   "notes": ""
+  },
+  {
+   "id": "kraftwerk",
+   "nom": "Kraftwerk",
+   "alias": [
+    "Kraftwerk"
+   ],
+   "pays": "Allemagne",
+   "ville": "Düsseldorf",
+   "description_fr": "Groupe allemand formé à Düsseldorf en 1970 par Ralf Hütter et Florian Schneider, auteur d'Autobahn (1974) et de Trans-Europe Express (1977). Wikipédia EN écrit que les « Belleville Three » (Atkins, Saunderson, May) ont mêlé les mélodies répétitives de Kraftwerk à des rythmes funk, et que Trans Europe Express est cité dans « Planet Rock » d'Afrika Bambaataa.",
+   "roles": [
+    "groupe"
+   ],
+   "annees_actives": "depuis 1970 (Wikipédia EN)",
+   "liens_styles": [
+    "electro",
+    "detroit_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kraftwerk"
+   ],
+   "confiance": "haute",
+   "notes": "Page très longue : seuls les 100 000 premiers caractères ont été lus."
+  },
+  {
+   "id": "marc-acardipane",
+   "nom": "Marc Acardipane",
+   "alias": [
+    "Marc Acardipane",
+    "Marc Trauner",
+    "Mescalinum United",
+    "Mescalinum United (Marc Acardipane)",
+    "Mescalinum United (Marc Trauner / Marc Acardipane)"
+   ],
+   "pays": "Allemagne",
+   "ville": "Francfort",
+   "description_fr": "DJ et producteur allemand (Marc Trauner) né le 7 avril 1969, basé à Francfort et actif depuis 1989. Il est cofondateur de Planet Core Productions et utilise de nombreux alias, dont Mescalinum United. Wikipédia EN écrit que « We Have Arrived » (1990) est « souvent considéré » comme le premier morceau de hardcore techno.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "depuis 1989 (Wikipédia EN)",
+   "liens_styles": [
+    "gabber",
+    "hardcore"
+   ],
+   "labels": [
+    "planet-core-productions",
+    "industrial-strength"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marc_Acardipane",
+    "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)",
+    "https://en.wikipedia.org/wiki/Lenny_Dee_(DJ)"
+   ],
+   "confiance": "haute",
+   "notes": "« We Have Arrived » : 1990 (pages Acardipane et Hardcore). Lieu de naissance non donné ; Francfort = ville de base."
+  },
+  {
+   "id": "phuture",
+   "nom": "Phuture",
+   "alias": [
+    "Phuture"
+   ],
+   "pays": "États-Unis",
+   "ville": "Chicago",
+   "description_fr": "Groupe de Chicago formé en 1985 par Earl « Spanky » Smith Jr., Nathaniel Pierre Jones (DJ Pierre) et Herbert « Herb J » Jackson. Leur morceau « Acid Tracks » (1987) est, d'après Wikipédia EN, « considéré comme le premier disque d'acid house ». Ils ont sorti des disques sur Trax.",
+   "roles": [
+    "groupe",
+    "DJ",
+    "producteurs"
+   ],
+   "annees_actives": "depuis 1985 (Wikipédia EN)",
+   "liens_styles": [
+    "acid_house",
+    "chicago_house"
+   ],
+   "labels": [
+    "trax-records"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Phuture",
+    "https://en.wikipedia.org/wiki/Trax_Records"
+   ],
+   "confiance": "haute",
+   "notes": ""
+  },
+  {
+   "id": "spiral-tribe",
+   "nom": "Spiral Tribe",
+   "alias": [
+    "Spiral Tribe",
+    "Spiral Tribe (collectif)"
+   ],
+   "pays": "Royaume-Uni",
+   "ville": "Londres",
+   "description_fr": "Collectif et sound system de free party formé en 1990 à Londres par Mark Harrison, Debbie Griffith et Simone Feeney, avec son propre label, Network 23. Il participe notamment au Castlemorton Common Festival (mai 1992), où plusieurs sound systems étaient présents ; Wikipédia EN parle de son implication dans l'organisation. Wikipédia EN écrit qu'il est devenu « un pionnier influent » du teknival et de la free party en Europe de l'Ouest. Plusieurs membres originels se reforment en 2011 sous le nom SP23.",
+   "roles": [
+    "collectif",
+    "sound system",
+    "label"
+   ],
+   "annees_actives": "depuis 1990 (Wikipédia EN)",
+   "liens_styles": [
+    "free_tekno",
+    "acid_house"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Spiral_Tribe"
+   ],
+   "confiance": "haute",
+   "notes": ""
+  },
+  {
+   "id": "basic-channel",
+   "nom": "Basic Channel",
+   "alias": [
+    "Basic Channel"
+   ],
+   "pays": "Allemagne",
+   "ville": "Berlin",
+   "description_fr": "Duo et label berlinois fondé en 1993 par Moritz von Oswald et Mark Ernestus. Ses premiers disques (« Phylyps Trak » 1993, « Octagon » 1994, « Radiance » 1994) sont cités par Wikipédia EN comme des exemples pionniers de techno minimale et de dub techno. Les mêmes fondateurs ont lancé les labels Chain Reaction, Main Street et le projet Rhythm & Sound.",
+   "roles": [
+    "duo",
+    "producteurs",
+    "label"
+   ],
+   "annees_actives": "depuis 1993 (Wikipédia EN)",
+   "liens_styles": [
+    "dub_techno",
+    "minimal_techno",
+    "berlin_techno"
+   ],
+   "labels": [
+    "basic-channel-label"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Basic_Channel"
+   ],
+   "confiance": "haute",
+   "notes": ""
+  },
+  {
+   "id": "giorgio-moroder",
+   "nom": "Giorgio Moroder",
+   "alias": [
+    "Giorgio Moroder"
+   ],
+   "pays": "Italie",
+   "ville": "Ortisei (naissance)",
+   "description_fr": "Compositeur et producteur italien né le 26 avril 1940 à Ortisei (Tyrol du Sud), actif depuis 1958. Il produit « I Feel Love » (1977) avec Donna Summer et a travaillé avec le label Casablanca. Wikipédia EN le surnomme « le père du disco » et écrit que son travail aux synthétiseurs a influencé plusieurs genres, dont la house et la techno.",
+   "roles": [
+    "compositeur",
+    "producteur"
+   ],
+   "annees_actives": "depuis 1958 (Wikipédia EN)",
+   "liens_styles": [
+    "disco",
+    "chicago_house",
+    "detroit_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Giorgio_Moroder"
+   ],
+   "confiance": "haute",
+   "notes": "Page très longue : seuls les 100 000 premiers caractères ont été lus. Nom de naissance cité par la page : Giovanni Giorgio Moroder."
+  }
+ ],
+ "labels": [
+  {
+   "id": "metroplex",
+   "nom": "Metroplex",
+   "ville": "Detroit",
+   "pays": "États-Unis",
+   "annee_creation": 1985,
+   "fondateurs": [
+    "juan-atkins"
+   ],
+   "description_fr": "Label de Detroit fondé en 1985 par Juan Atkins, qui y publie surtout sous les noms Model 500 et Infiniti. Sa première référence, M-001, est « No UFO's » de Model 500 (1985). On y trouve aussi Channel One, Eddie « Flashin » Fowlkes ou Kreem.",
+   "liens_styles": [
+    "detroit_techno",
+    "electro"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Metroplex_Records"
+   ],
+   "confiance": "haute",
+   "notes": ""
+  },
+  {
+   "id": "transmat",
+   "nom": "Transmat",
+   "ville": "Detroit",
+   "pays": "États-Unis",
+   "annee_creation": 1986,
+   "fondateurs": [
+    "derrick-may"
+   ],
+   "description_fr": "Label de Detroit fondé en 1986 par Derrick May, installé dans le quartier d'Eastern Market, que May a surnommé « Techno Boulevard ». Il a un sous-label, Fragile Records, et la page le dit inactif.",
+   "liens_styles": [
+    "detroit_techno"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Transmat"
+   ],
+   "confiance": "haute",
+   "notes": "La page ne liste aucune sortie datée."
+  },
+  {
+   "id": "underground-resistance-label",
+   "nom": "Underground Resistance (label)",
+   "ville": "Detroit",
+   "pays": "États-Unis",
+   "annee_creation": 1989,
+   "fondateurs": [
+    "jeff-mills",
+    "Mike Banks"
+   ],
+   "description_fr": "Label et collectif de Detroit fondé en 1989 par « Mad » Mike Banks et Jeff Mills. La page lui attribue les labels Underground Resistance et Somewhere in Detroit (SID) et lui rattache la structure Submerge. Ses disques The Theory et Sonic EP datent de 1990.",
+   "liens_styles": [
+    "detroit_techno",
+    "electro"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Underground_Resistance"
+   ],
+   "confiance": "haute",
+   "notes": "Même entité que la fiche artiste 'underground-resistance' (collectif) ; id distinct pour éviter un conflit d'espaces de noms. 1989 = fondation du collectif."
+  },
+  {
+   "id": "tresor-records",
+   "nom": "Tresor Records",
+   "ville": "Berlin",
+   "pays": "Allemagne",
+   "annee_creation": 1991,
+   "fondateurs": [],
+   "description_fr": "Label lié au club Tresor de Berlin, créé en octobre 1991. Wikipédia EN cite parmi ses artistes Jeff Mills, Juan Atkins, Robert Hood, Drexciya et Surgeon ; Waveform Transmission Vol. 1 de Jeff Mills y sort en 1992.",
+   "liens_styles": [
+    "berlin_techno",
+    "detroit_techno"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tresor_(club)",
+    "https://en.wikipedia.org/wiki/Jeff_Mills"
+   ],
+   "confiance": "haute",
+   "notes": "La page ne nomme pas de fondateur unique : Dimitri Hegemann (tête d'Interfisch) est lié au club, pas explicitement au label."
+  },
+  {
+   "id": "basic-channel-label",
+   "nom": "Basic Channel (label)",
+   "ville": "Berlin",
+   "pays": "Allemagne",
+   "annee_creation": 1993,
+   "fondateurs": [
+    "basic-channel"
+   ],
+   "description_fr": "Label berlinois lancé par Moritz von Oswald et Mark Ernestus, qui publient aussi sous les labels Chain Reaction, Burial Mix, M-Series, Rhythm & Sound et Main Street. Wikipédia EN décrit leurs sorties des années 1990 comme des exemples pionniers de techno minimale et de dub techno.",
+   "liens_styles": [
+    "dub_techno",
+    "minimal_techno",
+    "berlin_techno"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Basic_Channel"
+   ],
+   "confiance": "haute",
+   "notes": "Même entité que la fiche artiste 'basic-channel' ; 1993 = fondation donnée par la page."
+  },
+  {
+   "id": "plus-8",
+   "nom": "Plus 8",
+   "ville": "Windsor (Ontario)",
+   "pays": "Canada",
+   "annee_creation": 1990,
+   "fondateurs": [
+    "richie-hawtin",
+    "John Acquaviva"
+   ],
+   "description_fr": "Label fondé à Windsor (Ontario) en 1990 par Richie Hawtin et John Acquaviva. Wikipédia EN écrit qu'il a été « l'un des premiers producteurs » de la « seconde vague » de la techno de Detroit, avec Underground Resistance et Planet E. Parmi ses sorties : Cybersonik « Thrash » (1992).",
+   "liens_styles": [
+    "detroit_techno",
+    "minimal_techno",
+    "acid_techno"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Plus_8_Records",
+    "https://en.wikipedia.org/wiki/Richie_Hawtin"
+   ],
+   "confiance": "haute",
+   "notes": "1990 retenu ; la page Hawtin cite aussi 1989 (voir litiges_resolus.json)."
+  },
+  {
+   "id": "m-nus",
+   "nom": "M-nus (Minus)",
+   "ville": "Berlin / Windsor",
+   "pays": "Allemagne / Canada",
+   "annee_creation": 1998,
+   "fondateurs": [
+    "richie-hawtin"
+   ],
+   "description_fr": "Label créé en 1998 par Richie Hawtin, à Berlin et Windsor, quand Plus 8 a été mis en pause. Il publie de la techno minimale et de la microhouse (Loco Dice, Marco Carola, Matthew Dear…). En 2005, il sortait 12 à 14 disques et 2 à 3 CD par an.",
+   "liens_styles": [
+    "minimal_techno"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Minus_(record_label)"
+   ],
+   "confiance": "haute",
+   "notes": "Nom de page : Minus (record label) ; écrit « M-nus » dans les fichiers du projet."
+  },
+  {
+   "id": "warp",
+   "nom": "Warp Records",
+   "ville": "Sheffield puis Londres",
+   "pays": "Royaume-Uni",
+   "annee_creation": 1989,
+   "fondateurs": [
+    "Steve Beckett",
+    "Rob Mitchell",
+    "Robert Gordon"
+   ],
+   "description_fr": "Label fondé à Sheffield en 1989 par Steve Beckett, Rob Mitchell et Robert Gordon, installé à Londres depuis 2000. Il publie la compilation Artificial Intelligence en 1992 et des artistes comme Aphex Twin, Autechre ou Boards of Canada. Resident Advisor (2019, cité par Wikipédia EN) le qualifie d'« une des institutions les plus influentes » de la musique électronique.",
+   "liens_styles": [
+    "idm"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Warp_Records"
+   ],
+   "confiance": "haute",
+   "notes": "Première sortie : « Track With No Name » de Forgemasters (1989). Robert Gordon est parti en 1991."
+  },
+  {
+   "id": "r-and-s",
+   "nom": "R&S Records",
+   "ville": "Gand",
+   "pays": "Belgique",
+   "annee_creation": 1983,
+   "fondateurs": [
+    "Renaat Vandepapeliere",
+    "Sabine Maes"
+   ],
+   "description_fr": "Label de Gand fondé en 1983 par Renaat Vandepapeliere et Sabine Maes (« R&S » vient de leurs initiales), relancé en 2008. Il a publié notamment Aphex Twin, Joey Beltram, Model 500 et Ken Ishii. Le fondateur dit avoir été inspiré par la new beat belge de la fin des années 1980.",
+   "liens_styles": [
+    "idm",
+    "new_beat"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/R%26S_Records"
+   ],
+   "confiance": "haute",
+   "notes": "Aucune année de sortie citée pour les artistes."
+  },
+  {
+   "id": "industrial-strength",
+   "nom": "Industrial Strength Records",
+   "ville": null,
+   "pays": "États-Unis",
+   "annee_creation": 1991,
+   "fondateurs": [
+    "Lenny Dee"
+   ],
+   "description_fr": "Label lancé en 1991 par le DJ new-yorkais Lenny Dee. Sa première référence, IS001, regroupe « We Have Arrived » de Mescalinum United et « Nightflight » de The Mover, deux alias de Marc Acardipane. La page Hardcore le décrit comme « le premier label dédié au hardcore ».",
+   "liens_styles": [
+    "hardcore",
+    "gabber"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Lenny_Dee_(DJ)",
+    "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)"
+   ],
+   "confiance": "haute",
+   "notes": "Ville du label non indiquée (Lenny Dee est basé à New York). Pas de page Wikipédia dédiée au label (404). Pas d'année pour IS001."
+  },
+  {
+   "id": "planet-core-productions",
+   "nom": "Planet Core Productions",
+   "ville": null,
+   "pays": null,
+   "annee_creation": 1989,
+   "fondateurs": [
+    "marc-acardipane"
+   ],
+   "description_fr": "Label cofondé par Marc Trauner (Marc Acardipane), DJ et producteur de hardcore techno de Francfort. La page Hardcore indique 1989 pour sa fondation ; il sort « We Have Arrived » de Mescalinum United en 1990.",
+   "liens_styles": [
+    "hardcore",
+    "gabber"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hardcore_(electronic_dance_music_genre)",
+    "https://en.wikipedia.org/wiki/Marc_Acardipane"
+   ],
+   "confiance": "moyenne",
+   "notes": "Année 1989 donnée par la seule page Hardcore (la page Acardipane ne donne pas l'année). Ville et pays du label non indiqués. Pas de page dédiée."
+  },
+  {
+   "id": "harthouse",
+   "nom": "Harthouse",
+   "ville": "Mannheim",
+   "pays": "Allemagne",
+   "annee_creation": 1992,
+   "fondateurs": [
+    "sven-vath",
+    "Heinz Roth",
+    "Matthias Hoffmann"
+   ],
+   "description_fr": "Label de techno et de trance dure, présenté comme sous-label d'Eye Q Records et fondé par Sven Väth (infobox : avec Heinz Roth et Matthias Hoffmann). La page indique Mannheim ; Hardfloor y a sorti « Acperience ». Il fait faillite en 1998 selon la page Väth (la page Harthouse hésite entre 1997 et 1998) et la marque est reprise en 1998 puis en 2004.",
+   "liens_styles": [
+    "trance",
+    "hard_trance"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Harthouse",
+    "https://en.wikipedia.org/wiki/Sven_V%C3%A4th",
+    "https://en.wikipedia.org/wiki/Hardfloor"
+   ],
+   "confiance": "moyenne",
+   "notes": "Année : 1991 (infobox Harthouse) ou 1992 (texte Harthouse et page Väth) ; 1992 retenu. Mannheim donné par l'infobox seulement."
+  },
+  {
+   "id": "drumcode",
+   "nom": "Drumcode",
+   "ville": null,
+   "pays": "Suède",
+   "annee_creation": 1996,
+   "fondateurs": [],
+   "description_fr": "Label suédois dont Adam Beyer est le manager et propriétaire. Wikipédia EN cite parmi ses artistes Adam Beyer, Amelie Lens, Green Velvet, Joey Beltram, Maceo Plex et Pan-Pot.",
+   "liens_styles": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Drumcode_Records",
+    "https://en.wikipedia.org/wiki/Adam_Beyer"
+   ],
+   "confiance": "moyenne",
+   "notes": "Fondateur non explicitement nommé (Beyer = manager/propriétaire) ; ville non donnée ; la page signale une phrase de réussite « citation nécessaire »."
+  },
+  {
+   "id": "cocoon-recordings",
+   "nom": "Cocoon Recordings",
+   "ville": "Francfort",
+   "pays": "Allemagne",
+   "annee_creation": 2000,
+   "fondateurs": [
+    "sven-vath"
+   ],
+   "description_fr": "Label de Sven Väth créé en 2000 à Francfort pour soutenir de jeunes artistes. La page cite Cocoon Compilation A (2000), Legowelt « Disco Rout » (2002), Guy Gerber « This Is Balagan » (2006) ou Phil Kieran « Shh » (2009).",
+   "liens_styles": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cocoon_Recordings",
+    "https://en.wikipedia.org/wiki/Sven_V%C3%A4th"
+   ],
+   "confiance": "haute",
+   "notes": "L'objectif « aider les jeunes artistes » est tagué [citation needed] sur la page. Style non indiqué par la page : liens_styles laissé vide."
+  },
+  {
+   "id": "ostgut-ton",
+   "nom": "Ostgut Ton",
+   "ville": "Berlin",
+   "pays": "Allemagne",
+   "annee_creation": 2005,
+   "fondateurs": [],
+   "description_fr": "Label du Berghain (Berlin), lancé en 2005. Ses premières sorties sont celles de résidents du Berghain et du Panorama Bar (André Galluzzi, Cassy, Ben Klock). La page indique qu'il a fermé en décembre 2021 et rouvert en mai 2025.",
+   "liens_styles": [
+    "berlin_techno"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ostgut_Ton",
+    "https://en.wikipedia.org/wiki/Berghain"
+   ],
+   "confiance": "haute",
+   "notes": "Fondateurs non nommés : le label appartient au club. Liens styles : la page dit techno et house."
+  },
+  {
+   "id": "perc-trax",
+   "nom": "Perc Trax",
+   "ville": "Londres",
+   "pays": "Royaume-Uni",
+   "annee_creation": 2004,
+   "fondateurs": [
+    "perc"
+   ],
+   "description_fr": "Label londonien du producteur Perc (Ali Wells), créé en 2004. L'article The Wild City en retrace l'histoire : sorties d'Avus, de Go Hiyama, d'Ed Rush & Nico, de Truss et la compilation Slowly Exploding. Il a publié l'album de I Hate Models, L'Âge des métamorphoses (2019).",
+   "liens_styles": [
+    "industrial_techno",
+    "hard_techno"
+   ],
+   "sources": [
+    "https://www.thewildcity.com/features/2560-a-brief-history-of-perc-trax",
+    "https://en.wikipedia.org/wiki/I_Hate_Models"
+   ],
+   "confiance": "moyenne",
+   "notes": "Source principale = un article de presse (pas de page Wikipédia trouvée). L'article dit « the producer's London based label » sans écrire « fondé par »."
+  },
+  {
+   "id": "trax-records",
+   "nom": "Trax Records",
+   "ville": "Chicago",
+   "pays": "États-Unis",
+   "annee_creation": 1983,
+   "fondateurs": [
+    "Larry Sherman"
+   ],
+   "description_fr": "Label de Chicago fondé par Larry Sherman, qui a publié des classiques de la house comme « Can You Feel It » (Larry Heard, 1986) ou « Move Your Body » (Marshall Jefferson, 1986). Il a aussi sorti « Acid Tracks » de Phuture. La page écrit qu'il a joué « un rôle majeur » dans le développement de la house.",
+   "liens_styles": [
+    "chicago_house",
+    "acid_house",
+    "house"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Trax_Records",
+    "https://en.wikipedia.org/wiki/Phuture"
+   ],
+   "confiance": "haute",
+   "notes": "Année : 1983 (historique) ou 1984 (infobox). La page dit que la cofondation par Jesse Saunders et Vince Lawrence est « fréquemment dite » mais non documentée."
+  },
+  {
+   "id": "q-dance",
+   "nom": "Q-dance",
+   "ville": "Landsmeer",
+   "pays": "Pays-Bas",
+   "annee_creation": 1999,
+   "fondateurs": [
+    "Wouter Tavecchio"
+   ],
+   "description_fr": "Organisateur néerlandais d'événements de hardstyle, fondé en 1999 sous le nom Qlass Elite et renommé Q-dance en 2001, à Landsmeer (banlieue nord d'Amsterdam). Il organise Defqon.1 et Dominator ; Qlimax a eu sa dernière édition en novembre 2024.",
+   "liens_styles": [
+    "hardstyle",
+    "hardcore"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Q-dance",
+    "https://en.wikipedia.org/wiki/Defqon.1"
+   ],
+   "confiance": "moyenne",
+   "notes": "La page Q-dance ne mentionne pas de label « Q-dance Records » : c'est avant tout un organisateur. Elle contient plusieurs dates contradictoires (bandeau de maintenance, déc. 2025) ; Wouter Tavecchio y est « un fondateur clé »."
+  }
+ ],
+ "lieux": [
+  {
+   "id": "tresor",
+   "nom": "Tresor",
+   "type": "club",
+   "ville": "Berlin",
+   "pays": "Allemagne",
+   "coordonnees": {
+    "lat": 52.52,
+    "lon": 13.405
+   },
+   "periode": "ouvert en mars 1991 ; fermé le 16 avril 2005 ; rouvert le 24 mai 2007",
+   "description_fr": "Club de techno de Berlin, ouvert en mars 1991 dans les caves d'un ancien grand magasin (Wertheim), Leipziger Strasse, à Berlin-Mitte. Il ferme le 16 avril 2005 et rouvre le 24 mai 2007 dans l'ancienne centrale Heizkraftwerk, Köpenicker Straße. Son label, Tresor Records, naît en octobre 1991.",
+   "liens_styles": [
+    "berlin_techno",
+    "detroit_techno"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tresor_(club)"
+   ],
+   "confiance": "haute",
+   "notes": "Coordonnées = ville de Berlin (page Berlin via l'API Wikipédia), pas le club. La page ne désigne pas de fondateur unique (Dimitri Hegemann = tête d'Interfisch, sans être cité comme fondateur). Numéro de rue du site actuel non confirmé."
+  },
+  {
+   "id": "berghain",
+   "nom": "Berghain",
+   "type": "club",
+   "ville": "Berlin (Friedrichshain)",
+   "pays": "Allemagne",
+   "coordonnees": {
+    "lat": 52.52,
+    "lon": 13.405
+   },
+   "periode": "ouvert en 2004 ; fermé mars 2020 ; réouverture des soirées en octobre 2021",
+   "description_fr": "Club de Berlin, ouvert en 2004 dans une ancienne centrale de production de chaleur et d'électricité de Friedrichshain (1953), par Norbert Thormann et Michael Teufele. Il succède à Ostgut (1998 - janvier 2003). Il comprend une salle techno, le Panorama Bar (plutôt house) et un label, Ostgut Ton (lancé en 2005). Wikipédia EN écrit qu'il a été appelé « la capitale mondiale de la techno ».",
+   "liens_styles": [
+    "berlin_techno"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Berghain",
+    "https://en.wikipedia.org/wiki/Ostgut_Ton"
+   ],
+   "confiance": "haute",
+   "notes": "Coordonnées = ville de Berlin. Fermé en mars 2020 (COVID), rouvert en art space en septembre 2020. Reconnu institution culturelle par un tribunal allemand en 2016 (page)."
+  },
+  {
+   "id": "rex-club",
+   "nom": "Rex Club",
+   "type": "club",
+   "ville": "Paris",
+   "pays": "France",
+   "coordonnees": {
+    "lat": 48.8567,
+    "lon": 2.3522
+   },
+   "periode": "inauguré en 1973 ; musiques électroniques depuis le début des années 1990",
+   "description_fr": "Club parisien situé sous le Grand Rex, 5 boulevard Poissonnière, inauguré en 1973 sous ce nom. Il accueille le disco dans les années 1970, rock et new wave dans les années 1980, puis acid house, techno et house depuis le début des années 1990. La page française cite les soirées Wake Up (1992-1994) de Laurent Garnier et Éric Morand.",
+   "liens_styles": [
+    "acid_house",
+    "house"
+   ],
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Rex_Club"
+   ],
+   "confiance": "haute",
+   "notes": "Coordonnées = ville de Paris. Wikipédia FR : « l'un des hauts lieux de la techno et de la house à Paris »."
+  },
+  {
+   "id": "concrete",
+   "nom": "Concrete",
+   "type": "club",
+   "ville": "Paris (Port de la Rapée)",
+   "pays": "France",
+   "coordonnees": {
+    "lat": 48.8567,
+    "lon": 2.3522
+   },
+   "periode": "ouvert en octobre 2011 ; licence de 24 heures en mars 2017 ; soirée de clôture annoncée pour les 19 et 20 juillet 2019 (Resident Advisor)",
+   "description_fr": "Club installé sur une péniche du Port de la Rapée, à Paris, ouvert en octobre 2011. FACT l'a décrit en 2017 comme « la destination techno numéro un de la ville » et comme son club le plus en vue pour la house et la techno, au moment où il a obtenu l'autorisation de rester ouvert tant que le public danse (auparavant : fermeture à 7 h). Resident Advisor annonçait en 2019 une soirée de clôture les 19 et 20 juillet.",
+   "liens_styles": [],
+   "sources": [
+    "https://factmag.com/2017/03/08/concrete-paris-club-24-hour-license",
+    "https://ra.co/news/44007"
+   ],
+   "confiance": "haute",
+   "notes": "FACT (8 mars 2017) pour l'ouverture et la licence ; l'article de Resident Advisor (ra.co/news/44007) annonce une soirée de clôture les 19 et 20 juillet 2019, c'est une annonce et non un constat de fermeture ; il se contredit sur l'ouverture (2011 ou 2012) : octobre 2011 est retenu (FACT). Rattachements de style retirés : FACT parle de house et de techno, et aucun id « techno » générique n'existe. Coordonnées = ville de Paris."
+  },
+  {
+   "id": "fabric",
+   "nom": "fabric",
+   "type": "club",
+   "ville": "Londres (Farringdon)",
+   "pays": "Royaume-Uni",
+   "coordonnees": {
+    "lat": 51.50722222,
+    "lon": -0.1275
+   },
+   "periode": "ouvert le 29 octobre 1999 ; licence retirée en 2016 ; accord de réouverture le 21 novembre 2016 ; réouverture en 2017 (infobox de Wikipédia EN)",
+   "description_fr": "Club de Londres, à Farringdon (Charterhouse Street), ouvert le 29 octobre 1999 par Keith Reilly et Cameron Leslie. Le conseil d'Islington lui retire sa licence en 2016 après deux décès liés à la drogue ; un accord de réouverture sous conditions est trouvé le 21 novembre 2016. Sa capacité est de 1 600 personnes.",
+   "liens_styles": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Fabric_(nightclub)"
+   ],
+   "confiance": "haute",
+   "notes": "Coordonnées = ville de Londres. Les classements DJ Magazine Top 100 Clubs cités par la page se contredisent entre le texte et le tableau : non repris. Le projet écrit « fabric » en minuscules dans certains fichiers."
+  },
+  {
+   "id": "warehouse-chicago",
+   "nom": "The Warehouse (Chicago)",
+   "type": "club",
+   "ville": "Chicago",
+   "pays": "États-Unis",
+   "coordonnees": {
+    "lat": 41.88194444,
+    "lon": -87.62777778
+   },
+   "periode": "ouvert en 1977 ; Frankie Knuckles part fin 1982",
+   "description_fr": "Club de Chicago situé 206 South Jefferson Street, ouvert en 1977 sous la direction de Robert « Robbie » Williams. Frankie Knuckles en est le premier directeur musical, jusqu'à son départ fin 1982 quand le prix d'entrée double ; les propriétaires ouvrent ensuite le Music Box (1983-1988). Selon une des versions rapportées par Wikipédia EN (l'origine du mot est discutée), le style « house » viendrait d'une version raccourcie du nom du club.",
+   "liens_styles": [
+    "chicago_house",
+    "house"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Warehouse_(nightclub)",
+    "https://en.wikipedia.org/wiki/Frankie_Knuckles"
+   ],
+   "confiance": "haute",
+   "notes": "La page ne donne pas de date de fermeture. L'origine du mot « house » est discutée (voir aussi la page Chicago house). Coordonnées = ville de Chicago."
+  },
+  {
+   "id": "omen",
+   "nom": "Omen",
+   "type": "club",
+   "ville": "Francfort",
+   "pays": "Allemagne",
+   "coordonnees": {
+    "lat": 50.11055556,
+    "lon": 8.68222222
+   },
+   "periode": "ouvert en 1988 ; fermé en 1998",
+   "description_fr": "Club de Francfort ouvert en 1988 par Sven Väth, Michael Münzing et Mattias Martinsohn ; il a fermé en 1998. Wikipédia EN, dans la page de Sven Väth, écrit qu'il est « considéré comme l'un des berceaux de la techno en Allemagne ».",
+   "liens_styles": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sven_V%C3%A4th"
+   ],
+   "confiance": "a_verifier",
+   "notes": "Source unique (page Sven Väth ; la page Omen n'existe pas, 404). Coordonnées = ville de Francfort."
+  },
+  {
+   "id": "awakenings",
+   "nom": "Awakenings",
+   "type": "festival",
+   "ville": "Hilvarenbeek (festival d'été) ; origine à Amsterdam",
+   "pays": "Pays-Bas",
+   "coordonnees": {
+    "lat": 51.48333333,
+    "lon": 5.13333333
+   },
+   "periode": "première édition le 30 mars 1997 (Gashouder, Amsterdam)",
+   "description_fr": "Organisateur néerlandais d'événements de techno. La première soirée a lieu le 30 mars 1997 au Gashouder, dans la Westergasfabriek d'Amsterdam. Le festival d'été a lieu à Hilvarenbeek (édition 2027 annoncée du 9 au 11 juillet sur le site officiel). Wikipédia EN écrit que ce festival est « l'un des plus grands événements techno du monde ».",
+   "liens_styles": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Awakenings_(festival)",
+    "https://www.awakenings.com/en/"
+   ],
+   "confiance": "haute",
+   "notes": "Coordonnées = Hilvarenbeek (page Wikipédia ouverte), pas du site. La page Wikipédia EN ne cite pas Hilvarenbeek ; le lien vient du site officiel. Aucun rattachement de style : les éditions thématiques citées par la page (minimal, Detroit, schranz) ne font pas du festival un festival de ces styles. Le festival d'été (Hilvarenbeek) n'est pas le lieu des éditions de Pâques (Spaarnwoude pour l'édition 2022) : à préciser après vérification sur la page officielle."
+  },
+  {
+   "id": "defqon1",
+   "nom": "Defqon.1",
+   "type": "festival",
+   "ville": "Biddinghuizen (Flevoland)",
+   "pays": "Pays-Bas",
+   "coordonnees": {
+    "lat": 52.45416667,
+    "lon": 5.69416667
+   },
+   "periode": "première édition en 2003 (Almere) ; à Biddinghuizen depuis 2011",
+   "description_fr": "Festival de musiques « hard dance » organisé par Q-dance, d'abord à Almere (première édition en 2003) puis à Biddinghuizen, à côté de Walibi Holland, depuis 2011. On y joue surtout du hardstyle, ainsi que du hardcore, du rawstyle, de l'uptempo et du frenchcore. Wikipédia EN le décrit comme « le plus grand festival harddance du monde » ; la page donne 268 236 visiteurs en 2025. Après la soirée d'ouverture « The Gathering », le reste de l'édition 2026 a été annulé dans la nuit du 25 au 26 juin à cause d'une alerte canicule (NL Times, article du 1er juillet 2026).",
+   "liens_styles": [
+    "hardstyle",
+    "hardcore",
+    "uptempo_hardcore",
+    "frenchcore"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Defqon.1",
+    "https://en.wikipedia.org/wiki/Q-dance",
+    "https://nltimes.nl/2026/07/01/defqon1-visitors-offered-refunds-guaranteed-2027-tickets-code-red-cancellation"
+   ],
+   "confiance": "moyenne",
+   "notes": "La page Q-dance date la création de 2004, la page Defqon.1 de 2003. Contradiction levée le 10/11/2026 : la soirée d'ouverture a bien eu lieu avant l'annulation (NL Times)."
+  },
+  {
+   "id": "thunderdome",
+   "nom": "Thunderdome",
+   "type": "festival",
+   "ville": null,
+   "pays": "Pays-Bas",
+   "coordonnees": null,
+   "periode": "première soirée le 3 octobre 1992 (Heerenveen) ; édition annuelle depuis 2017",
+   "description_fr": "Concept néerlandais de soirées de hardcore techno / gabber organisé par ID&T. La première soirée Thunderdome a lieu le 3 octobre 1992 à Heerenveen ; la série de compilations démarre en 1993 chez Arcade Records. Plus récemment : Utrecht (déc. 2023), Anvers (déc. 2024) et Utrecht (déc. 2025). La page écrit qu'il est « considéré comme important » pour la popularisation du gabber dans les années 1990.",
+   "liens_styles": [
+    "gabber",
+    "hardcore"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Thunderdome_(music_festival)"
+   ],
+   "confiance": "haute",
+   "notes": "Pas de coordonnées : le lieu change selon les éditions. La page Hardcore écrit que le concept est lancé en 1993 (à rapprocher de la compilation) : 1992 retenu pour la soirée, 1993 pour les compilations. Chiffre de 1,5 million d'albums vendus (1995) = revendication d'ID&T/Arcade, non reprise."
+  },
+  {
+   "id": "tomorrowland",
+   "nom": "Tomorrowland",
+   "type": "festival",
+   "ville": "Boom (Flandre)",
+   "pays": "Belgique",
+   "coordonnees": {
+    "lat": 51.08333333,
+    "lon": 4.36666667
+   },
+   "periode": "depuis 2005 (première édition en août 2005)",
+   "description_fr": "Festival de musique électronique organisé dans le parc De Schorre, à Boom, en Flandre, à environ 16 km au sud d'Anvers. La première édition (août 2005) est organisée par ID&T avec Manu et Michiel Beers, avec environ 10 000 personnes. Les éditions 2020 et 2021 ont été annulées à cause du Covid-19.",
+   "liens_styles": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tomorrowland_(festival)"
+   ],
+   "confiance": "haute",
+   "notes": "Date exacte de la première édition : 15 août (texte) ou 14 août (tableau) selon la page. Page longue : seuls les 100 000 premiers caractères ont été lus. Coordonnées = commune de Boom."
+  },
+  {
+   "id": "boiler-room",
+   "nom": "Boiler Room",
+   "type": "media",
+   "ville": "Londres",
+   "pays": "Royaume-Uni",
+   "coordonnees": {
+    "lat": 51.50722222,
+    "lon": -0.1275
+   },
+   "periode": "fondé en mars 2010",
+   "description_fr": "Diffuseur en ligne de DJ sets en direct, fondé à Londres en mars 2010 par Blaise Bellville et Thristian Richards. Il s'est étendu à Berlin dès 2011 puis à d'autres villes ; DICE l'a racheté en 2021 et l'a revendu à Superstruct Entertainment en janvier 2025. La page indique plus de 8 000 prestations organisées depuis sa création.",
+   "liens_styles": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Boiler_Room_(music_broadcaster)"
+   ],
+   "confiance": "haute",
+   "notes": "Coordonnées = ville de Londres (siège). Controverses autour du rachat de 2025 non reprises."
+  },
+  {
+   "id": "cercle",
+   "nom": "Cercle",
+   "type": "media",
+   "ville": "Paris",
+   "pays": "France",
+   "coordonnees": {
+    "lat": 48.8567,
+    "lon": 2.3522
+   },
+   "periode": "fondé en 2016",
+   "description_fr": "Plateforme de diffusion en direct fondée à Paris en 2016 par Derek Barbolla, qui filme des concerts et DJ sets de musique électronique dans des lieux inhabituels. La page cite la tour Eiffel (2016), le château de Chambord (2018), l'Atomium de Bruxelles (2019), les pyramides de Gizeh (2020) ou Pétra (2022). Le label Cercle Records est créé en septembre 2020.",
+   "liens_styles": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cercle_(company)"
+   ],
+   "confiance": "haute",
+   "notes": "Coordonnées = ville de Paris (siège). La frise du projet cite d'autres cofondateurs (Philippe Tuchmann, etc.) non retrouvés dans cette page : non repris."
+  },
+  {
+   "id": "hor-berlin",
+   "nom": "HÖR",
+   "type": "media",
+   "ville": "Berlin (Kreuzberg)",
+   "pays": "Allemagne",
+   "coordonnees": {
+    "lat": 52.52,
+    "lon": 13.405
+   },
+   "periode": "lancé à la mi-août 2019",
+   "description_fr": "Plateforme berlinoise de DJ sets filmés en direct, lancée à la mi-août 2019 par Ori et Charly (TV.OUT) dans un ancien débarras d'un bar vide de Kreuzberg. En 2019, les sets étaient diffusés sur YouTube du lundi au vendredi, d'environ 16 h à 22 h. Elle se présente comme une « plateforme musicale indépendante » et affirme vouloir ne pas faire que de la techno.",
+   "liens_styles": [],
+   "sources": [
+    "https://electronicbeats.net/berlin-radio-diy-cctv-bcr-hor"
+   ],
+   "confiance": "haute",
+   "notes": "Sources : article Electronic Beats de 2019 (ouvert). Aucune page Wikipédia trouvée. Le site officiel donne seulement « HOER DOT LIVE GmbH » en 2026 ; le format actuel peut avoir changé. Coordonnées = ville de Berlin."
+  },
+  {
+   "id": "sonar",
+   "nom": "Sónar",
+   "type": "festival",
+   "ville": "Barcelone",
+   "pays": "Espagne",
+   "coordonnees": {
+    "lat": 41.38277778,
+    "lon": 2.17694444
+   },
+   "periode": "première édition du 2 au 4 juin 1994",
+   "description_fr": "Festival de musiques électroniques de Barcelone, fondé en 1994 par Ricard Robles, Enric Palau et Sergi Caballero. Il est découpé en Sónar by Day et Sónar by Night, et en 1994 se tenait au Centre de Cultura Contemporània (le jour) et au club Apolo (la nuit). La page cite 126 000 visiteurs en 2018.",
+   "liens_styles": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/S%C3%B3nar"
+   ],
+   "confiance": "moyenne",
+   "notes": "La page EN contient en introduction une phrase non sourcée annonçant la fin du festival (« Sonar is dead », 27 octobre 2026) : non reprise, à vérifier avant publication. Coordonnées = ville de Barcelone."
+  },
+  {
+   "id": "movement-detroit",
+   "nom": "Movement (Detroit Electronic Music Festival)",
+   "type": "festival",
+   "ville": "Detroit",
+   "pays": "États-Unis",
+   "coordonnees": {
+    "lat": 42.33166667,
+    "lon": -83.04583333
+   },
+   "periode": "première édition en 2000, à Hart Plaza",
+   "description_fr": "Festival de musique électronique organisé à Hart Plaza, à Detroit, pendant le week-end du Memorial Day. Il est né en 2000 sous le nom de Detroit Electronic Music Festival, produit par Carol Marvin (Pop Culture Media) ; Derrick May l'a organisé en 2003-2004 sous le nom Movement, Kevin Saunderson en 2005 (Fuse-In), puis Paxahau depuis 2006.",
+   "liens_styles": [
+    "detroit_techno"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Movement_Electronic_Music_Festival"
+   ],
+   "confiance": "haute",
+   "notes": "Les chiffres de fréquentation de 2000 à 2002 sont des estimations que la page dit trop généreuses : non repris. Coordonnées = ville de Detroit."
+  },
+  {
+   "id": "love-parade",
+   "nom": "Love Parade",
+   "type": "festival",
+   "ville": "Berlin (origine)",
+   "pays": "Allemagne",
+   "coordonnees": {
+    "lat": 52.52,
+    "lon": 13.405
+   },
+   "periode": "1989 à 2010",
+   "description_fr": "Parade et festival de musique électronique née en juillet 1989 à Berlin-Ouest sous l'impulsion de Matthias Roeingh (Dr. Motte) et Danielle de Picciotto, avec environ 150 participants. Elle a lieu à Berlin de 1989 à 2003 puis en 2006, puis dans la Ruhr de 2007 à 2010. Le 24 juillet 2010 à Duisbourg, un mouvement de foule fait 21 morts ; l'organisateur Rainer Schaller déclare qu'elle ne sera plus jamais organisée.",
+   "liens_styles": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Love_Parade"
+   ],
+   "confiance": "haute",
+   "notes": "Successeur : Rave the Planet, première parade le 9 juillet 2022 à Berlin (fondée par Dr. Motte selon la page). Le nombre de blessés varie (« au moins 500 » / « plus de 600 »). Coordonnées = Berlin."
+  },
+  {
+   "id": "liquid-room",
+   "nom": "Liquid Room",
+   "type": "club",
+   "ville": "Tokyo",
+   "pays": "Japon",
+   "coordonnees": {
+    "lat": 35.68972222,
+    "lon": 139.69222222
+   },
+   "periode": "année d'ouverture non sourcée",
+   "description_fr": "Salle de concerts (« live house ») de Tokyo, aujourd'hui au 3-16-6 Higashi, arrondissement de Shibuya, à environ trois minutes à pied de la gare d'Ebisu. Elle programme des genres très variés. C'est le lieu du mix Live at the Liquid Room, Tokyo de Jeff Mills, publié en 1996.",
+   "liens_styles": [],
+   "sources": [
+    "https://www.liquidroom.net/en/about",
+    "https://en.wikipedia.org/wiki/Jeff_Mills"
+   ],
+   "confiance": "moyenne",
+   "notes": "L'année d'ouverture et celle du déménagement à Ebisu ne sont pas indiquées par le site officiel ; on ne sait donc pas si le mix de 1995 a été enregistré à la même adresse. Pas de page Wikipédia trouvée (404). Coordonnées = ville de Tokyo."
+  },
+  {
+   "id": "detroit",
+   "nom": "Detroit",
+   "type": "ville",
+   "ville": "Detroit (Michigan)",
+   "pays": "États-Unis",
+   "coordonnees": {
+    "lat": 42.33166667,
+    "lon": -83.04583333
+   },
+   "periode": "scène techno depuis le milieu des années 1980",
+   "description_fr": "Ville du Michigan où est née la techno de Detroit, au milieu des années 1980. Wikipédia EN y rattache les « Belleville Three » (Juan Atkins, Kevin Saunderson et Derrick May, lycéens à Belleville), les labels Metroplex, Transmat et Underground Resistance, ainsi que le festival Movement. Elle est décrite comme « berceau de la techno » dans la page du festival.",
+   "liens_styles": [
+    "detroit_techno",
+    "electro"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Detroit_techno",
+    "https://en.wikipedia.org/wiki/Movement_Electronic_Music_Festival",
+    "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates&titles=Berlin|Paris|Detroit|Chicago|Tokyo|Amsterdam|London|Frankfurt|Barcelona|Boom,_Belgium|Hilvarenbeek|Biddinghuizen|Manchester|Lyon|Brussels&format=json&colimit=50"
+   ],
+   "confiance": "haute",
+   "notes": "Coordonnées lues sur la page Detroit via l'API Wikipédia (ouverte). Belleville est une ville distincte de Detroit."
+  },
+  {
+   "id": "berlin",
+   "nom": "Berlin",
+   "type": "ville",
+   "ville": "Berlin",
+   "pays": "Allemagne",
+   "coordonnees": {
+    "lat": 52.52,
+    "lon": 13.405
+   },
+   "periode": "scène techno depuis la chute du Mur (novembre 1989)",
+   "description_fr": "Capitale allemande dont la scène techno s'est développée après la chute du Mur, en novembre 1989 : des fêtes illégales se tiennent dans des zones abandonnées près de l'ancien Mur, et des caves comme Tekknozid ou UFO deviennent des clubs ; le Tresor ouvre en 1991. Les clubs n'avaient pas d'heure de fermeture. Selon Wikipédia EN, un article du New York Times de 2018 l'a décrite comme « sans doute la capitale mondiale de la musique électronique underground ».",
+   "liens_styles": [
+    "berlin_techno"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/German_electronic_music",
+    "https://en.wikipedia.org/wiki/Berghain",
+    "https://en.wikipedia.org/w/api.php?action=query&prop=coordinates&titles=Berlin|Paris|Detroit|Chicago|Tokyo|Amsterdam|London|Frankfurt|Barcelona|Boom,_Belgium|Hilvarenbeek|Biddinghuizen|Manchester|Lyon|Brussels&format=json&colimit=50"
+   ],
+   "confiance": "haute",
+   "notes": "Coordonnées lues sur la page Berlin via l'API Wikipédia (ouverte). La première Love Parade (juillet 1989) précède la chute du Mur (page German electronic music)."
   }
  ]
 };
