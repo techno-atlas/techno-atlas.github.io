@@ -39,7 +39,7 @@
   const ytId = (u) => { const m = /(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/))([\w-]{11})/.exec(u || ''); return m ? m[1] : null; };
   const pickVerified = (arr) => arr.filter((s) => s.verifie);
 
-  /* ---------- stockage « Mes goûts » (clé technoatlas_v1, séparée de hardlab_v1) ---------- */
+  /* ---------- stockage « Mon journal » (clé technoatlas_v1, séparée de hardlab_v1) ---------- */
   const KEY = 'technoatlas_v1';
   let storageOk = true;
   function loadDb() {
@@ -337,12 +337,12 @@
   function viewDuel() {
     const ids = listenedIds();
     if (ids.length < 2) {
-      return `<p class="crumbs"><a href="#/mes-gouts">← Mes goûts</a></p><div class="sectionHead"><div class="eyebrow">Duel A/B</div><h1 style="font-size:clamp(28px,5vw,44px)">Comparer deux sons</h1></div>
+      return `<p class="crumbs"><a href="#/mes-gouts">← Mon journal</a></p><div class="sectionHead"><div class="eyebrow">Duel A/B</div><h1 style="font-size:clamp(28px,5vw,44px)">Comparer deux sons</h1></div>
         <div class="notice">Un duel compare deux sons que tu as déjà écoutés. Note d’abord au moins deux sets (<a href="#/sets">Bibliothèque</a>), puis reviens ici.</div>`;
     }
     if (!duelPair || !itemById(duelPair[0]) || !itemById(duelPair[1])) duelPair = pickPair(duelCrit);
     const hist = db.duels.slice().sort((a, b) => (b.updated || 0) - (a.updated || 0)).slice(0, 12);
-    return `<p class="crumbs"><a href="#/mes-gouts">← Mes goûts</a></p><div class="sectionHead"><div class="eyebrow">Duel A/B</div><h1 style="font-size:clamp(28px,5vw,44px)">Lequel te parle le plus ?</h1>
+    return `<p class="crumbs"><a href="#/mes-gouts">← Mon journal</a></p><div class="sectionHead"><div class="eyebrow">Duel A/B</div><h1 style="font-size:clamp(28px,5vw,44px)">Lequel te parle le plus ?</h1>
       <p>Choisis un critère, puis départage deux sons que tu as écoutés. Un duel n’efface jamais une note : les deux informations sont conservées.</p></div>
       <div class="filters" role="group" aria-label="Critère du duel">${Object.keys(CRITERIA).map((k) => `<button class="chip ${duelCrit === k ? 'on' : ''}" data-crit="${k}" aria-pressed="${duelCrit === k}">${esc(CRITERIA[k])}</button>`).join('')}</div>
       ${duelPair ? `<div class="grid" style="margin-top:14px">${duelCard(duelPair[0], 'A')}${duelCard(duelPair[1], 'B')}</div>
@@ -1045,7 +1045,7 @@
     }).join('');
     const state = (id) => { const l = db.listens[id]; return !l ? 'Pas encore noté' : l.status === 'a_ecouter' ? 'À écouter' : 'Noté'; };
     const link = (x) => `<a href="${itemHref(x.s)}">${esc(setName(x.s))}</a>${x.s.custom ? ' <span class="chip">perso</span>' : ''}`;
-    return `<div class="sectionHead"><div class="eyebrow">Mes goûts</div><h1 style="font-size:clamp(28px,5vw,44px)">Mon journal d’écoute</h1>
+    return `<div class="sectionHead"><div class="eyebrow">Journal</div><h1 style="font-size:clamp(28px,5vw,44px)">Mon journal d’écoute</h1>
       <p>Tout est stocké dans <b>ce navigateur</b>, sur cet appareil. Exporte régulièrement ton journal pour ne rien perdre ou pour changer d’appareil.</p></div>
       ${storageOk ? '' : '<div class="notice">Le stockage du navigateur est indisponible (navigation privée ?). Tes notes ne seront pas conservées : exporte-les.</div>'}
       ${accountPanel()}
@@ -1147,7 +1147,7 @@
   function viewMonSon(id) {
     const c = db.custom[id]; if (!c) return notFound();
     const s = customItem(c); const l = db.listens[id] || {};
-    return `<p class="crumbs"><a href="#/mes-gouts">← Mes goûts</a></p>
+    return `<p class="crumbs"><a href="#/mes-gouts">← Mon journal</a></p>
       <div class="eyebrow">Mon son · ${esc(CUSTOM_TYPES[c.type])}</div><h1 style="font-size:clamp(26px,4.5vw,40px)">${esc(setName(s))}</h1>
       <div class="tags" style="margin-top:10px">${s.styles.map(styleChip).join('')}${s.tags.map((t) => `<span class="chip">#${esc(t)}</span>`).join('')}</div>
       <div class="two" style="margin-top:20px"><div>
@@ -1226,8 +1226,8 @@
         </ul>
         <h2 style="margin-top:24px">Tes droits</h2>
         <ul>
-          <li><b>Voir et sauvegarder tes données :</b> « Exporter » dans Mes goûts.</li>
-          <li><b>Tout effacer :</b> « Supprimer mon compte » (dans Mes goûts, une fois connecté) supprime ton compte et ton journal en ligne. « Effacer le journal de ce navigateur » vide la copie locale.</li>
+          <li><b>Voir et sauvegarder tes données :</b> « Exporter » dans Mon journal.</li>
+          <li><b>Tout effacer :</b> « Supprimer mon compte » (dans Mon journal, une fois connecté) supprime ton compte et ton journal en ligne. « Effacer le journal de ce navigateur » vide la copie locale.</li>
           <li>Mot de passe oublié : il n’y a pas de réinitialisation automatique ; demande de l’aide à la personne qui t’a invité.</li>
         </ul>
         <h2 style="margin-top:24px">Contenu et droits</h2>
@@ -1273,7 +1273,7 @@
     after();
     document.querySelectorAll('#nav a').forEach((a) => { if (a.dataset.r === nav) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
     if (keepScroll === true) window.scrollTo(0, y); else if (name !== 'histoire' || !arg) { window.scrollTo(0, 0); main.focus({ preventScroll: true }); }
-    document.title = 'Techno Atlas — ' + (nav || name || 'accueil');
+    document.title = 'Techno Atlas — ' + (({ 'mes-gouts': 'Mon journal' })[nav] || nav || name || 'accueil');
   }
   window.addEventListener('hashchange', () => render(false));
   render(false);
