@@ -24,7 +24,7 @@
   const confBadge = (c) => `<span class="badge ${esc(c || 'a_verifier')}">${esc(CONF[c] || CONF.a_verifier)}</span>`;
   const styleLabel = (id) => (styleById[id] ? styleById[id].nom : id);
   const styleChip = (id) => styleById[id]
-    ? `<a class="chip" href="#/style/${encodeURIComponent(id)}">${esc(styleById[id].nom)}</a>`
+    ? `<a class="chip f-${famOf(id)}" href="#/style/${encodeURIComponent(id)}">${esc(styleById[id].nom)}</a>`
     : `<span class="chip">${esc(id)}</span>`;
   const sourcesBlock = (src) => (src && src.length)
     ? `<details><summary>Sources (${src.length})</summary><ul>${src.map((u) => `<li><a href="${esc(safeUrl(u))}" target="_blank" rel="noopener noreferrer">${esc(u)}</a></li>`).join('')}</ul></details>`
@@ -92,12 +92,48 @@
   function setCard(s) {
     const l = db.listens[s.id];
     return `<article class="card">
+      <div class="coverWrap">${coverSvg(s)}</div>
       <div class="tags"><span class="badge niv">${esc(NIV[s.niveau] || 'Niveau ?')}</span>${s.type === 'documentaire' ? '<span class="chip on">Documentaire</span>' : ''}${s.annee ? `<span class="chip">${esc(s.annee)}</span>` : ''}<span class="chip">${esc(BRANCH[s.branche] || '')}</span>${l ? '<span class="chip on">Dans mon journal</span>' : ''}</div>
       <h3><a href="#/set/${encodeURIComponent(s.id)}">${esc(setName(s))}</a></h3>
       <p class="small muted">${esc([s.evenement, s.lieu].filter(Boolean).join(' · ')) || ' '}</p>
       <p class="small">${esc((s.pourquoi || '').slice(0, 170))}${(s.pourquoi || '').length > 170 ? '…' : ''}</p>
       <div class="tags">${(s.styles || []).slice(0, 3).map(styleChip).join('')}</div>
     </article>`;
+  }
+
+  /* ---------- identité visuelle : familles de styles et visuels générés (aucune image externe) ---------- */
+  const FAM_META = { racines: ['Racines', '#ffc66b'], techno: ['Techno', '#65e3dc'], trance: ['Trance', '#b794ff'], hard: ['Hard music', '#ff83c1'], rave: ['Rave libre', '#d8ff63'] };
+  const FAMILY = {
+    racines: ['musique_concrete', 'krautrock', 'electronique_allemande_70s', 'funk', 'dub', 'hip_hop_debuts', 'ambient', 'industrial', 'synth_pop', 'disco', 'eurodisco', 'hi_nrg', 'italo_disco', 'electro', 'chicago_house', 'house', 'acid_house', 'ebm', 'new_beat'],
+    techno: ['detroit_techno', 'berlin_techno', 'minimal_techno', 'dub_techno', 'melodic_techno', 'tech_house', 'industrial_techno', 'schranz', 'idm', 'ambient_house'],
+    trance: ['trance', 'goa_trance', 'psytrance', 'hard_trance'],
+    hard: ['hard_techno', 'acid_techno', 'gabber', 'hardcore', 'happy_hardcore', 'uptempo_hardcore', 'frenchcore', 'hardstyle', 'hard_bounce'],
+    rave: ['free_tekno']
+  };
+  const FAM_OF = {}; Object.keys(FAMILY).forEach((f) => FAMILY[f].forEach((id) => { FAM_OF[id] = f; }));
+  const famOf = (id) => FAM_OF[id] || 'techno';
+  const setFam = (s) => { const ids = (s.styles || []).filter((i) => styleById[i]); return ids.length ? famOf(ids[0]) : (s.branche === 'hard' ? 'hard' : 'techno'); };
+  const hashStr = (str) => { let h = 2166136261; for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; };
+  const rngFrom = (seed) => { let a = seed >>> 0; return () => { a = (a + 0x6D2B79F5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; };
+  /* Visuel « forme d'onde » généré à partir de l'identifiant du set et de la couleur de sa famille. */
+  function coverSvg(s, big) {
+    const col = FAM_META[setFam(s)][1]; const r = rngFrom(hashStr(String(s.id))); const W = 400, H = big ? 225 : 64, n = big ? 56 : 44;
+    const gid = 'g' + String(s.id).replace(/[^a-z0-9]/gi, '').slice(0, 24);
+    let env = 0.5, bars = '';
+    for (let i = 0; i < n; i++) {
+      env = Math.max(0.12, Math.min(1, env + (r() - 0.5) * 0.5));
+      const h = Math.round(H * (0.18 + 0.7 * env)); const bw = (W / n) * 0.62; const x = (i + 0.19) * (W / n);
+      bars += `<rect x="${x.toFixed(1)}" y="${((H - h) / 2).toFixed(1)}" width="${bw.toFixed(1)}" height="${h}" rx="${(bw / 2).toFixed(1)}" opacity="${(0.35 + 0.5 * env).toFixed(2)}"/>`;
+    }
+    return `<svg class="cover" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true" focusable="false"><defs><linearGradient id="${gid}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".24"/><stop offset="1" stop-color="#0b0e15"/></linearGradient></defs><rect width="${W}" height="${H}" fill="url(#${gid})"/><g fill="${col}">${bars}</g></svg>`;
+  }
+  const famLegend = () => `<div class="legend famleg" aria-label="Familles de styles">${Object.keys(FAM_META).map((f) => `<span><i style="background:${FAM_META[f][1]}"></i>${esc(FAM_META[f][0])}</span>`).join('')}</div>`;
+  function historyStrip() {
+    const evs = A.timeline.slice().sort((a, b) => a.annee - b.annee); const by = {};
+    evs.forEach((e) => { const d = decade(e.annee); if (!by[d] || (e.confiance === 'haute' && by[d].confiance !== 'haute')) by[d] = e; });
+    const items = Object.keys(by).sort().map((d) => by[d]);
+    return `<div class="sectionHead"><div class="eyebrow">Un aperçu</div><h2>De ${esc(items[0].annee)} à aujourd’hui, en ${items.length} repères</h2></div>
+      <div class="strip">${items.map((e) => `<a class="stripCard" href="#/histoire/${encodeURIComponent(e.id)}"><b>${esc(e.annee)}</b><span>${esc(e.titre)}</span><small>${esc(e.lieu || '')}</small></a>`).join('')}</div>`;
   }
 
   /* ---------- fusion et synchronisation (comptes personnels, Supabase) ---------- */
@@ -582,8 +618,9 @@
   const todayIso = () => new Date().toISOString().slice(0, 10);
   const soireeUpcoming = (s) => (s.date_fin || s.date || '') >= todayIso();
   const fmtDate = (iso) => { try { return new Date(iso + 'T12:00:00').toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }); } catch (e) { return iso || ''; } };
-  const lineupArtistId = (x) => (x.artiste_id && artistById[x.artiste_id] ? x.artiste_id : artistByName[nk(x.nom)] || null);
-  const lineupChips = (s) => (s.lineup || []).map((x) => { const id = lineupArtistId(x); return id ? `<a class="chip ${x.role === 'tete_d_affiche' ? 'on' : ''}" href="#/artiste/${encodeURIComponent(id)}">${esc(x.nom)}</a>` : `<span class="chip ${x.role === 'tete_d_affiche' ? 'on' : ''}">${esc(x.nom)}</span>`; }).join(' ');
+  /* artiste_id: null (explicite) = aucun rattachement voulu (homonymes) ; clé absente = rattachement par nom. */
+  const lineupArtistId = (x) => (x.artiste_id && artistById[x.artiste_id] ? x.artiste_id : (x.artiste_id === null ? null : artistByName[nk(x.nom)] || null));
+  const lineupChips = (s) => (s.lineup || []).map((x) => { const id = lineupArtistId(x); const pre = x.b2b ? '<span class="small muted">B2B</span> ' : ''; return pre + (id ? `<a class="chip ${x.role === 'tete_d_affiche' ? 'on' : ''}" href="#/artiste/${encodeURIComponent(id)}">${esc(x.nom)}</a>` : `<span class="chip ${x.role === 'tete_d_affiche' ? 'on' : ''}">${esc(x.nom)}</span>`); }).join(' ');
   const soireesOfArtist = (a) => SOIREES.filter((s) => (s.lineup || []).some((x) => lineupArtistId(x) === a.id));
   function soireeCard(s) {
     const up = soireeUpcoming(s);
@@ -655,7 +692,7 @@
     const todo = entries.filter((x) => x.l.status === 'a_ecouter').slice(0, 5);
     const inProg = PATHS.filter((p) => { const d = [...doneSteps(p.id)].filter((i) => i < p.etapes.length).length; return d > 0 && d < p.etapes.length; });
     const more = pickVerified(A.sets).filter((s) => s.niveau !== 'entree' && !db.listens[s.id]).slice(0, 4);
-    const beginner = `<div class="sectionHead"><div class="eyebrow">Par où commencer</div><h2>Trois étapes</h2></div>
+    const beginner = `${historyStrip()}<div class="sectionHead"><div class="eyebrow">Par où commencer</div><h2>Trois étapes</h2></div>
       <div class="steps">
         <div class="panel step"><span class="n">1</span><h3>Comprendre</h3><p class="small muted">La frise des origines (Détroit, Chicago, Berlin, les raves…) puis la carte des styles : qui descend de qui.</p><a class="btn sm" href="#/histoire">Ouvrir la frise</a> <a class="btn sm" href="#/styles">Voir les styles</a></div>
         <div class="panel step"><span class="n">2</span><h3>Écouter</h3><p class="small muted">Des sets emblématiques, classés « porte d’entrée » ou « pour aller plus loin », avec des repères pour savoir quoi écouter.</p><a class="btn sm" href="#/guide/ecouter-un-set">Comment écouter un set</a> <a class="btn sm" href="#/sets">La bibliothèque</a></div>
@@ -818,7 +855,7 @@
       const p = pos[s.id]; if (!p) return '';
       const cls = !sel ? '' : s.id === sel.id ? 'sel' : parents.has(s.id) ? 'parent' : children.has(s.id) ? 'child' : 'dim';
       const lines = wrapName(s.nom);
-      return `<g class="gn ${cls}" data-st="${esc(s.id)}" tabindex="0" role="button" aria-pressed="${sel && s.id === sel.id ? 'true' : 'false'}" aria-label="${esc(s.nom)}" transform="translate(${p.x},${p.y})"><title>${esc(s.nom)}</title><rect width="${NW}" height="${NH}" rx="10"/>${lines.map((t, i) => `<text x="10" y="${lines.length === 1 ? 29 : 21 + i * 15}">${esc(t)}</text>`).join('')}</g>`;
+      return `<g class="gn ${cls}" data-st="${esc(s.id)}" tabindex="0" role="button" aria-pressed="${sel && s.id === sel.id ? 'true' : 'false'}" aria-label="${esc(s.nom)}" transform="translate(${p.x},${p.y})"><title>${esc(s.nom)}</title><rect width="${NW}" height="${NH}" rx="10"/><rect class="acc f-${famOf(s.id)}" width="5" height="${NH}" rx="2"/>${lines.map((t, i) => `<text x="16" y="${lines.length === 1 ? 29 : 21 + i * 15}">${esc(t)}</text>`).join('')}</g>`;
     }).join('');
     return `<svg class="tree" width="${L.W}" height="${L.H}" viewBox="0 0 ${L.W} ${L.H}" role="group" aria-label="Arbre des styles : chaque style est relié à ses influences et à ses dérivés"><defs><marker id="arr" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="context-stroke"/></marker></defs>${heads}
       <g fill="none">${L.edges.map((e) => `<path class="${edgeCls(e)}" d="${edgePath(e)}" marker-end="url(#arr)"/>`).join('')}</g>${nodes}</svg>`;
@@ -839,7 +876,7 @@
       ? `<aside class="panel gdetail" id="sdetail" aria-live="polite"><div class="row" style="justify-content:space-between"><span class="kind">Style</span><button class="btn sm" id="closeSt">Fermer</button></div>
           <h2 style="margin:6px 0 4px">${esc(sel.nom)}</h2><p class="small muted">${esc([sel.periode, sel.lieu].filter(Boolean).join(' · '))}</p><div class="tags">${confBadge(sel.confiance)}</div>
           <p style="margin-top:10px">${rich(sel.def)}</p>
-          ${(sel.carac || []).length ? `<p class="small"><b>Ce qu’on y entend :</b></p><ul class="small">${sel.carac.map((c) => `<li>${rich(c)}</li>`).join('')}</ul>` : ''}
+          ${(sel.carac || []).length ? `<p class="small"><b>Ce que décrivent les sources :</b></p><ul class="small">${sel.carac.map((c) => `<li>${rich(c)}</li>`).join('')}</ul>` : ''}
           ${sel.bpm ? `<p class="small"><b>BPM typique :</b> ${esc(sel.bpm)}</p>` : ''}
           <p class="small"><b>Influences :</b> ${[...parents].map(styleChip).join(' ') || '<span class="muted">aucune renseignée</span>'}</p>
           <p class="small"><b>Dérivés :</b> ${[...children].map(styleChip).join(' ') || '<span class="muted">aucun renseigné</span>'}</p>
@@ -854,7 +891,7 @@
     return `<div class="sectionHead"><div class="eyebrow">Styles</div><h1 style="font-size:clamp(28px,5vw,44px)">Qui descend de qui</h1>
       <p>Les styles sont rangés par période d’apparition ; chaque flèche va d’une influence vers son dérivé. Touche un style pour lire sa définition et voir ses liens.</p></div>
       <div class="row" role="group" aria-label="Affichage"><button class="chip ${styleViewMode === 'arbre' ? 'on' : ''}" data-view="arbre" aria-pressed="${styleViewMode === 'arbre'}">Arbre</button><button class="chip ${styleViewMode === 'liste' ? 'on' : ''}" data-view="liste" aria-pressed="${styleViewMode === 'liste'}">Liste par période</button></div>
-      <div class="legend"><span><i style="background:var(--lime)"></i>Style choisi</span><span><i style="background:var(--cyan)"></i>Ses influences</span><span><i style="background:var(--pink)"></i>Ses dérivés</span></div>
+      ${famLegend()}<div class="legend"><span><i style="background:var(--lime)"></i>Style choisi</span><span><i style="background:var(--cyan)"></i>Ses influences</span><span><i style="background:var(--pink)"></i>Ses dérivés</span></div>
       <div class="genwrap"><div class="gen">${styleViewMode === 'arbre' ? treeSvg(sel, parents, children) : liste.replace('<div class="gen">', '<div class="gen2">').replace(/<\/div>$/, '</div>')}</div>${detail}</div>`;
   }
   function afterStyles() {
@@ -884,7 +921,7 @@
       <p class="muted">${esc([s.periode, s.lieu].filter(Boolean).join(' · '))}</p><div class="tags">${confBadge(s.confiance)}</div>
       <div class="two" style="margin-top:20px"><div>
         <div class="panel"><p class="lead" style="margin:0">${rich(s.def)}</p></div>
-        ${(s.carac || []).length ? `<div class="sectionHead"><h2>Ce qu’on y entend</h2></div><ul>${s.carac.map((c) => `<li>${rich(c)}</li>`).join('')}</ul>` : ''}
+        ${(s.carac || []).length ? `<div class="sectionHead"><h2>Ce que décrivent les sources</h2></div><ul>${s.carac.map((c) => `<li>${rich(c)}</li>`).join('')}</ul>` : ''}
         ${(s.tempos || []).length ? `<p class="small"><b>Tempo selon les sources :</b> ${s.tempos.filter((p) => Number.isFinite(p.min)).map((p) => esc(bpmTxt(p) + ' (' + p.source + ')')).join(' ; ')} — <a href="#/tempos">échelle des tempos</a></p>` : s.bpm ? `<p class="small"><b>BPM typique :</b> ${esc(s.bpm)} <span class="muted">(selon les sources citées ; un repère, pas une règle)</span></p>` : '<p class="small muted">BPM non renseigné (aucune source fiable retenue).</p>'}
         ${s.notes ? `<p class="small muted"><b>Points discutés :</b> ${esc(s.notes)}</p>` : ''}
         ${evs.length ? `<div class="sectionHead"><h2>Dans l’histoire</h2></div><ul>${evs.map((e) => `<li><a href="#/histoire/${encodeURIComponent(e.id)}">${esc(e.annee)} — ${esc(e.titre)}</a></li>`).join('')}</ul>` : ''}
@@ -944,7 +981,7 @@
       : mixPath(s.url) ? `<button class="btn primary" id="loadPlayer" data-mix="${esc(mixPath(s.url))}">Charger le lecteur Mixcloud</button>`
       : scUrl(s.url) ? `<button class="btn primary" id="loadPlayer" data-sc="${esc(s.url)}">Charger le lecteur SoundCloud</button>`
       : `<a class="btn primary" href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">Écouter sur ${esc(s.plateforme || 'la plateforme')}</a>`;
-    return `<div class="playerBox" id="player">${inner}</div>
+    return `<div class="playerBox" id="player">${coverSvg(s, true)}<div class="pcta"><p class="ptitle">${esc(setName(s))}</p>${s.duree_min ? `<p class="pmeta">${esc(s.duree_min)} min · ${esc(s.plateforme || '')}</p>` : ''}${inner}</div></div>
       <p class="small muted">Le lecteur n’est chargé qu’au clic. Si une vidéo refuse l’intégration, <a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">ouvre-la sur la plateforme</a>.</p>`;
   }
   function viewSet(id) {

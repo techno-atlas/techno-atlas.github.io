@@ -1646,7 +1646,7 @@ window.ATLAS = {
    "id": "disco",
    "nom": "Disco",
    "periode": "Fin des années 1960 – années 1970",
-   "annee": 1960,
+   "annee": 1970,
    "lieu": "Philadelphie, Baltimore, New York (États-Unis)",
    "def": "Musique de club américaine des années 1970, portée par une grosse caisse à quatre temps par mesure, des basses syncopées, des cordes, des cuivres et, peu à peu, des synthétiseurs. Son déclin aux États-Unis s'accélère après la « Disco Demolition Night » (12 juillet 1979), mais elle reste une influence majeure de la house.",
    "bpm": null,
@@ -1655,11 +1655,16 @@ window.ATLAS = {
     "basses syncopées",
     "cordes, cuivres, piano électrique, synthétiseurs"
    ],
-   "influences": [],
+   "influences": [
+    "funk"
+   ],
    "derives": [
     "chicago_house",
     "house",
-    "ebm"
+    "ebm",
+    "eurodisco",
+    "hi_nrg",
+    "hip_hop_debuts"
    ],
    "artistes": [
     "Donna Summer",
@@ -1701,7 +1706,12 @@ window.ATLAS = {
     "voix traitées au vocodeur ou talkbox",
     "textures synthétiques et « robotiques »"
    ],
-   "influences": [],
+   "influences": [
+    "electronique_allemande_70s",
+    "funk",
+    "hip_hop_debuts",
+    "synth_pop"
+   ],
    "derives": [
     "detroit_techno",
     "idm"
@@ -1761,7 +1771,8 @@ window.ATLAS = {
    ],
    "influences": [
     "disco",
-    "house"
+    "house",
+    "italo_disco"
    ],
    "derives": [
     "acid_house",
@@ -1883,7 +1894,10 @@ window.ATLAS = {
    ],
    "influences": [
     "electro",
-    "chicago_house"
+    "chicago_house",
+    "electronique_allemande_70s",
+    "funk",
+    "synth_pop"
    ],
    "derives": [
     "tech_house",
@@ -2094,7 +2108,8 @@ window.ATLAS = {
    ],
    "influences": [
     "minimal_techno",
-    "berlin_techno"
+    "berlin_techno",
+    "dub"
    ],
    "derives": [],
    "artistes": [
@@ -2425,7 +2440,8 @@ window.ATLAS = {
     "influence du label Wax Trax!"
    ],
    "influences": [
-    "detroit_techno"
+    "detroit_techno",
+    "industrial"
    ],
    "derives": [],
    "artistes": [
@@ -3003,7 +3019,10 @@ window.ATLAS = {
     "voix peu déformées, au ton de commande"
    ],
    "influences": [
-    "disco"
+    "disco",
+    "electronique_allemande_70s",
+    "industrial",
+    "synth_pop"
    ],
    "derives": [
     "new_beat",
@@ -3121,7 +3140,10 @@ window.ATLAS = {
     "basses profondes, riffs de synthétiseurs, voix optionnelles"
    ],
    "influences": [
-    "disco"
+    "disco",
+    "hi_nrg",
+    "italo_disco",
+    "synth_pop"
    ],
    "derives": [
     "chicago_house",
@@ -3485,7 +3507,8 @@ window.ATLAS = {
    ],
    "influences": [
     "house",
-    "acid_house"
+    "acid_house",
+    "ambient"
    ],
    "derives": [
     "idm"
@@ -3560,6 +3583,521 @@ window.ATLAS = {
    "tempos": [],
    "tempo_commentaire": "Aucune page ouverte (Wikipédia EN, FR et DE) ne donne de tempo pour l'IDM.",
    "tempo_confiance": "a_verifier"
+  },
+  {
+   "id": "musique_concrete",
+   "nom": "Musique concrète (et électroacoustique)",
+   "periode": "1948 (le 5 octobre 1948, à Paris, l'Étude aux chemins de fer de Pierre Schaeffer est présentée au public et diffusée par la Radiodiffusion française : les pages Wikipédia parlent d'un concert d'un côté, d'une diffusion de l'autre) ; le terme « musique concrète » est rendu public en 1949 ; le Groupe de Recherches Musicales (GRM) naît en 1958 après un premier Groupe de Recherche de Musique Concrète créé en 1951 ; la théorie de Schaeffer s'élabore dès le début des années 1940",
+   "annee": 1948,
+   "lieu": "Paris (France), Radiodiffusion française",
+   "def": "Imagine qu'au lieu d'écrire des notes sur une partition, tu enregistres des sons réels (un train, une voix, un objet), puis que tu les transformes (ralentis, passés à l'envers, bouclés) et les assembles. Les toutes premières pièces de 1948 sont réalisées sur disques ; la bande magnétique arrive ensuite à la radio française. C'est la musique concrète, imaginée à Paris par le compositeur et théoricien Pierre Schaeffer. Elle prend des sons enregistrés comme matière première et les assemble en collage sonore, sans être limitée par les règles habituelles de mélodie, d'harmonie, de rythme et de mesure. Ces gestes (boucler, accélérer, extraire un petit bout de son) font penser au sampling : le critique Simon Reynolds voit dans le hip-hop des années 1980, produit en studio à base de samples, un descendant, mais indirect, de la musique concrète.",
+   "bpm": null,
+   "carac": [
+    "sons enregistrés utilisés comme matière première plutôt que des notes de partition",
+    "montage et transformation des sons : boucles, lecture à l'envers, vitesse variable, découpe (micromontage) ; d'abord sur disques, puis sur bande magnétique",
+    "sons « acousmatiques » dont la source peut être volontairement cachée",
+    "musique non limitée par les règles habituelles de mélodie, d'harmonie, de rythme et de mesure"
+   ],
+   "influences": [],
+   "derives": [
+    "krautrock",
+    "ambient",
+    "industrial"
+   ],
+   "artistes": [
+    "Pierre Schaeffer",
+    "Pierre Henry",
+    "Luc Ferrari",
+    "Bernard Parmegiani",
+    "François Bayle",
+    "Beatriz Ferreyra",
+    "Halim El-Dabh (compositeur égyptien ; sa pièce The Expression of Zaar est présentée en 1944 au Caire)",
+    "Art of Noise (relais vers la dance music des années 1980)"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Musique_concr%C3%A8te",
+    "https://en.wikipedia.org/wiki/Electronic_music",
+    "https://en.wikipedia.org/wiki/Krautrock",
+    "https://en.wikipedia.org/wiki/Industrial_music",
+    "https://en.wikipedia.org/wiki/Ambient_music"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "krautrock",
+   "nom": "Krautrock (kosmische Musik)",
+   "periode": "Fin des années 1960 (Wikipédia EN : un rock expérimental « développé en Allemagne de l'Ouest à la fin des années 1960 et au début des années 1970 », en partie né des manifestations étudiantes de 1968) ; le terme « Krautrock » est employé par Virgin Records en 1972 et popularisé par la presse britannique, souvent de façon péjorative",
+   "annee": 1960,
+   "lieu": "Allemagne de l'Ouest",
+   "def": "Le krautrock, d'abord appelé « kosmische Musik » (musique cosmique), est un rock expérimental né en Allemagne de l'Ouest à la fin des années 1960 et au début des années 1970. Ses groupes mélangent rock psychédélique, musique d'avant-garde et musique électronique, avec de longues pièces répétitives, hypnotiques, souvent improvisées. Un de ses rythmes souvent cités est le beat « motorik » : un 4/4 à la pulsation continue, qui donne une impression d'élan constant. Le nom « Krautrock » a été popularisé par la presse britannique, souvent de façon péjorative, et plusieurs musiciens l'ont rejeté.",
+   "bpm": null,
+   "carac": [
+    "improvisation étendue et rythmes hypnotiques, minimalistes",
+    "longues pièces fondées sur la répétition et les textures, parfois proches du drone",
+    "beat « motorik » : 4/4 à la pulsation continue, impression d'élan constant",
+    "synthétiseurs (EMS VCS 3, Moog modulaire) et techniques de musique concrète"
+   ],
+   "influences": [
+    "musique_concrete"
+   ],
+   "derives": [
+    "electronique_allemande_70s",
+    "ambient",
+    "synth_pop"
+   ],
+   "artistes": [
+    "Neu!",
+    "Can",
+    "Faust",
+    "Tangerine Dream",
+    "Kraftwerk",
+    "Cluster",
+    "Ash Ra Tempel",
+    "Popol Vuh",
+    "Amon Düül II",
+    "Harmonia"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Krautrock",
+    "https://en.wikipedia.org/wiki/Synth-pop",
+    "https://en.wikipedia.org/wiki/Ambient_music",
+    "https://en.wikipedia.org/wiki/Electronic_body_music"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "electronique_allemande_70s",
+   "nom": "Électronique allemande des années 1970 (Kraftwerk, écoles de Düsseldorf et de Berlin)",
+   "periode": "1974 (album Autobahn de Kraftwerk, sorti en novembre 1974 en Allemagne ; le groupe est formé à Düsseldorf en 1970 par Ralf Hütter et Florian Schneider)",
+   "annee": 1974,
+   "lieu": "Allemagne de l'Ouest : Düsseldorf (Kraftwerk, studio Kling Klang) ; Wikipédia EN cite aussi une « école de Berlin » sans détailler ses groupes",
+   "def": "Dans les années 1970, la scène krautrock allemande a donné naissance, d'après Wikipédia EN, à une « école de Düsseldorf » et à une « école de Berlin » de musique électronique. Le groupe de Düsseldorf Kraftwerk, fondé en 1970 par Ralf Hütter et Florian Schneider, en est l'exemple le plus connu : son album Autobahn sort en novembre 1974, et Wikipédia EN dit que le groupe adopte alors un son électronique qu'il décrit lui-même comme de la « robot pop ». Ses morceaux ont beaucoup été repris et samplés, et Wikipédia FR cite Juan Atkins, Derrick May et Kevin Saunderson parmi ceux qui y voient une influence déterminante. Wikipédia EN cite aussi la house parmi les genres influencés par Kraftwerk, sans détailler.",
+   "bpm": null,
+   "carac": [
+    "synthétiseurs, boîtes à rythmes et séquenceurs au centre de la musique",
+    "rythmique répétitive de type « motorik » (page Kraftwerk FR)",
+    "paroles minimalistes, parfois vocodées, en plusieurs langues (page Kraftwerk FR)",
+    "le groupe décrit lui-même son style comme du « robot pop » (Wikipédia EN)",
+    "séquences de basse électroniques comme élément de base (Tangerine Dream et Kraftwerk, d'après la page EBM)"
+   ],
+   "influences": [
+    "krautrock"
+   ],
+   "derives": [
+    "electro",
+    "detroit_techno",
+    "synth_pop",
+    "industrial",
+    "ebm",
+    "ambient"
+   ],
+   "artistes": [
+    "Kraftwerk (Ralf Hütter, Florian Schneider, Wolfgang Flür, Karl Bartos)",
+    "Tangerine Dream, Klaus Schulze, Cluster, Harmonia (cités par Wikipédia EN parmi les groupes allemands de la scène krautrock et des pionniers de la musique électronique)"
+   ],
+   "labels": [
+    "Philips Records (Autobahn en Allemagne, 1974)"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kraftwerk",
+    "https://fr.wikipedia.org/wiki/Kraftwerk",
+    "https://en.wikipedia.org/wiki/Autobahn_(album)",
+    "https://en.wikipedia.org/wiki/Krautrock",
+    "https://en.wikipedia.org/wiki/Electronic_body_music",
+    "https://en.wikipedia.org/wiki/Industrial_music",
+    "https://en.wikipedia.org/wiki/Detroit_techno",
+    "https://en.wikipedia.org/wiki/Electro_(music)",
+    "https://en.wikipedia.org/wiki/Synth-pop"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "eurodisco",
+   "nom": "Eurodisco (Euro disco)",
+   "periode": "1977 (« I Feel Love » de Donna Summer, produit par Giorgio Moroder, sorti le 2 juillet 1977, classé par sa page dans l'Eurodisco) ; le genre est né du disco au milieu des années 1970, en Europe",
+   "annee": 1977,
+   "lieu": "Europe, avec Munich (Allemagne de l'Ouest) comme pôle cité : le trio de production Giorgio Moroder, Donna Summer et Pete Bellotte",
+   "def": "L'Eurodisco est une musique électronique de danse née du disco au milieu des années 1970, en Europe. Pense à une version européenne du disco, plus électronique, produite en bonne partie à Munich : le trio Giorgio Moroder, Donna Summer et Pete Bellotte en est l'exemple le plus cité. Le terme aurait été utilisé par le magazine britannique Blues & Soul pour décrire Boney M. Son titre emblématique, « I Feel Love » (1977), a été fabriqué avec un synthétiseur Moog programmé sur un séquenceur, et le Financial Times, cité par Wikipédia EN, lui attribue d'avoir « posé les bases » de la musique de danse électronique.",
+   "bpm": null,
+   "carac": [
+    "dérivé du disco, avec une place croissante des synthétiseurs et des séquenceurs",
+    "titre de référence : « I Feel Love » (1977), Moog et séquenceur synchronisés par un click track",
+    "d'après Wikipédia EN, « I Feel Love » est le premier titre à associer des boucles de synthé répétitives, une grosse caisse sur chaque temps et un hi-hat à contretemps, trois éléments devenus ensuite typiques de la techno et de la house (page I Feel Love)",
+    "variante accélérée : le Hi-NRG"
+   ],
+   "influences": [
+    "disco"
+   ],
+   "derives": [
+    "hi_nrg",
+    "italo_disco"
+   ],
+   "artistes": [
+    "Giorgio Moroder",
+    "Donna Summer",
+    "Pete Bellotte",
+    "Boney M.",
+    "Silver Convention (Frank Farian, Michael Kunze)",
+    "Cerrone",
+    "Modern Talking (« icône » du genre entre 1985 et 1987)"
+   ],
+   "labels": [
+    "Casablanca Records",
+    "Oasis Records (fondé par Moroder à Munich)"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Eurodisco",
+    "https://en.wikipedia.org/wiki/I_Feel_Love",
+    "https://en.wikipedia.org/wiki/Giorgio_Moroder",
+    "https://en.wikipedia.org/wiki/Hi-NRG",
+    "https://en.wikipedia.org/wiki/Italo_disco"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "hi_nrg",
+   "nom": "Hi-NRG (high energy)",
+   "periode": "Années 1980 (Wikipédia EN : le genre est né « à la fin des années 1970 et au début des années 1980 » ; elle cite « I Feel Love » de Donna Summer, 1977, comme premier titre hi-NRG, et note que le nom s'écrit « hi-NRG » dans les années 1980) ; vers 1990, la techno et la rave l'ont supplanté dans de nombreux clubs",
+   "annee": 1980,
+   "lieu": "Royaume-Uni et États-Unis (scènes de Londres, Montréal, New York et San Francisco)",
+   "def": "Le Hi-NRG (prononce « high energy ») est un disco électronique rapide, né à la fin des années 1970 et au début des années 1980. Sa signature : une grosse caisse à quatre temps, un hi-hat staccato et des lignes de basse jouées par séquenceur, souvent en octaves, avec un chant intense et très réverbéré. Le DJ Ian Levine le décrit comme une musique de danse « mélodique et directe, pas trop funky ». Il s'est surtout implanté dans la communauté gay et est décrit par AllMusic, cité par Wikipédia EN, comme un prédécesseur de la techno et de la house.",
+   "bpm": "120-140",
+   "carac": [
+    "tempo rapide, entre 120 et 140 BPM selon Wikipédia EN",
+    "grosse caisse à quatre temps, hi-hat staccato, claps de boîte à rythmes",
+    "lignes de basse séquencées en octaves, avec Giorgio Moroder cité comme pionnier",
+    "chant intense et réverbéré, souvent de style R&B ou soul",
+    "sons séquencés : la page cite le séquenceur parmi les instruments typiques et précise que la synthèse lourde est possible mais pas indispensable"
+   ],
+   "influences": [
+    "disco",
+    "eurodisco"
+   ],
+   "derives": [
+    "house",
+    "italo_disco"
+   ],
+   "artistes": [
+    "Donna Summer",
+    "Giorgio Moroder",
+    "Patrick Cowley",
+    "Bobby Orlando",
+    "Sylvester",
+    "Ian Levine (DJ au Heaven, Londres)",
+    "Hazell Dean",
+    "Stock Aitken Waterman (producteurs)"
+   ],
+   "labels": [
+    "Megatone Records"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hi-NRG",
+    "https://en.wikipedia.org/wiki/I_Feel_Love",
+    "https://en.wikipedia.org/wiki/Italo_disco"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "italo_disco",
+   "nom": "Italo disco (dont space disco)",
+   "periode": "Début des années 1980 d'après l'introduction de Wikipédia EN (l'encadré dit « late 1970s – early 1980s ») ; le mot « Italo » est employé dès 1978 sur des compilations ouest-allemandes ; vers 1987 en Italie, l'Italo disco évolue en « Italo house » ; déclin au début des années 1990",
+   "annee": 1980,
+   "lieu": "Italie",
+   "def": "L'Italo disco est un genre de danse né en Italie, issu du post-disco et de la synth-pop, avec des influences italiennes et étrangères (Hi-NRG, Eurodisco). Il repose sur des synthétiseurs, des boîtes à rythmes, parfois des vocodeurs, des mélodies accrocheuses et des paroles surtout en anglais, qui parlent d'amour, mais aussi de robots et d'espace. La « space disco », qui utilise des synthétiseurs et des sons et thèmes spatiaux, est traitée par Wikipédia EN dans la page de l'Italo disco. Aux États-Unis, des titres comme ceux de Klein + M.B.O. ont influencé le développement de la house, et « Feel the Drive » de Doctor's Cat compte parmi les premiers morceaux de house.",
+   "bpm": null,
+   "carac": [
+    "batteries électroniques, boîtes à rythmes, synthétiseurs, parfois vocodeurs",
+    "mélodies accrocheuses, chant surtout en anglais (parfois italien ou espagnol)",
+    "thèmes de l'amour, des robots et de l'espace",
+    "instrumentation majoritairement électronique à partir de 1983 (page Italo disco)"
+   ],
+   "influences": [
+    "eurodisco",
+    "hi_nrg",
+    "synth_pop"
+   ],
+   "derives": [
+    "house",
+    "chicago_house"
+   ],
+   "artistes": [
+    "Giorgio Moroder (cité parmi les influences)",
+    "La Bionda (D.D. Sound)",
+    "Doctor's Cat",
+    "Klein + M.B.O.",
+    "Koto",
+    "Baltimora",
+    "Ryan Paris",
+    "Spagna",
+    "Sabrina",
+    "Laserdance"
+   ],
+   "labels": [
+    "ZYX Records (Allemagne de l'Ouest)",
+    "Discomagic Records",
+    "Emergency Records (New York)",
+    "American Disco",
+    "Crash",
+    "Merak",
+    "Sensation",
+    "X-Energy"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Italo_disco",
+    "https://en.wikipedia.org/wiki/Space_disco",
+    "https://en.wikipedia.org/wiki/Chicago_house"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "funk",
+   "nom": "Funk",
+   "periode": "Milieu des années 1960 (« mid-1960s » : développement par James Brown d'un groove caractéristique)",
+   "annee": 1960,
+   "lieu": "Communautés afro-américaines des États-Unis",
+   "def": "Le funk est une musique dansante qui privilégie le groove (le balancement du rythme) plutôt que la mélodie ou les enchaînements d'accords. Il est né au milieu des années 1960 dans les communautés afro-américaines, autour de James Brown, qui a mis l'accent sur le premier temps de chaque mesure, appelé « The One ». La basse électrique y est au premier plan et joue souvent le rôle de motif accrocheur. Ses disques et ses breaks (passages de batterie) ont beaucoup servi de matière aux DJ du hip-hop et de la musique électronique de danse.",
+   "bpm": null,
+   "carac": [
+    "forte insistance sur le premier temps de chaque mesure (« The One »)",
+    "basse électrique très en avant, souvent comme motif accrocheur",
+    "rythmes syncopés avec de nombreux silences, vamps d'un ou deux accords",
+    "cuivres, guitare « chank », claviers (orgue Hammond, clavinet, synthés)"
+   ],
+   "influences": [],
+   "derives": [
+    "disco",
+    "hip_hop_debuts",
+    "electro",
+    "detroit_techno"
+   ],
+   "artistes": [
+    "James Brown",
+    "Parliament-Funkadelic (George Clinton)",
+    "Zapp (electro-funk)",
+    "Bootsy Collins (bassiste cité par la page Funk)"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Funk",
+    "https://en.wikipedia.org/wiki/Kraftwerk",
+    "https://en.wikipedia.org/wiki/Detroit_techno",
+    "https://en.wikipedia.org/wiki/Electro_(music)",
+    "https://en.wikipedia.org/wiki/Hip_hop_music"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "dub",
+   "nom": "Dub (et culture des sound systems jamaïcains)",
+   "periode": "1968 (vers 1968-1969 les acétates deviennent des mixages exclusifs, voix retirées en tout ou partie, appelés « versions » ; une autre source avance 1967) ; la culture des sound systems est populaire à Kingston dès les années 1940",
+   "annee": 1968,
+   "lieu": "Jamaïque (Kingston)",
+   "def": "Le dub est un style né du reggae à la fin des années 1960 et au début des années 1970. Il repose sur des remixes de morceaux déjà enregistrés : on retire la voix en tout ou partie, on met en avant la basse et la batterie, et on ajoute des effets (écho, réverbération) ainsi que des coupures qui font entrer et sortir les éléments. Des ingénieurs et producteurs comme King Tubby et Lee « Scratch » Perry ont traité la table de mixage comme un instrument. Ce travail de studio a pour décor la culture des sound systems jamaïcains (camions de sono, DJ, « selectors », disques exclusifs appelés dubplates).",
+   "bpm": null,
+   "carac": [
+    "remix de morceaux existants, voix retirée en tout ou partie (la « version »)",
+    "basse et batterie (le « riddim ») mises en avant",
+    "effets de studio : écho, delay, réverbération (le Roland Space Echo, très utilisé par les producteurs de dub dans les années 1970 selon Wikipédia EN)",
+    "coupures (drop-outs) qui font entrer et sortir les éléments du mix ; la table de mixage utilisée comme un instrument",
+    "sound system : un deejay (toaster) parle sur la musique, le selector choisit les disques"
+   ],
+   "influences": [],
+   "derives": [
+    "hip_hop_debuts",
+    "dub_techno",
+    "ambient"
+   ],
+   "artistes": [
+    "King Tubby (Osbourne Ruddock)",
+    "Lee « Scratch » Perry",
+    "Errol Thompson",
+    "Scientist",
+    "Augustus Pablo",
+    "Tom the Great Sebastian (sound system)",
+    "Coxsone Dodd",
+    "Duke Reid"
+   ],
+   "labels": [
+    "Studio One",
+    "Treasure Isle (Duke Reid)"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Dub_music",
+    "https://en.wikipedia.org/wiki/Sound_system_(Jamaican)",
+    "https://en.wikipedia.org/wiki/Hip_hop_music",
+    "https://en.wikipedia.org/wiki/Ambient_music"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "hip_hop_debuts",
+   "nom": "Hip-hop des débuts (old school)",
+   "periode": "1973 (soirée du 11 août 1973 où DJ Kool Herc allonge les parties instrumentales, date « aggressively marketed » comme « Birth of Hip-Hop » d'après Wikipédia EN) ; 1979 : « Rapper's Delight » du Sugarhill Gang devient un single du Top 40 américain (la page cite King Tim III comme « généralement considéré » comme l'auteur du premier rap commercialisé) ; 1982 : « Planet Rock », que la page dit avoir « helped spawn electro music »",
+   "annee": 1973,
+   "lieu": "Le Bronx, New York (États-Unis)",
+   "def": "Le hip-hop naît au début des années 1970 dans le Bronx, à New York, avec une sous-culture qui réunit quatre éléments : le DJing, le rap, le breakdance et le graffiti. Les DJ remarquent que les foules s'enthousiasment pour les parties instrumentales (les « breaks ») des disques, et ils les allongent : ces breaks répétés deviennent le « breakbeat ». Les sources principales des débuts sont des disques de disco et de funk. Wikipédia EN voit dans le dub jamaïcain, avec ses morceaux remixés, « le plus fort précédent artistique » du hip-hop ; elle précise toutefois que Kool Herc lui-même nie tout lien direct avec la scène musicale jamaïcaine.",
+   "bpm": null,
+   "carac": [
+    "DJ qui allongent les breaks instrumentaux de disques (breakbeat)",
+    "MC (rappeurs) qui animent la fête (le lien avec le toasting jamaïcain est discuté : Kool Herc nie tout lien direct)",
+    "block parties comme lieu d'origine",
+    "quatre éléments : DJing, rap, breakdance, graffiti",
+    "sources de disques : disco et funk"
+   ],
+   "influences": [
+    "funk",
+    "disco",
+    "dub"
+   ],
+   "derives": [
+    "electro"
+   ],
+   "artistes": [
+    "DJ Kool Herc",
+    "Afrika Bambaataa & the Soulsonic Force",
+    "Sugarhill Gang",
+    "Grandmaster Flash"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Hip_hop_music",
+    "https://en.wikipedia.org/wiki/Sound_system_(Jamaican)",
+    "https://en.wikipedia.org/wiki/Electro_(music)",
+    "https://en.wikipedia.org/wiki/Kraftwerk"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "ambient",
+   "nom": "Ambient (musique d'ambiance, Brian Eno)",
+   "periode": "1975 (Discreet Music de Brian Eno) ; 1978 (Ambient 1: Music for Airports, dont les notes de pochette posent la musique « as ignorable as it is interesting ») ; Wikipédia EN place l'origine dans les années 1960 et 1970 (Japon et Royaume-Uni) et dit qu'Eno est crédité d'avoir inventé le terme au milieu des années 1970",
+   "annee": 1975,
+   "lieu": "Royaume-Uni et Japon (années 1960-1970, d'après l'infobox)",
+   "def": "L'ambient est une musique qui privilégie le timbre et l'atmosphère plutôt que la structure ou le rythme traditionnels. Le producteur britannique Brian Eno est crédité d'avoir inventé le terme au milieu des années 1970 ; dans les notes de son album Ambient 1: Music for Airports (1978), il écrit qu'une telle musique doit pouvoir être « ignorée autant qu'elle est intéressante ». Elle puise dans la musique de fond (Erik Satie parlait de « musique d'ameublement »), la musique concrète, le dub jamaïcain et la musique électronique allemande. À la fin des années 1980, elle a donné naissance à l'ambient house, dans les salles de « chill out » des clubs.",
+   "bpm": null,
+   "carac": [
+    "accent sur l'ambiance et le timbre plutôt que sur la structure ou le rythme",
+    "notes tenues, sons de la nature, parfois proche du drone",
+    "musique à écouter à faible volume, qui peut aussi passer à l'arrière-plan",
+    "usage fréquent de synthétiseurs (Tangerine Dream, Cluster, Harmonia, Isao Tomita cités)"
+   ],
+   "influences": [
+    "musique_concrete",
+    "krautrock",
+    "electronique_allemande_70s",
+    "dub"
+   ],
+   "derives": [
+    "ambient_house"
+   ],
+   "artistes": [
+    "Brian Eno",
+    "Erik Satie (précurseur : « musique d'ameublement »)",
+    "Tangerine Dream",
+    "Cluster",
+    "Harmonia",
+    "Popol Vuh",
+    "Isao Tomita",
+    "Yellow Magic Orchestra",
+    "Wendy Carlos",
+    "Klaus Schulze"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ambient_music",
+    "https://en.wikipedia.org/wiki/Ambient_house",
+    "https://en.wikipedia.org/wiki/Krautrock"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "industrial",
+   "nom": "Industrial (musique industrielle)",
+   "periode": "1976 (le terme est forgé par Monte Cazazza, puis adopté par Throbbing Gristle avec la création du label Industrial Records) ; genre apparu au milieu ou à la fin des années 1970 ; la « post-industrial » naît au début des années 1980",
+   "annee": 1976,
+   "lieu": "Royaume-Uni (Throbbing Gristle, issu du collectif COUM Transmissions de Hull ; Cabaret Voltaire, Sheffield), États-Unis et Allemagne (origines culturelles au début des années 1970, d'après la page)",
+   "def": "La musique industrielle est un sous-genre de la musique expérimentale apparu au milieu ou à la fin des années 1970. Elle s'inspire de la société industrielle, de l'avant-garde, de la musique concrète, du noise et du collage sonore. On y trouve des bandes magnétiques, des percussions sèches, des boucles distordues et des instruments bricolés, avec des thèmes provocateurs ; Throbbing Gristle parlait d'« anti-musique ». Selon Wikipédia EN, la « post-industrial » (années 1980) a donné naissance à l'EBM, à la new beat et à l'industrial techno.",
+   "bpm": null,
+   "carac": [
+    "bandes magnétiques, boucles distordues, percussions sèches",
+    "bruits, noise et collage sonore",
+    "instruments bricolés et effets de voix",
+    "thèmes transgressifs et esthétique provocatrice"
+   ],
+   "influences": [
+    "musique_concrete",
+    "electronique_allemande_70s"
+   ],
+   "derives": [
+    "ebm",
+    "industrial_techno"
+   ],
+   "artistes": [
+    "Throbbing Gristle",
+    "Cabaret Voltaire",
+    "NON (Boyd Rice)",
+    "Monte Cazazza (selon Wikipédia EN, c'est lui qui a forgé le terme en 1976)",
+    "SPK",
+    "Einstürzende Neubauten",
+    "Clock DVA"
+   ],
+   "labels": [
+    "Industrial Records",
+    "Wax Trax! (Chicago)",
+    "Nettwerk"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Industrial_music",
+    "https://en.wikipedia.org/wiki/Electronic_body_music",
+    "https://en.wikipedia.org/wiki/Industrial_techno",
+    "https://en.wikipedia.org/wiki/Musique_concr%C3%A8te"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "synth_pop",
+   "nom": "Synth-pop (techno-pop)",
+   "periode": "Fin des années 1970 (Wikipédia EN : genre devenu « prominent » à cette période, dans l'encadré entre 1977 et 1980 ; « Are Friends Electric? » de Tubeway Army en tête des classements britanniques à l'été 1979) ; apogée commercial de 1981 à 1985 d'après la page",
+   "annee": 1970,
+   "lieu": "Japon et Royaume-Uni (l'encadré de la page ajoute l'Allemagne)",
+   "def": "La synth-pop (ou techno-pop) est un genre pop où le synthétiseur est l'instrument principal. Elle apparaît à la fin des années 1970, au Japon et au Royaume-Uni, à l'époque du post-punk, et elle est préfigurée par le krautrock de groupes comme Kraftwerk. Elle s'appuie sur des synthétiseurs, des boîtes à rythmes et des séquenceurs, avec des structures minimalistes. Wikipédia EN écrit que la synth-pop a été une influence majeure sur la house, et la rattache à l'émergence de la techno de Detroit au milieu des années 1980.",
+   "bpm": null,
+   "carac": [
+    "synthétiseur comme instrument principal",
+    "boîtes à rythmes et séquenceurs, structures minimalistes",
+    "rejet des styles de jeu et des structures du rock (Borthwick et Moy, cités par la page)",
+    "Roland TR-808 popularisée par Yellow Magic Orchestra (d'après la page)"
+   ],
+   "influences": [
+    "electronique_allemande_70s",
+    "krautrock"
+   ],
+   "derives": [
+    "electro",
+    "detroit_techno",
+    "house",
+    "ebm",
+    "italo_disco"
+   ],
+   "artistes": [
+    "Gary Numan",
+    "Ultravox",
+    "Orchestral Manoeuvres in the Dark (OMD)",
+    "The Human League",
+    "Depeche Mode",
+    "Yellow Magic Orchestra",
+    "Fad Gadget"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Synth-pop",
+    "https://en.wikipedia.org/wiki/Electronic_body_music",
+    "https://en.wikipedia.org/wiki/Detroit_techno",
+    "https://en.wikipedia.org/wiki/Electro_(music)"
+   ],
+   "confiance": "moyenne"
   }
  ],
  "sets": [
@@ -7276,7 +7814,7 @@ window.ATLAS = {
    "artistes_liens": [
     {
      "nom": "Ecstatic",
-     "id": null
+     "id": "ecstatic"
     }
    ]
   },
@@ -7510,6 +8048,431 @@ window.ATLAS = {
     {
      "nom": "Elotrance",
      "id": "elotrance"
+    }
+   ]
+  },
+  {
+   "id": "6ejou-awakenings-festival-2025",
+   "artistes": [
+    "6EJOU"
+   ],
+   "titre": "6EJOU (live) | Awakenings Festival 2025",
+   "annee": 2025,
+   "date": null,
+   "evenement": "Awakenings Festival 2025",
+   "lieu": "Hilvarenbeek (Pays-Bas)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=saZVGUy_mcM",
+   "uploader": "Awakenings",
+   "duree_min": 106,
+   "styles": [
+    "industrial_techno"
+   ],
+   "niveau": "avance",
+   "pourquoi": "Set « live » (le titre le précise) de 6EJOU publié par Awakenings, l'organisateur du festival, enregistré à Awakenings Festival 2025 à Hilvarenbeek. D'environ 1 h 45, c'est un long format filmé par l'organisateur, utile pour entendre l'artiste sur un temps de jeu étendu.",
+   "ecouter": [
+    "un set « live » d'environ 1 h 45 publié par l'organisateur du festival",
+    "un set « live » de festival, publié en entier par l'organisateur"
+   ],
+   "contexte": "Mise en ligne par Awakenings le 01/10/2025 d'après YouTube. La description indique « 6EJOU (live) at Awakenings Festival 2025 - Hilvarenbeek » et renvoie vers la version SoundCloud d'Awakenings ; elle ne donne ni tracklist ni jour ni scène.",
+   "verifie": true,
+   "verif": {
+    "titre": "6EJOU (live) | Awakenings Festival 2025",
+    "auteur": "Awakenings",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=saZVGUy_mcM",
+    "https://www.youtube.com/watch?v=BRoIVvvE7IU"
+   ],
+   "confiance": "moyenne",
+   "notes": "Lien contrôlé le 10/11/2026 : le titre et la chaîne correspondent à ceux de la page de la vidéo. Mise en ligne le 01/10/2025 ; durée = lengthSeconds de la page YouTube arrondie à la minute (6332 s). Le style (techno industrielle) est celui indiqué pour l'artiste par Techno Airlines ; Awakenings ne précise aucun style pour ce set. Rien dans la vidéo ne confirme à lui seul qu'il s'agit de l'artiste français de la fiche, mais le nom figure au line-up d'Awakenings 2025 (live).",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "6EJOU",
+     "id": "6ejou"
+    }
+   ]
+  },
+  {
+   "id": "aisha-organik-open-rave-festival-2024",
+   "artistes": [
+    "AISHA"
+   ],
+   "titre": "Aisha @ Organïk | FULL SET - Open Rave Festival 2024 [Paris]",
+   "annee": 2024,
+   "date": null,
+   "evenement": "Open Rave Festival 2024 (Organïk), Le Kilowatt",
+   "lieu": "Le Kilowatt (« Paris » dans le titre)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=XDmiOrS3jTs",
+   "uploader": "Organïk Events",
+   "duree_min": 59,
+   "styles": [],
+   "niveau": "intermediaire",
+   "pourquoi": "Set complet publié par la chaîne d'Organïk Events, l'organisateur de la soirée du 19 décembre 2026 : AISHA y joue à Open Rave Festival 2024, au Kilowatt, sur un créneau annoncé de 16 h 30 à 18 h d'après la description. C'est l'occasion d'entendre l'artiste dans l'univers de l'organisateur avant de la retrouver à Organïk XXL.",
+   "ecouter": [
+    "une vidéo d'environ 59 minutes, alors que la description annonce un créneau de 16 h 30 à 18 h (1 h 30)",
+    "un enregistrement de jour en festival, tourné au Kilowatt"
+   ],
+   "contexte": "Mise en ligne par Organïk Events le 25/07/2024 d'après YouTube. La description cite « Artist : AISHA », « Venue : Le Kilowatt » et « Set time : 4.30pm to 6pm », avec une production X-TECH ; ni date de la soirée, ni style, ni tracklist.",
+   "verifie": true,
+   "verif": {
+    "titre": "Aisha @ Organïk | FULL SET - Open Rave Festival 2024 [Paris]",
+    "auteur": "Organïk Events",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=XDmiOrS3jTs"
+   ],
+   "confiance": "moyenne",
+   "notes": "Lien contrôlé le 10/11/2026 : le titre et la chaîne correspondent à ceux de la page de la vidéo. Mise en ligne le 25/07/2024 ; durée = lengthSeconds de la page YouTube arrondie à la minute (3514 s). Le nom « AISHA » est porté par d'autres DJ : le rattachement repose sur le fait que la vidéo est publiée par Organïk Events, organisateur de la soirée du 19/12/2026, et que la description indique « Artist : AISHA » avec un compte Instagram cité. Aucun style n'est donné par la plateforme : aucun style n'est rattaché.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "AISHA",
+     "id": "aisha"
+    }
+   ]
+  },
+  {
+   "id": "anxhela-gotec-club-main-floor-2025",
+   "artistes": [
+    "ANXHELA"
+   ],
+   "titre": "ANXHELA | Main Floor - Gotec Club | 1 1/2h Hardtechno Set",
+   "annee": 2025,
+   "date": null,
+   "evenement": "Gotec 2025 (dernière nuit), Main Floor",
+   "lieu": null,
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=a4wFFpIs4zY",
+   "uploader": "Gotec Club",
+   "duree_min": 88,
+   "styles": [
+    "hard_techno"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Set d'environ 1 h 30 publié par la chaîne du Gotec Club, qui le présente comme un set de hard techno sur le Main Floor, lors de la dernière nuit de Gotec 2025. La description parle de « kicks lourds » et d'une énergie « sombre et concentrée » : un format long pour écouter ce hard techno de club.",
+   "ecouter": [
+    "un set d'environ 1 h 28 filmé sur le Main Floor du Gotec Club",
+    "un format long (environ 1 h 28), qui laisse le temps de développer un set de hard techno"
+   ],
+   "contexte": "Mise en ligne par Gotec Club le 31/01/2026 d'après YouTube. La description situe le set à « la dernière nuit de GOTEC 2025 » sur le Main Floor ; ni date précise, ni lieu, ni tracklist.",
+   "verifie": true,
+   "verif": {
+    "titre": "ANXHELA | Main Floor - Gotec Club | 1 1/2h Hardtechno Set",
+    "auteur": "Gotec Club",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=a4wFFpIs4zY"
+   ],
+   "confiance": "moyenne",
+   "notes": "Lien contrôlé le 10/11/2026 : le titre et la chaîne correspondent à ceux de la page de la vidéo. Mise en ligne le 31/01/2026 ; durée = lengthSeconds de la page YouTube arrondie à la minute (5263 s). Le style « hard techno » vient du titre (« Hardtechno Set ») et de la description de la chaîne. Une autre prestation d'ANXHELA est publiée par Verknipt (Verknipt Festival 2023, jour 2).",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "ANXHELA",
+     "id": "anxhela"
+    }
+   ]
+  },
+  {
+   "id": "eczodia-welcome-back-devil-xxl-paris-2025",
+   "artistes": [
+    "ECZODIA"
+   ],
+   "titre": "ECZODIA @ WELCOME BACK DEVIL XXL Paris - Closing Slot",
+   "annee": 2025,
+   "date": "2025-10-17",
+   "evenement": "Welcome Back Devil XXL, Paris",
+   "lieu": "Paris (France)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=bhARMVOdLSo",
+   "uploader": "ECZODIA",
+   "duree_min": 58,
+   "styles": [],
+   "niveau": "intermediaire",
+   "pourquoi": "Set publié sur la chaîne de l'artiste elle-même, enregistré à Welcome Back Devil XXL à Paris, où ECZODIA tient le créneau de clôture (« Closing Slot » dans le titre). La description cite l'événement du 17/10/2025 et une équipe de captation multicaméra : un set filmé de près d'une heure, en fin de soirée.",
+   "ecouter": [
+    "un set d'environ 58 minutes en créneau de clôture, filmé en multicaméra",
+    "un enregistrement tourné à Paris, dans la même région que la soirée Organïk XXL (Villepinte)"
+   ],
+   "contexte": "Mise en ligne par ECZODIA le 10/12/2025 d'après YouTube. La description indique « Event : WELCOME BACK DEVIL - 17.10.2025 » et crédite plusieurs opérateurs caméra et un monteur ; pas de tracklist ni de style.",
+   "verifie": true,
+   "verif": {
+    "titre": "ECZODIA @ WELCOME BACK DEVIL XXL Paris - Closing Slot",
+    "auteur": "ECZODIA",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=bhARMVOdLSo",
+    "https://www.youtube.com/channel/UCcl9Tad6BtmMesel9ceqIfA/about"
+   ],
+   "confiance": "moyenne",
+   "notes": "Lien contrôlé le 10/11/2026 : le titre et la chaîne correspondent à ceux de la page de la vidéo. Mise en ligne le 10/12/2025 ; durée = lengthSeconds de la page YouTube arrondie à la minute (3457 s). La date 17/10/2025 est celle de l'événement indiquée par la description : la date du set lui-même n'est pas précisée ; le lieu « Paris » vient du titre. Le rattachement à l'artiste repose sur la page « À propos » de la chaîne ECZODIA, qui renvoie vers ses comptes SoundCloud et Instagram et la présente comme « HARDCORE TECHNO ANGEL » ; la chaîne ne donne pas de style pour ce set, aucun style n'est rattaché.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "ECZODIA",
+     "id": "eczodia"
+    }
+   ]
+  },
+  {
+   "id": "hysta-defqon1-2025",
+   "artistes": [
+    "HYSTA"
+   ],
+   "titre": "Hysta | Defqon.1 2025",
+   "annee": 2025,
+   "date": null,
+   "evenement": "Defqon.1 2025 (The Gathering)",
+   "lieu": "Pays-Bas",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=e4FfqkhyZlc",
+   "uploader": "Q-dance",
+   "duree_min": 58,
+   "styles": [
+    "hardcore"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Q-dance, l'organisateur de Defqon.1, publie le set complet de Hysta et écrit qu'avec « hardcore running through her veins » (le hardcore dans les veines), elle a « ignited the tribe » (enflammé la tribu) pendant The Gathering. Un set d'une heure filmé par l'organisateur, pour entendre une artiste de hardcore sur une grande scène de festival.",
+   "ecouter": [
+    "un set d'environ 58 minutes publié par Q-dance, l'organisateur de Defqon.1",
+    "un set de hardcore joué pendant The Gathering, d'après la description"
+   ],
+   "contexte": "Mise en ligne par Q-dance le 12/09/2025 d'après YouTube. La description situe le set « pendant The Gathering » de Defqon.1 2025 ; elle ne précise ni le jour ni la scène et ne donne pas de tracklist.",
+   "verifie": true,
+   "verif": {
+    "titre": "Hysta | Defqon.1 2025",
+    "auteur": "Q-dance",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=e4FfqkhyZlc"
+   ],
+   "confiance": "moyenne",
+   "notes": "Lien contrôlé le 10/11/2026 : le titre et la chaîne correspondent à ceux de la page de la vidéo. Mise en ligne le 12/09/2025 ; durée = lengthSeconds de la page YouTube arrondie à la minute (3493 s). Le style « hardcore » vient de la description de Q-dance. Lieu « Pays-Bas » : pays du festival Defqon.1, la description ne le dit pas.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "HYSTA",
+     "id": "hysta"
+    }
+   ]
+  },
+  {
+   "id": "lessss-boiler-room-teletech-2023",
+   "artistes": [
+    "LESSSS"
+   ],
+   "titre": "LESSSS | Boiler Room x Teletech Festival 2023",
+   "annee": 2023,
+   "date": null,
+   "evenement": "Boiler Room x Teletech Festival 2023",
+   "lieu": null,
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=2JVU9xqTGrg",
+   "uploader": "Boiler Room",
+   "duree_min": 60,
+   "styles": [
+    "hard_techno",
+    "schranz",
+    "industrial_techno"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Set d'une heure publié par Boiler Room, enregistré à Teletech Festival 2023 : la description dit « LESSSS – live from Boiler Room x Teletech Festival 2023 ». Selon la fiche de Techno Airlines, LESSSS est une figure française (DJ et production) qui mêle schranz et techno industrielle, avec des sorties sur HARDPULSE ; ce set filmé par Boiler Room permet de l'écouter dans ce registre.",
+   "ecouter": [
+    "un set d'environ une heure publié par Boiler Room",
+    "un set pour écouter, à la lumière de la fiche Techno Airlines (schranz, techno industrielle), ce que cela donne en direct"
+   ],
+   "contexte": "Mise en ligne par Boiler Room le 22/08/2023 d'après YouTube. La description renvoie vers une tracklist complète hébergée par Boiler Room (lien blrrm.tv) ; elle ne donne ni jour ni lieu.",
+   "verifie": true,
+   "verif": {
+    "titre": "LESSSS | Boiler Room x Teletech Festival 2023",
+    "auteur": "Boiler Room",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=2JVU9xqTGrg",
+    "https://www.technoairlines.com/artist/lessss"
+   ],
+   "confiance": "moyenne",
+   "notes": "Lien contrôlé le 10/11/2026 : le titre et la chaîne correspondent à ceux de la page de la vidéo. Mise en ligne le 22/08/2023 ; durée = lengthSeconds de la page YouTube arrondie à la minute (3604 s). Les styles viennent de la fiche de Techno Airlines (hard techno, schranz, techno industrielle) : Boiler Room ne précise pas de style pour ce set. Lieu du festival non donné par la source consultée.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "LESSSS",
+     "id": "lessss"
+    }
+   ]
+  },
+  {
+   "id": "mad-dog-thunderdome-2025",
+   "artistes": [
+    "Mad Dog"
+   ],
+   "titre": "Thunderdome 2025 | Mad Dog",
+   "annee": 2025,
+   "date": null,
+   "evenement": "Thunderdome 2025",
+   "lieu": null,
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=FyqDuAsq0I4",
+   "uploader": "Thunderdome",
+   "duree_min": 60,
+   "styles": [
+    "hardcore"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Set d'une heure publié par la chaîne officielle de Thunderdome, qui écrit que Mad Dog « pulled the entire crowd into his orbit » (a attiré toute la foule dans son orbite). D'après The Hard Data, DJ Mad Dog, localisé à Rome, est un producteur de hardcore qui a joué à Thunderdome et à Masters of Hardcore.",
+   "ecouter": [
+    "un set d'environ une heure publié par la chaîne officielle de Thunderdome",
+    "un set de la chaîne officielle de Thunderdome, festival centré sur le hardcore (selon la page de The Hard Data, DJ Mad Dog a joué à Thunderdome et à Masters of Hardcore)"
+   ],
+   "contexte": "Mise en ligne par Thunderdome le 25/03/2026 d'après YouTube. La description annonce le retour du festival les 11 et 12 décembre 2026 ; elle ne donne ni jour, ni lieu, ni tracklist pour ce set.",
+   "verifie": true,
+   "verif": {
+    "titre": "Thunderdome 2025 | Mad Dog",
+    "auteur": "Thunderdome",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=FyqDuAsq0I4",
+    "https://www.theharddata.com/?p=3075"
+   ],
+   "confiance": "moyenne",
+   "notes": "Lien contrôlé le 10/11/2026 : le titre et la chaîne correspondent à ceux de la page de la vidéo. Mise en ligne le 25/03/2026 ; l'année est celle de l'édition d'après le titre. Durée = lengthSeconds de la page YouTube arrondie à la minute (3617 s). Le style « hardcore » et le rattachement à DJ Mad Dog (producteur localisé à Rome par cette page) viennent de The Hard Data ; la description de Thunderdome n'indique pas de style. Lieu et date de l'édition non donnés par la source consultée.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "Mad Dog",
+     "id": "mad-dog"
+    }
+   ]
+  },
+  {
+   "id": "omaks-hive-festival-2026-rage-cage",
+   "artistes": [
+    "OMAKS"
+   ],
+   "titre": "OMAKS @ HIVE Festival 2026 | RAGE CAGE",
+   "annee": 2026,
+   "date": null,
+   "evenement": "HIVE Festival 2026 (RAGE CAGE)",
+   "lieu": null,
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=5ZDVS-Ap3xo",
+   "uploader": "HIVE Festival",
+   "duree_min": 89,
+   "styles": [
+    "hard_techno",
+    "hardcore"
+   ],
+   "niveau": "intermediaire",
+   "pourquoi": "Set d'environ 1 h 30 publié par la chaîne officielle de HIVE Festival, enregistré à l'édition 2026 sous l'intitulé « RAGE CAGE » (présent dans le titre). D'après Mixmag, OMAKS mêle bounce, hard techno, hardcore et groove ; ce set long est une bonne porte d'entrée pour juger de ce mélange.",
+   "ecouter": [
+    "un set d'environ 1 h 29 publié par l'organisateur du festival",
+    "un set long pour juger, à l'écoute, du mélange que Mixmag décrit (« bounce, hard techno, hardcore, and groove »)"
+   ],
+   "contexte": "Mise en ligne par HIVE Festival le 21/07/2026 d'après YouTube. La description reprend le titre, renvoie vers les comptes Instagram du festival et de l'artiste et crédite la vidéo à SL Produktion ; ni date, ni lieu, ni tracklist.",
+   "verifie": true,
+   "verif": {
+    "titre": "OMAKS @ HIVE Festival 2026 | RAGE CAGE",
+    "auteur": "HIVE Festival",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=5ZDVS-Ap3xo",
+    "https://mixmagde.com/read/omaks-interview-news"
+   ],
+   "confiance": "moyenne",
+   "notes": "Lien contrôlé le 10/11/2026 : le titre et la chaîne correspondent à ceux de la page de la vidéo. Mise en ligne le 21/07/2026 ; l'année est celle de l'édition d'après le titre. Durée = lengthSeconds de la page YouTube arrondie à la minute (5369 s). Les styles viennent de l'article de Mixmag ; HIVE Festival n'en indique pas. Date et lieu de l'édition non donnés par la source consultée.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "OMAKS",
+     "id": "omaks"
+    }
+   ]
+  },
+  {
+   "id": "noname-organik-xxl-vincennes-2025",
+   "artistes": [
+    "NØNAME"
+   ],
+   "titre": "NØNAME | PARIS @ORGANIK XXL | FULL DJ SET 2025",
+   "annee": 2025,
+   "date": null,
+   "evenement": "Organïk XXL 2025, Hippodrome Paris-Vincennes",
+   "lieu": "Hippodrome de Vincennes, Paris (France)",
+   "plateforme": "YouTube",
+   "url": "https://www.youtube.com/watch?v=ez1nMn4ZO8c",
+   "uploader": "NØNAME",
+   "duree_min": 63,
+   "styles": [],
+   "niveau": "intermediaire",
+   "pourquoi": "Set complet publié sur la chaîne de l'artiste et enregistré, selon la description, à Organïk XXL 2025 à l'Hippodrome Paris-Vincennes ; la description tague le compte d'Organïk et crédite une équipe de réalisation, de scénographie, de lumières et de VJ. L'édition 2026 d'Organïk XXL a lieu ailleurs (Parc des expositions de Villepinte, en salle) : ce set donne une idée de l'artiste dans l'univers de l'organisateur, pas du décor de décembre 2026.",
+   "ecouter": [
+    "un set d'environ 1 h 03 filmé à Organïk XXL 2025",
+    "un enregistrement multicaméra avec lumières, lasers et scénographie crédités dans la description"
+   ],
+   "contexte": "Mise en ligne le 17/12/2025 d'après YouTube. La description indique « Live from Hippodrome de Vincennes biggest rave in PARIS » à l'édition 2025 d'Organïk XXL (le compte d'Organïk y est tagué) et crédite réalisation, caméras, scénographie, lumières et VJ ; pas de tracklist ni de style.",
+   "verifie": true,
+   "verif": {
+    "titre": "NØNAME | PARIS @ORGANIK XXL | FULL DJ SET 2025",
+    "auteur": "NØNAME",
+    "date": "2026-11-10"
+   },
+   "sources": [
+    "https://www.youtube.com/watch?v=ez1nMn4ZO8c"
+   ],
+   "confiance": "moyenne",
+   "notes": "Lien contrôlé le 10/11/2026 : le titre et la chaîne correspondent à ceux de la page de la vidéo. Mise en ligne le 17/12/2025 ; durée = lengthSeconds de la page YouTube arrondie à la minute (3759 s). La date du set n'est pas donnée (édition 2025). L'orthographe NØNAME est celle de la chaîne ; plusieurs artistes portent le nom « Noname » ; le rattachement repose sur la description du set, qui cite Organïk XXL 2025. Aucun style n'est donné pour ce set : aucun style n'est rattaché.",
+   "branche": "hard",
+   "branches": [
+    "hard"
+   ],
+   "type": "set",
+   "artistes_liens": [
+    {
+     "nom": "NØNAME",
+     "id": "noname"
     }
    ]
   }
@@ -9934,7 +10897,8 @@ window.ATLAS = {
    "id": "mish",
    "nom": "Mish",
    "alias": [
-    "Mish"
+    "Mish",
+    "Mish DJ"
    ],
    "pays": "Australie (installée aux Pays-Bas depuis 2017)",
    "ville": null,
@@ -12200,6 +13164,1103 @@ window.ATLAS = {
     "https://www.technoairlines.com/artist/yoshiko"
    ],
    "confiance": "moyenne"
+  },
+  {
+   "id": "6ejou",
+   "nom": "6EJOU",
+   "alias": [
+    "6EJOU",
+    "6ejou"
+   ],
+   "pays": "France",
+   "ville": "Lyon",
+   "description_fr": "DJ et producteur français basé à Lyon, qui joue de la hard techno et de la techno industrielle. Techno Airlines cite parmi ses titres « RED BUNKER » (2020), « Too Many Humans » (2021) et « O FORTUNA » (2023).",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "hard_techno",
+    "industrial_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://www.technoairlines.com/artist/6ejou",
+    "https://6ejou.bandcamp.com/"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "aisha",
+   "nom": "AISHA",
+   "alias": [
+    "AISHA",
+    "Aisha"
+   ],
+   "pays": "Royaume-Uni (Écosse)",
+   "ville": "Berlin",
+   "description_fr": "DJ et productrice originaire d'Écosse et basée à Berlin, qui joue de la hard techno avec des touches de techno psychédélique et de trance. Selon sa biographie publiée par Insomniac, elle est résidente de l'organisateur parisien Organïk et a sorti des titres sur EXHALE, Teletech et RAW.",
+   "roles": [
+    "DJ",
+    "productrice"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "hard_techno",
+    "trance"
+   ],
+   "labels": [],
+   "sources": [
+    "https://www.insomniac.com/?p=562874"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "anxhela",
+   "nom": "ANXHELA",
+   "alias": [
+    "ANXHELA",
+    "Anxhela"
+   ],
+   "pays": "Italie",
+   "ville": "Barcelone",
+   "description_fr": "DJ et productrice italo-albanaise, basée à Barcelone selon Attack Magazine (septembre 2024), dont la musique mêle hard techno, trance et acid. Elle joue son premier set en 2020 et sort ses premiers titres chez MRC Records, puis chez Voxnox Records.",
+   "roles": [
+    "DJ",
+    "productrice"
+   ],
+   "annees_actives": "depuis 2020 (premier set cité)",
+   "liens_styles": [
+    "hard_techno",
+    "acid_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://www.attackmagazine.com/news/anxhela-to-tour-the-us/"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "eczodia",
+   "nom": "ECZODIA",
+   "alias": [
+    "ECZODIA",
+    "Eczodia"
+   ],
+   "pays": "France",
+   "ville": "Bordeaux",
+   "description_fr": "Producteur et DJ français, présenté comme artiste « neo rave » par Mixgraph. Selon Viberate, il est originaire de Bordeaux et son son est tourné vers le hardcore et la hard techno.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "hard_techno",
+    "hardcore"
+   ],
+   "labels": [],
+   "sources": [
+    "https://www.viberate.com/artist/eczodia/",
+    "https://www.mixgraph.io/artists/eczodia"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "hysta",
+   "nom": "Hysta",
+   "alias": [
+    "Hysta",
+    "HYSTA"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "DJ française de hardcore et d'uptempo. Techno Airlines cite des sorties sur Masters of Hardcore, The Third Movement et Q-dance, dont « Atlantic » (2021) et « Choose Life » (2023). Son site officiel liste une date à Paris le 19 décembre, soit Organïk XXL.",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "hardcore",
+    "uptempo_hardcore"
+   ],
+   "labels": [
+    "q-dance"
+   ],
+   "sources": [
+    "https://www.technoairlines.com/artist/hysta",
+    "https://hysta.dj"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "lessss",
+   "nom": "LESSSS",
+   "alias": [
+    "LESSSS",
+    "Lessss"
+   ],
+   "pays": "France",
+   "ville": "Paris",
+   "description_fr": "DJ et production de hard techno, de schranz et de techno industrielle : selon Techno Airlines, LESSSS vient de France, a Paris pour base (« based in Paris, France ») et est présent depuis 2021. Techno Airlines cite le label HARDPULSE et des titres comme « SILVER ZONE » et « TOXIC » (2024).",
+   "roles": [
+    "DJ",
+    "producteur·rice"
+   ],
+   "annees_actives": "depuis 2021 (Techno Airlines)",
+   "liens_styles": [
+    "hard_techno",
+    "schranz",
+    "industrial_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://www.technoairlines.com/artist/lessss"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "mad-dog",
+   "nom": "Mad Dog",
+   "alias": [
+    "Mad Dog",
+    "DJ Mad Dog",
+    "MAD DOG"
+   ],
+   "pays": "Italie",
+   "ville": "Rome",
+   "description_fr": "DJ et producteur italien de hardcore, né à Rome selon Wikipédia et installé aux Pays-Bas selon cette même source. Il lance le projet Mad Dog en 2000 chez Traxtorm Records selon Techno Airlines, puis crée son label Dogfight Records en 2016.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "depuis 1995 (Wikipédia) ; projet Mad Dog depuis 2000 (Techno Airlines)",
+   "liens_styles": [
+    "hardcore",
+    "hard_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/DJ_Mad_Dog",
+    "https://www.technoairlines.com/artist/mad-dog",
+    "https://technomood.org/mad-dog-omaks-fire-bomb/"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "omaks",
+   "nom": "OMAKS",
+   "alias": [
+    "OMAKS",
+    "Omaks"
+   ],
+   "pays": "France",
+   "ville": "Lyon",
+   "description_fr": "Artiste français de hard techno, originaire de Paris et basé à Lyon selon Attack Magazine (mai 2025). Il débute avec une première sortie en 2019 et fonde le label ENERGIC, lancé avec le titre « Morning Rave » en collaboration avec VORTEK'S.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "fondateur de label"
+   ],
+   "annees_actives": "depuis 2019 (première sortie citée)",
+   "liens_styles": [
+    "hard_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://www.attackmagazine.com/news/omaks-launches-energic-a-new-label-for-high-energy-techno/",
+    "https://technomood.org/mad-dog-omaks-fire-bomb/"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "noname",
+   "nom": "NØNAME",
+   "alias": [
+    "NØNAME",
+    "NONAME",
+    "Noname"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "DJ et producteur de la scène hard techno française, selon le festival Les Ardentes, qui décrit un son de kicks puissants et d'intensité constante, avec des influences rap. Il a sorti en 2025 trois singles, deux EP et un clip ; la page cite Nico Moréno et Lessss parmi les DJ qui jouent ses productions.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "hard_techno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://lesardentes.be/en/concerts/noname"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "ecstatic",
+   "nom": "Ecstatic",
+   "alias": [
+    "Ecstatic",
+    "The Ecstatic"
+   ],
+   "pays": "Pays-Bas",
+   "ville": "",
+   "description_fr": "Producteur et DJ néerlandais de hardstyle « euphoric », dont les titres sortent régulièrement sur Dirty Workz selon eBilet. Il a publié l'album « Change The Game » (2020), son premier, puis « Ascension » (2024). Wikipédia le liste dans l'équipe d'artistes du label belge Dirty Workz.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "hardstyle"
+   ],
+   "labels": [],
+   "sources": [
+    "https://www.ebilet.pl/artysta/ecstatic",
+    "https://en.wikipedia.org/wiki/Dirty_Workz",
+    "https://shotgun.live/fr/events/phantom-dirty-workz"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "esilise",
+   "nom": "Esilise",
+   "alias": [
+    "Esilise",
+    "ESILISE",
+    "esilise"
+   ],
+   "pays": "France",
+   "ville": "Paris",
+   "description_fr": "Selon sa présentation sur Shotgun, DJ et productrice basée à Paris. Elle y mêle techno industrielle et schranz dans un univers « entre ombre et lumière » et cite parmi ses dates Fabrik Madrid, Kompass, Now&Wow, Arzenal Budapest, Spook Club, ainsi que les festivals Madame Loyal, Hemkade 48, Dystopia et Impact. Resident Advisor (RA) la localise en France et date son premier événement référencé de 2022.",
+   "roles": [
+    "DJ",
+    "productrice"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "industrial_techno",
+    "schranz"
+   ],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/esilllise",
+    "https://ra.co/dj/esilise",
+    "https://shotgun.live/fr/events/jeudi-protocol-uzi-nas-esilise-ghostface-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "ghostface-dj",
+   "nom": "GHOSTFACE",
+   "alias": [
+    "GHOSTFACE",
+    "Ghostface"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "Pays indiqué par Shotgun : la France. La page Shotgun de GHOSTFACE, liée à la soirée Jeudi Protocol : Raw Machine (Mia Mao, 12/11/2026), se présente par la formule « The Schranz Rockstar » (« la rock star du schranz ») et cite deux collectifs, La Piratech et Furi Club.",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "schranz"
+   ],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/user416503380",
+    "https://shotgun.live/fr/events/jeudi-protocol-uzi-nas-esilise-ghostface-mia-mao"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "sasa-fr",
+   "nom": "Sasa",
+   "alias": [
+    "Sasa",
+    "SASA",
+    "Sasa (FR)"
+   ],
+   "pays": "France",
+   "ville": "Paris",
+   "description_fr": "Selon sa biographie sur Resident Advisor (RA), DJ basée à Paris : elle se décrit comme une DJ tunisienne émergente dont le son oscille entre une techno lumineuse et groovy et des textures tribales sombres et hypnotiques, avec des influences house, Detroit, electro old school et jazz. Sa page Shotgun reprend l'accroche « Groove driven techno & dark hypnotic textures » (« techno portée par le groove et textures sombres et hypnotiques »).",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://ra.co/dj/sasa-fr",
+    "https://shotgun.live/fr/artists/sassssssa",
+    "https://shotgun.live/fr/events/jeudi-protocol-uzi-nas-esilise-ghostface-mia-mao",
+    "https://ra.co/events/2495186"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "ulysse-dj",
+   "nom": "ÜLYSSE",
+   "alias": [
+    "ÜLYSSE"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "Pays indiqué par Shotgun : la France. La page Shotgun d'ÜLYSSE, liée à la soirée Jeudi Protocol : Raw Machine (Mia Mao, 12/11/2026), porte l'accroche « YØUNG DARK INDUSTRIAL ASPIRANT » (« jeune aspirant industriel sombre »). Attention aux homonymes : Resident Advisor référence un autre « Ulysse » (acteur de la scène house, actif depuis 2009), qui n'est pas rattaché à cette fiche.",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/k4ptiv-428786594",
+    "https://shotgun.live/fr/events/jeudi-protocol-uzi-nas-esilise-ghostface-mia-mao"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "uzi-nas",
+   "nom": "UZI NAS",
+   "alias": [
+    "UZI NAS",
+    "Uzi Nas"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "Pays indiqué par Shotgun : la France. UZI NAS a notamment été programmé à Paris, à Mia Mao (Jeudis Olympe : Abstract Edition, 23/04/2026, genre « Techno » selon Resident Advisor), à Kilomètre25 (Abstract Protocol, 13/08/2026) et au Rex Club (09/09/2026, selon sa page Shotgun). Sa page Shotgun porte l'accroche « HARD SHOT | GROOVE SHOT » (littéralement « coup dur | coup groove ») et date son premier événement Shotgun de 2024.",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/uzi-nas",
+    "https://ra.co/events/2392684",
+    "https://ra.co/events/2495186",
+    "https://shotgun.live/fr/events/jeudi-protocol-uzi-nas-esilise-ghostface-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "protokseed",
+   "nom": "Protokseed",
+   "alias": [
+    "Protokseed",
+    "PROTOKSEED"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "Pays indiqué par Shotgun (« Artiste vérifié », badge de la plateforme) et par Resident Advisor : la France. La page Shotgun de Protokseed porte l'accroche « HARD DANCE, RAVE x METAL » (« hard dance, rave x metal »). Protokseed est à l'affiche de la soirée 23:59 de Mia Mao du 13/11/2026.",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/protokseed",
+    "https://ra.co/dj/protokseed",
+    "https://shotgun.live/fr/events/2359-protokseed-ling-ling-enko-acipach-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "acidpach",
+   "nom": "ACIDPACH",
+   "alias": [
+    "ACIDPACH",
+    "Acidpach"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "Pays indiqué par Shotgun : la France (« Artiste vérifié », badge de la plateforme). ACIDPACH est à l'affiche de la soirée 23:59 de Mia Mao du 13/11/2026 et était à l'affiche d'une soirée « Acidcore » à Hangar DS le 24/10/2026 (listing Shotgun, aussi visible sur la page d'Enko).",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/acidpach",
+    "https://shotgun.live/fr/events/2359-protokseed-ling-ling-enko-acipach-mia-mao"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "rabteu",
+   "nom": "RABTEU",
+   "alias": [
+    "RABTEU",
+    "Rabteu"
+   ],
+   "pays": "France",
+   "ville": "Toulouse (origine)",
+   "description_fr": "DJ originaire de Toulouse selon sa présentation sur Shotgun, qui décrit une techno brute pour dancefloors peak-time, mêlant énergie hard rave et kicks incessants ; l'accroche de sa page est « HARD RAVE MUSIC » (« musique hard rave »). Premier événement Shotgun en 2022.",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/rabteu",
+    "https://shotgun.live/fr/events/2359-protokseed-ling-ling-enko-acipach-mia-mao"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "ling-ling",
+   "nom": "LING LING",
+   "alias": [
+    "LING LING",
+    "Ling Ling"
+   ],
+   "pays": "Autriche",
+   "ville": "",
+   "description_fr": "Pays indiqué par Shotgun : l'Autriche. Ling Ling joue en B2B avec Enko (« Ling Ling B2B Enko » à la soirée 23:59 de Mia Mao le 13/11/2026 ; « Ling Ling Vs Enko » annoncé à Strasbourg le 08/01/2027 sur la page Shotgun d'Enko).",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/freetaxler",
+    "https://shotgun.live/fr/artists/enkosound",
+    "https://shotgun.live/fr/events/2359-protokseed-ling-ling-enko-acipach-mia-mao"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "enko",
+   "nom": "ENKO",
+   "alias": [
+    "ENKO",
+    "Enko"
+   ],
+   "pays": "Autriche",
+   "ville": "",
+   "description_fr": "DJ de tekno rattaché à l'Autriche (pays indiqué par Shotgun). Selon sa biographie sur Shotgun, il joue de la tekno « mentale » et acid, issu du mouvement freetekno, qu'il a rejoint à la fin des années 2000, et il est cofondateur de Multiplan Kollektiv, un label, structure de production et collectif d'artistes basé à Vienne (Autriche). Il joue en B2B avec Ling Ling à la soirée 23:59 de Mia Mao (13/11/2026).",
+   "roles": [
+    "DJ",
+    "label"
+   ],
+   "annees_actives": "fin des années 2000 (biographie Shotgun)",
+   "liens_styles": [
+    "free_tekno"
+   ],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/enkosound",
+    "https://shotgun.live/fr/events/2359-protokseed-ling-ling-enko-acipach-mia-mao"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "rose-ch",
+   "nom": "RŌSE",
+   "alias": [
+    "RŌSE",
+    "Rōse",
+    "Rōse (CH)",
+    "Rose"
+   ],
+   "pays": "Suisse",
+   "ville": "",
+   "description_fr": "Pays indiqué par Shotgun et par Resident Advisor (RA) : la Suisse. La biographie RA de Rōse se résume à « Techno, Tekno, Psytrance DJ Producer » (en substance : techno, tekno et psytrance, DJ et production) ; RA associe à Rōse les labels Unfair Records et Alwarda Records et un premier événement référencé en 2023. Rōse joue en B2B avec Emma Ollivary à la soirée 23:59 de Mia Mao (13/11/2026).",
+   "roles": [
+    "DJ",
+    "producteur·rice"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "free_tekno",
+    "psytrance"
+   ],
+   "labels": [],
+   "sources": [
+    "https://ra.co/dj/rose-ch",
+    "https://shotgun.live/fr/artists/rose-elb",
+    "https://shotgun.live/fr/events/2359-protokseed-ling-ling-enko-acipach-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "emma-ollivary",
+   "nom": "EMMA OLLIVARY",
+   "alias": [
+    "EMMA OLLIVARY",
+    "Emma Ollivary"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "DJ et productrice, pays indiqué par Shotgun : la France (« Artiste vérifiée », badge de la plateforme). Selon sa présentation, elle passe du rave au hard techno et à la trance, s'est produite en France, en Europe et en Asie, et a fondé sa propre série d'événements et son label KØNEKT. Elle joue en B2B avec Rōse à la soirée 23:59 de Mia Mao (13/11/2026).",
+   "roles": [
+    "DJ",
+    "productrice",
+    "label"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "hard_techno",
+    "trance"
+   ],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/emma-ollivary",
+    "https://shotgun.live/fr/events/2359-protokseed-ling-ling-enko-acipach-mia-mao"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "kodaman",
+   "nom": "KODAMAN",
+   "alias": [
+    "KODAMAN",
+    "Kodaman"
+   ],
+   "pays": "France",
+   "ville": "Paris",
+   "description_fr": "Producteur et DJ originaire de Toulouse et basé à Paris selon sa présentation sur Shotgun : il produit sous Ableton depuis 2019 et mêle acid, psytrance, hardcore et musiques bass, avec des kicks tekno puissants. Premier événement Shotgun en 2020.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "depuis 2019 (biographie Shotgun)",
+   "liens_styles": [
+    "psytrance",
+    "hardcore"
+   ],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/kodaman",
+    "https://shotgun.live/fr/events/2359-protokseed-ling-ling-enko-acipach-mia-mao"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "bad-boombox",
+   "nom": "Bad Boombox",
+   "alias": [
+    "Bad Boombox",
+    "BAD BOOMBOX",
+    "Badboombox"
+   ],
+   "pays": "Bulgarie / Allemagne",
+   "ville": "Berlin",
+   "description_fr": "DJ et producteur basé à Berlin selon l'organisateur ; Resident Advisor le dit né en Bulgarie et basé en Allemagne, et Techno Airlines le décrit comme un DJ et producteur de techno qui dirige Hot Meal Records (titres cités : « Pull It Up », « Medulla »). Selon la présentation de l'organisateur sur Shotgun, il mêle hot house, hardgroove, hard house, eurodance et trance.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "house",
+    "trance"
+   ],
+   "labels": [],
+   "sources": [
+    "https://www.technoairlines.com/artist/bad-boombox",
+    "https://ra.co/dj/badboombox",
+    "https://shotgun.live/fr/artists/badboombox",
+    "https://shotgun.live/fr/events/hotmeal-mischluft-bad-boombox-mija"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "mija",
+   "nom": "Mija",
+   "alias": [
+    "Mija",
+    "MIJA"
+   ],
+   "pays": "États-Unis / Allemagne",
+   "ville": "Berlin",
+   "description_fr": "DJ, productrice et promotrice américaine, originaire de Phoenix (Arizona) selon Wikipédia EN. Selon Wikipédia EN, elle s'est installée à Berlin en 2024 et a rejoint à cette date Hot Meal Records (label et agence) ; elle est active à plein temps depuis 2012 (page signalée pour sources insuffisantes). Selon l'organisateur de la soirée Hot Meal, elle est à la tête du label Never B Alone ; il la décrit comme multidisciplinaire, entre hardgroove et techno, avec une approche mêlant house, techno, funk et influences rave.",
+   "roles": [
+    "DJ",
+    "productrice",
+    "label"
+   ],
+   "annees_actives": "depuis 2012 (Wikipédia EN)",
+   "liens_styles": [
+    "house"
+   ],
+   "labels": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mija_(DJ)",
+    "https://ra.co/dj/mija",
+    "https://shotgun.live/fr/artists/hi_mija",
+    "https://shotgun.live/fr/events/hotmeal-mischluft-bad-boombox-mija"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "mischluft",
+   "nom": "Mischluft",
+   "alias": [
+    "Mischluft",
+    "MISCHLUFT"
+   ],
+   "pays": "Allemagne",
+   "ville": "Leipzig",
+   "description_fr": "DJ et producteur allemand basé à Leipzig. Techno Airlines le décrit comme un pont entre trance vocale et grooves techno rebondissants (hardgroove, trance, techno) et lui attribue des sorties sur Hot Meal Records et Intercord ; l'organisateur le présente sur Shotgun entre hardgroove, bounce et trance. La présentation de l'organisateur, reprise telle quelle par Amsterdam Dance Event, est promotionnelle.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "trance"
+   ],
+   "labels": [],
+   "sources": [
+    "https://www.technoairlines.com/artist/mischluft",
+    "https://ra.co/dj/mischluft",
+    "https://shotgun.live/fr/artists/mischluft",
+    "https://www.amsterdam-dance-event.nl/en/artists-speakers/mischluft/2667717",
+    "https://shotgun.live/fr/events/hotmeal-mischluft-bad-boombox-mija"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "janis-zielinski",
+   "nom": "Janis Zielinski",
+   "alias": [
+    "Janis Zielinski",
+    "JANIS ZIELINSKI",
+    "Janis Zielenski"
+   ],
+   "pays": "Allemagne",
+   "ville": "",
+   "description_fr": "DJ et producteur, pays indiqué par Shotgun et par Resident Advisor (RA) : l'Allemagne ; RA le lie à Hot Meal Records. Selon la présentation de l'organisateur sur Shotgun, il est originaire de Hanovre et mêle eurodance, house, UK garage et trance, avec des influences des années 1990 et 2000.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "house",
+    "trance"
+   ],
+   "labels": [],
+   "sources": [
+    "https://ra.co/dj/janiszielinski",
+    "https://shotgun.live/fr/artists/janiszielinski",
+    "https://shotgun.live/fr/events/hotmeal-mischluft-bad-boombox-mija"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "lizaliza",
+   "nom": "Lizaliza",
+   "alias": [
+    "Lizaliza",
+    "LIZALIZA",
+    "lizaliza"
+   ],
+   "pays": "Allemagne",
+   "ville": "Berlin",
+   "description_fr": "Productrice et DJ basée à Berlin, qui se présente sur Shotgun comme faisant de la musique de danse (« I make dance music, I play dance music » : « je fais de la musique de danse, je joue de la musique de danse »). Selon l'organisateur, ses productions sont chaleureuses et mélodiques et ses sets plus expérimentaux mêlent house, hard groove et hard house. Resident Advisor (RA) la localise en Allemagne (premier événement référencé en 2025).",
+   "roles": [
+    "DJ",
+    "productrice"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "house"
+   ],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/lizaliza",
+    "https://ra.co/dj/lizaliza",
+    "https://shotgun.live/fr/events/hotmeal-mischluft-bad-boombox-mija"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "sept",
+   "nom": "Sept",
+   "alias": [
+    "Sept",
+    "SEPT"
+   ],
+   "pays": "Pologne / Allemagne",
+   "ville": "",
+   "description_fr": "DJ et producteur de techno, né en Pologne et basé en Allemagne selon Resident Advisor (RA), qui lui associe les labels BPitch, Flash Recordings, Clergy, Sacred Court et EXHALE Records. Sa biographie Shotgun parle d'une techno « far away from the mainstream beats » (loin des rythmes du mainstream), avec un mélange de noirceur et de lumière, jouée en club et en live en Europe et en Amérique du Sud. Selon l'organisateur, il a fondé OPUS en 2024 (label et événements).",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://ra.co/dj/sept",
+    "https://shotgun.live/fr/artists/septonly",
+    "https://shotgun.live/fr/events/bouncin-koboyo-and-friends-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "koboyo",
+   "nom": "KOBOYO",
+   "alias": [
+    "KOBOYO",
+    "Koboyo"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "Pays indiqué par Resident Advisor (RA) : la France ; clubs les plus fréquentés selon RA : Kilomètre25, Glazart, Mia Mao. Sa page Shotgun le présente comme cofondateur d'« exilparis ». L'organisateur annonce « Bouncin' » comme sa résidence à Mia Mao, dont la soirée du 26/11/2026 est la dernière édition.",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://ra.co/dj/koboyo",
+    "https://shotgun.live/fr/artists/koboyo",
+    "https://ra.co/events/2573578",
+    "https://shotgun.live/fr/events/bouncin-koboyo-and-friends-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "isa-tchesnokova",
+   "nom": "Isa Tchesnokova",
+   "alias": [
+    "Isa Tchesnokova",
+    "ISA TCHESNOKOVA"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "Selon son profil Resident Advisor (RA), Isa Tchesnokova est « DJ & Producer based in France » (en substance : profil de DJ et de production, avec la France pour base). Sa page Shotgun porte l'accroche « Groove is the key » (« le groove est la clé ») et mentionne l'agence de booking Nightvision Artists.",
+   "roles": [
+    "DJ",
+    "producteur·rice"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://ra.co/dj/isatchesnokova",
+    "https://shotgun.live/fr/artists/isatchesnokova",
+    "https://shotgun.live/fr/events/bouncin-koboyo-and-friends-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "dj-angel-2222",
+   "nom": "DJ ANGEL",
+   "alias": [
+    "DJ ANGEL",
+    "DJ Angel",
+    "DJ ANGEL (fr)"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "Pays indiqué par Shotgun : la France (« Artiste vérifié », badge de la plateforme) ; l'accroche de la page est « House Of Groove » (« la maison du groove »). Selon la présentation de l'organisateur sur Shotgun, DJ ANGEL puise son inspiration dans le cinéma, l'écriture, la danse et les arts visuels, passe de la tekno à la trance, à la house et aux sonorités industrielles, et a fondé en 2024 « 2222 Agency », une agence de booking qui se veut plus inclusive pour la scène électronique. Resident Advisor (RA) référence plusieurs profils « DJ Angel » (dont un « DJ ANGEL (fr) » et un « DJ Angel (1) ») : le rapprochement avec l'artiste annoncé à Bouncin' n'est pas établi.",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "house",
+    "trance"
+   ],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/djangel2222",
+    "https://shotgun.live/fr/events/bouncin-koboyo-and-friends-mia-mao",
+    "https://ra.co/dj/djangelfr",
+    "https://ra.co/dj/djangel-1"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "equus-belli",
+   "nom": "Equus Belli",
+   "alias": [
+    "Equus Belli",
+    "EQUUS BELLI"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "Pays indiqué par Resident Advisor (RA) : la France (premier événement référencé en 2022). Sa page Shotgun le présente comme cofondateur et résident de Furia Collective ; l'organisateur ajoute qu'il a cofondé Podium Session et décrit une musique instinctive, profonde, aux rythmiques tribales.",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/equusbelli",
+    "https://ra.co/dj/equusbelli",
+    "https://ra.co/events/2564446",
+    "https://shotgun.live/fr/events/bouncin-koboyo-and-friends-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "manu-le-malin",
+   "nom": "Manu Le Malin",
+   "alias": [
+    "Manu Le Malin",
+    "Manu le Malin",
+    "MANU LE MALIN",
+    "The Driver",
+    "DJ Outlaw"
+   ],
+   "pays": "France",
+   "ville": "Paris (naissance)",
+   "description_fr": "Producteur et DJ français né à Paris en 1970 selon Wikipédia FR, connu pour la techno hardcore (darkcore, hardcore industriel, techno hardcore). Wikipédia indique qu'il a débuté dans les raves et afters parisiens, que sa première prestation professionnelle date de 1992, que son premier album en nom propre, Fighting Spirit, sort en 2002, et qu'il a cofondé Bloc 46 et fondé 46 Records (2005) et MKNK (2025). Il signe aussi des sets de techno sous le nom The Driver. Hôte de la résidence « Lycanthropie » à Mia Mao selon l'organisateur.",
+   "roles": [
+    "DJ",
+    "producteur",
+    "label"
+   ],
+   "annees_actives": "depuis le début des années 1990 (Wikipédia FR)",
+   "liens_styles": [
+    "hardcore"
+   ],
+   "labels": [],
+   "sources": [
+    "https://fr.wikipedia.org/wiki/Manu_le_Malin",
+    "https://ra.co/dj/manulemalin",
+    "https://shotgun.live/fr/artists/dj-manu-le-malin",
+    "https://shotgun.live/fr/events/lycanthropie-manu-le-malin-ophidian-in5olence-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "ophidian",
+   "nom": "Ophidian",
+   "alias": [
+    "Ophidian",
+    "OPHIDIAN",
+    "Orphidian"
+   ],
+   "pays": "Pays-Bas",
+   "ville": "",
+   "description_fr": "Producteur néerlandais de hardcore (hardcore industriel, doomcore), actif depuis 1998 selon Techno Airlines, qui date de 2004 le titre « Butterfly VIP » ayant mené à des programmations régulières à Thunderdome et Masters of Hardcore. Selon sa présentation sur Shotgun, il est reconnu pour des compositions au piano mêlées à des kicks bit-crushés, avec des titres comme « So Many Sacrifices » (avec Ruffneck), « Bring On The Orchestra » (hymne Harmony of Hardcore) et « Nothing Is Real » (avec Angerfist). Techno Airlines lui associe le label Enzyme Records et la fondation de Meta4.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "depuis 1998 (Techno Airlines)",
+   "liens_styles": [
+    "hardcore"
+   ],
+   "labels": [],
+   "sources": [
+    "https://www.technoairlines.com/artist/ophidian",
+    "https://ra.co/dj/ophidian",
+    "https://shotgun.live/fr/artists/djophidian",
+    "https://shotgun.live/fr/events/lycanthropie-manu-le-malin-ophidian-in5olence-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "deathmachine",
+   "nom": "Deathmachine",
+   "alias": [
+    "Deathmachine",
+    "Death Machine",
+    "DEATHMACHINE"
+   ],
+   "pays": "Royaume-Uni",
+   "ville": "",
+   "description_fr": "DJ et producteur britannique. Selon sa présentation sur Shotgun, il se met au DJing en 1998 puis à la production en 2001 ; il a sorti des titres sur Corrupt, Rebelscum, Deathchant, The Third Movement, Genosha et One Seven Five (écrit « Genosha One Seven Five » sur sa page), Industrial Strength Records et Forbidden Society Recordings. Amsterdam Dance Event (GB) le décrit entre hardcore techno britannique, drum & bass et crossbreed ; l'organisateur le dit « devenu l'un des chefs de file du crossbreed ».",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "DJ depuis 1998, producteur depuis 2001 (biographie Shotgun)",
+   "liens_styles": [
+    "hardcore"
+   ],
+   "labels": [
+    "industrial-strength"
+   ],
+   "sources": [
+    "https://shotgun.live/fr/artists/deathmachine",
+    "https://www.amsterdam-dance-event.nl/en/artists-speakers/deathmachine/1643389",
+    "https://shotgun.live/fr/events/lycanthropie-manu-le-malin-ophidian-in5olence-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "stazma-the-junglechrist",
+   "nom": "Stazma The Junglechrist",
+   "alias": [
+    "Stazma The Junglechrist",
+    "Stazma the Junglechrist",
+    "Stazma",
+    "The Junglechrist",
+    "STAZMA THE JUNGLECHRIST"
+   ],
+   "pays": "France",
+   "ville": "",
+   "description_fr": "Producteur et DJ français de breakcore, rattaché à l'écurie Peace Off. Sa biographie Shotgun date sa première sortie de 2008 sur Peace Off, cite des sorties sur Meganeural, Structural Damage et Peace Off, et décrit un son mêlant rave, gabber, jungle et dub, fort en live ; il travaille aussi comme ingénieur de mastering. Resident Advisor lui associe Acroplane Recordings, Murder Channel Records, PRSPCT Recordings, Concrete Collage Records et Grey Meta, et un premier événement référencé en 2011.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "première sortie en 2008 (biographie Shotgun)",
+   "liens_styles": [
+    "gabber"
+   ],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/stazma-the-junglechrist",
+    "https://ra.co/dj/stazmathejunglechrist",
+    "https://shotgun.live/fr/events/lycanthropie-manu-le-malin-ophidian-in5olence-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "in50lencee",
+   "nom": "IN50LENCEE",
+   "alias": [
+    "IN50LENCEE",
+    "In50lencee",
+    "IN5OLENCEE",
+    "In5olencee",
+    "IN5OLENCE",
+    "In5olence"
+   ],
+   "pays": "",
+   "ville": "",
+   "description_fr": "Artiste dont la page Shotgun annonce une « Industrial and Cinematic Hard Music » (« musique dure, industrielle et cinématographique »), membre de CØNTRAST_PROJECT et à l'origine du collectif Maelstrom. Selon la présentation de l'organisateur de Lycanthropie (Mia Mao, 11/12/2026), sa musique évolue entre ombre et lumière, avec des influences classiques, cinématographiques et orchestrales.",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/in50lencee",
+    "https://shotgun.live/fr/events/lycanthropie-manu-le-malin-ophidian-in5olence-mia-mao"
+   ],
+   "confiance": "a_verifier"
+  },
+  {
+   "id": "davyboi",
+   "nom": "Davyboi",
+   "alias": [
+    "Davyboi",
+    "DAVYBOI",
+    "davyboi",
+    "Davyboii"
+   ],
+   "pays": "Allemagne",
+   "ville": "Munich",
+   "description_fr": "DJ et producteur de Munich aux racines polonaises selon sa présentation sur Shotgun ; il y décrit une techno rebondissante, une trance onirique et du hard dance, une série de mixes sur YouTube, et des résidences chez Grell Kartell et Katchin Events. Resident Advisor le localise en Allemagne.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "trance"
+   ],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/davyboii",
+    "https://ra.co/dj/davyboi",
+    "https://ra.co/events/2576074",
+    "https://shotgun.live/fr/events/polyamor-davyboi-mika-heggemann-cara-elizabeth-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "mika-heggemann",
+   "nom": "Mika Heggemann",
+   "alias": [
+    "Mika Heggemann",
+    "MIKA HEGGEMANN"
+   ],
+   "pays": "Allemagne",
+   "ville": "Berlin",
+   "description_fr": "DJ et producteur basé à Berlin selon sa biographie (identique sur Shotgun et Resident Advisor) : il produit techno rebondissante et trance, depuis environ trois ans à la date de sa biographie (non datée), et se présente comme l'un des fondateurs du collectif Polyamor. Resident Advisor (RA) le localise en Allemagne (premier événement référencé en 2022).",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "trance"
+   ],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/mika-heggemann",
+    "https://ra.co/dj/heggemann",
+    "https://ra.co/events/2576074",
+    "https://shotgun.live/fr/events/polyamor-davyboi-mika-heggemann-cara-elizabeth-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "cara-elizabeth",
+   "nom": "Cara Elizabeth",
+   "alias": [
+    "Cara Elizabeth",
+    "CARA ELIZABETH"
+   ],
+   "pays": "Allemagne",
+   "ville": "Berlin",
+   "description_fr": "Sa propre présentation sur Resident Advisor (RA) tient en une ligne : « a Berlin based DJ » (DJ ayant Berlin pour base). RA et Shotgun localisent l'artiste en Allemagne (premier événement référencé en 2022). Cara Elizabeth est à l'affiche de la soirée Polyamor de Mia Mao du 27/11/2026.",
+   "roles": [
+    "DJ"
+   ],
+   "annees_actives": "",
+   "liens_styles": [],
+   "labels": [],
+   "sources": [
+    "https://ra.co/dj/caraelizabeth",
+    "https://shotgun.live/fr/artists/caraxelizabeth",
+    "https://ra.co/events/2576074",
+    "https://shotgun.live/fr/events/polyamor-davyboi-mika-heggemann-cara-elizabeth-mia-mao"
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "cleopard2000",
+   "nom": "Cleopard2000",
+   "alias": [
+    "Cleopard2000",
+    "CLEOPARD2000",
+    "Cleopard 2000"
+   ],
+   "pays": "Allemagne",
+   "ville": "Berlin",
+   "description_fr": "Producteur et DJ qui, selon sa présentation sur Shotgun et sur Resident Advisor, redéfinit la trance, la hard trance et l'eurodance depuis la scène underground de Berlin. Sa biographie évoque un parcours de la guitare au piano autodidacte avant l'électronique.",
+   "roles": [
+    "DJ",
+    "producteur"
+   ],
+   "annees_actives": "",
+   "liens_styles": [
+    "trance",
+    "hard_trance"
+   ],
+   "labels": [],
+   "sources": [
+    "https://shotgun.live/fr/artists/cleopard2000",
+    "https://ra.co/dj/cleopard2000",
+    "https://ra.co/events/2576074",
+    "https://shotgun.live/fr/events/polyamor-davyboi-mika-heggemann-cara-elizabeth-mia-mao"
+   ],
+   "confiance": "moyenne"
   }
  ],
  "labels": [
@@ -13888,79 +15949,176 @@ window.ATLAS = {
    "id": "pisica-mia-mao-2026-11-10",
    "nom": "Pisica",
    "date": "2026-11-10",
-   "date_fin": null,
+   "date_fin": "2026-11-11",
    "lieu_nom": "Mia Mao",
    "lieu_id": "mia-mao",
    "ville": "Paris",
    "pays": "France",
-   "organisateur": null,
-   "styles_ids": [],
+   "organisateur": "Mia Mao et Pisica",
+   "styles_ids": [
+    "hard_trance",
+    "hard_bounce"
+   ],
    "lineup": [
-    {
-     "nom": "Noise Mafia",
-     "role": null,
-     "artiste_id": "noise-mafia"
-    },
     {
      "nom": "Annie",
      "role": null,
-     "artiste_id": null
+     "artiste_id": null,
+     "b2b": false
     },
     {
      "nom": "DJ GUESTLIST",
      "role": null,
-     "artiste_id": "dj-guestlist"
+     "artiste_id": "dj-guestlist",
+     "b2b": false
     },
     {
      "nom": "Justin Tinderdate",
      "role": null,
-     "artiste_id": "justin-tinderdate"
+     "artiste_id": "justin-tinderdate",
+     "b2b": false
     },
     {
      "nom": "Elotrance",
      "role": null,
-     "artiste_id": "elotrance"
+     "artiste_id": "elotrance",
+     "b2b": true
     },
     {
      "nom": "KARISH",
      "role": null,
-     "artiste_id": "karish"
+     "artiste_id": "karish",
+     "b2b": false
+    },
+    {
+     "nom": "Noise Mafia",
+     "role": null,
+     "artiste_id": "noise-mafia",
+     "b2b": false
     },
     {
      "nom": "two girls one mom",
      "role": null,
-     "artiste_id": "two-girls-one-mom"
+     "artiste_id": "two-girls-one-mom",
+     "b2b": false
     }
    ],
    "lineup_complet": true,
-   "billetterie_nom": "Resident Advisor",
-   "billetterie_url": "https://ra.co/events/2538507",
+   "billetterie_nom": "Shotgun",
+   "billetterie_url": "https://shotgun.live/fr/events/pisica-noise-mafia-dj-guestlist-justin-tinderdate-mia-mao",
    "statut": "a_venir",
    "sources": [
+    "https://shotgun.live/fr/events/pisica-noise-mafia-dj-guestlist-justin-tinderdate-mia-mao",
     "https://www.technoairlines.com/event/pisica-noise-mafia-dj-guestlist-two-girls-one-mom-more-mia-mao-2026-11-10"
    ],
-   "confiance": "moyenne"
+   "confiance": "haute"
   },
   {
    "id": "organik-xxl-villepinte-2026-12-19",
    "nom": "Organïk XXL (Indoor)",
    "date": "2026-12-19",
-   "date_fin": null,
+   "date_fin": "2026-12-20",
    "lieu_nom": "Parc des expositions de Paris-Nord Villepinte",
    "lieu_id": "parc-expositions-paris-nord-villepinte",
    "ville": "Villepinte",
    "pays": "France",
-   "organisateur": "Organik Events",
-   "styles_ids": [],
-   "lineup": [],
-   "lineup_complet": false,
+   "organisateur": "Organïk",
+   "styles_ids": [
+    "hard_techno",
+    "hard_trance",
+    "hardcore",
+    "uptempo_hardcore",
+    "industrial_techno"
+   ],
+   "lineup": [
+    {
+     "nom": "6EJOU",
+     "role": null,
+     "artiste_id": "6ejou",
+     "b2b": false
+    },
+    {
+     "nom": "AISHA",
+     "role": null,
+     "artiste_id": "aisha",
+     "b2b": false
+    },
+    {
+     "nom": "ANXHELA",
+     "role": null,
+     "artiste_id": "anxhela",
+     "b2b": false
+    },
+    {
+     "nom": "ECZODIA",
+     "role": null,
+     "artiste_id": "eczodia",
+     "b2b": false
+    },
+    {
+     "nom": "HYSTA",
+     "role": null,
+     "artiste_id": "hysta",
+     "b2b": false
+    },
+    {
+     "nom": "Krowdexx",
+     "role": null,
+     "artiste_id": "krowdexx",
+     "b2b": false
+    },
+    {
+     "nom": "TOZA",
+     "role": null,
+     "artiste_id": "toza",
+     "b2b": true
+    },
+    {
+     "nom": "LESSSS",
+     "role": null,
+     "artiste_id": "lessss",
+     "b2b": false
+    },
+    {
+     "nom": "Mad Dog",
+     "role": null,
+     "artiste_id": "mad-dog",
+     "b2b": false
+    },
+    {
+     "nom": "OMAKS",
+     "role": null,
+     "artiste_id": "omaks",
+     "b2b": false
+    },
+    {
+     "nom": "Todiefor",
+     "role": null,
+     "artiste_id": "todiefor",
+     "b2b": false
+    },
+    {
+     "nom": "NØNAME",
+     "role": null,
+     "artiste_id": "noname",
+     "b2b": true
+    },
+    {
+     "nom": "Toxic Machinery",
+     "role": null,
+     "artiste_id": "toxic-machinery",
+     "b2b": false
+    }
+   ],
+   "lineup_complet": true,
    "billetterie_nom": "Shotgun",
    "billetterie_url": "https://shotgun.live/fr/festivals/organik-xxl-2026-indoor",
    "statut": "a_venir",
    "sources": [
+    "https://shotgun.live/fr/festivals/organik-xxl-2026-indoor",
     "https://www.technoairlines.com/festival/organik-xxl-villepinte-france-2026"
    ],
-   "confiance": "a_verifier"
+   "confiance": "haute"
   },
   {
    "id": "phantom-dirty-workz-2026-11-07",
@@ -13971,43 +16129,52 @@ window.ATLAS = {
    "lieu_id": "phantom-paris",
    "ville": "Paris",
    "pays": "France",
-   "organisateur": "Phantom Paris",
-   "styles_ids": [],
+   "organisateur": "Phantom",
+   "styles_ids": [
+    "hardstyle"
+   ],
    "lineup": [
     {
      "nom": "Adrenalize",
      "role": "tete_d_affiche",
-     "artiste_id": "adrenalize"
+     "artiste_id": "adrenalize",
+     "b2b": false
     },
     {
      "nom": "Coone",
      "role": null,
-     "artiste_id": "coone"
+     "artiste_id": "coone",
+     "b2b": false
     },
     {
      "nom": "Darren Styles",
      "role": null,
-     "artiste_id": "darren-styles"
+     "artiste_id": "darren-styles",
+     "b2b": false
     },
     {
      "nom": "Ecstatic",
      "role": null,
-     "artiste_id": null
+     "artiste_id": "ecstatic",
+     "b2b": false
+    },
+    {
+     "nom": "Mish",
+     "role": null,
+     "artiste_id": "mish",
+     "b2b": false
     },
     {
      "nom": "The Straikerz",
      "role": null,
-     "artiste_id": "the-straikerz"
+     "artiste_id": "the-straikerz",
+     "b2b": false
     },
     {
-     "nom": "YOSHIKO",
+     "nom": "Yoshiko",
      "role": null,
-     "artiste_id": "yoshiko"
-    },
-    {
-     "nom": "MISH",
-     "role": null,
-     "artiste_id": "mish"
+     "artiste_id": "yoshiko",
+     "b2b": false
     }
    ],
    "lineup_complet": true,
@@ -14015,12 +16182,413 @@ window.ATLAS = {
    "billetterie_url": "https://shotgun.live/fr/events/phantom-dirty-workz",
    "statut": "passee",
    "sources": [
+    "https://shotgun.live/fr/events/phantom-dirty-workz",
     "https://www.songkick.com/fr/concerts/43347651-adrenalize-at-phantom",
     "https://technobeatscloud.com/en/events/event/phantom-dirty-workz-phantom-paris-2026-11-07",
     "https://www.sortiraparis.com/en/where-to-party-in-paris/articles/261625-dirty-workz-funk-tribu-and-vladimir-cauchemar-upcoming-nights-at-club-phantom-paris-bercy",
     "https://app.discotech.me/events/38251747-phantom-dirty-workz-at-phantom"
    ],
-   "confiance": "moyenne"
+   "confiance": "haute"
+  },
+  {
+   "id": "thunder-mia-mao-2026-12-26",
+   "nom": "Thunder : 999999999, Enfan, Flkn & More",
+   "date": "2026-12-26",
+   "date_fin": "2026-12-27",
+   "organisateur": "Mia Mao et Amnexia",
+   "styles_ids": [
+    "hard_techno",
+    "hard_trance"
+   ],
+   "lineup": [
+    {
+     "nom": "999999999",
+     "role": null,
+     "artiste_id": "999999999",
+     "b2b": false
+    },
+    {
+     "nom": "Enfan",
+     "role": null,
+     "artiste_id": null,
+     "b2b": false
+    },
+    {
+     "nom": "FLKN",
+     "role": null,
+     "artiste_id": null,
+     "b2b": false
+    },
+    {
+     "nom": "MIZA",
+     "role": null,
+     "artiste_id": null,
+     "b2b": false
+    },
+    {
+     "nom": "Avenir",
+     "role": null,
+     "artiste_id": null,
+     "b2b": false
+    },
+    {
+     "nom": "WESTFALL",
+     "role": null,
+     "artiste_id": "westfall",
+     "b2b": false
+    }
+   ],
+   "billetterie_url": "https://shotgun.live/fr/events/thunder-999999999-enfan-flkn-mia-mao",
+   "sources": [
+    "https://shotgun.live/fr/events/thunder-999999999-enfan-flkn-mia-mao"
+   ],
+   "lieu_nom": "Mia Mao",
+   "lieu_id": "mia-mao",
+   "ville": "Paris",
+   "pays": "France",
+   "billetterie_nom": "Shotgun",
+   "statut": "a_venir",
+   "confiance": "haute",
+   "lineup_complet": true
+  },
+  {
+   "id": "jeudi-protocol-mia-mao-2026-11-12",
+   "nom": "Jeudi Protocol : Raw Machine",
+   "date": "2026-11-12",
+   "date_fin": "2026-11-13",
+   "organisateur": "Mia Mao et ABSTRVCT",
+   "styles_ids": [
+    "hard_techno",
+    "schranz"
+   ],
+   "lineup": [
+    {
+     "nom": "Esilise",
+     "role": null,
+     "artiste_id": "esilise",
+     "b2b": false
+    },
+    {
+     "nom": "GHOSTFACE",
+     "role": null,
+     "artiste_id": "ghostface-dj",
+     "b2b": false
+    },
+    {
+     "nom": "Sasa",
+     "role": null,
+     "artiste_id": "sasa-fr",
+     "b2b": false
+    },
+    {
+     "nom": "ÜLYSSE",
+     "role": null,
+     "artiste_id": "ulysse-dj",
+     "b2b": false
+    },
+    {
+     "nom": "UZI NAS",
+     "role": null,
+     "artiste_id": "uzi-nas",
+     "b2b": false
+    }
+   ],
+   "billetterie_url": "https://shotgun.live/fr/events/jeudi-protocol-uzi-nas-esilise-ghostface-mia-mao",
+   "sources": [
+    "https://shotgun.live/fr/events/jeudi-protocol-uzi-nas-esilise-ghostface-mia-mao"
+   ],
+   "lieu_nom": "Mia Mao",
+   "lieu_id": "mia-mao",
+   "ville": "Paris",
+   "pays": "France",
+   "billetterie_nom": "Shotgun",
+   "statut": "a_venir",
+   "confiance": "haute",
+   "lineup_complet": true
+  },
+  {
+   "id": "2359-mia-mao-2026-11-13",
+   "nom": "23:59 : Protokseed, Ling Ling B2B Enko, Acidpach & More",
+   "date": "2026-11-13",
+   "date_fin": "2026-11-14",
+   "organisateur": "Mia Mao et 23:59",
+   "styles_ids": [
+    "acid_techno"
+   ],
+   "lineup": [
+    {
+     "nom": "Protokseed",
+     "role": null,
+     "artiste_id": "protokseed",
+     "b2b": false
+    },
+    {
+     "nom": "Acidpach",
+     "role": null,
+     "artiste_id": "acidpach",
+     "b2b": false
+    },
+    {
+     "nom": "Rabteu",
+     "role": null,
+     "artiste_id": "rabteu",
+     "b2b": false
+    },
+    {
+     "nom": "Ling Ling",
+     "role": null,
+     "artiste_id": "ling-ling",
+     "b2b": false
+    },
+    {
+     "nom": "Enko",
+     "role": null,
+     "artiste_id": "enko",
+     "b2b": true
+    },
+    {
+     "nom": "Rōse",
+     "role": null,
+     "artiste_id": "rose-ch",
+     "b2b": false
+    },
+    {
+     "nom": "Emma Ollivary",
+     "role": null,
+     "artiste_id": "emma-ollivary",
+     "b2b": true
+    },
+    {
+     "nom": "Kodaman",
+     "role": null,
+     "artiste_id": "kodaman",
+     "b2b": false
+    }
+   ],
+   "billetterie_url": "https://shotgun.live/fr/events/2359-protokseed-ling-ling-enko-acipach-mia-mao",
+   "sources": [
+    "https://shotgun.live/fr/events/2359-protokseed-ling-ling-enko-acipach-mia-mao"
+   ],
+   "lieu_nom": "Mia Mao",
+   "lieu_id": "mia-mao",
+   "ville": "Paris",
+   "pays": "France",
+   "billetterie_nom": "Shotgun",
+   "statut": "a_venir",
+   "confiance": "haute",
+   "lineup_complet": true
+  },
+  {
+   "id": "hot-meal-mia-mao-2026-11-21",
+   "nom": "Hot Meal : Bad Boombox, Mischluft, Mija & More",
+   "date": "2026-11-21",
+   "date_fin": "2026-11-22",
+   "organisateur": "Mia Mao (invitation du label Hot Meal Records)",
+   "styles_ids": [
+    "trance",
+    "hard_trance"
+   ],
+   "lineup": [
+    {
+     "nom": "Bad Boombox",
+     "role": null,
+     "artiste_id": "bad-boombox",
+     "b2b": false
+    },
+    {
+     "nom": "Mischluft",
+     "role": null,
+     "artiste_id": "mischluft",
+     "b2b": false
+    },
+    {
+     "nom": "Mija",
+     "role": null,
+     "artiste_id": "mija",
+     "b2b": false
+    },
+    {
+     "nom": "Janis Zielinski",
+     "role": null,
+     "artiste_id": "janis-zielinski",
+     "b2b": false
+    },
+    {
+     "nom": "Lizaliza",
+     "role": null,
+     "artiste_id": "lizaliza",
+     "b2b": false
+    }
+   ],
+   "billetterie_url": "https://shotgun.live/fr/events/hotmeal-mischluft-bad-boombox-mija",
+   "sources": [
+    "https://shotgun.live/fr/events/hotmeal-mischluft-bad-boombox-mija"
+   ],
+   "lieu_nom": "Mia Mao",
+   "lieu_id": "mia-mao",
+   "ville": "Paris",
+   "pays": "France",
+   "billetterie_nom": "Shotgun",
+   "statut": "a_venir",
+   "confiance": "haute",
+   "lineup_complet": true
+  },
+  {
+   "id": "bouncin-mia-mao-2026-11-26",
+   "nom": "Bouncin : Koboyo & Friends",
+   "date": "2026-11-26",
+   "date_fin": "2026-11-27",
+   "organisateur": "Mia Mao",
+   "styles_ids": [
+    "hard_bounce"
+   ],
+   "lineup": [
+    {
+     "nom": "KOBOYO",
+     "role": null,
+     "artiste_id": "koboyo",
+     "b2b": false
+    },
+    {
+     "nom": "Sept",
+     "role": null,
+     "artiste_id": "sept",
+     "b2b": false
+    },
+    {
+     "nom": "Isa Tchesnokova",
+     "role": null,
+     "artiste_id": "isa-tchesnokova",
+     "b2b": false
+    },
+    {
+     "nom": "DJ ANGEL",
+     "role": null,
+     "artiste_id": "dj-angel-2222",
+     "b2b": false
+    },
+    {
+     "nom": "Equus Belli",
+     "role": null,
+     "artiste_id": "equus-belli",
+     "b2b": false
+    }
+   ],
+   "billetterie_url": "https://shotgun.live/fr/events/bouncin-koboyo-and-friends-mia-mao",
+   "sources": [
+    "https://shotgun.live/fr/events/bouncin-koboyo-and-friends-mia-mao"
+   ],
+   "lieu_nom": "Mia Mao",
+   "lieu_id": "mia-mao",
+   "ville": "Paris",
+   "pays": "France",
+   "billetterie_nom": "Shotgun",
+   "statut": "a_venir",
+   "confiance": "haute",
+   "lineup_complet": true
+  },
+  {
+   "id": "polyamor-mia-mao-2026-11-27",
+   "nom": "Polyamor : Davyboi, Mika Heggemann, Cara Elizabeth & More",
+   "date": "2026-11-27",
+   "date_fin": "2026-11-28",
+   "organisateur": "Mia Mao et 2much (avec le collectif Polyamor)",
+   "styles_ids": [
+    "hard_bounce",
+    "trance"
+   ],
+   "lineup": [
+    {
+     "nom": "Davyboi",
+     "role": null,
+     "artiste_id": "davyboi",
+     "b2b": false
+    },
+    {
+     "nom": "Mika Heggemann",
+     "role": null,
+     "artiste_id": "mika-heggemann",
+     "b2b": false
+    },
+    {
+     "nom": "Cara Elizabeth",
+     "role": null,
+     "artiste_id": "cara-elizabeth",
+     "b2b": false
+    },
+    {
+     "nom": "Cleopard2000",
+     "role": null,
+     "artiste_id": "cleopard2000",
+     "b2b": false
+    }
+   ],
+   "billetterie_url": "https://shotgun.live/fr/events/polyamor-davyboi-mika-heggemann-cara-elizabeth-mia-mao",
+   "sources": [
+    "https://shotgun.live/fr/events/polyamor-davyboi-mika-heggemann-cara-elizabeth-mia-mao"
+   ],
+   "lieu_nom": "Mia Mao",
+   "lieu_id": "mia-mao",
+   "ville": "Paris",
+   "pays": "France",
+   "billetterie_nom": "Shotgun",
+   "statut": "a_venir",
+   "confiance": "haute",
+   "lineup_complet": true
+  },
+  {
+   "id": "lycanthropie-mia-mao-2026-12-11",
+   "nom": "Lycanthropie : Manu Le Malin, Ophidian, In5olencee & More",
+   "date": "2026-12-11",
+   "date_fin": "2026-12-12",
+   "organisateur": "Mia Mao",
+   "styles_ids": [
+    "hardcore"
+   ],
+   "lineup": [
+    {
+     "nom": "Manu Le Malin",
+     "role": null,
+     "artiste_id": "manu-le-malin",
+     "b2b": false
+    },
+    {
+     "nom": "Ophidian",
+     "role": null,
+     "artiste_id": "ophidian",
+     "b2b": false
+    },
+    {
+     "nom": "Deathmachine",
+     "role": null,
+     "artiste_id": "deathmachine",
+     "b2b": false
+    },
+    {
+     "nom": "Stazma The Junglechrist",
+     "role": null,
+     "artiste_id": "stazma-the-junglechrist",
+     "b2b": false
+    },
+    {
+     "nom": "IN50LENCEE",
+     "role": null,
+     "artiste_id": "in50lencee",
+     "b2b": false
+    }
+   ],
+   "billetterie_url": "https://shotgun.live/fr/events/lycanthropie-manu-le-malin-ophidian-in5olence-mia-mao",
+   "sources": [
+    "https://shotgun.live/fr/events/lycanthropie-manu-le-malin-ophidian-in5olence-mia-mao"
+   ],
+   "lieu_nom": "Mia Mao",
+   "lieu_id": "mia-mao",
+   "ville": "Paris",
+   "pays": "France",
+   "billetterie_nom": "Shotgun",
+   "statut": "a_venir",
+   "confiance": "haute",
+   "lineup_complet": true
   }
  ]
 };
