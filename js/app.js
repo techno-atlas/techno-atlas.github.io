@@ -559,12 +559,14 @@
     let html = '';
     if (repTab === 'artistes') html = f(ARTISTS, (e) => (e.pays || '') + ' ' + (e.roles || []).join(' ')).map((e) => entCard('Artiste', e, [(e.roles || []).join(', '), e.pays].filter(Boolean).join(' · '), e.description_fr)).join('');
     else if (repTab === 'labels') html = f(LABELS, (e) => (e.pays || '') + ' ' + (e.ville || '')).map((e) => entCard('Label', e, [e.ville, e.pays, e.annee_creation].filter(Boolean).join(' · '), e.description_fr)).join('');
+    else if (repTab === 'soirees') return soireeCards();
     else html = f(PLACES, (e) => (e.pays || '') + ' ' + (e.ville || '')).map((e) => entCard(placeKind[e.type] || 'Lieu', Object.assign({}, e), [e.ville, e.pays].filter(Boolean).join(' · '), e.description_fr).replace('#/lieu/', '#/lieu/')).join('');
     return html ? `<div class="grid">${html}</div>` : '<p class="muted">Aucun résultat.</p>';
   }
   function viewRepertoire(tab) {
-    if (['artistes', 'labels', 'lieux'].includes(tab)) repTab = tab;
+    if (['artistes', 'labels', 'lieux', 'soirees'].includes(tab)) repTab = tab;
     const T = { artistes: ['Artistes', ARTISTS.length], labels: ['Labels', LABELS.length], lieux: ['Lieux et événements', PLACES.length] };
+    if (SOIREES.length) T.soirees = ['Soirées', SOIREES.length];
     return `<div class="sectionHead"><div class="eyebrow">Répertoire</div><h1 style="font-size:clamp(28px,5vw,44px)">Qui, quoi, où</h1><p>Les artistes, labels, clubs et festivals cités sur le site, avec des fiches courtes et sourcées.</p></div>
       <div class="toolbar"><div class="f"><label for="rep-q">Chercher</label><input id="rep-q" type="search" value="${esc(repQ)}" placeholder="nom, pays, rôle…"></div>
         <div class="f" role="group" aria-label="Catégorie"><label>Afficher</label><div class="row">${Object.keys(T).map((k) => `<button class="chip ${repTab === k ? 'on' : ''}" data-rtab="${k}" aria-pressed="${repTab === k}">${esc(T[k][0])} (${T[k][1]})</button>`).join('')}</div></div></div>
@@ -574,6 +576,40 @@
     document.getElementById('rep-q').addEventListener('input', (e) => { repQ = e.target.value; document.getElementById('repRes').innerHTML = repList(); });
     main.querySelectorAll('[data-rtab]').forEach((b) => b.addEventListener('click', () => { repTab = b.dataset.rtab; location.hash = '#/repertoire/' + repTab; }));
   }
+  /* ---------- soirées et line-ups ---------- */
+  const SOIREES = A.soirees || [];
+  const soireeById = byId(SOIREES);
+  const todayIso = () => new Date().toISOString().slice(0, 10);
+  const soireeUpcoming = (s) => (s.date_fin || s.date || '') >= todayIso();
+  const fmtDate = (iso) => { try { return new Date(iso + 'T12:00:00').toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }); } catch (e) { return iso || ''; } };
+  const lineupArtistId = (x) => (x.artiste_id && artistById[x.artiste_id] ? x.artiste_id : artistByName[nk(x.nom)] || null);
+  const lineupChips = (s) => (s.lineup || []).map((x) => { const id = lineupArtistId(x); return id ? `<a class="chip ${x.role === 'tete_d_affiche' ? 'on' : ''}" href="#/artiste/${encodeURIComponent(id)}">${esc(x.nom)}</a>` : `<span class="chip ${x.role === 'tete_d_affiche' ? 'on' : ''}">${esc(x.nom)}</span>`; }).join(' ');
+  const soireesOfArtist = (a) => SOIREES.filter((s) => (s.lineup || []).some((x) => lineupArtistId(x) === a.id));
+  function soireeCard(s) {
+    const up = soireeUpcoming(s);
+    return `<article class="card"><div class="tags"><span class="badge ${up ? 'ok' : 'niv'}">${up ? 'À venir' : 'Passée'}</span>${s.lineup_complet === false ? '<span class="chip">Line-up partiel</span>' : ''}</div>
+      <h3><a href="#/soiree/${encodeURIComponent(s.id)}">${esc(s.nom)}</a></h3><p class="small muted">${esc(fmtDate(s.date))}${s.lieu_nom ? ' · ' + esc(s.lieu_nom) : ''}${s.ville ? ', ' + esc(s.ville) : ''}</p>
+      <div class="tags">${lineupChips(s)}</div></article>`;
+  }
+  function soireeCards() {
+    const q = nk(repQ);
+    const list = SOIREES.filter((s) => !q || nk(s.nom + ' ' + (s.lieu_nom || '') + ' ' + (s.ville || '') + ' ' + (s.lineup || []).map((x) => x.nom).join(' ')).includes(q));
+    const up = list.filter(soireeUpcoming).sort((a, b) => a.date.localeCompare(b.date)); const past = list.filter((s) => !soireeUpcoming(s)).sort((a, b) => b.date.localeCompare(a.date));
+    return `${up.length ? `<h2 style="margin:6px 0 10px">À venir</h2><div class="grid">${up.map(soireeCard).join('')}</div>` : ''}${past.length ? `<h2 style="margin:22px 0 10px">Passées</h2><div class="grid">${past.map(soireeCard).join('')}</div>` : ''}${list.length ? '' : '<p class="muted">Aucune soirée.</p>'}`;
+  }
+  function viewSoiree(id) {
+    const s = soireeById[id]; if (!s) return notFound();
+    const place = s.lieu_id && placeById[s.lieu_id];
+    const up = soireeUpcoming(s);
+    return `<p class="crumbs"><a href="#/repertoire/soirees">← Soirées</a></p><div class="eyebrow">${up ? 'Soirée à venir' : 'Soirée passée'}</div><h1 style="font-size:clamp(28px,5vw,44px)">${esc(s.nom)}</h1>
+      <p class="muted">${esc(fmtDate(s.date))}${s.date_fin && s.date_fin !== s.date ? ' → ' + esc(fmtDate(s.date_fin)) : ''} · ${place ? `<a href="#/lieu/${encodeURIComponent(place.id)}">${esc(s.lieu_nom || place.nom)}</a>` : esc(s.lieu_nom || '')}${s.ville ? ', ' + esc(s.ville) : ''}</p>
+      <div class="tags">${confNote(s)}${(s.styles_ids || []).map(styleChip).join('')}</div>
+      <div class="two" style="margin-top:18px"><div><div class="panel"><h3>Line-up</h3><div class="tags" style="margin-top:8px">${lineupChips(s)}</div>${s.lineup_complet === false ? '<p class="small muted">Line-up partiel : seuls les noms trouvés dans les sources sont listés.</p>' : ''}<p class="small muted">Un nom cliquable renvoie à sa fiche ; un nom simple n’a pas encore de fiche.</p></div></div>
+        <div><div class="panel"><h3>Infos</h3>${s.organisateur ? `<p class="small"><b>Organisateur :</b> ${esc(s.organisateur)}</p>` : ''}${s.billetterie_url ? `<p class="small"><a href="${esc(safeUrl(s.billetterie_url))}" target="_blank" rel="noopener noreferrer">Billetterie${s.billetterie_nom ? ' (' + esc(s.billetterie_nom) + ')' : ''}</a></p>` : ''}<p class="small muted">Programmation relevée à la date de la dernière mise à jour du site ; elle peut changer.</p>${srcBlock(s)}</div></div></div>`;
+  }
+  const soirsBlock = (a) => { const l = soireesOfArtist(a); return l.length ? `<p class="small"><b>Soirées :</b> ${l.map((s) => `<a href="#/soiree/${encodeURIComponent(s.id)}">${esc(s.nom)}</a> <span class="muted">(${esc(fmtDate(s.date))})</span>`).join(' ; ')}</p>` : ''; };
+  const soireesAtBlock = (p) => { const l = SOIREES.filter((s) => s.lieu_id === p.id); return l.length ? `<p class="small"><b>Soirées :</b> ${l.map((s) => `<a href="#/soiree/${encodeURIComponent(s.id)}">${esc(s.nom)}</a>`).join(' ; ')}</p>` : ''; };
+
   const srcBlock = (e) => sourcesBlock(e.sources);
   function viewArtiste(id) {
     const a = artistById[id]; if (!a) return notFound();
@@ -584,7 +620,7 @@
       <div class="two" style="margin-top:18px"><div><div class="panel"><p class="lead" style="margin:0">${rich(a.description_fr)}</p></div>
         ${sets.length ? `<div class="sectionHead"><h2>À écouter sur le site</h2></div><div class="grid">${sets.map(setCard).join('')}</div>` : '<p class="muted" style="margin-top:14px">Pas encore de set vérifié pour cet artiste.</p>'}
         ${evs.length ? `<div class="sectionHead"><h2>Dans l’histoire</h2></div><ul>${evs.map((e) => `<li><a href="#/histoire/${encodeURIComponent(e.id)}">${esc(e.annee)} — ${esc(e.titre)}</a></li>`).join('')}</ul>` : ''}</div>
-        <div><div class="panel"><h3>Repères</h3>${labs.length ? `<p class="small"><b>Labels :</b> ${labs.map((l) => `<a href="#/label/${encodeURIComponent(l.id)}">${esc(l.nom)}</a>`).join(', ')}</p>` : ''}${srcBlock(a)}</div></div></div>`;
+        <div><div class="panel"><h3>Repères</h3>${labs.length ? `<p class="small"><b>Labels :</b> ${labs.map((l) => `<a href="#/label/${encodeURIComponent(l.id)}">${esc(l.nom)}</a>`).join(', ')}</p>` : ''}${soirsBlock(a)}${srcBlock(a)}</div></div></div>`;
   }
   function viewLabel(id) {
     const l = labelById[id]; if (!l) return notFound();
@@ -603,7 +639,7 @@
       <p class="muted">${esc([p.ville, p.pays, p.periode].filter(Boolean).join(' · '))}</p><div class="tags">${confNote(p)}${(p.liens_styles || []).map(styleChip).join('')}</div>
       <div class="two" style="margin-top:18px"><div><div class="panel"><p class="lead" style="margin:0">${rich(p.description_fr)}</p></div>
         ${evs.length ? `<div class="sectionHead"><h2>Dans l’histoire</h2></div><ul>${evs.map((e) => `<li><a href="#/histoire/${encodeURIComponent(e.id)}">${esc(e.annee)} — ${esc(e.titre)}</a></li>`).join('')}</ul>` : ''}</div>
-        <div><div class="panel"><h3>Repères</h3>${c ? `<p class="small">Ville : <a href="https://www.openstreetmap.org/?mlat=${c.lat}&amp;mlon=${c.lon}#map=9/${c.lat}/${c.lon}" target="_blank" rel="noopener noreferrer">voir sur la carte (OpenStreetMap)</a></p>` : ''}${srcBlock(p)}</div></div></div>`;
+        <div><div class="panel"><h3>Repères</h3>${c ? `<p class="small">Ville : <a href="https://www.openstreetmap.org/?mlat=${c.lat}&amp;mlon=${c.lon}#map=9/${c.lat}/${c.lon}" target="_blank" rel="noopener noreferrer">voir sur la carte (OpenStreetMap)</a></p>` : ''}${soireesAtBlock(p)}${srcBlock(p)}</div></div></div>`;
   }
 
   /* ---------- vues ---------- */
@@ -1247,6 +1283,7 @@
     switch (name) {
       case '': html = viewHome(); after = afterHome; break;
       case 'repertoire': html = viewRepertoire(arg); after = afterRepertoire; break;
+      case 'soiree': html = viewSoiree(arg); nav = 'repertoire'; break;
       case 'artiste': html = viewArtiste(arg); nav = 'repertoire'; break;
       case 'label': html = viewLabel(arg); nav = 'repertoire'; break;
       case 'lieu': html = viewLieu(arg); nav = 'repertoire'; break;
@@ -1279,6 +1316,13 @@
   render(false);
   initSync();
   initGlossTips();
+  /* Bandeau de déménagement : affiché seulement si config.js définit movedTo (ancienne adresse du site). */
+  (function movedBanner() {
+    const to = CFG.movedTo; if (!to || safeUrl(to) === '#') return;
+    const b = document.createElement('div'); b.className = 'moved'; b.setAttribute('role', 'region'); b.setAttribute('aria-label', 'Changement d’adresse');
+    b.innerHTML = `<b>Ce site a déménagé.</b> Nouvelle adresse : <a href="${esc(safeUrl(to))}">${esc(to)}</a>. Pour garder ton journal : « Mon journal » → « Exporter » ici, puis « Importer » sur la nouvelle adresse. Si tu as un compte, connecte-toi simplement avec le même e-mail là-bas.`;
+    document.body.insertBefore(b, document.body.firstChild);
+  })();
   // accès pour les tests manuels, uniquement en local
   if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) window.__atlas = { mergeDb, normalizeDb, getDb: () => db };
 })();
