@@ -1212,7 +1212,7 @@
     return `<div class="sectionHead"><div class="eyebrow">Mentions</div><h1 style="font-size:clamp(28px,5vw,44px)">Données personnelles et mentions</h1></div>
       <div class="two"><div>
         <h2>Qui est derrière ce site</h2>
-        <p>Techno Atlas est un projet personnel, non commercial, sans publicité et sans suivi statistique. Il est partagé entre amis. Pour toute question ou demande, contacte la personne qui t’a invité.</p>
+        <p>Techno Atlas est un projet personnel de Jean Michel Techno, non commercial, sans publicité et sans suivi statistique. Il est partagé entre amis. Pour toute question ou demande, contacte la personne qui t’a invité.</p>
         <h2 style="margin-top:24px">Ce qui est stocké, et où</h2>
         <ul>
           <li><b>Sans compte :</b> ton journal (notes, sons ajoutés, progression) reste dans la mémoire de ton navigateur, sur ton appareil. Rien n’est envoyé.</li>
