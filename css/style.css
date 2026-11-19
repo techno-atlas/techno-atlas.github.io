@@ -220,3 +220,8 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);color:v
 .step .n{top:14px;line-height:1}
 .step h3{margin-top:0}
 .pcta{background:radial-gradient(ellipse at center,rgba(9,11,17,.78) 0%,rgba(9,11,17,.55) 60%,transparent 100%);border-radius:18px}
+
+/* ---- historique d'écoute (privé) ---- */
+.diarylist{list-style:none;padding:0;margin:8px 0 0}
+.diaryrow{margin:0 0 14px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:#0f131c}
+.diaryrow .btn{margin-top:8px}

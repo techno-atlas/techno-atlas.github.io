@@ -45,9 +45,9 @@
   function loadDb() {
     try {
       const raw = localStorage.getItem(KEY);
-      if (raw) { const d = JSON.parse(raw); if (d && d.version === 1 && d.listens && typeof d.listens === 'object') { if (!d.progress || typeof d.progress !== 'object') d.progress = {}; if (!d.custom || typeof d.custom !== 'object') d.custom = {}; if (!d.deleted || typeof d.deleted !== 'object') d.deleted = {}; if (!Array.isArray(d.duels)) d.duels = []; if (!d.progressUpdated || typeof d.progressUpdated !== 'object') d.progressUpdated = {}; return d; } }
+      if (raw) { const d = JSON.parse(raw); if (d && d.version === 1 && d.listens && typeof d.listens === 'object') { if (!d.progress || typeof d.progress !== 'object') d.progress = {}; if (!d.custom || typeof d.custom !== 'object') d.custom = {}; if (!d.deleted || typeof d.deleted !== 'object') d.deleted = {}; if (!Array.isArray(d.duels)) d.duels = []; if (!d.diary || typeof d.diary !== 'object') d.diary = {}; if (!d.profile || typeof d.profile !== 'object') d.profile = null; if (!d.progressUpdated || typeof d.progressUpdated !== 'object') d.progressUpdated = {}; return d; } }
     } catch (e) { storageOk = false; }
-    return { version: 1, listens: {}, duels: [], progress: {}, custom: {}, deleted: {}, progressUpdated: {} };
+    return { version: 1, listens: {}, duels: [], progress: {}, custom: {}, deleted: {}, progressUpdated: {}, diary: {}, profile: null };
   }
   function saveDb(d, noSync) { let ok = true; try { localStorage.setItem(KEY, JSON.stringify(d)); } catch (e) { storageOk = false; ok = false; } if (!noSync) scheduleSync(); return ok; }
   let db = loadDb();
@@ -93,7 +93,7 @@
     const l = db.listens[s.id];
     return `<article class="card">
       <div class="coverWrap">${coverSvg(s)}</div>
-      <div class="tags"><span class="badge niv">${esc(NIV[s.niveau] || 'Niveau ?')}</span>${s.type === 'documentaire' ? '<span class="chip on">Documentaire</span>' : ''}${s.annee ? `<span class="chip">${esc(s.annee)}</span>` : ''}<span class="chip">${esc(BRANCH[s.branche] || '')}</span>${l ? '<span class="chip on">Dans mon journal</span>' : ''}</div>
+      <div class="tags"><span class="badge niv">${esc(NIV[s.niveau] || 'Niveau ?')}</span>${s.type === 'documentaire' ? '<span class="chip on">Documentaire</span>' : ''}${s.annee ? `<span class="chip">${esc(s.annee)}</span>` : ''}<span class="chip">${esc(BRANCH[s.branche] || '')}</span>${l || diaryList().some((x) => x.e.set_id === s.id) ? '<span class="chip on">Dans mon journal</span>' : ''}</div>
       <h3><a href="#/set/${encodeURIComponent(s.id)}">${esc(setName(s))}</a></h3>
       <p class="small muted">${esc([s.evenement, s.lieu].filter(Boolean).join(' · ')) || ' '}</p>
       <p class="small">${esc((s.pourquoi || '').slice(0, 170))}${(s.pourquoi || '').length > 170 ? '…' : ''}</p>
@@ -145,7 +145,50 @@
   const OWNER_KEY = 'technoatlas_owner';
   const getOwner = () => { try { return localStorage.getItem(OWNER_KEY); } catch (e) { return null; } };
   const setOwner = (v) => { try { if (v) localStorage.setItem(OWNER_KEY, v); else localStorage.removeItem(OWNER_KEY); } catch (e) { /* stockage indisponible */ } };
-  const emptyDb = () => ({ version: 1, listens: {}, duels: [], progress: {}, custom: {}, deleted: {}, progressUpdated: {} });
+  /* ---------- historique d'écoute et profil déclaré (privés : stockés uniquement dans le journal de la personne) ----------
+     diary : une entrée par son entendu ou repéré, avec son statut réel (confirmée / partielle / à écouter / recommandée non écoutée),
+     une appréciation qualitative, un avis libre et une note 1 à 5 SEULEMENT si elle a été donnée explicitement.
+     profile : préférences déclarées (plusieurs axes indépendants, jamais un score unique d'intensité). */
+  const DIARY_STATUS = { ecoute_confirmee: 'Écoute confirmée', ecoute_partielle: 'Écoute partielle', a_ecouter: 'À écouter', recommande_non_confirme: 'Recommandé, non écouté' };
+  const DIARY_APPR = { coup_de_coeur: 'Coup de cœur', tres_apprecie: 'Très apprécié', apprecie: 'Apprécié', apprecie_avec_reserves: 'Apprécié avec réserves', mitige: 'Mitigé', peu_apprecie: 'Peu apprécié', moins_prefere: 'Moins préféré (en comparaison)', non_evalue: 'Non évalué' };
+  const DIARY_TYPES = { set: 'Set', live: 'Live', morceau: 'Morceau', autre: 'Autre' };
+  const LABELS_FR = {
+    fete_intense: 'Fête intense', danse_riche: 'Danse riche', ecoute_immersive: 'Écoute immersive', lecture_repos: 'Lecture, repos', fin_de_festival_fatigue: 'Fin de festival, fatigué',
+    energie: 'Énergie', agressivite: 'Agressivité', richesse_musicale: 'Richesse musicale', continuite_rythmique: 'Continuité rythmique', rebond: 'Rebond', acidite: 'Acidité', epique: 'Épique', hypnose: 'Hypnose', vocalite: 'Vocalité', mouvement_ressenti: 'Mouvement ressenti',
+    frontal: 'Frontal', rebondissant: 'Rebondissant', ondulant: 'Ondulant', hypnotique: 'Hypnotique'
+  };
+  const labelFr = (k) => LABELS_FR[k] || String(k).replace(/_/g, ' ');
+  function cleanDiary(x, forceId) {
+    if (!x || typeof x !== 'object') return null;
+    const id = forceId || x.id;
+    if (typeof id !== 'string' || !/^[a-z0-9-]{3,60}$/.test(id)) return null;
+    const artiste = typeof x.artiste === 'string' ? x.artiste.trim().slice(0, 120) : '';
+    const titre = typeof x.titre === 'string' ? x.titre.trim().slice(0, 200) : '';
+    if (!artiste || !titre) return null;
+    const url = typeof x.url === 'string' && x.url ? safeUrl(x.url.trim().slice(0, 500)) : '#';
+    const known = (v, map) => (typeof v === 'string' && map[v] ? v : '');
+    return {
+      artiste, titre, type: known(x.type, DIARY_TYPES) || 'set', url: url === '#' ? '' : url,
+      statut: known(x.statut, DIARY_STATUS) || 'a_ecouter', appreciation: known(x.appreciation, DIARY_APPR) || 'non_evalue',
+      avis: typeof x.avis === 'string' ? x.avis.trim().slice(0, 1000) : '',
+      note: clampRating(x.note), tags: cleanList(x.tags, 12, 40), titre_incertain: x.titre_incertain === true,
+      set_id: typeof x.set_id === 'string' && setById[x.set_id] ? x.set_id : '',
+      set_hint: typeof x.set_hint === 'string' && setById[x.set_hint] ? x.set_hint : '',
+      soiree_id: typeof x.soiree_id === 'string' && soireeById[x.soiree_id] ? x.soiree_id : '',
+      updated: Number.isFinite(x.updated) ? Math.floor(x.updated) : 0
+    };
+  }
+  function cleanProfile(x) {
+    if (!x || typeof x !== 'object') return null;
+    const cmp = (Array.isArray(x.comparaisons) ? x.comparaisons : []).slice(0, 10).map((c) => (c && typeof c === 'object' ? { meilleur: String(c.meilleur || '').trim().slice(0, 120), moins_prefere: String(c.moins_prefere || '').trim().slice(0, 120), commentaire: String(c.commentaire || '').trim().slice(0, 240) } : null)).filter((c) => c && c.meilleur && c.moins_prefere);
+    const p = {
+      principes: cleanList(x.principes, 12, 240), plus: cleanList(x.plus, 20, 120), moins: cleanList(x.moins, 20, 120),
+      usages: cleanList(x.usages, 12, 60), axes: cleanList(x.axes, 14, 60), mouvement: cleanList(x.mouvement, 8, 60),
+      comparaisons: cmp, equivalences: cleanList(x.equivalences, 10, 300), updated: Number.isFinite(x.updated) ? Math.floor(x.updated) : 0
+    };
+    return p.principes.length || p.plus.length || p.moins.length || p.usages.length || cmp.length || p.equivalences.length ? p : null;
+  }
+  const emptyDb = () => ({ version: 1, listens: {}, duels: [], progress: {}, custom: {}, deleted: {}, progressUpdated: {}, diary: {}, profile: null });
 
   /* Nettoie un journal reçu de l'extérieur (fichier importé ou compte) : rien n'est cru sur parole. */
   function normalizeDb(raw) {
@@ -158,8 +201,10 @@
       out.progress[pid] = [...new Set(arr.filter((i) => Number.isInteger(i) && i >= 0 && i < pathById[pid].etapes.length))].sort((a, b) => a - b);
       const u = raw.progressUpdated && Number(raw.progressUpdated[pid]); out.progressUpdated[pid] = Number.isFinite(u) ? u : 0;
     });
-    if (raw.deleted && typeof raw.deleted === 'object') Object.entries(raw.deleted).forEach(([k, ts]) => { if (/^[lcd]:[\w-]{1,40}$/.test(k) && Number.isFinite(Number(ts))) out.deleted[k] = Number(ts); });
+    if (raw.deleted && typeof raw.deleted === 'object') Object.entries(raw.deleted).forEach(([k, ts]) => { if (/^[lcdk]:[\w-]{1,60}$/.test(k) && Number.isFinite(Number(ts))) out.deleted[k] = Number(ts); });
     if (Array.isArray(raw.duels)) raw.duels.forEach((x) => { const du = cleanDuel(x, new Set([...Object.keys(out.custom)])); if (du && !out.duels.some((y) => y.id === du.id)) out.duels.push(du); });
+    if (raw.diary && typeof raw.diary === 'object') Object.entries(raw.diary).forEach(([id, x]) => { const c = cleanDiary(x, id); if (c) out.diary[id] = c; });
+    out.profile = cleanProfile(raw.profile);
     return out;
   }
 
@@ -176,7 +221,8 @@
         if (w && (w.updated || 0) > (out.deleted[prefix + id] || 0)) out[kind][id] = w;
       });
     };
-    mergeKind('custom', 'c:'); mergeKind('listens', 'l:');
+    mergeKind('custom', 'c:'); mergeKind('listens', 'l:'); mergeKind('diary', 'k:');
+    { const pa = a.profile, pb = b.profile; out.profile = !pa ? (pb || null) : !pb ? pa : ((pb.updated || 0) > (pa.updated || 0) ? pb : pa); }
     // une écoute ne survit pas à la suppression du son personnel auquel elle se rattache
     Object.keys(out.listens).forEach((id) => { if (id.startsWith('u-') && !out.custom[id]) delete out.listens[id]; });
     const pids = new Set([...Object.keys(a.progress || {}), ...Object.keys(b.progress || {})]);
@@ -224,7 +270,7 @@
       const { data, error } = await sb.from('journals').select('data').eq('user_id', session.user.id).maybeSingle();
       if (error) throw error;
       const uid = session.user.id; const owner = getOwner(); const remote = data && data.data ? normalizeDb(data.data) : null;
-      const nLocal = Object.keys(db.listens || {}).length + Object.keys(db.custom || {}).length;
+      const nLocal = Object.keys(db.listens || {}).length + Object.keys(db.custom || {}).length + Object.keys(db.diary || {}).length + (db.profile ? 1 : 0);
       if (owner && owner !== uid) {
         // le journal local appartient à un autre compte : aucune fusion, on repart du compte connecté
         db = remote || emptyDb();
@@ -454,24 +500,28 @@
   function recommend(axis) {
     const stat = styleStats(axis);
     const liked = Object.keys(stat).filter((st) => stat[st].mean >= 4);
-    const disliked = Object.keys(stat).filter((st) => stat[st].mean <= 2);
+    const disliked = Object.keys(stat).filter((st) => stat[st].mean <= 2 && stat[st].n >= 2);
     const likedNb = {}; liked.forEach((st) => neighborsOf(st).forEach((nb) => { (likedNb[nb] = likedNb[nb] || []).push(st); }));
     const out = [];
-    pickVerified(A.sets).filter((s) => !(db.listens[s.id] && db.listens[s.id].status === 'ecoute')).forEach((s) => {
+    const dLiked = diaryLikedStyles(), dHeard = diaryHeardSets();
+    pickVerified(A.sets).filter((s) => !(db.listens[s.id] && db.listens[s.id].status === 'ecoute') && !dHeard.has(s.id)).forEach((s) => {
       let score = 0, blocked = false; const why = [];
       (s.styles || []).forEach((st) => {
         if (!stat[st]) return;
-        if (stat[st].mean <= 2) { blocked = true; return; }
+        if (stat[st].mean <= 2 && stat[st].n >= 2) { blocked = true; return; }
+        if (stat[st].mean <= 2) return;
         const d = (stat[st].mean - 3) * Math.min(stat[st].n, 3) / 3;
         if (d > 0) { score += d; why.push({ type: 'style', st, n: stat[st].n, mean: stat[st].mean, ex: stat[st].items[0] }); }
       });
       (s.styles || []).forEach((st) => { if (stat[st] || !likedNb[st] || !styleById[st]) return; score += 0.4; why.push({ type: 'voisin', st, from: likedNb[st][0] }); });
+      (s.styles || []).forEach((st) => { if (!dLiked[st] || (stat[st] && stat[st].mean <= 2 && stat[st].n >= 2)) return; score += 0.5; why.push({ type: 'coeur', st, ex: dLiked[st][0] }); });
       if (!blocked && score > 0) out.push({ s, score, why });
     });
     out.sort((a, b) => b.score - a.score || (a.s.niveau === 'entree' ? -1 : 1));
     return { stat, liked, disliked, recs: out.slice(0, 6) };
   }
   function reasonText(w) {
+    if (w.type === 'coeur') { const e = db.diary[w.ex] || {}; return `Tu as classé « ${esc(e.artiste || '')} — ${esc(e.titre || '')} » : ${esc((DIARY_APPR[e.appreciation] || '').toLowerCase())} ; ce set partage le style « ${esc(styleLabel(w.st))} » (appréciation qualitative, sans note chiffrée).`; }
     if (w.type === 'style') { const it = itemById(w.ex); return `Tu as noté en moyenne ${w.mean.toFixed(1).replace('.', ',')}/5 le style « ${esc(styleLabel(w.st))} » (${w.n} écoute${w.n > 1 ? 's' : ''}), par exemple « ${esc(it ? setName(it) : '')} ».`; }
     return `« ${esc(styleLabel(w.st))} » est voisin dans l’arbre des styles de « ${esc(styleLabel(w.from))} », que tu as aimé.`;
   }
@@ -486,20 +536,96 @@
     const nRated = Object.values(db.listens).filter((l) => l.status === 'ecoute' && (l.plaisir || l.soiree || l.immersion)).length;
     const axis = AXES[pfAxis][0]; const r = recommend(axis);
     return `<div class="sectionHead"><div class="eyebrow">Pour toi</div><h1 style="font-size:clamp(28px,5vw,44px)">Ce que tes notes disent de toi</h1>
-      <p>Des suggestions tirées uniquement de <b>tes</b> notes et de l’arbre des styles. Chaque suggestion dit pourquoi. Avec peu de notes, ce sont des pistes, pas des certitudes.</p></div>
-      ${nRated < 2 ? `<div class="notice">Tu as noté ${nRated} son${nRated > 1 ? 's' : ''}. Il en faut au moins deux pour des suggestions. Pas d’idée ? <a href="#/depart">Trouve ton point de départ</a> ou ouvre un <a href="#/parcours">parcours</a>.</div>` : ''}
+      <p>Des suggestions tirées uniquement de <b>tes</b> notes, de ton historique d’écoute et de l’arbre des styles. Chaque suggestion dit pourquoi. Avec peu de notes, ce sont des pistes, pas des certitudes.</p></div>
+      ${nRated < 2 && !Object.keys(diaryLikedStyles()).length ? `<div class="notice">Tu as noté ${nRated} son${nRated > 1 ? 's' : ''}. Il en faut au moins deux pour des suggestions. Pas d’idée ? <a href="#/depart">Trouve ton point de départ</a> ou ouvre un <a href="#/parcours">parcours</a>.</div>` : ''}
       <div class="filters" role="group" aria-label="Pour quoi ?">${Object.keys(AXES).map((k) => `<button class="chip ${pfAxis === k ? 'on' : ''}" data-axis="${k}" aria-pressed="${pfAxis === k}">${esc(AXES[k][1])}</button>`).join('')}</div>
-      <div class="sectionHead"><h2>Tes profils d’écoute</h2></div><div class="grid">${profileCards()}</div>
+      ${declaredProfile()}<div class="sectionHead"><h2>Tes profils d’écoute</h2></div><div class="grid">${profileCards()}</div>
       ${r.disliked.length ? `<p class="small muted" style="margin-top:10px">Styles que tu as moins aimés sur cet axe (écartés des suggestions) : ${r.disliked.map((st) => esc(styleLabel(st))).join(', ')}.</p>` : ''}
       <div class="sectionHead"><h2>À écouter ensuite — ${esc(AXES[pfAxis][1].toLowerCase())}</h2></div>
       ${r.recs.length ? `<div class="grid">${r.recs.map(({ s, why }) => { const nmax = Math.max(0, ...why.filter((w) => w.type === 'style').map((w) => w.n)); const conf = nmax >= 3 ? 'Piste solide' : nmax === 2 ? 'Piste probable' : 'Début de piste';
         return `<article class="card"><div class="kind">${conf}</div><h3><a href="#/set/${encodeURIComponent(s.id)}">${esc(setName(s))}</a></h3><div class="tags"><span class="badge niv">${esc(NIV[s.niveau] || '')}</span>${(s.styles || []).slice(0, 3).map(styleChip).join('')}</div>
           <ul class="small" style="padding-left:18px;margin:4px 0">${why.slice(0, 2).map((w) => `<li>${reasonText(w)}</li>`).join('')}</ul></article>`; }).join('')}</div>`
         : '<p class="muted">Pas de suggestion pour l’instant : note quelques sons sur cet axe (au moins deux, avec au moins un que tu as vraiment aimé).</p>'}
+      ${discoverBlock()}
       <p class="small muted" style="margin-top:14px">Ces suggestions ne remplacent pas ton jugement : un style aimé ne veut pas dire que tous ses sets te plairont. <a href="#/duel">Les duels A/B</a> permettent d’affiner.</p>`;
   }
   function afterPourToi() {
     main.querySelectorAll('[data-axis]').forEach((b) => b.addEventListener('click', () => { pfAxis = b.dataset.axis; render(true); }));
+  }
+
+  /* ---------- historique d'écoute et profil déclaré : affichage (privé, lu dans le journal de la personne) ---------- */
+  const enc = encodeURIComponent;
+  const diaryList = () => Object.entries(db.diary || {}).map(([k, e]) => ({ k, e }));
+  const apprBadge = (e) => (e.appreciation && e.appreciation !== 'non_evalue' ? `<span class="badge niv">${esc(DIARY_APPR[e.appreciation])}</span>` : '');
+  function diaryRow(x, withActions) {
+    const { k, e } = x; const set = e.set_id && setById[e.set_id]; const hint = !e.set_id && e.set_hint && setById[e.set_hint]; const so = e.soiree_id && soireeById[e.soiree_id];
+    return `<li class="diaryrow"><b>${esc(e.artiste)} — ${esc(e.titre)}</b>${e.titre_incertain ? ' <span class="badge ko">à confirmer</span>' : ''} ${apprBadge(e)}${e.note ? ` <span class="badge ok">note donnée : ${e.note}/5</span>` : ''}${e.url ? ` <a class="small" href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">lien</a>` : ''}
+      ${e.avis ? `<br><span class="small">${esc(e.avis)}</span>` : ''}
+      ${set ? `<br><span class="small muted">Set du site : <a href="#/set/${enc(set.id)}">${esc(setName(set))}</a></span>` : ''}
+      ${so ? `<br><span class="small muted">Soirée : <a href="#/soiree/${enc(so.id)}">${esc(so.nom)}</a></span>` : ''}
+      ${withActions && hint ? `<br><span class="small muted">Set du site peut-être identique : <a href="#/set/${enc(hint.id)}">${esc(setName(hint))}</a> (non confirmé).</span> <button class="btn sm" data-attach="${esc(k)}">C’est bien ce set</button>` : ''}
+      ${e.tags.length ? `<br><span class="small muted">${e.tags.map((t) => '#' + esc(labelFr(t))).join(' ')}</span>` : ''}
+      ${withActions ? `<br><button class="btn sm danger" data-kdel="${esc(k)}">Retirer</button>` : ''}</li>`;
+  }
+  function diaryPanel() {
+    const all = diaryList(); if (!all.length) return '';
+    const INTRO = {
+      ecoute_confirmee: 'Écoutes que tu as confirmées. Une note n’apparaît que si tu l’as donnée toi-même.',
+      ecoute_partielle: 'Écoute intégrale non confirmée : ces entrées ne comptent pas comme des écoutes achevées.',
+      a_ecouter: 'Repérés et mis de côté : ce ne sont pas des écoutes.',
+      recommande_non_confirme: 'Recommandés, sans retour d’écoute confirmé : ce ne sont pas des écoutes.'
+    };
+    const sec = (st) => { const l = all.filter((x) => x.e.statut === st); return l.length ? `<h3 style="margin-top:16px">${esc(DIARY_STATUS[st])} (${l.length})</h3><p class="small muted">${esc(INTRO[st])}</p><ul class="diarylist">${l.map((x) => diaryRow(x, true)).join('')}</ul>` : ''; };
+    return `<div class="panel" style="margin-top:14px"><h2>Historique d’écoute (${all.length})</h2>
+      <p class="small muted">Ton historique importé, séparé de tes écoutes notées ci-dessus. Les notes restent attachées au son pour lequel tu les as données (jamais à l’artiste). « C’est bien ce set » rattache l’entrée à un set du site et, si tu avais donné une note, l’enregistre comme « Plaisir musical » de ce set.</p>
+      ${['ecoute_confirmee', 'ecoute_partielle', 'a_ecouter', 'recommande_non_confirme'].map(sec).join('')}</div>`;
+  }
+  function bindDiary() {
+    main.querySelectorAll('[data-attach]').forEach((b) => b.addEventListener('click', () => {
+      const k = b.dataset.attach; const e = db.diary[k]; if (!e || !e.set_hint) return;
+      const sid = e.set_hint; const now = Date.now();
+      if (e.statut === 'ecoute_confirmee' && !db.listens[sid]) db.listens[sid] = cleanListen({ status: 'ecoute', plaisir: e.note, note: e.avis, date: new Date().toISOString().slice(0, 10), updated: now });
+      db.diary[k] = Object.assign({}, e, { set_id: sid, set_hint: '', updated: now });
+      saveDb(db); render(true);
+    }));
+    main.querySelectorAll('[data-kdel]').forEach((b) => b.addEventListener('click', () => {
+      const k = b.dataset.kdel; if (!db.diary[k]) return;
+      delete db.diary[k]; db.deleted['k:' + k] = Date.now(); saveDb(db); render(true);
+    }));
+  }
+  const diaryBlock = (title, list) => (list.length ? `<div class="panel" style="margin-top:14px"><h3>${esc(title)}</h3><p class="small muted">Visible par toi seul(e), lu dans ton journal.</p><ul class="diarylist">${list.map((x) => diaryRow(x, false)).join('')}</ul></div>` : '');
+  const diaryForSet = (id) => diaryBlock('Ton historique sur ce set', diaryList().filter((x) => x.e.set_id === id));
+  const diaryForSoiree = (id) => diaryBlock('Ton retour sur cette soirée', diaryList().filter((x) => x.e.soiree_id === id));
+  function diaryForArtist(a) {
+    const names = new Set([a.nom].concat(Array.isArray(a.alias) ? a.alias : a.alias ? [a.alias] : []).map(nk).filter(Boolean));
+    const l = diaryList().filter((x) => String(x.e.artiste).split(/\s*(?:&|,|\+|\bx\b)\s*/i).some((t) => names.has(nk(t))));
+    return l.length ? diaryBlock('Tes écoutes de cet artiste', l).replace('<ul class="diarylist">', '<p class="small muted">Chaque note appartient au son concerné, pas à l’artiste.</p><ul class="diarylist">') : '';
+  }
+  const diaryHeardSets = () => new Set(diaryList().filter((x) => x.e.set_id && x.e.statut === 'ecoute_confirmee').map((x) => x.e.set_id));
+  /* Styles des sets du site que la personne a confirmés en coup de coeur ou très appréciés (qualitatif : aucune note numérique inventée). */
+  function diaryLikedStyles() {
+    const out = {};
+    diaryList().forEach(({ k, e }) => {
+      if (e.statut !== 'ecoute_confirmee' || !['coup_de_coeur', 'tres_apprecie'].includes(e.appreciation) || !e.set_id) return;
+      ((setById[e.set_id] || {}).styles || []).forEach((st) => { if (styleById[st]) (out[st] = out[st] || []).push(k); });
+    });
+    return out;
+  }
+  function declaredProfile() {
+    const p = db.profile; if (!p) return '';
+    const chips = (arr, fn) => arr.map((t) => `<span class="chip">${esc(fn ? fn(t) : t)}</span>`).join('');
+    const card = (t, body) => (body ? `<article class="card"><div class="kind">${esc(t)}</div><div class="tags" style="margin-top:6px">${body}</div></article>` : '');
+    return `<div class="sectionHead"><h2>Ton profil déclaré</h2><p class="small muted">Ce que tu as dit toi-même, tel quel : pas une mesure, et jamais réduit à un seul score d’intensité. Les axes ci-dessous sont indépendants les uns des autres.</p></div>
+      <div class="grid">${card('Ce que tu aimes', chips(p.plus))}${card('Ce que tu aimes moins', chips(p.moins))}${card('Pour quels moments', chips(p.usages, labelFr))}${card('Ce que tu regardes dans un set', chips(p.axes, labelFr) + chips(p.mouvement, (t) => 'mouvement : ' + labelFr(t)))}</div>
+      ${p.equivalences.length ? `<div class="panel" style="margin-top:14px"><h3>Des univers aimés sans classement</h3><ul class="small">${p.equivalences.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></div>` : ''}
+      ${p.comparaisons.length ? `<div class="panel" style="margin-top:14px"><h3>Tes comparaisons entre sons précis</h3><p class="small muted">Chaque préférence vaut pour ces deux sons, pas pour les artistes ni pour un style entier.</p><ul class="small">${p.comparaisons.map((c) => `<li>Préféré : <b>${esc(c.meilleur)}</b> ; moins préféré : <b>${esc(c.moins_prefere)}</b>${c.commentaire ? ' — ' + esc(c.commentaire) : ''}</li>`).join('')}</ul></div>` : ''}
+      ${p.principes.length ? `<div class="panel" style="margin-top:14px"><h3>Principes à garder en tête</h3><ul class="small">${p.principes.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></div>` : ''}`;
+  }
+  function discoverBlock() {
+    const l = diaryList().filter((x) => x.e.statut === 'a_ecouter' || x.e.statut === 'recommande_non_confirme');
+    if (!l.length) return '';
+    const part = (st, t) => { const a = l.filter((x) => x.e.statut === st); return a.length ? `<h3 style="margin-top:12px">${esc(t)} (${a.length})</h3><ul class="diarylist">${a.map((x) => diaryRow(x, false)).join('')}</ul>` : ''; };
+    return `<div class="sectionHead"><h2>À découvrir</h2><p class="small muted">Deux listes distinctes : ce que tu as mis de côté toi-même, et ce qui t’a été recommandé sans retour d’écoute. Aucune n’est comptée comme une écoute.</p></div>${part('a_ecouter', 'Mis de côté par toi')}${part('recommande_non_confirme', 'Recommandés, non écoutés')}`;
   }
 
   /* ---------- termes du glossaire cliquables dans les textes ---------- */
@@ -642,7 +768,7 @@
       <p class="muted">${esc(fmtDate(s.date))}${s.date_fin && s.date_fin !== s.date ? ' → ' + esc(fmtDate(s.date_fin)) : ''} · ${place ? `<a href="#/lieu/${encodeURIComponent(place.id)}">${esc(s.lieu_nom || place.nom)}</a>` : esc(s.lieu_nom || '')}${s.ville ? ', ' + esc(s.ville) : ''}</p>
       <div class="tags">${confNote(s)}${(s.styles_ids || []).map(styleChip).join('')}</div>
       <div class="two" style="margin-top:18px"><div><div class="panel"><h3>Line-up</h3><div class="tags" style="margin-top:8px">${lineupChips(s)}</div>${s.lineup_complet === false ? '<p class="small muted">Line-up partiel : seuls les noms trouvés dans les sources sont listés.</p>' : ''}<p class="small muted">Un nom cliquable renvoie à sa fiche ; un nom simple n’a pas encore de fiche.</p></div></div>
-        <div><div class="panel"><h3>Infos</h3>${s.organisateur ? `<p class="small"><b>Organisateur :</b> ${esc(s.organisateur)}</p>` : ''}${s.billetterie_url ? `<p class="small"><a href="${esc(safeUrl(s.billetterie_url))}" target="_blank" rel="noopener noreferrer">Billetterie${s.billetterie_nom ? ' (' + esc(s.billetterie_nom) + ')' : ''}</a></p>` : ''}<p class="small muted">Programmation relevée à la date de la dernière mise à jour du site ; elle peut changer.</p>${srcBlock(s)}</div></div></div>`;
+        <div><div class="panel"><h3>Infos</h3>${s.organisateur ? `<p class="small"><b>Organisateur :</b> ${esc(s.organisateur)}</p>` : ''}${s.billetterie_url ? `<p class="small"><a href="${esc(safeUrl(s.billetterie_url))}" target="_blank" rel="noopener noreferrer">Billetterie${s.billetterie_nom ? ' (' + esc(s.billetterie_nom) + ')' : ''}</a></p>` : ''}<p class="small muted">Programmation relevée à la date de la dernière mise à jour du site ; elle peut changer.</p>${srcBlock(s)}</div>${diaryForSoiree(s.id)}</div></div>`;
   }
   const soirsBlock = (a) => { const l = soireesOfArtist(a); return l.length ? `<p class="small"><b>Soirées :</b> ${l.map((s) => `<a href="#/soiree/${encodeURIComponent(s.id)}">${esc(s.nom)}</a> <span class="muted">(${esc(fmtDate(s.date))})</span>`).join(' ; ')}</p>` : ''; };
   const soireesAtBlock = (p) => { const l = SOIREES.filter((s) => s.lieu_id === p.id); return l.length ? `<p class="small"><b>Soirées :</b> ${l.map((s) => `<a href="#/soiree/${encodeURIComponent(s.id)}">${esc(s.nom)}</a>`).join(' ; ')}</p>` : ''; };
@@ -656,7 +782,7 @@
       <p class="muted">${esc([a.ville, a.pays, a.annees_actives].filter(Boolean).join(' · '))}</p><div class="tags">${confNote(a)}${(a.liens_styles || []).map(styleChip).join('')}</div>
       <div class="two" style="margin-top:18px"><div><div class="panel"><p class="lead" style="margin:0">${rich(a.description_fr)}</p></div>
         ${sets.length ? `<div class="sectionHead"><h2>À écouter sur le site</h2></div><div class="grid">${sets.map(setCard).join('')}</div>` : '<p class="muted" style="margin-top:14px">Pas encore de set vérifié pour cet artiste.</p>'}
-        ${evs.length ? `<div class="sectionHead"><h2>Dans l’histoire</h2></div><ul>${evs.map((e) => `<li><a href="#/histoire/${encodeURIComponent(e.id)}">${esc(e.annee)} — ${esc(e.titre)}</a></li>`).join('')}</ul>` : ''}</div>
+        ${evs.length ? `<div class="sectionHead"><h2>Dans l’histoire</h2></div><ul>${evs.map((e) => `<li><a href="#/histoire/${encodeURIComponent(e.id)}">${esc(e.annee)} — ${esc(e.titre)}</a></li>`).join('')}</ul>` : ''}${diaryForArtist(a)}</div>
         <div><div class="panel"><h3>Repères</h3>${labs.length ? `<p class="small"><b>Labels :</b> ${labs.map((l) => `<a href="#/label/${encodeURIComponent(l.id)}">${esc(l.nom)}</a>`).join(', ')}</p>` : ''}${soirsBlock(a)}${srcBlock(a)}</div></div></div>`;
   }
   function viewLabel(id) {
@@ -1009,6 +1135,7 @@
           <dt>Contrôle du lien</dt><dd>${s.verif && s.verif.titre ? `« ${esc(s.verif.titre)} » (${esc(s.verif.auteur || '')}), le ${esc(s.verif.date || '')}` : 'non contrôlé'}</dd>
         </dl></div>
         <div class="panel" style="margin-top:14px" id="listenBox"><h3>Mon écoute</h3>${listenForm(l)}</div>
+        ${diaryForSet(id)}
       </div></div>`;
   }
   function listenForm(l) {
@@ -1141,13 +1268,14 @@
       <div class="panel" style="margin-top:14px"><h2>Mes sons ajoutés (${customs.length})</h2>${customs.length ? `<div class="tablewrap"><table><thead><tr><th>Son</th><th>Type</th><th>Plateforme</th><th>État</th></tr></thead><tbody>${customs.map((c) => `<tr><td><a href="${itemHref(c)}">${esc(setName(c))}</a></td><td>${esc(CUSTOM_TYPES[c.type])}</td><td>${esc(c.plateforme)}</td><td>${state(c.id)}</td></tr>`).join('')}</tbody></table></div>` : '<p class="muted">Aucun son ajouté. Utilise le formulaire ci-dessus.</p>'}</div>
       <div class="panel" style="margin-top:14px"><h2>Écoutes (${done.length})</h2>${done.length ? `<div class="tablewrap"><table><thead><tr><th>Son</th><th>Plaisir</th><th>Soirée</th><th>Immersion</th><th>Date</th></tr></thead><tbody>${done.map((x) => `<tr><td>${link(x)}</td><td>${x.l.plaisir || '—'}</td><td>${x.l.soiree || '—'}</td><td>${x.l.immersion || '—'}</td><td>${esc(x.l.date)}</td></tr>`).join('')}</tbody></table></div>` : '<p class="muted">Aucune écoute enregistrée.</p>'}</div>
       <div class="panel" style="margin-top:14px"><h2>À écouter (${todo.length})</h2>${todo.length ? `<ul>${todo.map((x) => `<li>${link(x)}</li>`).join('')}</ul>` : '<p class="muted">Ta liste est vide.</p>'}</div>
+      ${diaryPanel()}
       <div class="panel" style="margin-top:14px"><h2>Sauvegarde</h2>
         <div class="row"><button class="btn primary" id="exp">Exporter (JSON)</button><label class="btn" for="imp">Importer un fichier…</label><input type="file" id="imp" accept="application/json,.json" hidden>${session ? '' : '<button class="btn danger sm" id="wipeLocal">Effacer le journal de ce navigateur</button>'}</div>
         <p class="small muted">L’import fusionne : les écoutes et sons déjà présents chez toi ne sont jamais écrasés, seuls les nouveaux sont ajoutés.</p>
         <div id="impMsg" aria-live="polite"></div></div>`;
   }
   function afterGouts() {
-    bindAccount();
+    bindAccount(); bindDiary();
     const form = document.getElementById('addForm'); bindPicker(form);
     form.addEventListener('submit', (e) => {
       e.preventDefault();
@@ -1171,7 +1299,7 @@
       db = emptyDb(); setOwner(null); saveDb(db, true); render(true);
     });
     document.getElementById('exp').addEventListener('click', () => {
-      const blob = new Blob([JSON.stringify({ app: 'technoatlas', version: 1, exported: new Date().toISOString(), listens: db.listens, custom: db.custom, duels: db.duels, progress: db.progress }, null, 2)], { type: 'application/json' });
+      const blob = new Blob([JSON.stringify({ app: 'technoatlas', version: 1, exported: new Date().toISOString(), listens: db.listens, custom: db.custom, duels: db.duels, progress: db.progress, diary: db.diary, profile: db.profile }, null, 2)], { type: 'application/json' });
       const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'technoatlas-journal-' + new Date().toISOString().slice(0, 10) + '.json';
       document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
     });
@@ -1195,14 +1323,19 @@
           if (!db.listens[id]) add.push([id, c]);
           else if (JSON.stringify(db.listens[id]) === JSON.stringify(c)) same++; else conflict++;
         });
-        const nTotal = add.length + addC.length + addD.length;
-        out.innerHTML = `<div class="panel" style="margin-top:10px"><p><b>Aperçu de l’import</b></p><ul class="small"><li>${addC.length} nouveau(x) son(s) personnel(s) à ajouter (${customKnown} déjà présent(s))</li><li>${add.length} nouvelle(s) écoute(s) à ajouter</li><li>${addD.length} nouveau(x) duel(s) à ajouter</li><li>${same} identique(s)</li><li>${conflict} en conflit : ta version locale est conservée</li><li>${unknown} ignorée(s) (set inconnu ou données invalides)</li></ul>
+        const addK = []; let kKnown = 0;
+        if (d.diary && typeof d.diary === 'object') Object.entries(d.diary).forEach(([id, x]) => { const c = cleanDiary(x, id); if (!c) return; if (db.diary[id] || db.deleted['k:' + id]) kKnown++; else addK.push([id, c]); });
+        const inProfile = cleanProfile(d.profile); const newProfile = inProfile && !db.profile ? inProfile : null; const keepProfile = inProfile && db.profile ? 1 : 0;
+        const nTotal = add.length + addC.length + addD.length + addK.length + (newProfile ? 1 : 0);
+        out.innerHTML = `<div class="panel" style="margin-top:10px"><p><b>Aperçu de l’import</b></p><ul class="small"><li>${addC.length} nouveau(x) son(s) personnel(s) à ajouter (${customKnown} déjà présent(s))</li><li>${add.length} nouvelle(s) écoute(s) à ajouter</li><li>${addD.length} nouveau(x) duel(s) à ajouter</li><li>${addK.length} entrée(s) d’historique à ajouter (${kKnown} déjà présente(s) ou retirée(s) par toi)</li><li>${newProfile ? 'Profil déclaré : à ajouter' : keepProfile ? 'Profil déclaré : le tien est conservé' : 'Pas de profil dans ce fichier'}</li><li>${same} identique(s)</li><li>${conflict} en conflit : ta version locale est conservée</li><li>${unknown} ignorée(s) (set inconnu ou données invalides)</li></ul>
           <button class="btn primary" id="okImp" ${nTotal ? '' : 'disabled'}>Ajouter ces ${nTotal} élément(s)</button></div>`;
         const ok = document.getElementById('okImp');
         if (ok) ok.addEventListener('click', () => {
           addC.forEach((c) => { db.custom[c.id] = c; });
           addD.forEach((du) => { db.duels.push(du); });
           add.forEach(([id, c]) => { db.listens[id] = c; });
+          addK.forEach(([id, c]) => { db.diary[id] = c; });
+          if (newProfile) db.profile = newProfile;
           // progression des parcours : union des étapes cochées (aucune suppression)
           if (d.progress && typeof d.progress === 'object') Object.entries(d.progress).forEach(([pid, arr]) => {
             if (!pathById[pid] || !Array.isArray(arr)) return;
